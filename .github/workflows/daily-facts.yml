@@ -1,0 +1,97 @@
+name: Daily Facts
+
+on:
+  # 20 hourly publication windows: 08:00-03:00 Asia/Dhaka corresponds to 02:00-21:00 UTC.
+  schedule:
+    - cron: "0 2-21 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Publication date (YYYY-MM-DD); blank = current Asia/Dhaka date"
+        required: false
+        default: ""
+      max_posts:
+        description: "Maximum posts for this run"
+        required: false
+        default: "1"
+      dry_run:
+        description: "Do not publish"
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-facts-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL || '@FactsNewsroom' }}
+      EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+      CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+      CEREBRAS_MODEL: gpt-oss-120b
+      USE_CEREBRAS: "true"
+      USE_EXA_CONTEXT: "false"
+      TIMEZONE: Asia/Dhaka
+      POSTS_PER_DAY: "20"
+      CATCH_UP_MAX: "1"
+      STRICT_DATASET: "false"
+      IMAGE_REQUIRED: "false"
+      CACHE_IMAGES: "false"
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-dev.txt
+
+      - name: Verify source
+        run: python -m py_compile main.py *.py
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Build run arguments
+        id: args
+        shell: bash
+        run: |
+          ARGS="--max-posts ${{ inputs.max_posts || '1' }}"
+          if [[ -n "${{ inputs.date }}" ]]; then ARGS="$ARGS --date ${{ inputs.date }}"; fi
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.dry_run }}" == "true" ]]; then ARGS="$ARGS --dry-run"; fi
+          echo "args=$ARGS" >> "$GITHUB_OUTPUT"
+
+      - name: Publish Daily Facts
+        run: python main.py ${{ steps.args.outputs.args }}
+
+      - name: Save state
+        if: always() && github.event_name != 'workflow_dispatch'
+        run: |
+          git config user.name "Daily Facts Bot"
+          git config user.email "actions@github.com"
+          git add state/posted_state.json
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "Update Daily Facts publishing state"
+            git push
+          fi
