@@ -1,6 +1,28 @@
 {
-  "published_fact_ids": {},
-  "published_claims": {},
-  "runs": [],
+  "published_fact_ids": {
+    "FACT-2026-09-23-S01": {
+      "published_at": "2026-09-22T19:23:06.709044+00:00",
+      "message_id": 24,
+      "send_mode": "photo_fallback",
+      "image_page": "https://commons.wikimedia.org/wiki/File:The_human_body._A_beginner%27s_text-book_of_anatomy,_physiology_and_hygiene_(1884)_(14596440280).jpg",
+      "image_credit": "Wikimedia Commons",
+      "image_source": "Wikimedia Commons"
+    }
+  },
+  "published_claims": {
+    "52635ae50f313c7c09d9d5664dc73400e5aef359": {
+      "fact_id": "FACT-2026-09-23-S01",
+      "published_at": "2026-09-22T19:23:06.709044+00:00"
+    }
+  },
+  "runs": [
+    {
+      "date": "2026-09-23",
+      "requested": 1,
+      "processed": 1,
+      "published_now": 1,
+      "dry_run": false
+    }
+  ],
   "image_cache": {}
 }
