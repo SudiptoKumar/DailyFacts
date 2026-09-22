@@ -48,8 +48,6 @@ Verified fact.
 Short contextual sentence.
 
 #Topic #Subtopic #DailyFacts
-
-🔗 Source
 ```
 
 The public post does not expose internal `Evidence`, `Confidence`, or `Verification status` fields.

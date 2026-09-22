@@ -39,9 +39,10 @@ def test_rich_message_structure():
     fact = facts_for_date(load_all(), 10, 1)[0]
     content = _fallback(fact)
     rich = build_rich_message(fact, content)
-    assert [b["type"] for b in rich["blocks"]] == ["paragraph", "heading", "paragraph", "paragraph", "paragraph", "paragraph", "paragraph"]
+    assert [b["type"] for b in rich["blocks"]] == ["paragraph", "heading", "paragraph", "paragraph", "paragraph", "paragraph"]
     assert "Why it's interesting" in str(rich)
     assert "#DailyFacts" in str(rich)
+    assert "🔗" not in str(rich)
 
 
 def test_photo_block():

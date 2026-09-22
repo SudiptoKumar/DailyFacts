@@ -36,8 +36,6 @@ def _safe_tags(tags: list[str], f: Fact) -> list[str]:
 
 
 def build_rich_message(f: Fact, content: EnrichedContent) -> dict:
-    source_name = esc(source_display_name(f))
-    source_url = html.escape(f.source_url, quote=True)
     blocks = [
         {"type": "paragraph", "text": [{"type": "bold", "text": esc(category_line(f))}]},
         {"type": "heading", "size": 3, "text": esc(content.title)},
@@ -45,7 +43,6 @@ def build_rich_message(f: Fact, content: EnrichedContent) -> dict:
         {"type": "paragraph", "text": [{"type": "bold", "text": "💡 Why it's interesting"}]},
         {"type": "paragraph", "text": esc(content.interesting)},
         {"type": "paragraph", "text": " ".join(_safe_tags(content.hashtags, f))},
-        {"type": "paragraph", "text": ["🔗 ", {"type": "url", "text": source_name, "url": f.source_url}]},
     ]
     return {"blocks": blocks}
 
@@ -58,9 +55,6 @@ def build_rich_message_with_photo(f: Fact, content: EnrichedContent) -> dict:
 
 def format_fallback_caption(f: Fact, content: EnrichedContent) -> str:
     tags = " ".join(_safe_tags(content.hashtags, f))
-    source_url = html.escape(f.source_url, quote=True)
-    source_name = esc(source_display_name(f))
-
     def assemble(fact_text: str, interesting_text: str) -> str:
         return "\n\n".join([
             f"<b>{esc(category_line(f))}</b>",
@@ -69,7 +63,6 @@ def format_fallback_caption(f: Fact, content: EnrichedContent) -> str:
             "<b>💡 Why it's interesting</b>",
             esc(interesting_text),
             tags,
-            f'🔗 <a href="{source_url}">{source_name}</a>',
         ])
 
     fact_text = content.fact.strip()
