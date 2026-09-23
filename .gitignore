@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+generated/*
+logs/*
+state/*.tmp
+!state/posted_state.json

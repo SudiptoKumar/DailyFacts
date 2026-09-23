@@ -47,6 +47,7 @@ jobs:
       CATCH_UP_MAX: "10"
       STRICT_DATASET: "false"
       IMAGE_REQUIRED: "false"
+      IMAGE_MIN_SCORE: "20"
       CACHE_IMAGES: "false"
       PYTHONUNBUFFERED: "1"
 
