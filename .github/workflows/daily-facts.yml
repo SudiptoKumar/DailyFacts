@@ -1,9 +1,12 @@
 name: Daily Facts
 
 on:
-  # 20 hourly publication windows: 08:00-03:00 Asia/Dhaka corresponds to 02:00-21:00 UTC.
+  # Two publication runs per day in Asia/Dhaka:
+  # 08:00 Asia/Dhaka = 02:00 UTC
+  # 17:00 Asia/Dhaka = 11:00 UTC
   schedule:
-    - cron: "0 2-21 * * *"
+    - cron: "0 2 * * *"
+    - cron: "0 11 * * *"
   workflow_dispatch:
     inputs:
       date:
@@ -13,7 +16,7 @@ on:
       max_posts:
         description: "Maximum posts for this run"
         required: false
-        default: "1"
+        default: "10"
       dry_run:
         description: "Do not publish"
         required: false
@@ -41,7 +44,7 @@ jobs:
       USE_EXA_CONTEXT: "false"
       TIMEZONE: Asia/Dhaka
       POSTS_PER_DAY: "20"
-      CATCH_UP_MAX: "1"
+      CATCH_UP_MAX: "10"
       STRICT_DATASET: "false"
       IMAGE_REQUIRED: "false"
       CACHE_IMAGES: "false"
@@ -63,19 +66,19 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements-dev.txt
+          pip install -r requirements.txt
 
       - name: Verify source
         run: python -m py_compile main.py *.py
 
-      - name: Run tests
-        run: pytest -q
+      - name: Run built-in self-test
+        run: python main.py --self-test
 
       - name: Build run arguments
         id: args
         shell: bash
         run: |
-          ARGS="--max-posts ${{ inputs.max_posts || '1' }}"
+          ARGS="--max-posts ${{ inputs.max_posts || '10' }}"
           if [[ -n "${{ inputs.date }}" ]]; then ARGS="$ARGS --date ${{ inputs.date }}"; fi
           if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.dry_run }}" == "true" ]]; then ARGS="$ARGS --dry-run"; fi
           echo "args=$ARGS" >> "$GITHUB_OUTPUT"
