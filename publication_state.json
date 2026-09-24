@@ -1,0 +1,259 @@
+{
+  "schema_version": 3,
+  "dates": {
+    "2026-09-24": {
+      "batches": {
+        "batch_1": {
+          "status": "completed",
+          "allocated_fact_ids": [
+            "FACT-2026-09-24-S01",
+            "FACT-2026-09-24-S02",
+            "FACT-2026-09-24-S03",
+            "FACT-2026-09-24-S04",
+            "FACT-2026-09-24-S05",
+            "FACT-2026-09-24-S06",
+            "FACT-2026-09-24-S07",
+            "FACT-2026-09-24-S08",
+            "FACT-2026-09-24-S09",
+            "FACT-2026-09-24-S10"
+          ],
+          "published_fact_ids": [
+            "FACT-2026-09-24-S01",
+            "FACT-2026-09-24-S02",
+            "FACT-2026-09-24-S03",
+            "FACT-2026-09-24-S04",
+            "FACT-2026-09-24-S05",
+            "FACT-2026-09-24-S06",
+            "FACT-2026-09-24-S07",
+            "FACT-2026-09-24-S08",
+            "FACT-2026-09-24-S09",
+            "FACT-2026-09-24-S10"
+          ],
+          "failed_fact_ids": [],
+          "started_at": "2026-09-24T12:05:15.332810+00:00",
+          "completed_at": "2026-09-24T12:06:20.277403+00:00"
+        }
+      },
+      "facts": {
+        "FACT-2026-09-24-S01": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "941b541652b13026dc9f7250b12fc455864910a5",
+          "message_id": 77,
+          "published_at": "2026-09-24T12:05:30.172331+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:1613_Major_Regions_of_the_Cerebellum-02-es.svg",
+          "image_credit": "Wikimedia Commons · OpenStax College · CC BY 3.0",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-24:FACT-2026-09-24-S01"
+        },
+        "FACT-2026-09-24-S02": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "2d12d822bf7139a334843a3da35a83e05cf51a32",
+          "message_id": 78,
+          "published_at": "2026-09-24T12:05:41.291238+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Cellular-Architecture-Regulates-Collective-Calcium-Signaling-and-Cell-Contractility-pcbi.1004955.s011.ogv",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-24:FACT-2026-09-24-S02"
+        },
+        "FACT-2026-09-24-S03": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "812a3ec3d862a445c26ccd11b0f3ebae31ade9d6",
+          "message_id": 79,
+          "published_at": "2026-09-24T12:05:54.955568+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Vallei_der_Koningen._Tombe_van_Toetanchamon_Schatkamer_Anubis_op_schrijn,_GDE002079.jpg",
+          "image_credit": "Wikimedia Commons · Harry Burton · Public domain",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-24:FACT-2026-09-24-S03"
+        },
+        "FACT-2026-09-24-S04": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "79589c7462440105b067762263fe3fdf7c05cbed",
+          "message_id": 80,
+          "published_at": "2026-09-24T12:05:56.787334+00:00",
+          "image_page": "https://education.nationalgeographic.org/resource/geography-standard-1/",
+          "image_credit": "education.nationalgeographic.org",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-24:FACT-2026-09-24-S04"
+        },
+        "FACT-2026-09-24-S05": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "6221087c2ed903cf39e01cc6505843e0205e4067",
+          "message_id": 81,
+          "published_at": "2026-09-24T12:05:58.456928+00:00",
+          "image_page": "https://science.nasa.gov/solar-system/moons/facts/",
+          "image_credit": "science.nasa.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-24:FACT-2026-09-24-S05"
+        },
+        "FACT-2026-09-24-S06": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "2209b1063a51df586f5d0c6543ab38e2a6349ac5",
+          "message_id": 82,
+          "published_at": "2026-09-24T12:06:00.880475+00:00",
+          "image_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+          "image_credit": "science.nasa.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-24:FACT-2026-09-24-S06"
+        },
+        "FACT-2026-09-24-S07": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "fc8f121cfd56696cf5454ffbf3f965a1b200689d",
+          "message_id": 83,
+          "published_at": "2026-09-24T12:06:03.574147+00:00",
+          "image_page": "https://maya.nmai.si.edu/the-maya/creation-story-maya",
+          "image_credit": "maya.nmai.si.edu",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-24:FACT-2026-09-24-S07"
+        },
+        "FACT-2026-09-24-S08": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "bbede9e8bebf113dee61091dc8c699c8c1584202",
+          "message_id": 84,
+          "published_at": "2026-09-24T12:06:05.232382+00:00",
+          "image_page": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "image_credit": "www.fda.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-24:FACT-2026-09-24-S08"
+        },
+        "FACT-2026-09-24-S09": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "6b6ccf3567dc140bade8e4985d5b3211a96e1ad0",
+          "message_id": 85,
+          "published_at": "2026-09-24T12:06:18.927709+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:William_Henry_Fox_Talbot,_Windows_From_Inside_South_Gallery,_Lacock_Abbey,_1835_(cropped).jpg",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-24:FACT-2026-09-24-S09"
+        },
+        "FACT-2026-09-24-S10": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "aed63ee8707746ef115a23fdb7683a23ab2e6191",
+          "message_id": 86,
+          "published_at": "2026-09-24T12:06:20.276643+00:00",
+          "image_page": "https://education.nationalgeographic.org/resource/geography-standard-4/",
+          "image_credit": "education.nationalgeographic.org",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-24:FACT-2026-09-24-S10"
+        }
+      }
+    }
+  },
+  "image_cache": {
+    "FACT-2026-09-24-S01": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S01.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:1613_Major_Regions_of_the_Cerebellum-02-es.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/1613_Major_Regions_of_the_Cerebellum-02-es.svg/3840px-1613_Major_Regions_of_the_Cerebellum-02-es.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Wikimedia Commons · OpenStax College · CC BY 3.0",
+      "score": 38,
+      "query": "human cerebellum anatomy"
+    },
+    "FACT-2026-09-24-S02": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S02.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cellular-Architecture-Regulates-Collective-Calcium-Signaling-and-Cell-Contractility-pcbi.1004955.s011.ogv",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Cellular-Architecture-Regulates-Collective-Calcium-Signaling-and-Cell-Contractility-pcbi.1004955.s011.ogv/330px--Cellular-Architecture-Regulates-Collective-Calcium-Signaling-and-Cell-Contractility-pcbi.1004955.s011.ogv.jpg",
+      "credit": "Wikimedia Commons",
+      "score": 24,
+      "query": "cell signaling environment"
+    },
+    "FACT-2026-09-24-S03": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S03.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vallei_der_Koningen._Tombe_van_Toetanchamon_Schatkamer_Anubis_op_schrijn,_GDE002079.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Vallei_der_Koningen._Tombe_van_Toetanchamon_Schatkamer_Anubis_op_schrijn%2C_GDE002079.jpg/3840px-Vallei_der_Koningen._Tombe_van_Toetanchamon_Schatkamer_Anubis_op_schrijn%2C_GDE002079.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Wikimedia Commons · Harry Burton · Public domain",
+      "score": 48,
+      "query": "Anubis statue Egyptian tomb"
+    },
+    "FACT-2026-09-24-S04": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S04.jpg",
+      "source_page": "https://education.nationalgeographic.org/resource/geography-standard-1/",
+      "source_url": "https://images.nationalgeographic.org/image/upload/t_RL2_search_thumb/v1725465120/EducationHub/photos/Standards_1_shutterstock_2459392851.jpg",
+      "credit": "education.nationalgeographic.org",
+      "score": 64,
+      "query": "GIS remote sensing satellite"
+    },
+    "FACT-2026-09-24-S05": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S05.jpg",
+      "source_page": "https://science.nasa.gov/solar-system/moons/facts/",
+      "source_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/lro/McGetchinLRONAC.tif?w=1024",
+      "credit": "science.nasa.gov",
+      "score": 42,
+      "query": "Apollo astronauts on the Moon"
+    },
+    "FACT-2026-09-24-S06": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S06.jpg",
+      "source_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "source_url": "https://science.nasa.gov/wp-content/uploads/2023/06/solar-system-illustration-1920x640-2.jpg",
+      "credit": "science.nasa.gov",
+      "score": 50,
+      "query": "small irregular moons"
+    },
+    "FACT-2026-09-24-S07": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S07.jpg",
+      "source_page": "https://maya.nmai.si.edu/the-maya/creation-story-maya",
+      "source_url": "https://maya.nmai.si.edu/themes/custom/mayatime/img/corner-photos-2.png",
+      "credit": "maya.nmai.si.edu",
+      "score": 54,
+      "query": "K'iche' Maya maize ceremony"
+    },
+    "FACT-2026-09-24-S08": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S08.jpg",
+      "source_page": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+      "source_url": "https://www.fda.gov/files/SafeFoodHandling_11072023.png",
+      "credit": "www.fda.gov",
+      "score": 50,
+      "query": "Some foodborne illnesses begin within minutes Food safety"
+    },
+    "FACT-2026-09-24-S09": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S09.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:William_Henry_Fox_Talbot,_Windows_From_Inside_South_Gallery,_Lacock_Abbey,_1835_(cropped).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/William_Henry_Fox_Talbot%2C_Windows_From_Inside_South_Gallery%2C_Lacock_Abbey%2C_1835_%28cropped%29.jpg/1280px-William_Henry_Fox_Talbot%2C_Windows_From_Inside_South_Gallery%2C_Lacock_Abbey%2C_1835_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 35,
+      "query": "Calotype patent Photography"
+    },
+    "FACT-2026-09-24-S10": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S10.jpg",
+      "source_page": "https://education.nationalgeographic.org/resource/geography-standard-4/",
+      "source_url": "https://images.nationalgeographic.org/image/upload/t_RL2_search_thumb/v1709830191/EducationHub/photos/NS16183297_00001_Tamaraw_Mts_Iglit_Baco_Natural_Park_.jpg",
+      "credit": "education.nationalgeographic.org",
+      "score": 26,
+      "query": "New York City skyline"
+    }
+  },
+  "runs": [
+    {
+      "date": "2026-09-24",
+      "batch": 1,
+      "slots": [
+        1,
+        10
+      ],
+      "requested": 10,
+      "allocated": 10,
+      "processed": 10,
+      "published_now": 10,
+      "status": "completed",
+      "dry_run": false
+    }
+  ]
+}
