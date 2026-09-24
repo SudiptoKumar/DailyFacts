@@ -1,9 +1,8 @@
 name: Daily Facts
 
 on:
-  # Two publication runs per day in Asia/Dhaka:
-  # 08:00 Asia/Dhaka = 02:00 UTC
-  # 17:00 Asia/Dhaka = 11:00 UTC
+  # 08:00 Asia/Dhaka = 02:00 UTC -> Batch 1 (slots 1-10)
+  # 17:00 Asia/Dhaka = 11:00 UTC -> Batch 2 (slots 11-20)
   schedule:
     - cron: "0 2 * * *"
     - cron: "0 11 * * *"
@@ -13,8 +12,14 @@ on:
         description: "Publication date (YYYY-MM-DD); blank = current Asia/Dhaka date"
         required: false
         default: ""
+      batch:
+        description: "Batch to publish"
+        required: true
+        default: "1"
+        type: choice
+        options: ["1", "2"]
       max_posts:
-        description: "Maximum posts for this run"
+        description: "Maximum posts for this batch"
         required: false
         default: "10"
       dry_run:
@@ -30,10 +35,13 @@ concurrency:
   group: daily-facts-publisher
   cancel-in-progress: false
 
+env:
+  STATE_BRANCH: daily-facts-state
+
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL || '@FactsNewsroom' }}
@@ -44,11 +52,13 @@ jobs:
       USE_EXA_CONTEXT: "false"
       TIMEZONE: Asia/Dhaka
       POSTS_PER_DAY: "20"
+      BATCH_SIZE: "10"
       CATCH_UP_MAX: "10"
       STRICT_DATASET: "false"
       IMAGE_REQUIRED: "false"
       IMAGE_MIN_SCORE: "8"
       CACHE_IMAGES: "true"
+      BLOCK_BATCH2_WITHOUT_BATCH1_RECEIPT: "true"
       PYTHONUNBUFFERED: "1"
 
     steps:
@@ -56,6 +66,41 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: true
+
+      - name: Determine scheduled batch
+        id: schedule_batch
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "batch=${{ inputs.batch }}" >> "$GITHUB_OUTPUT"
+          elif [[ "${{ github.event.schedule }}" == "0 2 * * *" ]]; then
+            echo "batch=1" >> "$GITHUB_OUTPUT"
+          elif [[ "${{ github.event.schedule }}" == "0 11 * * *" ]]; then
+            echo "batch=2" >> "$GITHUB_OUTPUT"
+          else
+            echo "::error::Unable to determine publication batch."
+            exit 1
+          fi
+
+      - name: Restore publication ledger
+        env:
+          STATE_BRANCH: ${{ env.STATE_BRANCH }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p state
+          if git ls-remote --exit-code --heads origin "${STATE_BRANCH}" >/dev/null 2>&1; then
+            git fetch origin "${STATE_BRANCH}:${STATE_BRANCH}"
+            if ! git show "${STATE_BRANCH}:publication_state.json" > state/publication_state.json; then
+              echo "::error::State branch exists but publication_state.json is missing. Refusing to initialize empty state."
+              exit 1
+            fi
+          else
+            printf '%s\n' '{"schema_version":3,"dates":{},"image_cache":{},"runs":[]}' > state/publication_state.json
+            echo "No ${STATE_BRANCH} branch exists yet; starting a new ledger that will be created after this run."
+          fi
+          echo "Publication ledger restored from ${STATE_BRANCH}."
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -79,7 +124,8 @@ jobs:
         id: args
         shell: bash
         run: |
-          ARGS="--max-posts ${{ inputs.max_posts || '10' }}"
+          set -euo pipefail
+          ARGS="--batch ${{ steps.schedule_batch.outputs.batch }} --max-posts ${{ inputs.max_posts || '10' }}"
           if [[ -n "${{ inputs.date }}" ]]; then ARGS="$ARGS --date ${{ inputs.date }}"; fi
           if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.dry_run }}" == "true" ]]; then ARGS="$ARGS --dry-run"; fi
           echo "args=$ARGS" >> "$GITHUB_OUTPUT"
@@ -87,15 +133,56 @@ jobs:
       - name: Publish Daily Facts
         run: python main.py ${{ steps.args.outputs.args }}
 
-      - name: Save state
-        if: always() && github.event_name != 'workflow_dispatch'
+      - name: Publish ledger to state branch
+        if: always()
+        env:
+          STATE_BRANCH: ${{ env.STATE_BRANCH }}
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
         run: |
-          git config user.name "Daily Facts Bot"
-          git config user.email "actions@github.com"
-          git add state/posted_state.json
-          if git diff --cached --quiet; then
-            echo "No state changes to commit."
-          else
-            git commit -m "Update Daily Facts publishing state"
-            git push
+          set -euo pipefail
+          if [ ! -f state/publication_state.json ]; then
+            echo "No publication ledger found; nothing to sync."
+            exit 0
           fi
+
+          TMP="$(mktemp -d)"
+          cleanup() { rm -rf "$TMP"; }
+          trap cleanup EXIT
+
+          git clone --quiet "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$TMP/repo"
+          cd "$TMP/repo"
+
+          if git ls-remote --exit-code --heads origin "$STATE_BRANCH" >/dev/null 2>&1; then
+            git checkout --quiet -B "$STATE_BRANCH" "origin/$STATE_BRANCH"
+          else
+            git checkout --quiet --orphan "$STATE_BRANCH"
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+
+          cp "${GITHUB_WORKSPACE}/state/publication_state.json" ./publication_state.json
+          git config user.name "Daily Facts State Bot"
+          git config user.email "actions@github.com"
+          git add publication_state.json
+
+          if git diff --cached --quiet; then
+            echo "State branch already up to date."
+            exit 0
+          fi
+
+          git commit -m "Update Daily Facts publication ledger" >/dev/null
+
+          for attempt in 1 2 3; do
+            if git push origin "$STATE_BRANCH"; then
+              echo "Publication ledger pushed to $STATE_BRANCH."
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; refreshing state branch."
+            git fetch origin "$STATE_BRANCH"
+            git reset --hard "origin/$STATE_BRANCH"
+            cp "${GITHUB_WORKSPACE}/state/publication_state.json" ./publication_state.json
+            git add publication_state.json
+            git commit -m "Update Daily Facts publication ledger" >/dev/null || true
+          done
+          echo "::error::Failed to push publication ledger to $STATE_BRANCH"
+          exit 1

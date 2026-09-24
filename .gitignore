@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+generated/*
+logs/*
+state/*.tmp
+!state/posted_state.json
+
+# Daily Facts runtime
+generated/
+logs/
+state/publication_state.json
+state/publication_state.tmp
