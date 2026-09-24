@@ -32,6 +32,22 @@
           "failed_fact_ids": [],
           "started_at": "2026-09-24T12:05:15.332810+00:00",
           "completed_at": "2026-09-24T12:06:20.277403+00:00"
+        },
+        "batch_2": {
+          "status": "completed",
+          "allocated_fact_ids": [
+            "FACT-2026-09-24-S11",
+            "FACT-2026-09-24-S12",
+            "FACT-2026-09-24-S13"
+          ],
+          "published_fact_ids": [
+            "FACT-2026-09-24-S11",
+            "FACT-2026-09-24-S12",
+            "FACT-2026-09-24-S13"
+          ],
+          "failed_fact_ids": [],
+          "started_at": "2026-09-24T15:45:57.433950+00:00",
+          "completed_at": "2026-09-24T15:46:33.425394+00:00"
         }
       },
       "facts": {
@@ -154,6 +170,42 @@
           "image_source": "Wikimedia Commons",
           "send_mode": "photo_html",
           "idempotency_key": "2026-09-24:FACT-2026-09-24-S10"
+        },
+        "FACT-2026-09-24-S11": {
+          "status": "published",
+          "batch": 2,
+          "claim_key": "af0ebc1512ff0a4079433029c8ed6cd184b778a5",
+          "message_id": 87,
+          "published_at": "2026-09-24T15:46:09.712832+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/Maya_art",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-24:FACT-2026-09-24-S11"
+        },
+        "FACT-2026-09-24-S12": {
+          "status": "published",
+          "batch": 2,
+          "claim_key": "b4240052cef889970abdc3f7d04aa494339b12dd",
+          "message_id": 88,
+          "published_at": "2026-09-24T15:46:21.188345+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Oa-buoy-enrique-reef.jpg",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-24:FACT-2026-09-24-S12"
+        },
+        "FACT-2026-09-24-S13": {
+          "status": "published",
+          "batch": 2,
+          "claim_key": "c7cb4372051bbd337bbe59172707f878dcfe1bae",
+          "message_id": 89,
+          "published_at": "2026-09-24T15:46:33.424484+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Zelle_-_Send_%26_Receive_Money_(51093038972).jpg",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-24:FACT-2026-09-24-S13"
         }
       }
     }
@@ -238,6 +290,30 @@
       "credit": "education.nationalgeographic.org",
       "score": 26,
       "query": "New York City skyline"
+    },
+    "FACT-2026-09-24-S11": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S11.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/Maya_art",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Maya-Maske.jpg/1280px-Maya-Maske.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 36,
+      "query": "Maya worldview plate temple"
+    },
+    "FACT-2026-09-24-S12": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S12.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Oa-buoy-enrique-reef.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Oa-buoy-enrique-reef.jpg/1280px-Oa-buoy-enrique-reef.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 19,
+      "query": "ocean drifter buoy"
+    },
+    "FACT-2026-09-24-S13": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S13.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Zelle_-_Send_%26_Receive_Money_(51093038972).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Zelle_-_Send_%26_Receive_Money_%2851093038972%29.jpg/1280px-Zelle_-_Send_%26_Receive_Money_%2851093038972%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 34,
+      "query": "person using multiple bill payment methods"
     }
   },
   "runs": [
@@ -252,6 +328,20 @@
       "allocated": 10,
       "processed": 10,
       "published_now": 10,
+      "status": "completed",
+      "dry_run": false
+    },
+    {
+      "date": "2026-09-24",
+      "batch": 2,
+      "slots": [
+        11,
+        20
+      ],
+      "requested": 10,
+      "allocated": 3,
+      "processed": 3,
+      "published_now": 3,
       "status": "completed",
       "dry_run": false
     }
