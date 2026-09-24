@@ -1,6 +1,217 @@
 {
-  "published_fact_ids": {},
-  "published_claims": {},
-  "runs": [],
-  "image_cache": {}
+  "published_fact_ids": {
+    "FACT-2026-09-24-S01": {
+      "published_at": "2026-09-24T06:55:03.493283+00:00",
+      "message_id": 67,
+      "send_mode": "photo_html",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Human_cerebellum_under_a_microscope.jpg",
+      "image_credit": "Wikimedia Commons · Nicolò Gennari · CC BY 4.0",
+      "image_source": "Wikimedia Commons"
+    },
+    "FACT-2026-09-24-S02": {
+      "published_at": "2026-09-24T06:55:13.603207+00:00",
+      "message_id": 68,
+      "send_mode": "photo_html",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Tumour_stroma_and_extracellular_matrix_in_hypoxia.svg",
+      "image_credit": "Wikimedia Commons",
+      "image_source": "Wikimedia Commons"
+    },
+    "FACT-2026-09-24-S03": {
+      "published_at": "2026-09-24T06:55:18.942616+00:00",
+      "message_id": 69,
+      "send_mode": "photo_html",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Vallei_der_Koningen._Tombe_van_Toetanchamon_Schatkamer_Anubis_op_schrijn,_GDE002079.jpg",
+      "image_credit": "Wikimedia Commons · Harry Burton · Public domain",
+      "image_source": "Wikimedia Commons"
+    },
+    "FACT-2026-09-24-S04": {
+      "published_at": "2026-09-24T06:55:21.369907+00:00",
+      "message_id": 70,
+      "send_mode": "photo_html",
+      "image_page": "https://education.nationalgeographic.org/resource/geography-standard-1/",
+      "image_credit": "education.nationalgeographic.org",
+      "image_source": "Wikimedia Commons"
+    },
+    "FACT-2026-09-24-S05": {
+      "published_at": "2026-09-24T06:55:23.270017+00:00",
+      "message_id": 71,
+      "send_mode": "photo_html",
+      "image_page": "https://science.nasa.gov/solar-system/moons/facts/",
+      "image_credit": "science.nasa.gov",
+      "image_source": "Wikimedia Commons"
+    },
+    "FACT-2026-09-24-S06": {
+      "published_at": "2026-09-24T06:55:24.898049+00:00",
+      "message_id": 72,
+      "send_mode": "photo_html",
+      "image_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "image_credit": "science.nasa.gov",
+      "image_source": "Wikimedia Commons"
+    },
+    "FACT-2026-09-24-S07": {
+      "published_at": "2026-09-24T06:55:27.129329+00:00",
+      "message_id": 73,
+      "send_mode": "photo_html",
+      "image_page": "https://maya.nmai.si.edu/the-maya/creation-story-maya",
+      "image_credit": "maya.nmai.si.edu",
+      "image_source": "Wikimedia Commons"
+    },
+    "FACT-2026-09-24-S08": {
+      "published_at": "2026-09-24T06:55:29.094646+00:00",
+      "message_id": 74,
+      "send_mode": "photo_html",
+      "image_page": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+      "image_credit": "www.fda.gov",
+      "image_source": "Wikimedia Commons"
+    },
+    "FACT-2026-09-24-S09": {
+      "published_at": "2026-09-24T06:55:40.731883+00:00",
+      "message_id": 75,
+      "send_mode": "photo_html",
+      "image_page": "https://commons.wikimedia.org/wiki/File:William_Henry_Fox_Talbot,_Windows_From_Inside_South_Gallery,_Lacock_Abbey,_1835_(cropped).jpg",
+      "image_credit": "Wikimedia Commons",
+      "image_source": "Wikimedia Commons"
+    },
+    "FACT-2026-09-24-S10": {
+      "published_at": "2026-09-24T06:55:42.090798+00:00",
+      "message_id": 76,
+      "send_mode": "photo_html",
+      "image_page": "https://education.nationalgeographic.org/resource/geography-standard-4/",
+      "image_credit": "education.nationalgeographic.org",
+      "image_source": "Wikimedia Commons"
+    }
+  },
+  "published_claims": {
+    "941b541652b13026dc9f7250b12fc455864910a5": {
+      "fact_id": "FACT-2026-09-24-S01",
+      "published_at": "2026-09-24T06:55:03.493283+00:00"
+    },
+    "2d12d822bf7139a334843a3da35a83e05cf51a32": {
+      "fact_id": "FACT-2026-09-24-S02",
+      "published_at": "2026-09-24T06:55:13.603207+00:00"
+    },
+    "812a3ec3d862a445c26ccd11b0f3ebae31ade9d6": {
+      "fact_id": "FACT-2026-09-24-S03",
+      "published_at": "2026-09-24T06:55:18.942616+00:00"
+    },
+    "79589c7462440105b067762263fe3fdf7c05cbed": {
+      "fact_id": "FACT-2026-09-24-S04",
+      "published_at": "2026-09-24T06:55:21.369907+00:00"
+    },
+    "6221087c2ed903cf39e01cc6505843e0205e4067": {
+      "fact_id": "FACT-2026-09-24-S05",
+      "published_at": "2026-09-24T06:55:23.270017+00:00"
+    },
+    "2209b1063a51df586f5d0c6543ab38e2a6349ac5": {
+      "fact_id": "FACT-2026-09-24-S06",
+      "published_at": "2026-09-24T06:55:24.898049+00:00"
+    },
+    "fc8f121cfd56696cf5454ffbf3f965a1b200689d": {
+      "fact_id": "FACT-2026-09-24-S07",
+      "published_at": "2026-09-24T06:55:27.129329+00:00"
+    },
+    "bbede9e8bebf113dee61091dc8c699c8c1584202": {
+      "fact_id": "FACT-2026-09-24-S08",
+      "published_at": "2026-09-24T06:55:29.094646+00:00"
+    },
+    "6b6ccf3567dc140bade8e4985d5b3211a96e1ad0": {
+      "fact_id": "FACT-2026-09-24-S09",
+      "published_at": "2026-09-24T06:55:40.731883+00:00"
+    },
+    "aed63ee8707746ef115a23fdb7683a23ab2e6191": {
+      "fact_id": "FACT-2026-09-24-S10",
+      "published_at": "2026-09-24T06:55:42.090798+00:00"
+    }
+  },
+  "runs": [
+    {
+      "date": "2026-09-24",
+      "requested": 10,
+      "processed": 10,
+      "published_now": 10,
+      "dry_run": false
+    }
+  ],
+  "image_cache": {
+    "FACT-2026-09-24-S01": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S01.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Human_cerebellum_under_a_microscope.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Human_cerebellum_under_a_microscope.jpg/1920px-Human_cerebellum_under_a_microscope.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Wikimedia Commons · Nicolò Gennari · CC BY 4.0",
+      "score": 40,
+      "query": "human cerebellum"
+    },
+    "FACT-2026-09-24-S02": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S02.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tumour_stroma_and_extracellular_matrix_in_hypoxia.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Tumour_stroma_and_extracellular_matrix_in_hypoxia.svg/1280px-Tumour_stroma_and_extracellular_matrix_in_hypoxia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 17,
+      "query": "cellular microenvironment signaling"
+    },
+    "FACT-2026-09-24-S03": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S03.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vallei_der_Koningen._Tombe_van_Toetanchamon_Schatkamer_Anubis_op_schrijn,_GDE002079.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Vallei_der_Koningen._Tombe_van_Toetanchamon_Schatkamer_Anubis_op_schrijn%2C_GDE002079.jpg/3840px-Vallei_der_Koningen._Tombe_van_Toetanchamon_Schatkamer_Anubis_op_schrijn%2C_GDE002079.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Wikimedia Commons · Harry Burton · Public domain",
+      "score": 48,
+      "query": "Anubis statue Egyptian tomb"
+    },
+    "FACT-2026-09-24-S04": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S04.jpg",
+      "source_page": "https://education.nationalgeographic.org/resource/geography-standard-1/",
+      "source_url": "https://images.nationalgeographic.org/image/upload/t_RL2_search_thumb/v1725465120/EducationHub/photos/Standards_1_shutterstock_2459392851.jpg",
+      "credit": "education.nationalgeographic.org",
+      "score": 76,
+      "query": "Geospatial technologies Geospatial technology"
+    },
+    "FACT-2026-09-24-S05": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S05.jpg",
+      "source_page": "https://science.nasa.gov/solar-system/moons/facts/",
+      "source_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/lro/McGetchinLRONAC.tif?w=1024",
+      "credit": "science.nasa.gov",
+      "score": 42,
+      "query": "Apollo astronauts on the Moon"
+    },
+    "FACT-2026-09-24-S06": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S06.jpg",
+      "source_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "source_url": "https://science.nasa.gov/wp-content/uploads/2023/06/solar-system-illustration-1920x640-2.jpg",
+      "credit": "science.nasa.gov",
+      "score": 50,
+      "query": "Some small moons are leftover formation material Unexplained Planetary Origins"
+    },
+    "FACT-2026-09-24-S07": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S07.jpg",
+      "source_page": "https://maya.nmai.si.edu/the-maya/creation-story-maya",
+      "source_url": "https://maya.nmai.si.edu/themes/custom/mayatime/img/corner-photos-2.png",
+      "credit": "maya.nmai.si.edu",
+      "score": 48,
+      "query": "Sacred maize Maya cultural practice"
+    },
+    "FACT-2026-09-24-S08": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S08.jpg",
+      "source_page": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+      "source_url": "https://www.fda.gov/files/SafeFoodHandling_11072023.png",
+      "credit": "www.fda.gov",
+      "score": 44,
+      "query": "contaminated food"
+    },
+    "FACT-2026-09-24-S09": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S09.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:William_Henry_Fox_Talbot,_Windows_From_Inside_South_Gallery,_Lacock_Abbey,_1835_(cropped).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/William_Henry_Fox_Talbot%2C_Windows_From_Inside_South_Gallery%2C_Lacock_Abbey%2C_1835_%28cropped%29.jpg/1280px-William_Henry_Fox_Talbot%2C_Windows_From_Inside_South_Gallery%2C_Lacock_Abbey%2C_1835_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 35,
+      "query": "Calotype patent Photography"
+    },
+    "FACT-2026-09-24-S10": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-24-S10.jpg",
+      "source_page": "https://education.nationalgeographic.org/resource/geography-standard-4/",
+      "source_url": "https://images.nationalgeographic.org/image/upload/t_RL2_search_thumb/v1709830191/EducationHub/photos/NS16183297_00001_Tamaraw_Mts_Iglit_Baco_Natural_Park_.jpg",
+      "credit": "education.nationalgeographic.org",
+      "score": 26,
+      "query": "New York City skyline"
+    }
+  }
 }
