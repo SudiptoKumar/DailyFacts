@@ -240,6 +240,22 @@
           "failed_fact_ids": [],
           "started_at": "2026-09-25T06:49:16.428699+00:00",
           "completed_at": "2026-09-25T06:50:05.443252+00:00"
+        },
+        "batch_2": {
+          "status": "completed",
+          "allocated_fact_ids": [
+            "FACT-2026-09-25-S11",
+            "FACT-2026-09-25-S12",
+            "FACT-2026-09-25-S13"
+          ],
+          "published_fact_ids": [
+            "FACT-2026-09-25-S11",
+            "FACT-2026-09-25-S12",
+            "FACT-2026-09-25-S13"
+          ],
+          "failed_fact_ids": [],
+          "started_at": "2026-09-25T15:46:05.375080+00:00",
+          "completed_at": "2026-09-25T15:46:36.576054+00:00"
         }
       },
       "facts": {
@@ -362,6 +378,42 @@
           "image_source": "Wikimedia Commons",
           "send_mode": "photo_html",
           "idempotency_key": "2026-09-25:FACT-2026-09-25-S10"
+        },
+        "FACT-2026-09-25-S11": {
+          "status": "published",
+          "batch": 2,
+          "claim_key": "6b3e0e90a224ac0fe7eb1e326f25429560f0fed7",
+          "message_id": 100,
+          "published_at": "2026-09-25T15:46:13.671384+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Honduras-0477_(2213599807).jpg",
+          "image_credit": "Wikimedia Commons · Dennis G. Jarvis · CC BY-SA 2.0",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-25:FACT-2026-09-25-S11"
+        },
+        "FACT-2026-09-25-S12": {
+          "status": "published",
+          "batch": 2,
+          "claim_key": "1ee2a91b2a9f37aca57448c087380e4f444faaf9",
+          "message_id": 101,
+          "published_at": "2026-09-25T15:46:26.030818+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:World_-_vegetation_%26_ocean_currents,_1922.jpg",
+          "image_credit": "Wikimedia Commons · John Bartholomew · Public domain",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-25:FACT-2026-09-25-S12"
+        },
+        "FACT-2026-09-25-S13": {
+          "status": "published",
+          "batch": 2,
+          "claim_key": "334da577c7783bd78b64c78ea938e1957e26fb14",
+          "message_id": 102,
+          "published_at": "2026-09-25T15:46:36.574867+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Parking_payment_and_billing_machine_kiosk.jpg",
+          "image_credit": "Wikimedia Commons · Q-Parking · CC BY-SA 4.0",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-25:FACT-2026-09-25-S13"
         }
       }
     }
@@ -550,6 +602,30 @@
       "credit": "education.nationalgeographic.org",
       "score": 26,
       "query": "Hong Kong harbor"
+    },
+    "FACT-2026-09-25-S11": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-25-S11.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Honduras-0477_(2213599807).jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Honduras-0477_%282213599807%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons · Dennis G. Jarvis · CC BY-SA 2.0",
+      "score": 40,
+      "query": "Maya worldview plate Waterlily Jaguar"
+    },
+    "FACT-2026-09-25-S12": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-25-S12.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:World_-_vegetation_%26_ocean_currents,_1922.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/World_-_vegetation_%26_ocean_currents%2C_1922.jpg/3840px-World_-_vegetation_%26_ocean_currents%2C_1922.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Wikimedia Commons · John Bartholomew · Public domain",
+      "score": 12,
+      "query": "ocean current patterns"
+    },
+    "FACT-2026-09-25-S13": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-25-S13.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Parking_payment_and_billing_machine_kiosk.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Parking_payment_and_billing_machine_kiosk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons · Q-Parking · CC BY-SA 4.0",
+      "score": 34,
+      "query": "bill payment methods"
     }
   },
   "runs": [
@@ -592,6 +668,20 @@
       "allocated": 10,
       "processed": 10,
       "published_now": 10,
+      "status": "completed",
+      "dry_run": false
+    },
+    {
+      "date": "2026-09-25",
+      "batch": 2,
+      "slots": [
+        11,
+        20
+      ],
+      "requested": 10,
+      "allocated": 3,
+      "processed": 3,
+      "published_now": 3,
       "status": "completed",
       "dry_run": false
     }
