@@ -208,6 +208,162 @@
           "idempotency_key": "2026-09-24:FACT-2026-09-24-S13"
         }
       }
+    },
+    "2026-09-25": {
+      "batches": {
+        "batch_1": {
+          "status": "completed",
+          "allocated_fact_ids": [
+            "FACT-2026-09-25-S01",
+            "FACT-2026-09-25-S02",
+            "FACT-2026-09-25-S03",
+            "FACT-2026-09-25-S04",
+            "FACT-2026-09-25-S05",
+            "FACT-2026-09-25-S06",
+            "FACT-2026-09-25-S07",
+            "FACT-2026-09-25-S08",
+            "FACT-2026-09-25-S09",
+            "FACT-2026-09-25-S10"
+          ],
+          "published_fact_ids": [
+            "FACT-2026-09-25-S01",
+            "FACT-2026-09-25-S02",
+            "FACT-2026-09-25-S03",
+            "FACT-2026-09-25-S04",
+            "FACT-2026-09-25-S05",
+            "FACT-2026-09-25-S06",
+            "FACT-2026-09-25-S07",
+            "FACT-2026-09-25-S08",
+            "FACT-2026-09-25-S09",
+            "FACT-2026-09-25-S10"
+          ],
+          "failed_fact_ids": [],
+          "started_at": "2026-09-25T06:49:16.428699+00:00",
+          "completed_at": "2026-09-25T06:50:05.443252+00:00"
+        }
+      },
+      "facts": {
+        "FACT-2026-09-25-S01": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "1202f46e97abc2491a1423a3431acfc80f079723",
+          "message_id": 90,
+          "published_at": "2026-09-25T06:49:21.397214+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Brain_anatomy.png",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-25:FACT-2026-09-25-S01"
+        },
+        "FACT-2026-09-25-S02": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "cb2c2344bb3452aa292fa6814a9b980b4d7a073c",
+          "message_id": 91,
+          "published_at": "2026-09-25T06:49:25.362338+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Chromosome_DNA_Gene_unannotated.svg",
+          "image_credit": "Wikimedia Commons · Thomas Shafee · CC BY 4.0",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-25:FACT-2026-09-25-S02"
+        },
+        "FACT-2026-09-25-S03": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "9e7ff1f26522b3205bf815b1b55a19a5571c1ebf",
+          "message_id": 92,
+          "published_at": "2026-09-25T06:49:27.046697+00:00",
+          "image_page": "https://sos.noaa.gov/education/phenomenon-based-learning/from-pole-to-shining-pole/",
+          "image_credit": "sos.noaa.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-25:FACT-2026-09-25-S03"
+        },
+        "FACT-2026-09-25-S04": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "9c591e2ae5422e5d60e8ea56d433063fdbc09304",
+          "message_id": 93,
+          "published_at": "2026-09-25T06:49:28.146440+00:00",
+          "image_page": "https://education.nationalgeographic.org/resource/geography-standard-1/",
+          "image_credit": "education.nationalgeographic.org",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-25:FACT-2026-09-25-S04"
+        },
+        "FACT-2026-09-25-S05": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "e4a2e1c1ffc7bce976fa4a84b7a21a0ef527fec9",
+          "message_id": 94,
+          "published_at": "2026-09-25T06:49:30.350764+00:00",
+          "image_page": "https://science.nasa.gov/solar-system/",
+          "image_credit": "science.nasa.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-25:FACT-2026-09-25-S05"
+        },
+        "FACT-2026-09-25-S06": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "2b395274207c882ffd590bf70e936ae908bc1b9c",
+          "message_id": 95,
+          "published_at": "2026-09-25T06:49:47.322958+00:00",
+          "image_page": "https://www.usgs.gov/faqs/how-does-earthquake-affect-groundwater-levels-and-water-quality-wells",
+          "image_credit": "www.usgs.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-25:FACT-2026-09-25-S06"
+        },
+        "FACT-2026-09-25-S07": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "fed0ca59eade6f831847f2fa2f97c2802cafa39f",
+          "message_id": 96,
+          "published_at": "2026-09-25T06:49:57.468476+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Egyptian_-_Statue_of_a_Seated_Cat_-_Walters_54403_-_Three_Quarter.jpg",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-25:FACT-2026-09-25-S07"
+        },
+        "FACT-2026-09-25-S08": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "272d00299837d67e349f2b26364f166eaf0e10fb",
+          "message_id": 97,
+          "published_at": "2026-09-25T06:49:58.893106+00:00",
+          "image_page": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "image_credit": "www.fda.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-25:FACT-2026-09-25-S08"
+        },
+        "FACT-2026-09-25-S09": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "4cbdcb77bb586d0abf6d43d37c22a97c19f7a097",
+          "message_id": 98,
+          "published_at": "2026-09-25T06:50:04.197670+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:John_W_Draper-The_first_Moon_Photograph_1840.jpg",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-25:FACT-2026-09-25-S09"
+        },
+        "FACT-2026-09-25-S10": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "bc5730b2af895ec2ed1cac0d3e957b5ffd2279fc",
+          "message_id": 99,
+          "published_at": "2026-09-25T06:50:05.442068+00:00",
+          "image_page": "https://education.nationalgeographic.org/resource/geography-standard-4/",
+          "image_credit": "education.nationalgeographic.org",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-25:FACT-2026-09-25-S10"
+        }
+      }
     }
   },
   "image_cache": {
@@ -314,6 +470,86 @@
       "credit": "Wikimedia Commons",
       "score": 34,
       "query": "person using multiple bill payment methods"
+    },
+    "FACT-2026-09-25-S01": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-25-S01.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Brain_anatomy.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Brain_anatomy.png/1280px-Brain_anatomy.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 41,
+      "query": "The brainstem contains three structures Brain anatomy"
+    },
+    "FACT-2026-09-25-S02": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-25-S02.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Chromosome_DNA_Gene_unannotated.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Chromosome_DNA_Gene_unannotated.svg/3840px-Chromosome_DNA_Gene_unannotated.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Wikimedia Commons · Thomas Shafee · CC BY 4.0",
+      "score": 26,
+      "query": "human DNA strand"
+    },
+    "FACT-2026-09-25-S03": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-25-S03.jpg",
+      "source_page": "https://sos.noaa.gov/education/phenomenon-based-learning/from-pole-to-shining-pole/",
+      "source_url": "https://sos.noaa.gov/img/education/phenomena/migration.gif",
+      "credit": "sos.noaa.gov",
+      "score": 73,
+      "query": "Thousands of species migrate annually Animal migration"
+    },
+    "FACT-2026-09-25-S04": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-25-S04.jpg",
+      "source_page": "https://education.nationalgeographic.org/resource/geography-standard-1/",
+      "source_url": "https://images.nationalgeographic.org/image/upload/t_RL2_search_thumb/v1725465120/EducationHub/photos/Standards_1_shutterstock_2459392851.jpg",
+      "credit": "education.nationalgeographic.org",
+      "score": 36,
+      "query": "Geospatial data definition Geospatial data"
+    },
+    "FACT-2026-09-25-S05": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-25-S05.jpg",
+      "source_page": "https://science.nasa.gov/solar-system/",
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/cds/general/images/2023/06/s/solar-system-illustration-16x9-1.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+      "credit": "science.nasa.gov",
+      "score": 36,
+      "query": "More than 300 robotic spacecraft left Earth's orbit Space exploration"
+    },
+    "FACT-2026-09-25-S06": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-25-S06.jpg",
+      "source_page": "https://www.usgs.gov/faqs/how-does-earthquake-affect-groundwater-levels-and-water-quality-wells",
+      "source_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/list_item/public/thumbnails/image/liquefaction-modified.gif?itok=hREuGdBM",
+      "credit": "www.usgs.gov",
+      "score": 77,
+      "query": "Earthquake lights are reported near earthquakes Unexplained Earth Phenomena"
+    },
+    "FACT-2026-09-25-S07": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-25-S07.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Egyptian_-_Statue_of_a_Seated_Cat_-_Walters_54403_-_Three_Quarter.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Egyptian_-_Statue_of_a_Seated_Cat_-_Walters_54403_-_Three_Quarter.jpg/960px-Egyptian_-_Statue_of_a_Seated_Cat_-_Walters_54403_-_Three_Quarter.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 51,
+      "query": "Early Egyptian feline representations Ancient Egypt"
+    },
+    "FACT-2026-09-25-S08": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-25-S08.jpg",
+      "source_page": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+      "source_url": "https://www.fda.gov/files/SafeFoodHandling_11072023.png",
+      "credit": "www.fda.gov",
+      "score": 38,
+      "query": "pregnant woman kitchen"
+    },
+    "FACT-2026-09-25-S09": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-25-S09.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:John_W_Draper-The_first_Moon_Photograph_1840.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/John_W_Draper-The_first_Moon_Photograph_1840.jpg/960px-John_W_Draper-The_first_Moon_Photograph_1840.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 34,
+      "query": "First American daguerreotypes Photography"
+    },
+    "FACT-2026-09-25-S10": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-25-S10.jpg",
+      "source_page": "https://education.nationalgeographic.org/resource/geography-standard-4/",
+      "source_url": "https://images.nationalgeographic.org/image/upload/t_RL2_search_thumb/v1709830191/EducationHub/photos/NS16183297_00001_Tamaraw_Mts_Iglit_Baco_Natural_Park_.jpg",
+      "credit": "education.nationalgeographic.org",
+      "score": 26,
+      "query": "Hong Kong harbor"
     }
   },
   "runs": [
@@ -342,6 +578,20 @@
       "allocated": 3,
       "processed": 3,
       "published_now": 3,
+      "status": "completed",
+      "dry_run": false
+    },
+    {
+      "date": "2026-09-25",
+      "batch": 1,
+      "slots": [
+        1,
+        10
+      ],
+      "requested": 10,
+      "allocated": 10,
+      "processed": 10,
+      "published_now": 10,
       "status": "completed",
       "dry_run": false
     }
