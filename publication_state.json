@@ -448,6 +448,18 @@
           "failed_fact_ids": [],
           "started_at": "2026-09-26T06:49:09.129609+00:00",
           "completed_at": "2026-09-26T06:50:05.209804+00:00"
+        },
+        "batch_2": {
+          "status": "completed",
+          "allocated_fact_ids": [
+            "FACT-2026-09-26-S11"
+          ],
+          "published_fact_ids": [
+            "FACT-2026-09-26-S11"
+          ],
+          "failed_fact_ids": [],
+          "started_at": "2026-09-26T14:55:52.467786+00:00",
+          "completed_at": "2026-09-26T14:56:03.809485+00:00"
         }
       },
       "facts": {
@@ -570,6 +582,18 @@
           "image_source": "Wikimedia Commons",
           "send_mode": "photo_html",
           "idempotency_key": "2026-09-26:FACT-2026-09-26-S10"
+        },
+        "FACT-2026-09-26-S11": {
+          "status": "published",
+          "batch": 2,
+          "claim_key": "4e8ded038aa041683e1d1f433c46b69e8ae44e02",
+          "message_id": 113,
+          "published_at": "2026-09-26T14:56:03.805296+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:US_Navy_080918-N-0659H-001_A_Naval_Support_Activity_Mid-South_Sailor_takes_a_moment_to_decide_which_credit_card_to_use.jpg",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-26:FACT-2026-09-26-S11"
         }
       }
     }
@@ -862,6 +886,14 @@
       "credit": "Wikimedia Commons",
       "score": 41,
       "query": "Current tracking and marine movement Ocean data applications"
+    },
+    "FACT-2026-09-26-S11": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-26-S11.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:US_Navy_080918-N-0659H-001_A_Naval_Support_Activity_Mid-South_Sailor_takes_a_moment_to_decide_which_credit_card_to_use.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/US_Navy_080918-N-0659H-001_A_Naval_Support_Activity_Mid-South_Sailor_takes_a_moment_to_decide_which_credit_card_to_use.jpg/1280px-US_Navy_080918-N-0659H-001_A_Naval_Support_Activity_Mid-South_Sailor_takes_a_moment_to_decide_which_credit_card_to_use.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 29,
+      "query": "Some consumers pay the smallest bills first Bill-payment behavior"
     }
   },
   "runs": [
@@ -932,6 +964,20 @@
       "allocated": 10,
       "processed": 10,
       "published_now": 10,
+      "status": "completed",
+      "dry_run": false
+    },
+    {
+      "date": "2026-09-26",
+      "batch": 2,
+      "slots": [
+        11,
+        20
+      ],
+      "requested": 10,
+      "allocated": 1,
+      "processed": 1,
+      "published_now": 1,
       "status": "completed",
       "dry_run": false
     }
