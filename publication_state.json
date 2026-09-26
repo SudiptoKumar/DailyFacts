@@ -416,6 +416,162 @@
           "idempotency_key": "2026-09-25:FACT-2026-09-25-S13"
         }
       }
+    },
+    "2026-09-26": {
+      "batches": {
+        "batch_1": {
+          "status": "completed",
+          "allocated_fact_ids": [
+            "FACT-2026-09-26-S01",
+            "FACT-2026-09-26-S02",
+            "FACT-2026-09-26-S03",
+            "FACT-2026-09-26-S04",
+            "FACT-2026-09-26-S05",
+            "FACT-2026-09-26-S06",
+            "FACT-2026-09-26-S07",
+            "FACT-2026-09-26-S08",
+            "FACT-2026-09-26-S09",
+            "FACT-2026-09-26-S10"
+          ],
+          "published_fact_ids": [
+            "FACT-2026-09-26-S01",
+            "FACT-2026-09-26-S02",
+            "FACT-2026-09-26-S03",
+            "FACT-2026-09-26-S04",
+            "FACT-2026-09-26-S05",
+            "FACT-2026-09-26-S06",
+            "FACT-2026-09-26-S07",
+            "FACT-2026-09-26-S08",
+            "FACT-2026-09-26-S09",
+            "FACT-2026-09-26-S10"
+          ],
+          "failed_fact_ids": [],
+          "started_at": "2026-09-26T06:49:09.129609+00:00",
+          "completed_at": "2026-09-26T06:50:05.209804+00:00"
+        }
+      },
+      "facts": {
+        "FACT-2026-09-26-S01": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "46f695603f3418c638fbc85c91e4d0364981a40a",
+          "message_id": 103,
+          "published_at": "2026-09-26T06:49:16.268321+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_human_brain_and_associated_nerves_Wellcome_L0074578.jpg",
+          "image_credit": "Wikimedia Commons · CC BY 4.0",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-26:FACT-2026-09-26-S01"
+        },
+        "FACT-2026-09-26-S02": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "dde24a96a2d9a3446d3b811cecc71a2890e09f71",
+          "message_id": 104,
+          "published_at": "2026-09-26T06:49:21.592719+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:DNA-Helix-Rendering_20220603.png",
+          "image_credit": "Wikimedia Commons · PantheraLeo1359531 · CC0",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-26:FACT-2026-09-26-S02"
+        },
+        "FACT-2026-09-26-S03": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "5e20d1a1b8b2568df860e313e8301772f463a186",
+          "message_id": 105,
+          "published_at": "2026-09-26T06:49:24.796091+00:00",
+          "image_page": "https://sos.noaa.gov/education/phenomenon-based-learning/from-pole-to-shining-pole/",
+          "image_credit": "sos.noaa.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-26:FACT-2026-09-26-S03"
+        },
+        "FACT-2026-09-26-S04": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "f44101f8d9cf809c5d4c5e552bff7bfa44c22499",
+          "message_id": 106,
+          "published_at": "2026-09-26T06:49:26.671718+00:00",
+          "image_page": "https://education.nationalgeographic.org/resource/geography-standard-1/",
+          "image_credit": "education.nationalgeographic.org",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-26:FACT-2026-09-26-S04"
+        },
+        "FACT-2026-09-26-S05": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "de849e2aa5513ee8ac952f8fe7ce555095544fb5",
+          "message_id": 107,
+          "published_at": "2026-09-26T06:49:28.279816+00:00",
+          "image_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+          "image_credit": "science.nasa.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-26:FACT-2026-09-26-S05"
+        },
+        "FACT-2026-09-26-S06": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "9dc774c90828e7eeac1a86aa76e2de9cb60078c4",
+          "message_id": 108,
+          "published_at": "2026-09-26T06:49:34.191749+00:00",
+          "image_page": "https://www.usgs.gov/faqs/how-does-earthquake-affect-groundwater-levels-and-water-quality-wells",
+          "image_credit": "www.usgs.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-26:FACT-2026-09-26-S06"
+        },
+        "FACT-2026-09-26-S07": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "9c20c2a2966c35e6abb1caf1ad2c0c228b1393c9",
+          "message_id": 109,
+          "published_at": "2026-09-26T06:49:41.956770+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_literature_of_the_ancient_Egyptians.djvu",
+          "image_credit": "Wikimedia Commons · E. A. Wallis Budge · Public domain",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-26:FACT-2026-09-26-S07"
+        },
+        "FACT-2026-09-26-S08": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "20149cc8d0941131ab57f060d501aeb7f2090fcc",
+          "message_id": 110,
+          "published_at": "2026-09-26T06:49:49.988098+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Interior_view_of_Baker%27s_Art_Gallery_photography_studio,_photograph_-_DPLA_-_2d72508d21567989be5cc03035992e0b_(page_1).jpg",
+          "image_credit": "Wikimedia Commons · Public domain",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-26:FACT-2026-09-26-S08"
+        },
+        "FACT-2026-09-26-S09": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "0f32e0a401bc2319d3524f979b3837cc3e30e233",
+          "message_id": 111,
+          "published_at": "2026-09-26T06:49:56.013566+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Yaxchil%C3%A1n_lintel.jpg",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-26:FACT-2026-09-26-S09"
+        },
+        "FACT-2026-09-26-S10": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "402fd69636d182f28fad1872d27c7667a0088123",
+          "message_id": 112,
+          "published_at": "2026-09-26T06:50:05.208170+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_Antarctic_Circumpolar_Current_affected_by_climate_change_(Copernicus).jpg",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-26:FACT-2026-09-26-S10"
+        }
+      }
     }
   },
   "image_cache": {
@@ -626,6 +782,86 @@
       "credit": "Wikimedia Commons · Q-Parking · CC BY-SA 4.0",
       "score": 34,
       "query": "bill payment methods"
+    },
+    "FACT-2026-09-26-S01": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-26-S01.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_human_brain_and_associated_nerves_Wellcome_L0074578.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/The_human_brain_and_associated_nerves_Wellcome_L0074578.jpg/3840px-The_human_brain_and_associated_nerves_Wellcome_L0074578.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Wikimedia Commons · CC BY 4.0",
+      "score": 78,
+      "query": "human brain and spinal cord"
+    },
+    "FACT-2026-09-26-S02": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-26-S02.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:DNA-Helix-Rendering_20220603.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/DNA-Helix-Rendering_20220603.png/3840px-DNA-Helix-Rendering_20220603.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Wikimedia Commons · PantheraLeo1359531 · CC0",
+      "score": 26,
+      "query": "DNA double helix"
+    },
+    "FACT-2026-09-26-S03": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-26-S03.jpg",
+      "source_page": "https://sos.noaa.gov/education/phenomenon-based-learning/from-pole-to-shining-pole/",
+      "source_url": "https://sos.noaa.gov/img/education/phenomena/migration.gif",
+      "credit": "sos.noaa.gov",
+      "score": 67,
+      "query": "blue whale"
+    },
+    "FACT-2026-09-26-S04": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-26-S04.jpg",
+      "source_page": "https://education.nationalgeographic.org/resource/geography-standard-1/",
+      "source_url": "https://images.nationalgeographic.org/image/upload/t_RL2_search_thumb/v1725465120/EducationHub/photos/Standards_1_shutterstock_2459392851.jpg",
+      "credit": "education.nationalgeographic.org",
+      "score": 74,
+      "query": "globe and satellite image"
+    },
+    "FACT-2026-09-26-S05": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-26-S05.jpg",
+      "source_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "source_url": "https://www.nasa.gov/wp-content/uploads/2026/09/crew14.jpg?w=150&h=150&crop=1",
+      "credit": "science.nasa.gov",
+      "score": 44,
+      "query": "Voyager 1 spacecraft"
+    },
+    "FACT-2026-09-26-S06": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-26-S06.jpg",
+      "source_page": "https://www.usgs.gov/faqs/how-does-earthquake-affect-groundwater-levels-and-water-quality-wells",
+      "source_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/list_item/public/thumbnails/image/liquefaction-modified.gif?itok=hREuGdBM",
+      "credit": "www.usgs.gov",
+      "score": 65,
+      "query": "Scientists disagree about earthquake-light evidence Unexplained Earth Phenomena"
+    },
+    "FACT-2026-09-26-S07": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-26-S07.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_literature_of_the_ancient_Egyptians.djvu",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/The_literature_of_the_ancient_Egyptians.djvu/page1-1920px-The_literature_of_the_ancient_Egyptians.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Wikimedia Commons · E. A. Wallis Budge · Public domain",
+      "score": 36,
+      "query": "Ancient Egyptian cat motif"
+    },
+    "FACT-2026-09-26-S08": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-26-S08.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Interior_view_of_Baker%27s_Art_Gallery_photography_studio,_photograph_-_DPLA_-_2d72508d21567989be5cc03035992e0b_(page_1).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Interior_view_of_Baker%27s_Art_Gallery_photography_studio%2C_photograph_-_DPLA_-_2d72508d21567989be5cc03035992e0b_%28page_1%29.jpg/3840px-Interior_view_of_Baker%27s_Art_Gallery_photography_studio%2C_photograph_-_DPLA_-_2d72508d21567989be5cc03035992e0b_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Wikimedia Commons · Public domain",
+      "score": 73,
+      "query": "Daguerreotype studio Photography"
+    },
+    "FACT-2026-09-26-S09": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-26-S09.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Yaxchil%C3%A1n_lintel.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Yaxchil%C3%A1n_lintel.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons",
+      "score": 24,
+      "query": "Maya Waterlily Jaguar"
+    },
+    "FACT-2026-09-26-S10": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-26-S10.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Antarctic_Circumpolar_Current_affected_by_climate_change_(Copernicus).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/The_Antarctic_Circumpolar_Current_affected_by_climate_change_%28Copernicus%29.jpg/1280px-The_Antarctic_Circumpolar_Current_affected_by_climate_change_%28Copernicus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 41,
+      "query": "Current tracking and marine movement Ocean data applications"
     }
   },
   "runs": [
@@ -682,6 +918,20 @@
       "allocated": 3,
       "processed": 3,
       "published_now": 3,
+      "status": "completed",
+      "dry_run": false
+    },
+    {
+      "date": "2026-09-26",
+      "batch": 1,
+      "slots": [
+        1,
+        10
+      ],
+      "requested": 10,
+      "allocated": 10,
+      "processed": 10,
+      "published_now": 10,
       "status": "completed",
       "dry_run": false
     }
