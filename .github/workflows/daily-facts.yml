@@ -56,8 +56,9 @@ jobs:
       CATCH_UP_MAX: "10"
       STRICT_DATASET: "false"
       IMAGE_REQUIRED: "false"
-      IMAGE_MIN_SCORE: "8"
+      IMAGE_MIN_SCORE: "14"
       CACHE_IMAGES: "true"
+      IMAGE_TARGET_RATIO: "3:2"
       BLOCK_BATCH2_WITHOUT_BATCH1_RECEIPT: "true"
       PYTHONUNBUFFERED: "1"
 
