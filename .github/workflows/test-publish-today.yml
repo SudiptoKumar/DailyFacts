@@ -1,0 +1,132 @@
+name: Daily Facts - Replay Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Exact test date (YYYY-MM-DD); blank = current Asia/Dhaka date"
+        required: false
+        default: ""
+      batch:
+        description: "What to replay"
+        required: true
+        default: "both"
+        type: choice
+        options: ["both", "1", "2"]
+      max_posts:
+        description: "Maximum posts per batch"
+        required: false
+        default: "10"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: daily-facts-replay-test
+  cancel-in-progress: false
+
+env:
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL || '@FactsNewsroom' }}
+  EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+  CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+  CEREBRAS_MODEL: gpt-oss-120b
+  USE_CEREBRAS: "true"
+  USE_EXA_CONTEXT: "false"
+  TIMEZONE: Asia/Dhaka
+  POSTS_PER_DAY: "20"
+  BATCH_SIZE: "10"
+  STRICT_DATASET: "false"
+  IMAGE_REQUIRED: "false"
+  IMAGE_MIN_SCORE: "14"
+  CACHE_IMAGES: "false"
+  IMAGE_TARGET_RATIO: "3:2"
+  BLOCK_BATCH2_WITHOUT_BATCH1_RECEIPT: "false"
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Self-test before replay
+        run: python main.py --self-test
+
+      - name: Show replay plan
+        shell: bash
+        run: |
+          set -euo pipefail
+          DATE_ARG=""
+          if [[ -n "${{ inputs.date }}" ]]; then
+            DATE_ARG="--date ${{ inputs.date }}"
+          fi
+          python main.py --preview $DATE_ARG --batch 1 || true
+          python main.py --preview $DATE_ARG --batch 2 || true
+
+      - name: Replay today's Batch 1 and/or Batch 2
+        shell: bash
+        run: |
+          set -uo pipefail
+
+          DATE_ARG=""
+          if [[ -n "${{ inputs.date }}" ]]; then
+            DATE_ARG="--date ${{ inputs.date }}"
+          fi
+
+          MAX="${{ inputs.max_posts }}"
+          MODE="${{ inputs.batch }}"
+          FAILURES=0
+
+          run_batch() {
+            local B="$1"
+            echo "============================================================"
+            echo "REPLAY TEST: batch $B"
+            echo "Published-state protection: BYPASSED FOR THIS TEST ONLY"
+            echo "Production publication ledger: NOT WRITTEN"
+            echo "============================================================"
+
+            python main.py --republish-test $DATE_ARG --batch "$B" --max-posts "$MAX" || FAILURES=$((FAILURES + 1))
+          }
+
+          case "$MODE" in
+            1)
+              run_batch 1
+              ;;
+            2)
+              run_batch 2
+              ;;
+            both)
+              run_batch 1
+              run_batch 2
+              ;;
+            *)
+              echo "::error::Invalid batch selection: $MODE"
+              exit 1
+              ;;
+          esac
+
+          echo "Replay test complete. Command-level failures: $FAILURES"
+          if (( FAILURES > 0 )); then
+            exit 1
+          fi
+
+      - name: Replay test safety summary
+        run: |
+          echo "This workflow intentionally republishes the selected exact-date facts."
+          echo "It ignores existing publication receipts and does NOT update state/publication_state.json."
+          echo "Normal scheduled Daily Facts workflow remains unchanged."
