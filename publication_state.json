@@ -627,7 +627,7 @@
           ],
           "failed_fact_ids": [],
           "started_at": "2026-09-27T07:17:57.260241+00:00",
-          "completed_at": "2026-09-27T07:18:47.423178+00:00"
+          "completed_at": "2026-09-27T16:19:59.516878+00:00"
         },
         "batch_2": {
           "status": "completed",
@@ -1274,6 +1274,20 @@
       "allocated": 1,
       "processed": 1,
       "published_now": 1,
+      "status": "completed",
+      "dry_run": false
+    },
+    {
+      "date": "2026-09-27",
+      "batch": 1,
+      "slots": [
+        1,
+        10
+      ],
+      "requested": 10,
+      "allocated": 10,
+      "processed": 0,
+      "published_now": 0,
       "status": "completed",
       "dry_run": false
     }
