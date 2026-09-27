@@ -596,6 +596,162 @@
           "idempotency_key": "2026-09-26:FACT-2026-09-26-S11"
         }
       }
+    },
+    "2026-09-27": {
+      "batches": {
+        "batch_1": {
+          "status": "completed",
+          "allocated_fact_ids": [
+            "FACT-2026-09-27-S01",
+            "FACT-2026-09-27-S02",
+            "FACT-2026-09-27-S03",
+            "FACT-2026-09-27-S04",
+            "FACT-2026-09-27-S05",
+            "FACT-2026-09-27-S06",
+            "FACT-2026-09-27-S07",
+            "FACT-2026-09-27-S08",
+            "FACT-2026-09-27-S09",
+            "FACT-2026-09-27-S10"
+          ],
+          "published_fact_ids": [
+            "FACT-2026-09-27-S01",
+            "FACT-2026-09-27-S02",
+            "FACT-2026-09-27-S03",
+            "FACT-2026-09-27-S04",
+            "FACT-2026-09-27-S05",
+            "FACT-2026-09-27-S06",
+            "FACT-2026-09-27-S07",
+            "FACT-2026-09-27-S08",
+            "FACT-2026-09-27-S09",
+            "FACT-2026-09-27-S10"
+          ],
+          "failed_fact_ids": [],
+          "started_at": "2026-09-27T07:17:57.260241+00:00",
+          "completed_at": "2026-09-27T07:18:47.423178+00:00"
+        }
+      },
+      "facts": {
+        "FACT-2026-09-27-S01": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "e4e664146fdde4ad52929440ebb90a6a83c60eb8",
+          "message_id": 114,
+          "published_at": "2026-09-27T07:18:09.061677+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/Autonomic_nervous_system",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-27:FACT-2026-09-27-S01"
+        },
+        "FACT-2026-09-27-S02": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "44eb9fb3f29faaa8a220651d672d8dde5c2547c7",
+          "message_id": 115,
+          "published_at": "2026-09-27T07:18:13.894410+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Dna-SNP.svg",
+          "image_credit": "Wikimedia Commons · David Eccles ( Gringer ) · CC BY 4.0",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-27:FACT-2026-09-27-S02"
+        },
+        "FACT-2026-09-27-S03": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "1db78455e3cd9d419709866541a1a1a284909a8e",
+          "message_id": 116,
+          "published_at": "2026-09-27T07:18:15.423855+00:00",
+          "image_page": "https://sos.noaa.gov/education/phenomenon-based-learning/from-pole-to-shining-pole/",
+          "image_credit": "sos.noaa.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-27:FACT-2026-09-27-S03"
+        },
+        "FACT-2026-09-27-S04": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "7ab5ba4e86cb52e5341ba3eef80e7f6638ed3d25",
+          "message_id": 117,
+          "published_at": "2026-09-27T07:18:16.981459+00:00",
+          "image_page": "https://education.nationalgeographic.org/resource/language-diversity-index-map/",
+          "image_credit": "education.nationalgeographic.org",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-27:FACT-2026-09-27-S04"
+        },
+        "FACT-2026-09-27-S05": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "c3b7476a38730e231714cd20ca8b09957ef631ad",
+          "message_id": 118,
+          "published_at": "2026-09-27T07:18:18.104896+00:00",
+          "image_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+          "image_credit": "science.nasa.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-27:FACT-2026-09-27-S05"
+        },
+        "FACT-2026-09-27-S06": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "7b146b8cfc9c68b2f7d806516b3b68e20acdef67",
+          "message_id": 119,
+          "published_at": "2026-09-27T07:18:26.228306+00:00",
+          "image_page": "https://www.usgs.gov/faqs/how-does-earthquake-affect-groundwater-levels-and-water-quality-wells",
+          "image_credit": "www.usgs.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-27:FACT-2026-09-27-S06"
+        },
+        "FACT-2026-09-27-S07": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "16273decdb751be27899fb1fc6dfd963dac7a096",
+          "message_id": 120,
+          "published_at": "2026-09-27T07:18:32.847851+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_Gayer-Anderson_cat_(53496857973).jpg",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-27:FACT-2026-09-27-S07"
+        },
+        "FACT-2026-09-27-S08": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "fa53d3c5d5967a591a4ecdc09795dd72ceb32059",
+          "message_id": 121,
+          "published_at": "2026-09-27T07:18:37.091459+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Walter_Hunt%27s_1854_sewing_machine_patent_model.tif",
+          "image_credit": "Wikimedia Commons · staff at National Museum of American History · Public domain",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-27:FACT-2026-09-27-S08"
+        },
+        "FACT-2026-09-27-S09": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "35d8ef29a94701c635b0efb3aeb51be40c9533d5",
+          "message_id": 122,
+          "published_at": "2026-09-27T07:18:42.634849+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Itzamnaaj_K%27awiil.jpg",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-27:FACT-2026-09-27-S09"
+        },
+        "FACT-2026-09-27-S10": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "a29ac01d5084388701cea15e926b32d929846d96",
+          "message_id": 123,
+          "published_at": "2026-09-27T07:18:47.421417+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Deepwater_Horizon_oil_spill_-_May_24,_2010.jpg",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-27:FACT-2026-09-27-S10"
+        }
+      }
     }
   },
   "image_cache": {
@@ -894,6 +1050,86 @@
       "credit": "Wikimedia Commons",
       "score": 29,
       "query": "Some consumers pay the smallest bills first Bill-payment behavior"
+    },
+    "FACT-2026-09-27-S01": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-27-S01.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/Autonomic_nervous_system",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Gray838.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons",
+      "score": 60,
+      "query": "The autonomic nervous system controls involuntary activity Nervous system"
+    },
+    "FACT-2026-09-27-S02": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-27-S02.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dna-SNP.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Dna-SNP.svg/3840px-Dna-SNP.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Wikimedia Commons · David Eccles ( Gringer ) · CC BY 4.0",
+      "score": 44,
+      "query": "DNA single nucleotide polymorphism"
+    },
+    "FACT-2026-09-27-S03": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-27-S03.jpg",
+      "source_page": "https://sos.noaa.gov/education/phenomenon-based-learning/from-pole-to-shining-pole/",
+      "source_url": "https://sos.noaa.gov/img/education/phenomena/migration.gif",
+      "credit": "sos.noaa.gov",
+      "score": 61,
+      "query": "Animals migrate to follow seasonal changes Animal migration"
+    },
+    "FACT-2026-09-27-S04": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-27-S04.jpg",
+      "source_page": "https://education.nationalgeographic.org/resource/language-diversity-index-map/",
+      "source_url": "https://images.nationalgeographic.org/image/upload/t_RL2_search_thumb/v1638886309/EducationHub/photos/mapmake-interactive-languauge-diversity.jpg",
+      "credit": "education.nationalgeographic.org",
+      "score": 60,
+      "query": "Global language count Linguistic geography"
+    },
+    "FACT-2026-09-27-S05": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-27-S05.jpg",
+      "source_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "source_url": "https://science.nasa.gov/wp-content/uploads/2023/06/solar-system-illustration-1920x640-2.jpg",
+      "credit": "science.nasa.gov",
+      "score": 58,
+      "query": "The solar system formed from gas and dust Solar-system formation"
+    },
+    "FACT-2026-09-27-S06": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-27-S06.jpg",
+      "source_page": "https://www.usgs.gov/faqs/how-does-earthquake-affect-groundwater-levels-and-water-quality-wells",
+      "source_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/list_item/public/thumbnails/image/liquefaction-modified.gif?itok=hREuGdBM",
+      "credit": "www.usgs.gov",
+      "score": 77,
+      "query": "Earthquake-linked groundwater changes can be distant Unexplained Earth Phenomena"
+    },
+    "FACT-2026-09-27-S07": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-27-S07.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Gayer-Anderson_cat_(53496857973).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/The_Gayer-Anderson_cat_%2853496857973%29.jpg/960px-The_Gayer-Anderson_cat_%2853496857973%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 60,
+      "query": "Bastet Egyptian cat goddess statue"
+    },
+    "FACT-2026-09-27-S08": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-27-S08.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Walter_Hunt%27s_1854_sewing_machine_patent_model.tif",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Walter_Hunt%27s_1854_sewing_machine_patent_model.tif/lossy-page1-1920px-Walter_Hunt%27s_1854_sewing_machine_patent_model.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Wikimedia Commons · staff at National Museum of American History · Public domain",
+      "score": 84,
+      "query": "Sewing machine patent Mechanical technology"
+    },
+    "FACT-2026-09-27-S09": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-27-S09.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Itzamnaaj_K%27awiil.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Itzamnaaj_K%27awiil.jpg/1280px-Itzamnaaj_K%27awiil.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 24,
+      "query": "Itzam and the ruler Maya scribal mythology"
+    },
+    "FACT-2026-09-27-S10": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-27-S10.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Deepwater_Horizon_oil_spill_-_May_24,_2010.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Deepwater_Horizon_oil_spill_-_May_24%2C_2010.jpg/1280px-Deepwater_Horizon_oil_spill_-_May_24%2C_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 29,
+      "query": "oil spill on coastline"
     }
   },
   "runs": [
@@ -978,6 +1214,20 @@
       "allocated": 1,
       "processed": 1,
       "published_now": 1,
+      "status": "completed",
+      "dry_run": false
+    },
+    {
+      "date": "2026-09-27",
+      "batch": 1,
+      "slots": [
+        1,
+        10
+      ],
+      "requested": 10,
+      "allocated": 10,
+      "processed": 10,
+      "published_now": 10,
       "status": "completed",
       "dry_run": false
     }
