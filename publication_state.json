@@ -628,6 +628,18 @@
           "failed_fact_ids": [],
           "started_at": "2026-09-27T07:17:57.260241+00:00",
           "completed_at": "2026-09-27T07:18:47.423178+00:00"
+        },
+        "batch_2": {
+          "status": "completed",
+          "allocated_fact_ids": [
+            "FACT-2026-09-27-S11"
+          ],
+          "published_fact_ids": [
+            "FACT-2026-09-27-S11"
+          ],
+          "failed_fact_ids": [],
+          "started_at": "2026-09-27T15:34:00.048009+00:00",
+          "completed_at": "2026-09-27T15:34:08.577943+00:00"
         }
       },
       "facts": {
@@ -750,6 +762,18 @@
           "image_source": "Wikimedia Commons",
           "send_mode": "photo_html",
           "idempotency_key": "2026-09-27:FACT-2026-09-27-S10"
+        },
+        "FACT-2026-09-27-S11": {
+          "status": "published",
+          "batch": 2,
+          "claim_key": "aa0c3d927a6b6297affbe520b732c90ecc75c8c3",
+          "message_id": 124,
+          "published_at": "2026-09-27T15:34:08.573668+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Figure_2-_Repayment_Plan_Participation_of_Direct_Loan_Borrowers_in_Active_Repayment,_September_2014_(21330271309).jpg",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-27:FACT-2026-09-27-S11"
         }
       }
     }
@@ -1130,6 +1154,14 @@
       "credit": "Wikimedia Commons",
       "score": 29,
       "query": "oil spill on coastline"
+    },
+    "FACT-2026-09-27-S11": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-27-S11.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Figure_2-_Repayment_Plan_Participation_of_Direct_Loan_Borrowers_in_Active_Repayment,_September_2014_(21330271309).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Figure_2-_Repayment_Plan_Participation_of_Direct_Loan_Borrowers_in_Active_Repayment%2C_September_2014_%2821330271309%29.jpg/1280px-Figure_2-_Repayment_Plan_Participation_of_Direct_Loan_Borrowers_in_Active_Repayment%2C_September_2014_%2821330271309%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 24,
+      "query": "Partial mortgage payments count as missed payments Mortgage payments"
     }
   },
   "runs": [
@@ -1228,6 +1260,20 @@
       "allocated": 10,
       "processed": 10,
       "published_now": 10,
+      "status": "completed",
+      "dry_run": false
+    },
+    {
+      "date": "2026-09-27",
+      "batch": 2,
+      "slots": [
+        11,
+        20
+      ],
+      "requested": 10,
+      "allocated": 1,
+      "processed": 1,
+      "published_now": 1,
       "status": "completed",
       "dry_run": false
     }
