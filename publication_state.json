@@ -776,6 +776,162 @@
           "idempotency_key": "2026-09-27:FACT-2026-09-27-S11"
         }
       }
+    },
+    "2026-09-28": {
+      "batches": {
+        "batch_1": {
+          "status": "completed",
+          "allocated_fact_ids": [
+            "FACT-2026-09-28-S01",
+            "FACT-2026-09-28-S02",
+            "FACT-2026-09-28-S03",
+            "FACT-2026-09-28-S04",
+            "FACT-2026-09-28-S05",
+            "FACT-2026-09-28-S06",
+            "FACT-2026-09-28-S07",
+            "FACT-2026-09-28-S08",
+            "FACT-2026-09-28-S09",
+            "FACT-2026-09-28-S10"
+          ],
+          "published_fact_ids": [
+            "FACT-2026-09-28-S01",
+            "FACT-2026-09-28-S02",
+            "FACT-2026-09-28-S03",
+            "FACT-2026-09-28-S04",
+            "FACT-2026-09-28-S05",
+            "FACT-2026-09-28-S06",
+            "FACT-2026-09-28-S07",
+            "FACT-2026-09-28-S08",
+            "FACT-2026-09-28-S09",
+            "FACT-2026-09-28-S10"
+          ],
+          "failed_fact_ids": [],
+          "started_at": "2026-09-28T07:54:38.945373+00:00",
+          "completed_at": "2026-09-28T07:55:45.384996+00:00"
+        }
+      },
+      "facts": {
+        "FACT-2026-09-28-S01": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "4849b841d2a1a3aaec7bc0400a59ba7d8dd01a5b",
+          "message_id": 147,
+          "published_at": "2026-09-28T07:54:47.443564+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Ijms-21-06286-g004-550.webp",
+          "image_credit": "Wikimedia Commons · Sanaa Sharari ,Mohamad Abou-Alloul ,Khalid Hussain,Faiyaz Ahmad Khan · CC BY 4.0",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-28:FACT-2026-09-28-S01"
+        },
+        "FACT-2026-09-28-S02": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "2cdb627e4b976cbad3fc1c64e656a227e99444ce",
+          "message_id": 148,
+          "published_at": "2026-09-28T07:54:54.202824+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Human_brain_in_a_vat.jpg",
+          "image_credit": "Wikimedia Commons · Gaetan Lee from London, UK · CC BY 2.0",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-28:FACT-2026-09-28-S02"
+        },
+        "FACT-2026-09-28-S03": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "5c3a3590dc5b398d430deb03b367dbd40521b256",
+          "message_id": 149,
+          "published_at": "2026-09-28T07:54:59.497109+00:00",
+          "image_page": "",
+          "image_credit": "",
+          "image_source": "",
+          "send_mode": "text_html",
+          "idempotency_key": "2026-09-28:FACT-2026-09-28-S03"
+        },
+        "FACT-2026-09-28-S04": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "913f0e0805b3544bf826ac8d2268d9496b796b54",
+          "message_id": 150,
+          "published_at": "2026-09-28T07:55:01.302764+00:00",
+          "image_page": "https://education.nationalgeographic.org/resource/language-diversity-index-map/",
+          "image_credit": "education.nationalgeographic.org",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-28:FACT-2026-09-28-S04"
+        },
+        "FACT-2026-09-28-S05": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "270195956a592e48134b4854b22c66d480b273e9",
+          "message_id": 151,
+          "published_at": "2026-09-28T07:55:03.550716+00:00",
+          "image_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+          "image_credit": "science.nasa.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-28:FACT-2026-09-28-S05"
+        },
+        "FACT-2026-09-28-S06": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "2fbdbd951b671cd8412030c0901de12a9eb2bebc",
+          "message_id": 152,
+          "published_at": "2026-09-28T07:55:09.619078+00:00",
+          "image_page": "https://www.usgs.gov/faqs/how-does-earthquake-affect-groundwater-levels-and-water-quality-wells",
+          "image_credit": "www.usgs.gov",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-28:FACT-2026-09-28-S06"
+        },
+        "FACT-2026-09-28-S07": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "58f18870366af901b5b0b86749fb7532ba0be1d9",
+          "message_id": 153,
+          "published_at": "2026-09-28T07:55:19.500644+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Late_ancient_Egyptian_bronze_statuette_of_a_mother_cat_nursing_her_kittens,_dating_c._664_%E2%80%93_c._332_BCE,_Eskenazi_Museum_of_Art.jpg",
+          "image_credit": "Wikimedia Commons · Katolophyromai · CC BY-SA 4.0",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-28:FACT-2026-09-28-S07"
+        },
+        "FACT-2026-09-28-S08": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "fa6a139b384e6586d6af06a2bf7b606d5c54be06",
+          "message_id": 154,
+          "published_at": "2026-09-28T07:55:28.464986+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Canada%27s_First_Electric_Telegraph_plaque.jpg",
+          "image_credit": "Wikimedia Commons · Spudgun67 · CC BY-SA 4.0",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-28:FACT-2026-09-28-S08"
+        },
+        "FACT-2026-09-28-S09": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "2c1b24019ad920b219bf81a019007511497bab5c",
+          "message_id": 155,
+          "published_at": "2026-09-28T07:55:38.164616+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/Category:Marine_debris",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-28:FACT-2026-09-28-S09"
+        },
+        "FACT-2026-09-28-S10": {
+          "status": "published",
+          "batch": 1,
+          "claim_key": "c22cf21a6f34e313c1ea3c3240155df0bafc619d",
+          "message_id": 156,
+          "published_at": "2026-09-28T07:55:45.383012+00:00",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Toonimo-bill-pay.png",
+          "image_credit": "Wikimedia Commons",
+          "image_source": "Wikimedia Commons",
+          "send_mode": "photo_html",
+          "idempotency_key": "2026-09-28:FACT-2026-09-28-S10"
+        }
+      }
     }
   },
   "image_cache": {
@@ -1162,6 +1318,78 @@
       "credit": "Wikimedia Commons",
       "score": 24,
       "query": "Partial mortgage payments count as missed payments Mortgage payments"
+    },
+    "FACT-2026-09-28-S01": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-28-S01.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ijms-21-06286-g004-550.webp",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ijms-21-06286-g004-550.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons · Sanaa Sharari ,Mohamad Abou-Alloul ,Khalid Hussain,Faiyaz Ahmad Khan · CC BY 4.0",
+      "score": 18,
+      "query": "human brain glucose metabolism"
+    },
+    "FACT-2026-09-28-S02": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-28-S02.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Human_brain_in_a_vat.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Human_brain_in_a_vat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons · Gaetan Lee from London, UK · CC BY 2.0",
+      "score": 22,
+      "query": "human brain"
+    },
+    "FACT-2026-09-28-S04": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-28-S04.jpg",
+      "source_page": "https://education.nationalgeographic.org/resource/language-diversity-index-map/",
+      "source_url": "https://images.nationalgeographic.org/image/upload/t_RL2_search_thumb/v1638886309/EducationHub/photos/mapmake-interactive-languauge-diversity.jpg",
+      "credit": "education.nationalgeographic.org",
+      "score": 40,
+      "query": "world language map"
+    },
+    "FACT-2026-09-28-S05": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-28-S05.jpg",
+      "source_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "source_url": "https://science.nasa.gov/wp-content/uploads/2023/06/solar-system-illustration-1920x640-2.jpg",
+      "credit": "science.nasa.gov",
+      "score": 56,
+      "query": "The asteroid belt consists of leftover early material Solar-system structure"
+    },
+    "FACT-2026-09-28-S06": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-28-S06.jpg",
+      "source_page": "https://www.usgs.gov/faqs/how-does-earthquake-affect-groundwater-levels-and-water-quality-wells",
+      "source_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/teaser/public/thumbnails/image/USGS_372150079422301_01_72019_20110817_20110824_3_pres_0.png?itok=Yd1d_4Sg",
+      "credit": "www.usgs.gov",
+      "score": 55,
+      "query": "Earthquakes can create new springs Unexplained Earth Phenomena"
+    },
+    "FACT-2026-09-28-S07": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-28-S07.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Late_ancient_Egyptian_bronze_statuette_of_a_mother_cat_nursing_her_kittens,_dating_c._664_%E2%80%93_c._332_BCE,_Eskenazi_Museum_of_Art.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Late_ancient_Egyptian_bronze_statuette_of_a_mother_cat_nursing_her_kittens%2C_dating_c._664_%E2%80%93_c._332_BCE%2C_Eskenazi_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons · Katolophyromai · CC BY-SA 4.0",
+      "score": 72,
+      "query": "ancient Egyptian cats"
+    },
+    "FACT-2026-09-28-S08": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-28-S08.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Canada%27s_First_Electric_Telegraph_plaque.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Canada%27s_First_Electric_Telegraph_plaque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons · Spudgun67 · CC BY-SA 4.0",
+      "score": 78,
+      "query": "Successful telegraph message Communication"
+    },
+    "FACT-2026-09-28-S09": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-28-S09.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/Category:Marine_debris",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Pollution_swan.jpg/1280px-Pollution_swan.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 41,
+      "query": "plastic debris in ocean"
+    },
+    "FACT-2026-09-28-S10": {
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-09-28-S10.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Toonimo-bill-pay.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Toonimo-bill-pay.png/1280px-Toonimo-bill-pay.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "score": 17,
+      "query": "Automatic payments can efficiently manage bills Automatic payments"
     }
   },
   "runs": [
@@ -1288,6 +1516,20 @@
       "allocated": 10,
       "processed": 0,
       "published_now": 0,
+      "status": "completed",
+      "dry_run": false
+    },
+    {
+      "date": "2026-09-28",
+      "batch": 1,
+      "slots": [
+        1,
+        10
+      ],
+      "requested": 10,
+      "allocated": 10,
+      "processed": 10,
+      "published_now": 10,
       "status": "completed",
       "dry_run": false
     }
