@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import argparse
 import logging
-from datetime import date, datetime
+from datetime import date, datetime, timedelta, time as dt_time, timezone
 from pathlib import Path
 
 from PIL import Image
@@ -41,8 +41,39 @@ def today_in_timezone() -> date:
     return datetime.now(ZoneInfo(SETTINGS.timezone)).date()
 
 
-def resolve_run_date(value: str | None) -> date:
-    return date.fromisoformat(value) if value else today_in_timezone()
+def scheduled_run_date(schedule_cron: str, now_utc: datetime | None = None) -> date:
+    """Resolve the calendar date intended by a GitHub Actions cron schedule.
+
+    GitHub Actions can start scheduled workflows late. Using the current Asia/Dhaka
+    date directly can therefore roll the 17:00 batch past midnight and make it
+    target the wrong date. The schedule's UTC firing time is authoritative instead.
+    """
+    cron = (schedule_cron or "").strip()
+    fire_times = {
+        "0 2 * * *": dt_time(2, 0),
+        "0 11 * * *": dt_time(11, 0),
+    }
+    if cron not in fire_times:
+        raise ValueError(f"Unsupported scheduled cron: {schedule_cron!r}")
+
+    current = now_utc or datetime.now(timezone.utc)
+    if current.tzinfo is None:
+        current = current.replace(tzinfo=timezone.utc)
+    else:
+        current = current.astimezone(timezone.utc)
+
+    target = current.date()
+    if current.time() < fire_times[cron]:
+        target -= timedelta(days=1)
+    return target
+
+
+def resolve_run_date(value: str | None, scheduled_cron: str | None = None) -> date:
+    if value:
+        return date.fromisoformat(value)
+    if scheduled_cron:
+        return scheduled_run_date(scheduled_cron)
+    return today_in_timezone()
 
 
 def normalize_batch(batch: int | None, run_date: date) -> int:
@@ -382,6 +413,17 @@ def self_test() -> None:
         assert _ss.batch_receipt_valid(migrated, test_date.isoformat(), 1)
         _ss.STATE_DIR, _ss.STATE_FILE = _old_dir, _old_file
 
+    # Scheduled-date regression: GitHub can start a 17:00 UTC batch late, after
+    # midnight in Asia/Dhaka. The batch must still target the scheduled date.
+    delayed_batch2 = datetime(2026, 9, 28, 18, 32, tzinfo=timezone.utc)
+    assert scheduled_run_date("0 11 * * *", delayed_batch2) == date(2026, 9, 28)
+    delayed_past_midnight = datetime(2026, 9, 29, 0, 32, tzinfo=timezone.utc)
+    assert scheduled_run_date("0 11 * * *", delayed_past_midnight) == date(2026, 9, 28)
+    batch1_after_threshold = datetime(2026, 9, 28, 3, 0, tzinfo=timezone.utc)
+    assert scheduled_run_date("0 2 * * *", batch1_after_threshold) == date(2026, 9, 28)
+    batch1_before_threshold = datetime(2026, 9, 28, 1, 59, tzinfo=timezone.utc)
+    assert scheduled_run_date("0 2 * * *", batch1_before_threshold) == date(2026, 9, 27)
+
     sample = batch1[0]
     content = enrich_fact(sample)
     caption = format_fallback_caption(sample, content)
@@ -451,6 +493,7 @@ def main() -> None:
     parser.add_argument("--no-image", action="store_true")
     parser.add_argument("--preview", action="store_true")
     parser.add_argument("--date", dest="run_date")
+    parser.add_argument("--scheduled-cron", dest="scheduled_cron", help="GitHub Actions cron expression for a scheduled run")
     parser.add_argument("--batch", type=int, choices=[1, 2], default=None)
     parser.add_argument("--max-posts", type=int, default=None)
     parser.add_argument("--republish-test", action="store_true", help="Force republish the selected exact-date batch for testing without writing production publication state")
@@ -460,7 +503,7 @@ def main() -> None:
         self_test(); return
     if args.audit:
         audit(); return
-    run_date = resolve_run_date(args.run_date)
+    run_date = resolve_run_date(args.run_date, args.scheduled_cron)
     batch = normalize_batch(args.batch, run_date)
     if args.preview:
         preview(run_date, batch); return

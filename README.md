@@ -590,3 +590,9 @@ The workflow then intentionally sends Batch 1 (`slots 1-10`) and Batch 2 (`slots
 ## Telegram photo rendering
 
 Production posts use `sendPhoto` with HTML captions. Photos keep their native aspect ratio. The pipeline only performs proportional downscaling for oversized images and file-size compression. No crop, blurred side fill, blue background, or synthetic frame is added. The public structure is: image, category line, subject emoji + bold title, fact paragraph, then the bold clickable `Daily Facts` footer with exactly two relevant hashtags.
+
+## Scheduled-date reliability
+
+Scheduled runs pass the GitHub Actions cron expression into the application. The bot resolves the intended publication date from the cron's UTC firing time rather than the runner's current Asia/Dhaka date. This protects the 17:00 Bangladesh Batch 2 run when GitHub starts a scheduled workflow late and the actual start time crosses midnight.
+
+Manual runs remain date-controlled by the optional `--date` input.

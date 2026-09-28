@@ -126,7 +126,19 @@ jobs:
         run: |
           set -euo pipefail
           ARGS="--batch ${{ steps.schedule_batch.outputs.batch }} --max-posts ${{ inputs.max_posts || '10' }}"
-          if [[ -n "${{ inputs.date }}" ]]; then ARGS="$ARGS --date ${{ inputs.date }}"; fi
+
+          # Scheduled runs must resolve their intended calendar date from the
+          # cron firing time in UTC, not from the runner's current local date.
+          # GitHub Actions can start a scheduled job late, potentially after
+          # midnight Asia/Dhaka. Passing the cron to Python makes that date
+          # calculation deterministic and prevents Batch 2 from jumping to the
+          # next calendar day.
+          if [[ "${{ github.event_name }}" == "schedule" ]]; then
+            ARGS="$ARGS --scheduled-cron "${{ github.event.schedule }}""
+          elif [[ -n "${{ inputs.date }}" ]]; then
+            ARGS="$ARGS --date "${{ inputs.date }}""
+          fi
+
           if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.dry_run }}" == "true" ]]; then ARGS="$ARGS --dry-run"; fi
           echo "args=$ARGS" >> "$GITHUB_OUTPUT"
 
