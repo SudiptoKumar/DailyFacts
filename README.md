@@ -596,3 +596,9 @@ Production posts use `sendPhoto` with HTML captions. Photos keep their native as
 Scheduled runs pass the GitHub Actions cron expression into the application. The bot resolves the intended publication date from the cron's UTC firing time rather than the runner's current Asia/Dhaka date. This protects the 17:00 Bangladesh Batch 2 run when GitHub starts a scheduled workflow late and the actual start time crosses midnight.
 
 Manual runs remain date-controlled by the optional `--date` input.
+
+## V2.13 scheduling fix
+
+The scheduled workflow now passes the GitHub cron expression to Python as a safely quoted shell argument. This prevents Bash from splitting expressions such as `0 2 * * *` and terminating the job before publication.
+
+Scheduled runs continue to resolve the intended publication date from the scheduled cron, so a delayed GitHub Actions start cannot roll Batch 2 into the next Bangladesh calendar day.

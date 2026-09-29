@@ -120,30 +120,37 @@ jobs:
       - name: Run built-in self-test
         run: python main.py --self-test
 
-      - name: Build run arguments
-        id: args
+      - name: Publish Daily Facts
+        env:
+          SCHEDULED_CRON: ${{ github.event.schedule }}
+          DISPATCH_DATE: ${{ inputs.date }}
+          DISPATCH_DRY_RUN: ${{ inputs.dry_run }}
+          MAX_POSTS: ${{ inputs.max_posts || '10' }}
         shell: bash
         run: |
           set -euo pipefail
-          ARGS="--batch ${{ steps.schedule_batch.outputs.batch }} --max-posts ${{ inputs.max_posts || '10' }}"
 
-          # Scheduled runs must resolve their intended calendar date from the
-          # cron firing time in UTC, not from the runner's current local date.
-          # GitHub Actions can start a scheduled job late, potentially after
-          # midnight Asia/Dhaka. Passing the cron to Python makes that date
-          # calculation deterministic and prevents Batch 2 from jumping to the
-          # next calendar day.
           if [[ "${{ github.event_name }}" == "schedule" ]]; then
-            ARGS="$ARGS --scheduled-cron "${{ github.event.schedule }}""
-          elif [[ -n "${{ inputs.date }}" ]]; then
-            ARGS="$ARGS --date "${{ inputs.date }}""
+            # Pass the cron expression as a real shell argument, not by
+            # interpolating it into an unquoted command string. This prevents
+            # expressions such as `0 2 * * *` from being split by Bash.
+            python main.py \
+              --batch "${{ steps.schedule_batch.outputs.batch }}" \
+              --max-posts "$MAX_POSTS" \
+              --scheduled-cron "$SCHEDULED_CRON"
+          else
+            args=(
+              --batch "${{ steps.schedule_batch.outputs.batch }}"
+              --max-posts "$MAX_POSTS"
+            )
+            if [[ -n "$DISPATCH_DATE" ]]; then
+              args+=(--date "$DISPATCH_DATE")
+            fi
+            if [[ "$DISPATCH_DRY_RUN" == "true" ]]; then
+              args+=(--dry-run)
+            fi
+            python main.py "${args[@]}"
           fi
-
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.dry_run }}" == "true" ]]; then ARGS="$ARGS --dry-run"; fi
-          echo "args=$ARGS" >> "$GITHUB_OUTPUT"
-
-      - name: Publish Daily Facts
-        run: python main.py ${{ steps.args.outputs.args }}
 
       - name: Publish ledger to state branch
         if: always()
