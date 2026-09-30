@@ -1,2 +1,0 @@
-Daily Facts V2.14 Fixed
-Scheduler cursor + safe Telegram retry + duplicate-safe allocation + fail-closed state validation
