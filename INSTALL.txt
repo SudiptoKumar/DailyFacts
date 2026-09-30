@@ -1,0 +1,18 @@
+# Daily Facts V2.14 Full
+
+1. Upload the complete repository to GitHub.
+2. Keep all 12 CSV files under `data/`.
+3. Add GitHub Actions secrets:
+   - TELEGRAM_BOT_TOKEN
+   - TELEGRAM_CHANNEL (recommended: @FactsNewsroom)
+   - CEREBRAS_API_KEY (optional)
+   - CEREBRAS_MODEL (optional)
+   - EXA_API_KEY (optional)
+4. Add the bot as an administrator of @FactsNewsroom.
+5. Run the `Daily Facts` workflow manually in dry-run mode first.
+6. Verify `test_scheduler.py`, `test_hardening.py`, `test_full.py`, and `main.py --self-test` all pass.
+7. Run one real manual post.
+8. Enable the scheduled workflow.
+
+Production state is stored separately in the `daily-facts-state` branch.
+Do not delete that branch during ordinary deployments.

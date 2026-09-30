@@ -1,0 +1,2 @@
+Daily Facts V2.14 Full
+Complete repository + supplied 7,037-record database + scheduler cursor + failure hardening

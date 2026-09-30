@@ -131,6 +131,9 @@ jobs:
       - name: Run hardening tests
         run: python tests/test_hardening.py
 
+      - name: Run full regression tests
+        run: python tests/test_full.py
+
       - name: Run built-in self-test
         run: python main.py --self-test
 
