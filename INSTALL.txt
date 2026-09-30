@@ -1,0 +1,28 @@
+Daily Facts V2.14 Fixed
+
+This archive is a DROP-IN HOTFIX PATCH, not a complete repository replacement.
+
+Replace these files in the existing Daily Facts repository:
+
+main.py
+telegram_client.py
+scheduler_cursor.py
+.github/workflows/daily-facts.yml
+tests/test_scheduler.py
+tests/test_hardening.py
+
+Do not delete the existing:
+- data/ directory and 12 monthly CSV files
+- content_ai.py
+- config.py
+- dataset.py
+- formatter.py
+- emoji_engine.py
+- image_pipeline.py
+- image_resolver.py
+- state_store.py
+- requirements.txt
+
+Do not delete the daily-facts-state branch.
+
+After replacement, GitHub Actions must run the workflow's verification steps before publishing.

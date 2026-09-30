@@ -1,15 +1,15 @@
 name: Daily Facts
 
 on:
-  # 08:00 Asia/Dhaka = 02:00 UTC -> Batch 1 (slots 1-10)
-  # 17:00 Asia/Dhaka = 11:00 UTC -> Batch 2 (slots 11-20)
+  # 08:00 Asia/Dhaka = 02:00 UTC -> Batch 1
+  # 17:00 Asia/Dhaka = 11:00 UTC -> Batch 2
   schedule:
     - cron: "0 2 * * *"
     - cron: "0 11 * * *"
   workflow_dispatch:
     inputs:
       date:
-        description: "Publication date (YYYY-MM-DD); blank = current Asia/Dhaka date"
+        description: "Publication date (YYYY-MM-DD); blank = scheduler cursor/current date"
         required: false
         default: ""
       batch:
@@ -31,6 +31,7 @@ on:
 permissions:
   contents: write
 
+# Prevent overlapping publisher runs. The cursor + ledger are the source of truth.
 concurrency:
   group: daily-facts-publisher
   cancel-in-progress: false
@@ -47,7 +48,7 @@ jobs:
       TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL || '@FactsNewsroom' }}
       EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
       CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
-      CEREBRAS_MODEL: gpt-oss-120b
+      CEREBRAS_MODEL: ${{ secrets.CEREBRAS_MODEL || 'gpt-oss-120b' }}
       USE_CEREBRAS: "true"
       USE_EXA_CONTEXT: "false"
       TIMEZONE: Asia/Dhaka
@@ -72,6 +73,7 @@ jobs:
         id: schedule_batch
         shell: bash
         run: |
+          set -euo pipefail
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             echo "batch=${{ inputs.batch }}" >> "$GITHUB_OUTPUT"
           elif [[ "${{ github.event.schedule }}" == "0 2 * * *" ]]; then
@@ -83,7 +85,7 @@ jobs:
             exit 1
           fi
 
-      - name: Restore publication ledger
+      - name: Restore publication ledger and scheduler cursor
         env:
           STATE_BRANCH: ${{ env.STATE_BRANCH }}
         shell: bash
@@ -93,14 +95,20 @@ jobs:
           if git ls-remote --exit-code --heads origin "${STATE_BRANCH}" >/dev/null 2>&1; then
             git fetch origin "${STATE_BRANCH}:${STATE_BRANCH}"
             if ! git show "${STATE_BRANCH}:publication_state.json" > state/publication_state.json; then
-              echo "::error::State branch exists but publication_state.json is missing. Refusing to initialize empty state."
+              echo "::error::State branch exists but publication_state.json is missing. Refusing to initialize empty publication state."
               exit 1
+            fi
+            if git show "${STATE_BRANCH}:scheduler_cursor.json" > state/scheduler_cursor.json; then
+              echo "Scheduler cursor restored."
+            else
+              printf '%s\n' '{"schema_version":1,"next_batch1_date":null,"next_batch2_date":null}' > state/scheduler_cursor.json
+              echo "No scheduler cursor exists yet; application will initialize it safely from the publication ledger."
             fi
           else
             printf '%s\n' '{"schema_version":3,"dates":{},"image_cache":{},"runs":[]}' > state/publication_state.json
-            echo "No ${STATE_BRANCH} branch exists yet; starting a new ledger that will be created after this run."
+            printf '%s\n' '{"schema_version":1,"next_batch1_date":null,"next_batch2_date":null}' > state/scheduler_cursor.json
+            echo "No ${STATE_BRANCH} branch exists yet; starting a new empty ledger and cursor."
           fi
-          echo "Publication ledger restored from ${STATE_BRANCH}."
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -115,7 +123,13 @@ jobs:
           pip install -r requirements.txt
 
       - name: Verify source
-        run: python -m py_compile main.py *.py
+        run: python -m py_compile main.py *.py scheduler_cursor.py tests/test_scheduler.py
+
+      - name: Run scheduler regression tests
+        run: python tests/test_scheduler.py
+
+      - name: Run hardening tests
+        run: python tests/test_hardening.py
 
       - name: Run built-in self-test
         run: python main.py --self-test
@@ -129,11 +143,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-
           if [[ "${{ github.event_name }}" == "schedule" ]]; then
-            # Pass the cron expression as a real shell argument, not by
-            # interpolating it into an unquoted command string. This prevents
-            # expressions such as `0 2 * * *` from being split by Bash.
+            # Cron identifies the scheduled batch only. The publication date comes
+            # from the persistent scheduler cursor, so a late runner cannot cross
+            # midnight and silently switch to the next calendar day.
             python main.py \
               --batch "${{ steps.schedule_batch.outputs.batch }}" \
               --max-posts "$MAX_POSTS" \
@@ -152,7 +165,7 @@ jobs:
             python main.py "${args[@]}"
           fi
 
-      - name: Publish ledger to state branch
+      - name: Publish ledger and scheduler cursor to state branch
         if: always()
         env:
           STATE_BRANCH: ${{ env.STATE_BRANCH }}
@@ -164,11 +177,14 @@ jobs:
             echo "No publication ledger found; nothing to sync."
             exit 0
           fi
+          if [ ! -f state/scheduler_cursor.json ]; then
+            echo "::error::Scheduler cursor file is missing. Refusing to update state branch."
+            exit 1
+          fi
 
           TMP="$(mktemp -d)"
           cleanup() { rm -rf "$TMP"; }
           trap cleanup EXIT
-
           git clone --quiet "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$TMP/repo"
           cd "$TMP/repo"
 
@@ -180,28 +196,29 @@ jobs:
           fi
 
           cp "${GITHUB_WORKSPACE}/state/publication_state.json" ./publication_state.json
+          cp "${GITHUB_WORKSPACE}/state/scheduler_cursor.json" ./scheduler_cursor.json
           git config user.name "Daily Facts State Bot"
           git config user.email "actions@github.com"
-          git add publication_state.json
+          git add publication_state.json scheduler_cursor.json
 
           if git diff --cached --quiet; then
             echo "State branch already up to date."
             exit 0
           fi
 
-          git commit -m "Update Daily Facts publication ledger" >/dev/null
-
+          git commit -m "Update Daily Facts publication state" >/dev/null
           for attempt in 1 2 3; do
             if git push origin "$STATE_BRANCH"; then
-              echo "Publication ledger pushed to $STATE_BRANCH."
+              echo "Publication ledger and scheduler cursor pushed to $STATE_BRANCH."
               exit 0
             fi
             echo "Push attempt $attempt failed; refreshing state branch."
             git fetch origin "$STATE_BRANCH"
             git reset --hard "origin/$STATE_BRANCH"
             cp "${GITHUB_WORKSPACE}/state/publication_state.json" ./publication_state.json
-            git add publication_state.json
-            git commit -m "Update Daily Facts publication ledger" >/dev/null || true
+            cp "${GITHUB_WORKSPACE}/state/scheduler_cursor.json" ./scheduler_cursor.json
+            git add publication_state.json scheduler_cursor.json
+            git commit -m "Update Daily Facts publication state" >/dev/null || true
           done
-          echo "::error::Failed to push publication ledger to $STATE_BRANCH"
+          echo "::error::Failed to push publication state to $STATE_BRANCH"
           exit 1
