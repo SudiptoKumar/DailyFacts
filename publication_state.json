@@ -1095,6 +1095,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-01": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-01-S01",
+            "FACT-2026-10-01-S02",
+            "FACT-2026-10-01-S03",
+            "FACT-2026-10-01-S04",
+            "FACT-2026-10-01-S05",
+            "FACT-2026-10-01-S06",
+            "FACT-2026-10-01-S07",
+            "FACT-2026-10-01-S08",
+            "FACT-2026-10-01-S09",
+            "FACT-2026-10-01-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-01T07:59:23.436495+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-01T07:58:46.366722+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-01-S01": {
+          "batch": 1,
+          "claim_key": "435d29278881aca3bcb6dc43",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/moon/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 177,
+          "published_at": "2026-10-01T07:58:48.033336+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S02": {
+          "batch": 1,
+          "claim_key": "f804a67248da3e64b3021016",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/moon/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 178,
+          "published_at": "2026-10-01T07:58:49.234815+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S03": {
+          "batch": 1,
+          "claim_key": "995a6b4b6428c2781f70415b",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/moon/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 179,
+          "published_at": "2026-10-01T07:58:50.432541+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S04": {
+          "batch": 1,
+          "claim_key": "137049d4485542883169410c",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Light-Bulb-Filament-engineerguy.ogv",
+          "image_source": "Wikimedia Commons",
+          "message_id": 180,
+          "published_at": "2026-10-01T07:58:59.438073+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S05": {
+          "batch": 1,
+          "claim_key": "459c5c1c9a08fe8a254a40f2",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Edison_effect_bulbs.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 181,
+          "published_at": "2026-10-01T07:59:04.191229+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S06": {
+          "batch": 1,
+          "claim_key": "c6950dd8971ec3ff097f0fc5",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 182,
+          "published_at": "2026-10-01T07:59:05.873540+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S07": {
+          "batch": 1,
+          "claim_key": "b5e1a8ffd9811de1f28c75c0",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Modern_Fired_Clay_Doll_(FindID_585133).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 183,
+          "published_at": "2026-10-01T07:59:12.219288+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S08": {
+          "batch": 1,
+          "claim_key": "962ea4d6354365665db939b7",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-air-conditioning",
+          "image_source": "Wikimedia Commons",
+          "message_id": 184,
+          "published_at": "2026-10-01T07:59:14.110093+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S09": {
+          "batch": 1,
+          "claim_key": "b4a0d390735d0e6d0f18b3df",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Indiana_and_Indianans_-_a_history_of_aboriginal_and_territorial_Indiana_and_the_century_of_statehood_(1919)_(14577446239).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 185,
+          "published_at": "2026-10-01T07:59:19.355629+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S10": {
+          "batch": 1,
+          "claim_key": "9e87793522149c4059c168c7",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Consequences_of_eutrophication_on_coral_reef,_seagrass_and_mangrove_ecosystems.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 186,
+          "published_at": "2026-10-01T07:59:23.434348+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -1625,6 +1760,96 @@
       "score": 22,
       "source_page": "https://commons.wikimedia.org/wiki/File:US_Navy_080918-N-0659H-001_A_Naval_Support_Activity_Mid-South_Sailor_takes_a_moment_to_decide_which_credit_card_to_use.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/US_Navy_080918-N-0659H-001_A_Naval_Support_Activity_Mid-South_Sailor_takes_a_moment_to_decide_which_credit_card_to_use.jpg/1280px-US_Navy_080918-N-0659H-001_A_Naval_Support_Activity_Mid-South_Sailor_takes_a_moment_to_decide_which_credit_card_to_use.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-01-S01": {
+      "cached_at": "2026-10-01T07:58:46.985155+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S01.jpg",
+      "query": "Moon orbiting Earth",
+      "score": 19,
+      "source_page": "https://science.nasa.gov/moon/facts/",
+      "source_url": "https://science.nasa.gov/moon/facts/"
+    },
+    "FACT-2026-10-01-S02": {
+      "cached_at": "2026-10-01T07:58:48.482812+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S02.jpg",
+      "query": "Earth Moon distance illustration",
+      "score": 18,
+      "source_page": "https://science.nasa.gov/moon/facts/",
+      "source_url": "https://science.nasa.gov/moon/facts/"
+    },
+    "FACT-2026-10-01-S03": {
+      "cached_at": "2026-10-01T07:58:49.603146+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S03.jpg",
+      "query": "Earth and Moon with the same lunar hemisphere facing Earth, showing tidal locking",
+      "score": 25,
+      "source_page": "https://science.nasa.gov/moon/facts/",
+      "source_url": "https://science.nasa.gov/moon/facts/"
+    },
+    "FACT-2026-10-01-S04": {
+      "cached_at": "2026-10-01T07:58:58.516909+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S04.jpg",
+      "query": "close-up of an incandescent lamp filament glowing, highlighting the filament with visible heat",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Light-Bulb-Filament-engineerguy.ogv",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Light-Bulb-Filament-engineerguy.ogv/500px--Light-Bulb-Filament-engineerguy.ogv.jpg"
+    },
+    "FACT-2026-10-01-S05": {
+      "cached_at": "2026-10-01T07:59:02.958862+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S05.jpg",
+      "query": "Edison carbon filament glass bulb",
+      "score": 31,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Edison_effect_bulbs.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Edison_effect_bulbs.jpg/1280px-Edison_effect_bulbs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-01-S06": {
+      "cached_at": "2026-10-01T07:59:04.690798+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S06.jpg",
+      "query": "The first constant electric light was demonstrated in 1835 Electric lighting",
+      "score": 48,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-01-S07": {
+      "cached_at": "2026-10-01T07:59:10.743601+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S07.jpg",
+      "query": "Portia Sperry sold cloth dolls through a local farmwomen's network Entrepreneurship",
+      "score": 15,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Modern_Fired_Clay_Doll_(FindID_585133).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Modern_Fired_Clay_Doll_%28FindID_585133%29.jpg/1280px-Modern_Fired_Clay_Doll_%28FindID_585133%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-01-S08": {
+      "cached_at": "2026-10-01T07:59:12.741083+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S08.jpg",
+      "query": "CFC molecules affecting the ozone layer, illustration of ozone depletion",
+      "score": 28,
+      "source_page": "https://www.energy.gov/articles/history-air-conditioning",
+      "source_url": "https://www.energy.gov/articles/history-air-conditioning"
+    },
+    "FACT-2026-10-01-S09": {
+      "cached_at": "2026-10-01T07:59:17.905688+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S09.jpg",
+      "query": "The Abigail doll generated income for Indiana women during the Great Depression Entrepreneurship",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Indiana_and_Indianans_-_a_history_of_aboriginal_and_territorial_Indiana_and_the_century_of_statehood_(1919)_(14577446239).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Indiana_and_Indianans_-_a_history_of_aboriginal_and_territorial_Indiana_and_the_century_of_statehood_%281919%29_%2814577446239%29.jpg/960px-Indiana_and_Indianans_-_a_history_of_aboriginal_and_territorial_Indiana_and_the_century_of_statehood_%281919%29_%2814577446239%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-01-S10": {
+      "cached_at": "2026-10-01T07:59:22.256525+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S10.jpg",
+      "query": "Coral reefs protect coastlines Ecosystem services",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Consequences_of_eutrophication_on_coral_reef,_seagrass_and_mangrove_ecosystems.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Consequences_of_eutrophication_on_coral_reef%2C_seagrass_and_mangrove_ecosystems.png/1280px-Consequences_of_eutrophication_on_coral_reef%2C_seagrass_and_mangrove_ecosystems.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -1635,6 +1860,10 @@
     "1202f46e97abc2491a1423a3431acfc80f079723": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S01"
+    },
+    "137049d4485542883169410c": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S04"
     },
     "16273decdb751be27899fb1fc6dfd963dac7a096": {
       "date": "2026-09-27",
@@ -1712,9 +1941,17 @@
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S03"
     },
+    "435d29278881aca3bcb6dc43": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S01"
+    },
     "44eb9fb3f29faaa8a220651d672d8dde5c2547c7": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S02"
+    },
+    "459c5c1c9a08fe8a254a40f2": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S05"
     },
     "46f695603f3418c638fbc85c91e4d0364981a40a": {
       "date": "2026-09-26",
@@ -1792,9 +2029,17 @@
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S01"
     },
+    "962ea4d6354365665db939b7": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S08"
+    },
     "98c3cf70249e879c9220001df50fad8e4aad8115": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S09"
+    },
+    "995a6b4b6428c2781f70415b": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S03"
     },
     "9c20c2a2966c35e6abb1caf1ad2c0c228b1393c9": {
       "date": "2026-09-26",
@@ -1811,6 +2056,10 @@
     "9e7ff1f26522b3205bf815b1b55a19a5571c1ebf": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S03"
+    },
+    "9e87793522149c4059c168c7": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S10"
     },
     "a29ac01d5084388701cea15e926b32d929846d96": {
       "date": "2026-09-27",
@@ -1832,6 +2081,14 @@
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S12"
     },
+    "b4a0d390735d0e6d0f18b3df": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S09"
+    },
+    "b5e1a8ffd9811de1f28c75c0": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S07"
+    },
     "b8273e43e091549ac4aa38187697d1e3d65df7b2": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S04"
@@ -1851,6 +2108,10 @@
     "c3b7476a38730e231714cd20ca8b09957ef631ad": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S05"
+    },
+    "c6950dd8971ec3ff097f0fc5": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S06"
     },
     "c7cb4372051bbd337bbe59172707f878dcfe1bae": {
       "date": "2026-09-24",
@@ -1879,6 +2140,10 @@
     "f44101f8d9cf809c5d4c5e552bff7bfa44c22499": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S04"
+    },
+    "f804a67248da3e64b3021016": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S02"
     },
     "f92270f804e01df519afd8f6b9d01c950819f9d2": {
       "date": "2026-09-30",
@@ -2071,6 +2336,22 @@
         20
       ],
       "status": "empty"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-01",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-01T07:59:23.436509+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
+      ],
+      "status": "completed"
     }
   ],
   "schema_version": 4
