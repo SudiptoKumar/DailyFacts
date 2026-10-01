@@ -1116,6 +1116,25 @@
           "published_count": 10,
           "started_at": "2026-10-01T07:58:46.366722+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-01-S11",
+            "FACT-2026-10-01-S12",
+            "FACT-2026-10-01-S13",
+            "FACT-2026-10-01-S14",
+            "FACT-2026-10-01-S15",
+            "FACT-2026-10-01-S16",
+            "FACT-2026-10-01-S17",
+            "FACT-2026-10-01-S18",
+            "FACT-2026-10-01-S19",
+            "FACT-2026-10-01-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-01T17:19:58.470579+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-01T17:19:12.288403+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -1226,6 +1245,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 186,
           "published_at": "2026-10-01T07:59:23.434348+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S11": {
+          "batch": 2,
+          "claim_key": "2139bba3c132eddab9f8bb66",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Hawaii,_past_and_present_(1921)_(14762879962).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 187,
+          "published_at": "2026-10-01T17:19:21.018071+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S12": {
+          "batch": 2,
+          "claim_key": "8942d4322d8e52a9871fd5a4",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1269/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 188,
+          "published_at": "2026-10-01T17:19:23.303262+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S13": {
+          "batch": 2,
+          "claim_key": "1b79456b5666c84111b54cd7",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/Hippocampus_denise",
+          "image_source": "Wikimedia Commons",
+          "message_id": 189,
+          "published_at": "2026-10-01T17:19:28.930929+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S14": {
+          "batch": 2,
+          "claim_key": "4a34aa0ebdfc12eea029b4c1",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/Category:Hippocampus_abdominalis",
+          "image_source": "Wikimedia Commons",
+          "message_id": 190,
+          "published_at": "2026-10-01T17:19:34.453509+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S15": {
+          "batch": 2,
+          "claim_key": "63ed18f8d7156ae6fcf6cde6",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Magnavox-Odyssey-Video-Cable.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 191,
+          "published_at": "2026-10-01T17:19:38.561739+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S16": {
+          "batch": 2,
+          "claim_key": "eea5c82b45319b5c65f1a582",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Tel_Al-Hara-Syria.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 192,
+          "published_at": "2026-10-01T17:19:45.038021+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S17": {
+          "batch": 2,
+          "claim_key": "dd7edc121b444a7f2e69208a",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Hip_Hop_turntable,_National_Museum_of_American_History.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 193,
+          "published_at": "2026-10-01T17:19:47.967291+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S18": {
+          "batch": 2,
+          "claim_key": "ef76d2a9675b152aa7ec62d0",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 194,
+          "published_at": "2026-10-01T17:19:51.801668+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S19": {
+          "batch": 2,
+          "claim_key": "0091987aec61956975bf9406",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Thermohaline_Circulation.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 195,
+          "published_at": "2026-10-01T17:19:55.452083+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-01-S20": {
+          "batch": 2,
+          "claim_key": "d4b8a35a6447b62053dbd8aa",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Ekman_spirale.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 196,
+          "published_at": "2026-10-01T17:19:58.468156+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -1850,9 +1979,103 @@
       "score": 20,
       "source_page": "https://commons.wikimedia.org/wiki/File:Consequences_of_eutrophication_on_coral_reef,_seagrass_and_mangrove_ecosystems.png",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Consequences_of_eutrophication_on_coral_reef%2C_seagrass_and_mangrove_ecosystems.png/1280px-Consequences_of_eutrophication_on_coral_reef%2C_seagrass_and_mangrove_ecosystems.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-01-S11": {
+      "cached_at": "2026-10-01T17:19:19.668244+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S11.jpg",
+      "query": "Kilauea volcano eruption 1790",
+      "score": 24,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hawaii,_past_and_present_(1921)_(14762879962).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Hawaii%2C_past_and_present_%281921%29_%2814762879962%29.jpg/1280px-Hawaii%2C_past_and_present_%281921%29_%2814762879962%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-01-S12": {
+      "cached_at": "2026-10-01T17:19:22.085878+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S12.jpg",
+      "query": "Sacred City of Caral-Supe archaeological site",
+      "score": 18,
+      "source_page": "https://whc.unesco.org/en/list/1269/",
+      "source_url": "https://whc.unesco.org/en/list/1269/"
+    },
+    "FACT-2026-10-01-S13": {
+      "cached_at": "2026-10-01T17:19:27.653546+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S13.jpg",
+      "query": "Pygmy seahorse perched on vibrant coral reef in Indonesia's Coral Triangle",
+      "score": 15,
+      "source_page": "https://commons.wikimedia.org/wiki/Hippocampus_denise",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Hippocampus_denise.jpg/1280px-Hippocampus_denise.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-01-S14": {
+      "cached_at": "2026-10-01T17:19:33.129092+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S14.jpg",
+      "query": "big-bellied seahorse swimming in southern Australian and New Zealand waters",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/Category:Hippocampus_abdominalis",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Sketchbook_of_fishes_-_18._%28Pot_bellied%29_Sea_horse_-_William_Buelow_Gould%2C_c1832.jpg/960px-Sketchbook_of_fishes_-_18._%28Pot_bellied%29_Sea_horse_-_William_Buelow_Gould%2C_c1832.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-01-S15": {
+      "cached_at": "2026-10-01T17:19:37.397216+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S15.jpg",
+      "query": "Magnavox Odyssey console 1972",
+      "score": 35,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Magnavox-Odyssey-Video-Cable.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Magnavox-Odyssey-Video-Cable.jpg/1280px-Magnavox-Odyssey-Video-Cable.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-01-S16": {
+      "cached_at": "2026-10-01T17:19:43.755906+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S16.jpg",
+      "query": "harrat lava field",
+      "score": 7,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tel_Al-Hara-Syria.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Tel_Al-Hara-Syria.jpg/1280px-Tel_Al-Hara-Syria.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-01-S17": {
+      "cached_at": "2026-10-01T17:19:46.717278+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S17.jpg",
+      "query": "Grandmaster Flash developed influential DJ techniques Deejaying",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hip_Hop_turntable,_National_Museum_of_American_History.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Hip_Hop_turntable%2C_National_Museum_of_American_History.jpg/1280px-Hip_Hop_turntable%2C_National_Museum_of_American_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-01-S18": {
+      "cached_at": "2026-10-01T17:19:50.278963+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S18.jpg",
+      "query": "Core language-network properties are shared across diverse languages Neuroscience",
+      "score": 29,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-01-S19": {
+      "cached_at": "2026-10-01T17:19:54.237895+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S19.jpg",
+      "query": "global ocean currents map",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Thermohaline_Circulation.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Thermohaline_Circulation.svg/1280px-Thermohaline_Circulation.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-01-S20": {
+      "cached_at": "2026-10-01T17:19:57.295447+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-01-S20.jpg",
+      "query": "Forces that drive ocean currents Oceanography",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ekman_spirale.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Ekman_spirale.svg/960px-Ekman_spirale.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
     }
   },
   "published_claims": {
+    "0091987aec61956975bf9406": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S19"
+    },
     "0f32e0a401bc2319d3524f979b3837cc3e30e233": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S09"
@@ -1869,6 +2092,10 @@
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S07"
     },
+    "1b79456b5666c84111b54cd7": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S13"
+    },
     "1db78455e3cd9d419709866541a1a1a284909a8e": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S03"
@@ -1884,6 +2111,10 @@
     "2129de9b79254b05899e78c4f14a72126afffa45": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S08"
+    },
+    "2139bba3c132eddab9f8bb66": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S11"
     },
     "2209b1063a51df586f5d0c6543ab38e2a6349ac5": {
       "date": "2026-09-24",
@@ -1961,6 +2192,10 @@
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S01"
     },
+    "4a34aa0ebdfc12eea029b4c1": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S14"
+    },
     "4cbdcb77bb586d0abf6d43d37c22a97c19f7a097": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S09"
@@ -1984,6 +2219,10 @@
     "6221087c2ed903cf39e01cc6505843e0205e4067": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S05"
+    },
+    "63ed18f8d7156ae6fcf6cde6": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S15"
     },
     "696c11fcd0f4c6a628495e998fdad4c5e0280e35": {
       "date": "2026-09-30",
@@ -2020,6 +2259,10 @@
     "8179d6fbee10de5639f49c240b7d18f031649396": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S01"
+    },
+    "8942d4322d8e52a9871fd5a4": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S12"
     },
     "913f0e0805b3544bf826ac8d2268d9496b796b54": {
       "date": "2026-09-28",
@@ -2121,6 +2364,14 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S02"
     },
+    "d4b8a35a6447b62053dbd8aa": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S20"
+    },
+    "dd7edc121b444a7f2e69208a": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S17"
+    },
     "dde24a96a2d9a3446d3b811cecc71a2890e09f71": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S02"
@@ -2136,6 +2387,14 @@
     "e4e664146fdde4ad52929440ebb90a6a83c60eb8": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S01"
+    },
+    "eea5c82b45319b5c65f1a582": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S16"
+    },
+    "ef76d2a9675b152aa7ec62d0": {
+      "date": "2026-10-01",
+      "fact_id": "FACT-2026-10-01-S18"
     },
     "f44101f8d9cf809c5d4c5e552bff7bfa44c22499": {
       "date": "2026-09-26",
@@ -2350,6 +2609,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-01",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-01T17:19:58.470598+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
