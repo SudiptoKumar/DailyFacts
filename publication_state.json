@@ -1359,6 +1359,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-02": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-02-S01",
+            "FACT-2026-10-02-S02",
+            "FACT-2026-10-02-S03",
+            "FACT-2026-10-02-S04",
+            "FACT-2026-10-02-S05",
+            "FACT-2026-10-02-S06",
+            "FACT-2026-10-02-S07",
+            "FACT-2026-10-02-S08",
+            "FACT-2026-10-02-S09",
+            "FACT-2026-10-02-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-02T07:43:16.954609+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-02T07:42:42.008405+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-02-S01": {
+          "batch": 1,
+          "claim_key": "98835fab790aa4efa8c72307",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/moon/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 197,
+          "published_at": "2026-10-02T07:42:43.545621+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S02": {
+          "batch": 1,
+          "claim_key": "b18f12d26a390c388c46ae33",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/moon/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 198,
+          "published_at": "2026-10-02T07:42:44.790861+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S03": {
+          "batch": 1,
+          "claim_key": "09cbaca23b94d554b9728dc8",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Phobos_colour_2008.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 199,
+          "published_at": "2026-10-02T07:42:51.681888+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S04": {
+          "batch": 1,
+          "claim_key": "c8965b7436102da3345fa413",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 200,
+          "published_at": "2026-10-02T07:42:53.430873+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S05": {
+          "batch": 1,
+          "claim_key": "9ba4b6b1de2d5ca6116c0633",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+          "image_source": "Wikimedia Commons",
+          "message_id": 201,
+          "published_at": "2026-10-02T07:42:55.706216+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S06": {
+          "batch": 1,
+          "claim_key": "89f392d20767e6aa658c4407",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+          "image_source": "Wikimedia Commons",
+          "message_id": 202,
+          "published_at": "2026-10-02T07:42:56.914810+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S07": {
+          "batch": 1,
+          "claim_key": "19d71d0264da875c8a464f44",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 203,
+          "published_at": "2026-10-02T07:42:58.564909+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S08": {
+          "batch": 1,
+          "claim_key": "9f5d987d31bf9627f6a7fdcf",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_Hawaiian_archipelago-_six_months_among_the_palm_groves,_coral_reefs,_and_volcanoes_of_the_Sandwich_Islands_(IA_cu31924051382525).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 204,
+          "published_at": "2026-10-02T07:43:03.552165+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S09": {
+          "batch": 1,
+          "claim_key": "644cb051398b0c128fec2c9d",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Comparison_of_data_development_tools_for_populating_cognitive_models_in_social_simulation_(IA_comparisonofdatd109455566).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 205,
+          "published_at": "2026-10-02T07:43:11.128886+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S10": {
+          "batch": 1,
+          "claim_key": "a6a11e3d2624122d4472a866",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Great_Barrier_Reef_(MODIS_2024-06-05).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 206,
+          "published_at": "2026-10-02T07:43:16.951271+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -2069,12 +2204,106 @@
       "score": 19,
       "source_page": "https://commons.wikimedia.org/wiki/File:Ekman_spirale.svg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Ekman_spirale.svg/960px-Ekman_spirale.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-02-S01": {
+      "cached_at": "2026-10-02T07:42:42.473396+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S01.jpg",
+      "query": "First observation of the lunar far side Moon Exploration",
+      "score": 30,
+      "source_page": "https://science.nasa.gov/moon/facts/",
+      "source_url": "https://science.nasa.gov/moon/facts/"
+    },
+    "FACT-2026-10-02-S02": {
+      "cached_at": "2026-10-02T07:42:43.951936+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S02.jpg",
+      "query": "Lunar exosphere Moon Atmosphere",
+      "score": 16,
+      "source_page": "https://science.nasa.gov/moon/facts/",
+      "source_url": "https://science.nasa.gov/moon/facts/"
+    },
+    "FACT-2026-10-02-S03": {
+      "cached_at": "2026-10-02T07:42:49.416831+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S03.jpg",
+      "query": "Moon has no moons Moon",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Phobos_colour_2008.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Phobos_colour_2008.jpg/1280px-Phobos_colour_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-02-S04": {
+      "cached_at": "2026-10-02T07:42:52.333108+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S04.jpg",
+      "query": "Nitrogen gas doubled incandescent-bulb efficiency Lighting efficiency",
+      "score": 37,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-02-S05": {
+      "cached_at": "2026-10-02T07:42:54.299104+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S05.jpg",
+      "query": "Tesla coil",
+      "score": 45,
+      "source_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+      "source_url": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla"
+    },
+    "FACT-2026-10-02-S06": {
+      "cached_at": "2026-10-02T07:42:55.978995+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S06.jpg",
+      "query": "The tesla is a unit of magnetic-field strength Measurement units",
+      "score": 39,
+      "source_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+      "source_url": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla"
+    },
+    "FACT-2026-10-02-S07": {
+      "cached_at": "2026-10-02T07:42:57.376664+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S07.jpg",
+      "query": "Pearl Street Station was an early commercial power utility Utilities",
+      "score": 43,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-02-S08": {
+      "cached_at": "2026-10-02T07:43:02.361125+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S08.jpg",
+      "query": "Coral reef structures form slowly Coral reef formation",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Hawaiian_archipelago-_six_months_among_the_palm_groves,_coral_reefs,_and_volcanoes_of_the_Sandwich_Islands_(IA_cu31924051382525).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/The_Hawaiian_archipelago-_six_months_among_the_palm_groves%2C_coral_reefs%2C_and_volcanoes_of_the_Sandwich_Islands_%28IA_cu31924051382525%29.pdf/page1-500px-The_Hawaiian_archipelago-_six_months_among_the_palm_groves%2C_coral_reefs%2C_and_volcanoes_of_the_Sandwich_Islands_%28IA_cu31924051382525%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-02-S09": {
+      "cached_at": "2026-10-02T07:43:09.602160+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S09.jpg",
+      "query": "World Development Indicators scope Development data",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Comparison_of_data_development_tools_for_populating_cognitive_models_in_social_simulation_(IA_comparisonofdatd109455566).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Comparison_of_data_development_tools_for_populating_cognitive_models_in_social_simulation_%28IA_comparisonofdatd109455566%29.pdf/page1-960px-Comparison_of_data_development_tools_for_populating_cognitive_models_in_social_simulation_%28IA_comparisonofdatd109455566%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-02-S10": {
+      "cached_at": "2026-10-02T07:43:15.395263+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S10.jpg",
+      "query": "coral reef showing signs of disease, predatory fish, and storm damage",
+      "score": 34,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Great_Barrier_Reef_(MODIS_2024-06-05).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Great_Barrier_Reef_%28MODIS_2024-06-05%29.jpg/1280px-Great_Barrier_Reef_%28MODIS_2024-06-05%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
     "0091987aec61956975bf9406": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S19"
+    },
+    "09cbaca23b94d554b9728dc8": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S03"
     },
     "0f32e0a401bc2319d3524f979b3837cc3e30e233": {
       "date": "2026-09-26",
@@ -2091,6 +2320,10 @@
     "16273decdb751be27899fb1fc6dfd963dac7a096": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S07"
+    },
+    "19d71d0264da875c8a464f44": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S07"
     },
     "1b79456b5666c84111b54cd7": {
       "date": "2026-10-01",
@@ -2224,6 +2457,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S15"
     },
+    "644cb051398b0c128fec2c9d": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S09"
+    },
     "696c11fcd0f4c6a628495e998fdad4c5e0280e35": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S06"
@@ -2264,6 +2501,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S12"
     },
+    "89f392d20767e6aa658c4407": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S06"
+    },
     "913f0e0805b3544bf826ac8d2268d9496b796b54": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S04"
@@ -2276,6 +2517,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S08"
     },
+    "98835fab790aa4efa8c72307": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S01"
+    },
     "98c3cf70249e879c9220001df50fad8e4aad8115": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S09"
@@ -2283,6 +2528,10 @@
     "995a6b4b6428c2781f70415b": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S03"
+    },
+    "9ba4b6b1de2d5ca6116c0633": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S05"
     },
     "9c20c2a2966c35e6abb1caf1ad2c0c228b1393c9": {
       "date": "2026-09-26",
@@ -2304,9 +2553,17 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S10"
     },
+    "9f5d987d31bf9627f6a7fdcf": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S08"
+    },
     "a29ac01d5084388701cea15e926b32d929846d96": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S10"
+    },
+    "a6a11e3d2624122d4472a866": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S10"
     },
     "aa0c3d927a6b6297affbe520b732c90ecc75c8c3": {
       "date": "2026-09-27",
@@ -2319,6 +2576,10 @@
     "af0ebc1512ff0a4079433029c8ed6cd184b778a5": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S11"
+    },
+    "b18f12d26a390c388c46ae33": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S02"
     },
     "b4240052cef889970abdc3f7d04aa494339b12dd": {
       "date": "2026-09-24",
@@ -2359,6 +2620,10 @@
     "c7cb4372051bbd337bbe59172707f878dcfe1bae": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S13"
+    },
+    "c8965b7436102da3345fa413": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S04"
     },
     "cb2c2344bb3452aa292fa6814a9b980b4d7a073c": {
       "date": "2026-09-25",
@@ -2625,6 +2890,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-02",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-02T07:43:16.954621+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
