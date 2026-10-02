@@ -1380,6 +1380,25 @@
           "published_count": 10,
           "started_at": "2026-10-02T07:42:42.008405+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-02-S11",
+            "FACT-2026-10-02-S12",
+            "FACT-2026-10-02-S13",
+            "FACT-2026-10-02-S14",
+            "FACT-2026-10-02-S15",
+            "FACT-2026-10-02-S16",
+            "FACT-2026-10-02-S17",
+            "FACT-2026-10-02-S18",
+            "FACT-2026-10-02-S19",
+            "FACT-2026-10-02-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-02T16:34:28.245854+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-02T16:33:54.554610+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -1490,6 +1509,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 206,
           "published_at": "2026-10-02T07:43:16.951271+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S11": {
+          "batch": 2,
+          "claim_key": "507ef8518c47c274846c7b3d",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/Category:Quipu?uselang=be-tarask",
+          "image_source": "Wikimedia Commons",
+          "message_id": 207,
+          "published_at": "2026-10-02T16:33:59.769184+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S12": {
+          "batch": 2,
+          "claim_key": "b1fc91f73629e9753abd10ae",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 208,
+          "published_at": "2026-10-02T16:34:01.361283+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S13": {
+          "batch": 2,
+          "claim_key": "709b7e1ee90a5c275948a12e",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/Hippocampus_denise",
+          "image_source": "Wikimedia Commons",
+          "message_id": 209,
+          "published_at": "2026-10-02T16:34:06.030489+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S14": {
+          "batch": 2,
+          "claim_key": "93c3e8547c247957b9bdb8c2",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Dead_Seahorse_-_Floreana_-_Cormorant_Point_-_Galapagos_Islands_-_Ecuador_(4870757141).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 210,
+          "published_at": "2026-10-02T16:34:10.866590+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S15": {
+          "batch": 2,
+          "claim_key": "cf8fb4f4a72371f5c501b5c0",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 211,
+          "published_at": "2026-10-02T16:34:12.253622+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S16": {
+          "batch": 2,
+          "claim_key": "d6166bfc138a8ad925098c1f",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 212,
+          "published_at": "2026-10-02T16:34:15.199555+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S17": {
+          "batch": 2,
+          "claim_key": "215dd2adaa465c125fdfe308",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 213,
+          "published_at": "2026-10-02T16:34:16.282793+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S18": {
+          "batch": 2,
+          "claim_key": "b444fc28d3b17f8bf19559e2",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:A_Bayesian_phylogenetic_study_of_the_Dravidian_language_family.pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 214,
+          "published_at": "2026-10-02T16:34:22.545654+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S19": {
+          "batch": 2,
+          "claim_key": "6a405a4e22fa7d68ffa63b95",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Ekman_spirale.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 215,
+          "published_at": "2026-10-02T16:34:25.482954+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-02-S20": {
+          "batch": 2,
+          "claim_key": "96c14fd0e6d691316e0d5405",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/Category:Syngnathidae",
+          "image_source": "Wikimedia Commons",
+          "message_id": 216,
+          "published_at": "2026-10-02T16:34:28.242164+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -2294,6 +2423,96 @@
       "score": 34,
       "source_page": "https://commons.wikimedia.org/wiki/File:Great_Barrier_Reef_(MODIS_2024-06-05).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Great_Barrier_Reef_%28MODIS_2024-06-05%29.jpg/1280px-Great_Barrier_Reef_%28MODIS_2024-06-05%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-02-S11": {
+      "cached_at": "2026-10-02T16:33:58.668371+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S11.jpg",
+      "query": "ancient Andean quipu with colored cords and knots, archaeological context",
+      "score": 14,
+      "source_page": "https://commons.wikimedia.org/wiki/Category:Quipu?uselang=be-tarask",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Inca_Quipu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-02-S12": {
+      "cached_at": "2026-10-02T16:34:00.311038+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S12.jpg",
+      "query": "Aerial view of the archaeological site of Dholavira on the arid island of Khadir, Gujarat, India",
+      "score": 17,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-02-S13": {
+      "cached_at": "2026-10-02T16:34:05.046188+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S13.jpg",
+      "query": "Satomi's pygmy seahorse swimming in tropical coastal waters near Brunei, Indonesia, and Malaysia",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/Hippocampus_denise",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Hippocampus_denise.jpg/1280px-Hippocampus_denise.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-02-S14": {
+      "cached_at": "2026-10-02T16:34:09.705983+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S14.jpg",
+      "query": "seahorses swimming in cold-water marine habitats",
+      "score": 9,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dead_Seahorse_-_Floreana_-_Cormorant_Point_-_Galapagos_Islands_-_Ecuador_(4870757141).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Dead_Seahorse_-_Floreana_-_Cormorant_Point_-_Galapagos_Islands_-_Ecuador_%284870757141%29.jpg/1280px-Dead_Seahorse_-_Floreana_-_Cormorant_Point_-_Galapagos_Islands_-_Ecuador_%284870757141%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-02-S15": {
+      "cached_at": "2026-10-02T16:34:11.411758+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S15.jpg",
+      "query": "Edison carbonized cotton filament light bulb 1879",
+      "score": 36,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-02-S16": {
+      "cached_at": "2026-10-02T16:34:14.260224+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S16.jpg",
+      "query": "Approximately 7,000 languages are spoken or signed worldwide Linguistic Diversity",
+      "score": 27,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-02-S17": {
+      "cached_at": "2026-10-02T16:34:15.514585+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S17.jpg",
+      "query": "Bamboo filaments extended Edison-bulb life to 1,200 hours Incandescent lighting",
+      "score": 48,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-02-S18": {
+      "cached_at": "2026-10-02T16:34:21.337163+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S18.jpg",
+      "query": "The study sampled 12 language families Language Families",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_Bayesian_phylogenetic_study_of_the_Dravidian_language_family.pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/A_Bayesian_phylogenetic_study_of_the_Dravidian_language_family.pdf/page1-960px-A_Bayesian_phylogenetic_study_of_the_Dravidian_language_family.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-02-S19": {
+      "cached_at": "2026-10-02T16:34:24.336080+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S19.jpg",
+      "query": "ocean currents deflected by Coriolis effect",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ekman_spirale.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Ekman_spirale.svg/960px-Ekman_spirale.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-02-S20": {
+      "cached_at": "2026-10-02T16:34:27.120692+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-02-S20.jpg",
+      "query": "Number of seahorse species Seahorses",
+      "score": 15,
+      "source_page": "https://commons.wikimedia.org/wiki/Category:Syngnathidae",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Ornate_Ghost_Pipefish_%286997593631%29.jpg/1280px-Ornate_Ghost_Pipefish_%286997593631%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -2348,6 +2567,10 @@
     "2139bba3c132eddab9f8bb66": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S11"
+    },
+    "215dd2adaa465c125fdfe308": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S17"
     },
     "2209b1063a51df586f5d0c6543ab38e2a6349ac5": {
       "date": "2026-09-24",
@@ -2437,6 +2660,10 @@
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S11"
     },
+    "507ef8518c47c274846c7b3d": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S11"
+    },
     "58f18870366af901b5b0b86749fb7532ba0be1d9": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S07"
@@ -2465,6 +2692,10 @@
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S06"
     },
+    "6a405a4e22fa7d68ffa63b95": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S19"
+    },
     "6b3e0e90a224ac0fe7eb1e326f25429560f0fed7": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S11"
@@ -2472,6 +2703,10 @@
     "6b6ccf3567dc140bade8e4985d5b3211a96e1ad0": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S09"
+    },
+    "709b7e1ee90a5c275948a12e": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S13"
     },
     "79589c7462440105b067762263fe3fdf7c05cbed": {
       "date": "2026-09-24",
@@ -2509,6 +2744,10 @@
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S04"
     },
+    "93c3e8547c247957b9bdb8c2": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S14"
+    },
     "941b541652b13026dc9f7250b12fc455864910a5": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S01"
@@ -2516,6 +2755,10 @@
     "962ea4d6354365665db939b7": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S08"
+    },
+    "96c14fd0e6d691316e0d5405": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S20"
     },
     "98835fab790aa4efa8c72307": {
       "date": "2026-10-02",
@@ -2581,9 +2824,17 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S02"
     },
+    "b1fc91f73629e9753abd10ae": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S12"
+    },
     "b4240052cef889970abdc3f7d04aa494339b12dd": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S12"
+    },
+    "b444fc28d3b17f8bf19559e2": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S18"
     },
     "b4a0d390735d0e6d0f18b3df": {
       "date": "2026-10-01",
@@ -2629,9 +2880,17 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S02"
     },
+    "cf8fb4f4a72371f5c501b5c0": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S15"
+    },
     "d4b8a35a6447b62053dbd8aa": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S20"
+    },
+    "d6166bfc138a8ad925098c1f": {
+      "date": "2026-10-02",
+      "fact_id": "FACT-2026-10-02-S16"
     },
     "dd7edc121b444a7f2e69208a": {
       "date": "2026-10-01",
@@ -2906,6 +3165,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-02",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-02T16:34:28.245870+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
