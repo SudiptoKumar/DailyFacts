@@ -1623,6 +1623,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-03": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-03-S01",
+            "FACT-2026-10-03-S02",
+            "FACT-2026-10-03-S03",
+            "FACT-2026-10-03-S04",
+            "FACT-2026-10-03-S05",
+            "FACT-2026-10-03-S06",
+            "FACT-2026-10-03-S07",
+            "FACT-2026-10-03-S08",
+            "FACT-2026-10-03-S09",
+            "FACT-2026-10-03-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-03T07:15:48.929380+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-03T07:15:11.905496+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-03-S01": {
+          "batch": 1,
+          "claim_key": "1417e1fd02c454222276c15d",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Jupiter,_rings_and_a_moon.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 217,
+          "published_at": "2026-10-03T07:15:16.114452+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S02": {
+          "batch": 1,
+          "claim_key": "c6819f09653c8e6782b7bf9b",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/moon/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 218,
+          "published_at": "2026-10-03T07:15:17.438229+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S03": {
+          "batch": 1,
+          "claim_key": "ae8651feabb7a8d0c93db3b7",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Apollo_14_-_Mission_to_Fra_Mauro.webm",
+          "image_source": "Wikimedia Commons",
+          "message_id": 219,
+          "published_at": "2026-10-03T07:15:22.034932+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S04": {
+          "batch": 1,
+          "claim_key": "9faf089ac1953eef85cf29b9",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/ne/articles/10-intriguing-facts-about-worlds-first-nuclear-chain-reaction",
+          "image_source": "Wikimedia Commons",
+          "message_id": 220,
+          "published_at": "2026-10-03T07:15:23.733252+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S05": {
+          "batch": 1,
+          "claim_key": "c5f4a7946939a079171ceb83",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/ne/articles/10-intriguing-facts-about-worlds-first-nuclear-chain-reaction",
+          "image_source": "Wikimedia Commons",
+          "message_id": 221,
+          "published_at": "2026-10-03T07:15:25.171941+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S06": {
+          "batch": 1,
+          "claim_key": "576694782fcc56aeefc0b9a1",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Giant_clam_(49580188323).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 222,
+          "published_at": "2026-10-03T07:15:29.344856+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S07": {
+          "batch": 1,
+          "claim_key": "207a0ab0050a918d9e35bcb0",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:International-development.gif",
+          "image_source": "Wikimedia Commons",
+          "message_id": 223,
+          "published_at": "2026-10-03T07:15:34.221500+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S08": {
+          "batch": 1,
+          "claim_key": "5ac283556002a38bc513a791",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Land-based_sources_of_pollution_threats_to_coral_reefs.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 224,
+          "published_at": "2026-10-03T07:15:38.220033+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S09": {
+          "batch": 1,
+          "claim_key": "0034ae5b541e891ea879955e",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:HDI_vs_GDP,_2015.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 225,
+          "published_at": "2026-10-03T07:15:44.298103+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S10": {
+          "batch": 1,
+          "claim_key": "76c279d6c4e25f0fd547a47e",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Bleached_Coral.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 226,
+          "published_at": "2026-10-03T07:15:48.926892+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -2513,9 +2648,103 @@
       "score": 15,
       "source_page": "https://commons.wikimedia.org/wiki/Category:Syngnathidae",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Ornate_Ghost_Pipefish_%286997593631%29.jpg/1280px-Ornate_Ghost_Pipefish_%286997593631%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-03-S01": {
+      "cached_at": "2026-10-03T07:15:14.924883+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S01.jpg",
+      "query": "Moon",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jupiter,_rings_and_a_moon.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Jupiter%2C_rings_and_a_moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-03-S02": {
+      "cached_at": "2026-10-03T07:15:16.579116+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S02.jpg",
+      "query": "astronauts on the Moon surface",
+      "score": 17,
+      "source_page": "https://science.nasa.gov/moon/facts/",
+      "source_url": "https://science.nasa.gov/moon/facts/"
+    },
+    "FACT-2026-10-03-S03": {
+      "cached_at": "2026-10-03T07:15:21.015441+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S03.jpg",
+      "query": "Apollo astronauts lunar rock and soil collection",
+      "score": 29,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Apollo_14_-_Mission_to_Fra_Mauro.webm",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Apollo_14_-_Mission_to_Fra_Mauro.webm/1280px--Apollo_14_-_Mission_to_Fra_Mauro.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo"
+    },
+    "FACT-2026-10-03-S04": {
+      "cached_at": "2026-10-03T07:15:22.439431+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S04.jpg",
+      "query": "First Controlled Nuclear Chain Reaction Nuclear Physics",
+      "score": 34,
+      "source_page": "https://www.energy.gov/ne/articles/10-intriguing-facts-about-worlds-first-nuclear-chain-reaction",
+      "source_url": "https://www.energy.gov/ne/articles/10-intriguing-facts-about-worlds-first-nuclear-chain-reaction"
+    },
+    "FACT-2026-10-03-S05": {
+      "cached_at": "2026-10-03T07:15:24.195454+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S05.jpg",
+      "query": "Chicago Pile-1 graphite blocks with uranium disks",
+      "score": 24,
+      "source_page": "https://www.energy.gov/ne/articles/10-intriguing-facts-about-worlds-first-nuclear-chain-reaction",
+      "source_url": "https://www.energy.gov/ne/articles/10-intriguing-facts-about-worlds-first-nuclear-chain-reaction"
+    },
+    "FACT-2026-10-03-S06": {
+      "cached_at": "2026-10-03T07:15:28.107032+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S06.jpg",
+      "query": "Shallow corals and zooxanthellae Symbiosis",
+      "score": 24,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Giant_clam_(49580188323).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Giant_clam_%2849580188323%29.jpg/1280px-Giant_clam_%2849580188323%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-03-S07": {
+      "cached_at": "2026-10-03T07:15:33.357130+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S07.jpg",
+      "query": "World Development Indicators time span Development data",
+      "score": 29,
+      "source_page": "https://commons.wikimedia.org/wiki/File:International-development.gif",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/International-development.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-03-S08": {
+      "cached_at": "2026-10-03T07:15:37.129503+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S08.jpg",
+      "query": "Human threats to coral reefs Coral reef threats",
+      "score": 32,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Land-based_sources_of_pollution_threats_to_coral_reefs.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Land-based_sources_of_pollution_threats_to_coral_reefs.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-03-S09": {
+      "cached_at": "2026-10-03T07:15:42.879677+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S09.jpg",
+      "query": "World Development Indicators data themes infographic",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:HDI_vs_GDP,_2015.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/HDI_vs_GDP%2C_2015.png/1280px-HDI_vs_GDP%2C_2015.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-03-S10": {
+      "cached_at": "2026-10-03T07:15:47.677560+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S10.jpg",
+      "query": "Climate change stresses corals Climate impacts",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bleached_Coral.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Bleached_Coral.png/1280px-Bleached_Coral.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
     }
   },
   "published_claims": {
+    "0034ae5b541e891ea879955e": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S09"
+    },
     "0091987aec61956975bf9406": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S19"
@@ -2535,6 +2764,10 @@
     "137049d4485542883169410c": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S04"
+    },
+    "1417e1fd02c454222276c15d": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S01"
     },
     "16273decdb751be27899fb1fc6dfd963dac7a096": {
       "date": "2026-09-27",
@@ -2559,6 +2792,10 @@
     "20149cc8d0941131ab57f060d501aeb7f2090fcc": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S08"
+    },
+    "207a0ab0050a918d9e35bcb0": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S07"
     },
     "2129de9b79254b05899e78c4f14a72126afffa45": {
       "date": "2026-09-30",
@@ -2664,9 +2901,17 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S11"
     },
+    "576694782fcc56aeefc0b9a1": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S06"
+    },
     "58f18870366af901b5b0b86749fb7532ba0be1d9": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S07"
+    },
+    "5ac283556002a38bc513a791": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S08"
     },
     "5c3a3590dc5b398d430deb03b367dbd40521b256": {
       "date": "2026-09-28",
@@ -2707,6 +2952,10 @@
     "709b7e1ee90a5c275948a12e": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S13"
+    },
+    "76c279d6c4e25f0fd547a47e": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S10"
     },
     "79589c7462440105b067762263fe3fdf7c05cbed": {
       "date": "2026-09-24",
@@ -2800,6 +3049,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S08"
     },
+    "9faf089ac1953eef85cf29b9": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S04"
+    },
     "a29ac01d5084388701cea15e926b32d929846d96": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S10"
@@ -2811,6 +3064,10 @@
     "aa0c3d927a6b6297affbe520b732c90ecc75c8c3": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S11"
+    },
+    "ae8651feabb7a8d0c93db3b7": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S03"
     },
     "aed63ee8707746ef115a23fdb7683a23ab2e6191": {
       "date": "2026-09-24",
@@ -2863,6 +3120,14 @@
     "c3b7476a38730e231714cd20ca8b09957ef631ad": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S05"
+    },
+    "c5f4a7946939a079171ceb83": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S05"
+    },
+    "c6819f09653c8e6782b7bf9b": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S02"
     },
     "c6950dd8971ec3ff097f0fc5": {
       "date": "2026-10-01",
@@ -3181,6 +3446,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-03",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-03T07:15:48.929393+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
