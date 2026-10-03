@@ -1644,6 +1644,25 @@
           "published_count": 10,
           "started_at": "2026-10-03T07:15:11.905496+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-03-S11",
+            "FACT-2026-10-03-S12",
+            "FACT-2026-10-03-S13",
+            "FACT-2026-10-03-S14",
+            "FACT-2026-10-03-S15",
+            "FACT-2026-10-03-S16",
+            "FACT-2026-10-03-S17",
+            "FACT-2026-10-03-S18",
+            "FACT-2026-10-03-S19",
+            "FACT-2026-10-03-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-03T15:06:26.537160+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-03T15:05:39.959066+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -1754,6 +1773,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 226,
           "published_at": "2026-10-03T07:15:48.926892+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S11": {
+          "batch": 2,
+          "claim_key": "680eacac99fd3c78d7f49d0d",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 227,
+          "published_at": "2026-10-03T15:05:41.916170+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S12": {
+          "batch": 2,
+          "claim_key": "8a36be330cade9c8da152167",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 228,
+          "published_at": "2026-10-03T15:05:43.579695+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S13": {
+          "batch": 2,
+          "claim_key": "824ae6d119f82a7636e94a89",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Atlas_and_zoogeography_of_common_fishes_in_the_Bering_Sea_and_Northeastern_Pacific_-_M._James_Allen,_Gary_B._Smith_(1988)_(20156698178).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 229,
+          "published_at": "2026-10-03T15:05:51.845138+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S14": {
+          "batch": 2,
+          "claim_key": "f6ee4f10b487a29ae3f14672",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Mammal_species_pie_chart.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 230,
+          "published_at": "2026-10-03T15:05:59.191508+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S15": {
+          "batch": 2,
+          "claim_key": "0f25c30514ce086d7e49c6a3",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 231,
+          "published_at": "2026-10-03T15:06:00.840285+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S16": {
+          "batch": 2,
+          "claim_key": "4742fa94fc4f780b4ae61d53",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 232,
+          "published_at": "2026-10-03T15:06:04.329053+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S17": {
+          "batch": 2,
+          "claim_key": "1bfcf8f8ee1bd3e9f09b766d",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 233,
+          "published_at": "2026-10-03T15:06:06.032956+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S18": {
+          "batch": 2,
+          "claim_key": "b4657a92618066b99ee5e899",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 234,
+          "published_at": "2026-10-03T15:06:09.425973+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S19": {
+          "batch": 2,
+          "claim_key": "db22cd60d3d63e81722f4194",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:A_study_of_the_surface_heat_budget_of_the_Weddell_Sea_using_a_radiative_transfer_model_during_the_austral_winter_1994._(IA_studyofsurfacehe00tram).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 235,
+          "published_at": "2026-10-03T15:06:15.900792+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-03-S20": {
+          "batch": 2,
+          "claim_key": "758381e98d47257015996b78",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Spotted_seahorse_(Hippocampus_kuda)_(40554459970).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 236,
+          "published_at": "2026-10-03T15:06:26.532877+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -2738,6 +2867,96 @@
       "score": 23,
       "source_page": "https://commons.wikimedia.org/wiki/File:Bleached_Coral.png",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Bleached_Coral.png/1280px-Bleached_Coral.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-03-S11": {
+      "cached_at": "2026-10-03T15:05:40.740003+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S11.jpg",
+      "query": "Dholavira fortified city and cemetery archaeological site",
+      "score": 18,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-03-S12": {
+      "cached_at": "2026-10-03T15:05:42.270528+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S12.jpg",
+      "query": "Dholavira ancient city water streams",
+      "score": 21,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-03-S13": {
+      "cached_at": "2026-10-03T15:05:50.355035+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S13.jpg",
+      "query": "Zoogeography definition Biogeography",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Atlas_and_zoogeography_of_common_fishes_in_the_Bering_Sea_and_Northeastern_Pacific_-_M._James_Allen,_Gary_B._Smith_(1988)_(20156698178).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Atlas_and_zoogeography_of_common_fishes_in_the_Bering_Sea_and_Northeastern_Pacific_-_M._James_Allen%2C_Gary_B._Smith_%281988%29_%2820156698178%29.jpg/1280px-Atlas_and_zoogeography_of_common_fishes_in_the_Bering_Sea_and_Northeastern_Pacific_-_M._James_Allen%2C_Gary_B._Smith_%281988%29_%2820156698178%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-03-S14": {
+      "cached_at": "2026-10-03T15:05:57.634622+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S14.jpg",
+      "query": "illustration of a world map with various animal species icons highlighting different habitats and distribution patterns",
+      "score": 8,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mammal_species_pie_chart.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Mammal_species_pie_chart.png/1280px-Mammal_species_pie_chart.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-03-S15": {
+      "cached_at": "2026-10-03T15:05:59.646856+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S15.jpg",
+      "query": "Edison demonstrated centralized electricity distribution in 1882 Electrical distribution",
+      "score": 36,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-03-S16": {
+      "cached_at": "2026-10-03T15:06:02.825609+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S16.jpg",
+      "query": "Language-network variation across languages was comparable to or lower than variation between individuals Language Research",
+      "score": 41,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-03-S17": {
+      "cached_at": "2026-10-03T15:06:04.820674+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S17.jpg",
+      "query": "Thomas Edison early electric meter",
+      "score": 28,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-03-S18": {
+      "cached_at": "2026-10-03T15:06:07.946989+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S18.jpg",
+      "query": "Language-responsive brain regions are activated more by native language than degraded or unfamiliar language Neuroscience",
+      "score": 38,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-03-S19": {
+      "cached_at": "2026-10-03T15:06:14.371306+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S19.jpg",
+      "query": "Surface currents transfer heat Surface currents",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_study_of_the_surface_heat_budget_of_the_Weddell_Sea_using_a_radiative_transfer_model_during_the_austral_winter_1994._(IA_studyofsurfacehe00tram).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/A_study_of_the_surface_heat_budget_of_the_Weddell_Sea_using_a_radiative_transfer_model_during_the_austral_winter_1994._%28IA_studyofsurfacehe00tram%29.pdf/page1-960px-A_study_of_the_surface_heat_budget_of_the_Weddell_Sea_using_a_radiative_transfer_model_during_the_austral_winter_1994._%28IA_studyofsurfacehe00tram%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-03-S20": {
+      "cached_at": "2026-10-03T15:06:24.705392+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-03-S20.jpg",
+      "query": "Recent seahorse discoveries Seahorses",
+      "score": 10,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Spotted_seahorse_(Hippocampus_kuda)_(40554459970).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Spotted_seahorse_%28Hippocampus_kuda%29_%2840554459970%29.jpg/1280px-Spotted_seahorse_%28Hippocampus_kuda%29_%2840554459970%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -2752,6 +2971,10 @@
     "09cbaca23b94d554b9728dc8": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S03"
+    },
+    "0f25c30514ce086d7e49c6a3": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S15"
     },
     "0f32e0a401bc2319d3524f979b3837cc3e30e233": {
       "date": "2026-09-26",
@@ -2780,6 +3003,10 @@
     "1b79456b5666c84111b54cd7": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S13"
+    },
+    "1bfcf8f8ee1bd3e9f09b766d": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S17"
     },
     "1db78455e3cd9d419709866541a1a1a284909a8e": {
       "date": "2026-09-27",
@@ -2881,6 +3108,10 @@
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S01"
     },
+    "4742fa94fc4f780b4ae61d53": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S16"
+    },
     "4849b841d2a1a3aaec7bc0400a59ba7d8dd01a5b": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S01"
@@ -2933,6 +3164,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S09"
     },
+    "680eacac99fd3c78d7f49d0d": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S11"
+    },
     "696c11fcd0f4c6a628495e998fdad4c5e0280e35": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S06"
@@ -2952,6 +3187,10 @@
     "709b7e1ee90a5c275948a12e": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S13"
+    },
+    "758381e98d47257015996b78": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S20"
     },
     "76c279d6c4e25f0fd547a47e": {
       "date": "2026-10-03",
@@ -2981,6 +3220,10 @@
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S01"
     },
+    "824ae6d119f82a7636e94a89": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S13"
+    },
     "8942d4322d8e52a9871fd5a4": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S12"
@@ -2988,6 +3231,10 @@
     "89f392d20767e6aa658c4407": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S06"
+    },
+    "8a36be330cade9c8da152167": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S12"
     },
     "913f0e0805b3544bf826ac8d2268d9496b796b54": {
       "date": "2026-09-28",
@@ -3093,6 +3340,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S18"
     },
+    "b4657a92618066b99ee5e899": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S18"
+    },
     "b4a0d390735d0e6d0f18b3df": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S09"
@@ -3157,6 +3408,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S16"
     },
+    "db22cd60d3d63e81722f4194": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S19"
+    },
     "dd7edc121b444a7f2e69208a": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S17"
@@ -3188,6 +3443,10 @@
     "f44101f8d9cf809c5d4c5e552bff7bfa44c22499": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S04"
+    },
+    "f6ee4f10b487a29ae3f14672": {
+      "date": "2026-10-03",
+      "fact_id": "FACT-2026-10-03-S14"
     },
     "f804a67248da3e64b3021016": {
       "date": "2026-10-01",
@@ -3462,6 +3721,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-03",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-03T15:06:26.537171+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
