@@ -1908,6 +1908,25 @@
           "published_count": 10,
           "started_at": "2026-10-04T07:33:22.898002+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-04-S11",
+            "FACT-2026-10-04-S12",
+            "FACT-2026-10-04-S13",
+            "FACT-2026-10-04-S14",
+            "FACT-2026-10-04-S15",
+            "FACT-2026-10-04-S16",
+            "FACT-2026-10-04-S17",
+            "FACT-2026-10-04-S18",
+            "FACT-2026-10-04-S19",
+            "FACT-2026-10-04-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-04T15:43:48.242172+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-04T15:42:56.523370+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -2018,6 +2037,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 246,
           "published_at": "2026-10-04T07:34:06.465239+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S11": {
+          "batch": 2,
+          "claim_key": "28d62f915568a81bf5be4bdd",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 247,
+          "published_at": "2026-10-04T15:42:58.972479+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S12": {
+          "batch": 2,
+          "claim_key": "21ecec0c1c99aef001303152",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 248,
+          "published_at": "2026-10-04T15:43:00.798828+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S13": {
+          "batch": 2,
+          "claim_key": "fb3ec2598eee1d93bbdc04cb",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Shiveluch%E2%80%94Kamchatkan_volcanoes_(2256_-_ISS001-E-6504_lrg).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 249,
+          "published_at": "2026-10-04T15:43:11.839584+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S14": {
+          "batch": 2,
+          "claim_key": "e6cf5f9eb9a87ea5092c47e3",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Tectonic_plates_and_ring_of_fire.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 250,
+          "published_at": "2026-10-04T15:43:22.544512+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S15": {
+          "batch": 2,
+          "claim_key": "3fa7e3b4e858bc6331ead768",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 251,
+          "published_at": "2026-10-04T15:43:24.444353+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S16": {
+          "batch": 2,
+          "claim_key": "adad68654fd553bdc9f02b72",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 252,
+          "published_at": "2026-10-04T15:43:28.113906+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S17": {
+          "batch": 2,
+          "claim_key": "22fd1129e26abd8209a29007",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 253,
+          "published_at": "2026-10-04T15:43:29.670535+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S18": {
+          "batch": 2,
+          "claim_key": "30b0900017f674ead29ff767",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 254,
+          "published_at": "2026-10-04T15:43:33.392254+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S19": {
+          "batch": 2,
+          "claim_key": "adaf7339c8c94ba024799c74",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_gulf_and_inland_waters_(1883)_(14777891575).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 255,
+          "published_at": "2026-10-04T15:43:38.357801+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S20": {
+          "batch": 2,
+          "claim_key": "1b0ae1be9cb9069da1cab35e",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/Category:Hippocampus_pontohi",
+          "image_source": "Wikimedia Commons",
+          "message_id": 256,
+          "published_at": "2026-10-04T15:43:48.237302+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -3182,6 +3311,96 @@
       "score": 21,
       "source_page": "https://commons.wikimedia.org/wiki/File:Recovery_from_bleaching_is_mediated_by_threshold_densities_of_background_thermo-tolerant_symbiont_types_in_a_reef-building_coral.pdf",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Recovery_from_bleaching_is_mediated_by_threshold_densities_of_background_thermo-tolerant_symbiont_types_in_a_reef-building_coral.pdf/page1-960px-Recovery_from_bleaching_is_mediated_by_threshold_densities_of_background_thermo-tolerant_symbiont_types_in_a_reef-building_coral.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-04-S11": {
+      "cached_at": "2026-10-04T15:42:57.595995+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S11.jpg",
+      "query": "Dholavira water reservoirs and drainage system",
+      "score": 20,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-04-S12": {
+      "cached_at": "2026-10-04T15:42:59.683142+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S12.jpg",
+      "query": "Aerial view of the Dholavira archaeological site showing its distinct streets and house structures",
+      "score": 21,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-04-S13": {
+      "cached_at": "2026-10-04T15:43:09.988775+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S13.jpg",
+      "query": "volcanoes along the Pacific Rim",
+      "score": 33,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Shiveluch%E2%80%94Kamchatkan_volcanoes_(2256_-_ISS001-E-6504_lrg).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Shiveluch%E2%80%94Kamchatkan_volcanoes_%282256_-_ISS001-E-6504_lrg%29.jpg/1280px-Shiveluch%E2%80%94Kamchatkan_volcanoes_%282256_-_ISS001-E-6504_lrg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-04-S14": {
+      "cached_at": "2026-10-04T15:43:21.103072+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S14.jpg",
+      "query": "map of the Pacific Ring of Fire highlighting earthquake activity",
+      "score": 15,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tectonic_plates_and_ring_of_fire.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Tectonic_plates_and_ring_of_fire.png/1280px-Tectonic_plates_and_ring_of_fire.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-04-S15": {
+      "cached_at": "2026-10-04T15:43:23.318858+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S15.jpg",
+      "query": "early 20th century tungsten filament incandescent bulb glowing brightly",
+      "score": 30,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-04-S16": {
+      "cached_at": "2026-10-04T15:43:26.677156+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S16.jpg",
+      "query": "brain functional connectivity language network vs multiple-demand network illustration",
+      "score": 25,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-04-S17": {
+      "cached_at": "2026-10-04T15:43:28.542372+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S17.jpg",
+      "query": "Geissler tubes used electrical current through low-pressure gas Fluorescent lighting",
+      "score": 49,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-04-S18": {
+      "cached_at": "2026-10-04T15:43:31.525472+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S18.jpg",
+      "query": "The left-hemisphere language network shows stronger language selectivity than the right-hemisphere network Neuroscience",
+      "score": 36,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-04-S19": {
+      "cached_at": "2026-10-04T15:43:36.809130+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S19.jpg",
+      "query": "Gulf Stream water transport Gulf Stream",
+      "score": 30,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_gulf_and_inland_waters_(1883)_(14777891575).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/The_gulf_and_inland_waters_%281883%29_%2814777891575%29.jpg/1280px-The_gulf_and_inland_waters_%281883%29_%2814777891575%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-04-S20": {
+      "cached_at": "2026-10-04T15:43:46.724321+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S20.jpg",
+      "query": "Pontoh's pygmy seahorse",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/Category:Hippocampus_pontohi",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Hippocampus_pontohi_%2816707567753%29.jpg/960px-Hippocampus_pontohi_%2816707567753%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -3233,6 +3452,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S07"
     },
+    "1b0ae1be9cb9069da1cab35e": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S20"
+    },
     "1b79456b5666c84111b54cd7": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S13"
@@ -3269,9 +3492,17 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S17"
     },
+    "21ecec0c1c99aef001303152": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S12"
+    },
     "2209b1063a51df586f5d0c6543ab38e2a6349ac5": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S06"
+    },
+    "22fd1129e26abd8209a29007": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S17"
     },
     "270195956a592e48134b4854b22c66d480b273e9": {
       "date": "2026-09-28",
@@ -3280,6 +3511,10 @@
     "272d00299837d67e349f2b26364f166eaf0e10fb": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S08"
+    },
+    "28d62f915568a81bf5be4bdd": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S11"
     },
     "2b395274207c882ffd590bf70e936ae908bc1b9c": {
       "date": "2026-09-25",
@@ -3305,6 +3540,10 @@
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S06"
     },
+    "30b0900017f674ead29ff767": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S18"
+    },
     "334da577c7783bd78b64c78ea938e1957e26fb14": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S13"
@@ -3316,6 +3555,10 @@
     "35d8ef29a94701c635b0efb3aeb51be40c9533d5": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S09"
+    },
+    "3fa7e3b4e858bc6331ead768": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S15"
     },
     "402fd69636d182f28fad1872d27c7667a0088123": {
       "date": "2026-09-26",
@@ -3561,6 +3804,14 @@
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S11"
     },
+    "adad68654fd553bdc9f02b72": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S16"
+    },
+    "adaf7339c8c94ba024799c74": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S19"
+    },
     "ae8651feabb7a8d0c93db3b7": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S03"
@@ -3697,6 +3948,10 @@
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S01"
     },
+    "e6cf5f9eb9a87ea5092c47e3": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S14"
+    },
     "eea5c82b45319b5c65f1a582": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S16"
@@ -3728,6 +3983,10 @@
     "fa6a139b384e6586d6af06a2bf7b606d5c54be06": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S08"
+    },
+    "fb3ec2598eee1d93bbdc04cb": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S13"
     },
     "fc8f121cfd56696cf5454ffbf3f965a1b200689d": {
       "date": "2026-09-24",
@@ -4018,6 +4277,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-04",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-04T15:43:48.242184+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
