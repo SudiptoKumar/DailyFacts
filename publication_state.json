@@ -1887,6 +1887,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-04": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-04-S01",
+            "FACT-2026-10-04-S02",
+            "FACT-2026-10-04-S03",
+            "FACT-2026-10-04-S04",
+            "FACT-2026-10-04-S05",
+            "FACT-2026-10-04-S06",
+            "FACT-2026-10-04-S07",
+            "FACT-2026-10-04-S08",
+            "FACT-2026-10-04-S09",
+            "FACT-2026-10-04-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-04T07:34:06.469409+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-04T07:33:22.898002+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-04-S01": {
+          "batch": 1,
+          "claim_key": "b7247d0f70c93596823aad17",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/moon/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 237,
+          "published_at": "2026-10-04T07:33:23.986436+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S02": {
+          "batch": 1,
+          "claim_key": "b91b8b1569b6e6ab1f142025",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/moon/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 238,
+          "published_at": "2026-10-04T07:33:24.806356+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S03": {
+          "batch": 1,
+          "claim_key": "4deea630ab136c3770f994be",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/moon/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 239,
+          "published_at": "2026-10-04T07:33:25.645746+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S04": {
+          "batch": 1,
+          "claim_key": "1279abd9b6ec45e6082a19fb",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Coralline_algae_and_fleshy_crusts_among_corals._The_green_is_probably_corallines_killed_by_disease._(6158474391).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 240,
+          "published_at": "2026-10-04T07:33:31.301025+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S05": {
+          "batch": 1,
+          "claim_key": "57876de6e571f6a87889a8e8",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Men_of_Hawaii;_a_biographical_reference_library,_complete_and_authentic,_of_the_men_of_note_and_substantial_achievement_in_the_Hawaiian_Islands_v._1-5_(1917)_(14579051880).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 241,
+          "published_at": "2026-10-04T07:33:43.981320+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S06": {
+          "batch": 1,
+          "claim_key": "d64e7ac383606b2ee5aedbd9",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Diamond_in_kimberlite_(Mir_Kimberlite_Pipe,_Malo-Botuoba_Kimberlite_Field,_~354-360_Ma;_Mir_Diamond_Mine,_Siberia,_Russia)_(17440851983).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 242,
+          "published_at": "2026-10-04T07:33:46.574026+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S07": {
+          "batch": 1,
+          "claim_key": "03a10ae3c761330d0d19a038",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/Category:Economic_indicators",
+          "image_source": "Wikimedia Commons",
+          "message_id": 243,
+          "published_at": "2026-10-04T07:33:50.126427+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S08": {
+          "batch": 1,
+          "claim_key": "e2644f6ed382dab37d5612e7",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_Future_of_Coral_Reefs.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 244,
+          "published_at": "2026-10-04T07:33:58.830271+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S09": {
+          "batch": 1,
+          "claim_key": "5f4154a8fa06852f67fba7fc",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Circular_flow_of_income.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 245,
+          "published_at": "2026-10-04T07:34:01.986436+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-04-S10": {
+          "batch": 1,
+          "claim_key": "a6be0fa969f8f35c1f566f28",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Recovery_from_bleaching_is_mediated_by_threshold_densities_of_background_thermo-tolerant_symbiont_types_in_a_reef-building_coral.pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 246,
+          "published_at": "2026-10-04T07:34:06.465239+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -2957,6 +3092,96 @@
       "score": 10,
       "source_page": "https://commons.wikimedia.org/wiki/File:Spotted_seahorse_(Hippocampus_kuda)_(40554459970).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Spotted_seahorse_%28Hippocampus_kuda%29_%2840554459970%29.jpg/1280px-Spotted_seahorse_%28Hippocampus_kuda%29_%2840554459970%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-04-S01": {
+      "cached_at": "2026-10-04T07:33:23.298952+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S01.jpg",
+      "query": "Moon’s likely formation Moon Formation",
+      "score": 17,
+      "source_page": "https://science.nasa.gov/moon/facts/",
+      "source_url": "https://science.nasa.gov/moon/facts/"
+    },
+    "FACT-2026-10-04-S02": {
+      "cached_at": "2026-10-04T07:33:24.151922+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S02.jpg",
+      "query": "Moon’s orbital period Moon Orbit",
+      "score": 16,
+      "source_page": "https://science.nasa.gov/moon/facts/",
+      "source_url": "https://science.nasa.gov/moon/facts/"
+    },
+    "FACT-2026-10-04-S03": {
+      "cached_at": "2026-10-04T07:33:24.947694+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S03.jpg",
+      "query": "Moon’s recession from Earth Moon Motion",
+      "score": 22,
+      "source_page": "https://science.nasa.gov/moon/facts/",
+      "source_url": "https://science.nasa.gov/moon/facts/"
+    },
+    "FACT-2026-10-04-S04": {
+      "cached_at": "2026-10-04T07:33:30.316128+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S04.jpg",
+      "query": "Benefits exchanged by corals and algae Mutualism",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Coralline_algae_and_fleshy_crusts_among_corals._The_green_is_probably_corallines_killed_by_disease._(6158474391).jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Coralline_algae_and_fleshy_crusts_among_corals._The_green_is_probably_corallines_killed_by_disease._%286158474391%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-04-S05": {
+      "cached_at": "2026-10-04T07:33:42.700673+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S05.jpg",
+      "query": "Volcanology training fields Volcanology",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Men_of_Hawaii;_a_biographical_reference_library,_complete_and_authentic,_of_the_men_of_note_and_substantial_achievement_in_the_Hawaiian_Islands_v._1-5_(1917)_(14579051880).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Men_of_Hawaii%3B_a_biographical_reference_library%2C_complete_and_authentic%2C_of_the_men_of_note_and_substantial_achievement_in_the_Hawaiian_Islands_v._1-5_%281917%29_%2814579051880%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-04-S06": {
+      "cached_at": "2026-10-04T07:33:45.334596+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S06.jpg",
+      "query": "Distributed volcanism composition Volcanism",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Diamond_in_kimberlite_(Mir_Kimberlite_Pipe,_Malo-Botuoba_Kimberlite_Field,_~354-360_Ma;_Mir_Diamond_Mine,_Siberia,_Russia)_(17440851983).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Diamond_in_kimberlite_%28Mir_Kimberlite_Pipe%2C_Malo-Botuoba_Kimberlite_Field%2C_~354-360_Ma%3B_Mir_Diamond_Mine%2C_Siberia%2C_Russia%29_%2817440851983%29.jpg/1280px-Diamond_in_kimberlite_%28Mir_Kimberlite_Pipe%2C_Malo-Botuoba_Kimberlite_Field%2C_~354-360_Ma%3B_Mir_Diamond_Mine%2C_Siberia%2C_Russia%29_%2817440851983%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-04-S07": {
+      "cached_at": "2026-10-04T07:33:49.022717+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S07.jpg",
+      "query": "Economic activity indicators Economic indicators",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/Category:Economic_indicators",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Economic_sentiment_indicator_and_its_components.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-04-S08": {
+      "cached_at": "2026-10-04T07:33:53.655190+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S08.jpg",
+      "query": "Global coral bleaching event of 2014–2017 Coral bleaching",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Future_of_Coral_Reefs.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/The_Future_of_Coral_Reefs.png/1280px-The_Future_of_Coral_Reefs.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-04-S09": {
+      "cached_at": "2026-10-04T07:34:01.072239+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S09.jpg",
+      "query": "illustration showing GDP, consumption, investment, and international trade charts",
+      "score": 11,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Circular_flow_of_income.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Circular_flow_of_income.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-04-S10": {
+      "cached_at": "2026-10-04T07:34:05.287087+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-04-S10.jpg",
+      "query": "Coral recovery after bleaching Coral bleaching",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Recovery_from_bleaching_is_mediated_by_threshold_densities_of_background_thermo-tolerant_symbiont_types_in_a_reef-building_coral.pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Recovery_from_bleaching_is_mediated_by_threshold_densities_of_background_thermo-tolerant_symbiont_types_in_a_reef-building_coral.pdf/page1-960px-Recovery_from_bleaching_is_mediated_by_threshold_densities_of_background_thermo-tolerant_symbiont_types_in_a_reef-building_coral.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -2967,6 +3192,10 @@
     "0091987aec61956975bf9406": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S19"
+    },
+    "03a10ae3c761330d0d19a038": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S07"
     },
     "09cbaca23b94d554b9728dc8": {
       "date": "2026-10-02",
@@ -2983,6 +3212,10 @@
     "1202f46e97abc2491a1423a3431acfc80f079723": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S01"
+    },
+    "1279abd9b6ec45e6082a19fb": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S04"
     },
     "137049d4485542883169410c": {
       "date": "2026-10-01",
@@ -3124,6 +3357,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S09"
     },
+    "4deea630ab136c3770f994be": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S03"
+    },
     "4e8ded038aa041683e1d1f433c46b69e8ae44e02": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S11"
@@ -3135,6 +3372,10 @@
     "576694782fcc56aeefc0b9a1": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S06"
+    },
+    "57876de6e571f6a87889a8e8": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S05"
     },
     "58f18870366af901b5b0b86749fb7532ba0be1d9": {
       "date": "2026-09-28",
@@ -3151,6 +3392,10 @@
     "5e20d1a1b8b2568df860e313e8301772f463a186": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S03"
+    },
+    "5f4154a8fa06852f67fba7fc": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S09"
     },
     "6221087c2ed903cf39e01cc6505843e0205e4067": {
       "date": "2026-09-24",
@@ -3308,6 +3553,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S10"
     },
+    "a6be0fa969f8f35c1f566f28": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S10"
+    },
     "aa0c3d927a6b6297affbe520b732c90ecc75c8c3": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S11"
@@ -3352,9 +3601,17 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S07"
     },
+    "b7247d0f70c93596823aad17": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S01"
+    },
     "b8273e43e091549ac4aa38187697d1e3d65df7b2": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S04"
+    },
+    "b91b8b1569b6e6ab1f142025": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S02"
     },
     "bbede9e8bebf113dee61091dc8c699c8c1584202": {
       "date": "2026-09-24",
@@ -3408,6 +3665,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S16"
     },
+    "d64e7ac383606b2ee5aedbd9": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S06"
+    },
     "db22cd60d3d63e81722f4194": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S19"
@@ -3423,6 +3684,10 @@
     "de849e2aa5513ee8ac952f8fe7ce555095544fb5": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S05"
+    },
+    "e2644f6ed382dab37d5612e7": {
+      "date": "2026-10-04",
+      "fact_id": "FACT-2026-10-04-S08"
     },
     "e4a2e1c1ffc7bce976fa4a84b7a21a0ef527fec9": {
       "date": "2026-09-25",
@@ -3737,6 +4002,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-04",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-04T07:34:06.469420+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
