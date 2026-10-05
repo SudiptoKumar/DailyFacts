@@ -2151,6 +2151,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-05": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-05-S01",
+            "FACT-2026-10-05-S02",
+            "FACT-2026-10-05-S03",
+            "FACT-2026-10-05-S04",
+            "FACT-2026-10-05-S05",
+            "FACT-2026-10-05-S06",
+            "FACT-2026-10-05-S07",
+            "FACT-2026-10-05-S08",
+            "FACT-2026-10-05-S09",
+            "FACT-2026-10-05-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-05T07:54:15.121599+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-05T07:53:32.967410+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-05-S01": {
+          "batch": 1,
+          "claim_key": "0eda06abc710872585b671e0",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Once_SMART-1_has_been_captured_by_the_Moon%27s_gravity,_it_begins_to_work_its_way_closer_to_the_lunar_surface_ESA234908.gif",
+          "image_source": "Wikimedia Commons",
+          "message_id": 257,
+          "published_at": "2026-10-05T07:53:44.782600+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S02": {
+          "batch": 1,
+          "claim_key": "5f20a33234fc09fbcfa871e4",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/moon/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 258,
+          "published_at": "2026-10-05T07:53:45.883347+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S03": {
+          "batch": 1,
+          "claim_key": "3de2d570a9cfc9552c120689",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/moon/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 259,
+          "published_at": "2026-10-05T07:53:46.832536+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S04": {
+          "batch": 1,
+          "claim_key": "0b2d48a2f540bac39a0b927c",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 260,
+          "published_at": "2026-10-05T07:53:55.691565+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S05": {
+          "batch": 1,
+          "claim_key": "13364c8fe2bd85b921067f9e",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Eight_lectures_on_geology_(microform)_-_delivered_at_the_Broadway_tabernacle_in_the_city_of_New_York_(IA_cihm_55281).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 261,
+          "published_at": "2026-10-05T07:53:58.766001+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S06": {
+          "batch": 1,
+          "claim_key": "240e881033e07f80378484f5",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 262,
+          "published_at": "2026-10-05T07:54:04.876057+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S07": {
+          "batch": 1,
+          "claim_key": "a654b53d305407f6884e417e",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:IMPACT_OF_A_DEFAULT_ON_FINANCIAL_STABILITY_AND_ECONOMIC_GROWTH_(IA_gov.gpo.fdsys.CHRG-113shrg86878).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 263,
+          "published_at": "2026-10-05T07:54:10.199539+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S08": {
+          "batch": 1,
+          "claim_key": "6e07ae9c930143486dc907c5",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Extreme_Ocean_Temperatures_Are_Affecting_Florida%E2%80%99s_Coral_Reef_(NESDIS_2023-08-18_20230818_EFO-OTD).png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 264,
+          "published_at": "2026-10-05T07:54:12.983814+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S09": {
+          "batch": 1,
+          "claim_key": "16e258df5370726d5e2f1cfd",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 265,
+          "published_at": "2026-10-05T07:54:14.178221+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S10": {
+          "batch": 1,
+          "claim_key": "f7076ea345bace95429b33f4",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 266,
+          "published_at": "2026-10-05T07:54:15.116777+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -3401,6 +3536,60 @@
       "score": 18,
       "source_page": "https://commons.wikimedia.org/wiki/Category:Hippocampus_pontohi",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Hippocampus_pontohi_%2816707567753%29.jpg/960px-Hippocampus_pontohi_%2816707567753%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-05-S01": {
+      "cached_at": "2026-10-05T07:53:36.902959+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-05-S01.jpg",
+      "query": "illustration of Moon surface with gravity comparison to Earth",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Once_SMART-1_has_been_captured_by_the_Moon%27s_gravity,_it_begins_to_work_its_way_closer_to_the_lunar_surface_ESA234908.gif",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Once_SMART-1_has_been_captured_by_the_Moon%27s_gravity%2C_it_begins_to_work_its_way_closer_to_the_lunar_surface_ESA234908.gif/1280px-Once_SMART-1_has_been_captured_by_the_Moon%27s_gravity%2C_it_begins_to_work_its_way_closer_to_the_lunar_surface_ESA234908.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-05-S02": {
+      "cached_at": "2026-10-05T07:53:45.206365+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-05-S02.jpg",
+      "query": "Moon surface temperature extremes in sunlight and darkness",
+      "score": 18,
+      "source_page": "https://science.nasa.gov/moon/facts/",
+      "source_url": "https://science.nasa.gov/moon/facts/"
+    },
+    "FACT-2026-10-05-S03": {
+      "cached_at": "2026-10-05T07:53:46.231360+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-05-S03.jpg",
+      "query": "water ice in permanently shadowed regions of the lunar poles",
+      "score": 25,
+      "source_page": "https://science.nasa.gov/moon/facts/",
+      "source_url": "https://science.nasa.gov/moon/facts/"
+    },
+    "FACT-2026-10-05-S05": {
+      "cached_at": "2026-10-05T07:53:57.615457+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-05-S05.jpg",
+      "query": "vertical basaltic lava columns formed in a slowly cooling lava flow",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Eight_lectures_on_geology_(microform)_-_delivered_at_the_Broadway_tabernacle_in_the_city_of_New_York_(IA_cihm_55281).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Eight_lectures_on_geology_%28microform%29_-_delivered_at_the_Broadway_tabernacle_in_the_city_of_New_York_%28IA_cihm_55281%29.pdf/page1-960px-Eight_lectures_on_geology_%28microform%29_-_delivered_at_the_Broadway_tabernacle_in_the_city_of_New_York_%28IA_cihm_55281%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-05-S07": {
+      "cached_at": "2026-10-05T07:54:08.994018+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-05-S07.jpg",
+      "query": "Economic stability indicators Economic stability",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:IMPACT_OF_A_DEFAULT_ON_FINANCIAL_STABILITY_AND_ECONOMIC_GROWTH_(IA_gov.gpo.fdsys.CHRG-113shrg86878).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/IMPACT_OF_A_DEFAULT_ON_FINANCIAL_STABILITY_AND_ECONOMIC_GROWTH_%28IA_gov.gpo.fdsys.CHRG-113shrg86878%29.pdf/page1-960px-IMPACT_OF_A_DEFAULT_ON_FINANCIAL_STABILITY_AND_ECONOMIC_GROWTH_%28IA_gov.gpo.fdsys.CHRG-113shrg86878%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-05-S08": {
+      "cached_at": "2026-10-05T07:54:11.958491+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-05-S08.jpg",
+      "query": "white coral reef bleaching",
+      "score": 27,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Extreme_Ocean_Temperatures_Are_Affecting_Florida%E2%80%99s_Coral_Reef_(NESDIS_2023-08-18_20230818_EFO-OTD).png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Extreme_Ocean_Temperatures_Are_Affecting_Florida%E2%80%99s_Coral_Reef_%28NESDIS_2023-08-18_20230818_EFO-OTD%29.png/1280px-Extreme_Ocean_Temperatures_Are_Affecting_Florida%E2%80%99s_Coral_Reef_%28NESDIS_2023-08-18_20230818_EFO-OTD%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -3420,6 +3609,14 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S03"
     },
+    "0b2d48a2f540bac39a0b927c": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S04"
+    },
+    "0eda06abc710872585b671e0": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S01"
+    },
     "0f25c30514ce086d7e49c6a3": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S15"
@@ -3436,6 +3633,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S04"
     },
+    "13364c8fe2bd85b921067f9e": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S05"
+    },
     "137049d4485542883169410c": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S04"
@@ -3447,6 +3648,10 @@
     "16273decdb751be27899fb1fc6dfd963dac7a096": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S07"
+    },
+    "16e258df5370726d5e2f1cfd": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S09"
     },
     "19d71d0264da875c8a464f44": {
       "date": "2026-10-02",
@@ -3504,6 +3709,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S17"
     },
+    "240e881033e07f80378484f5": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S06"
+    },
     "270195956a592e48134b4854b22c66d480b273e9": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S05"
@@ -3555,6 +3764,10 @@
     "35d8ef29a94701c635b0efb3aeb51be40c9533d5": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S09"
+    },
+    "3de2d570a9cfc9552c120689": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S03"
     },
     "3fa7e3b4e858bc6331ead768": {
       "date": "2026-10-04",
@@ -3636,6 +3849,10 @@
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S03"
     },
+    "5f20a33234fc09fbcfa871e4": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S02"
+    },
     "5f4154a8fa06852f67fba7fc": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S09"
@@ -3671,6 +3888,10 @@
     "6b6ccf3567dc140bade8e4985d5b3211a96e1ad0": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S09"
+    },
+    "6e07ae9c930143486dc907c5": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S08"
     },
     "709b7e1ee90a5c275948a12e": {
       "date": "2026-10-02",
@@ -3791,6 +4012,10 @@
     "a29ac01d5084388701cea15e926b32d929846d96": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S10"
+    },
+    "a654b53d305407f6884e417e": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S07"
     },
     "a6a11e3d2624122d4472a866": {
       "date": "2026-10-02",
@@ -3967,6 +4192,10 @@
     "f6ee4f10b487a29ae3f14672": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S14"
+    },
+    "f7076ea345bace95429b33f4": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S10"
     },
     "f804a67248da3e64b3021016": {
       "date": "2026-10-01",
@@ -4293,6 +4522,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-05",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-05T07:54:15.121611+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
