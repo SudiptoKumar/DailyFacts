@@ -2172,6 +2172,25 @@
           "published_count": 10,
           "started_at": "2026-10-05T07:53:32.967410+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-05-S11",
+            "FACT-2026-10-05-S12",
+            "FACT-2026-10-05-S13",
+            "FACT-2026-10-05-S14",
+            "FACT-2026-10-05-S15",
+            "FACT-2026-10-05-S16",
+            "FACT-2026-10-05-S17",
+            "FACT-2026-10-05-S18",
+            "FACT-2026-10-05-S19",
+            "FACT-2026-10-05-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-05T19:34:06.737143+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-05T19:33:36.938268+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -2282,6 +2301,116 @@
           "image_source": "",
           "message_id": 266,
           "published_at": "2026-10-05T07:54:15.116777+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S11": {
+          "batch": 2,
+          "claim_key": "77934c45dffead12a378f18c",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 267,
+          "published_at": "2026-10-05T19:33:38.278154+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S12": {
+          "batch": 2,
+          "claim_key": "a1fd9d431e919e6cd42dcfe2",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 268,
+          "published_at": "2026-10-05T19:33:39.603267+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S13": {
+          "batch": 2,
+          "claim_key": "28d708266200071b8848249e",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 269,
+          "published_at": "2026-10-05T19:33:46.491290+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S14": {
+          "batch": 2,
+          "claim_key": "db4a28e95c0b4344863e2d9a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 270,
+          "published_at": "2026-10-05T19:33:49.387781+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S15": {
+          "batch": 2,
+          "claim_key": "3d03684da41493abd2aa8c56",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 271,
+          "published_at": "2026-10-05T19:33:50.674430+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S16": {
+          "batch": 2,
+          "claim_key": "03ef63e3fb2052ae06626139",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 272,
+          "published_at": "2026-10-05T19:33:53.537656+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S17": {
+          "batch": 2,
+          "claim_key": "ce2762198340941de11b3970",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 273,
+          "published_at": "2026-10-05T19:33:54.578570+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S18": {
+          "batch": 2,
+          "claim_key": "66a392383b5f4c9bc22c5ed4",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 274,
+          "published_at": "2026-10-05T19:33:56.888996+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S19": {
+          "batch": 2,
+          "claim_key": "23ded3ff032a2eb3371d76be",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Papers_on_the_eastern_and_northern_extensions_of_the_Gulf_Stream_(IA_papersoneasternn00unit).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 275,
+          "published_at": "2026-10-05T19:34:02.730598+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-05-S20": {
+          "batch": 2,
+          "claim_key": "ad6e3908f1fb50ef047f9640",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 276,
+          "published_at": "2026-10-05T19:34:06.732943+00:00",
           "send_mode": "text_html",
           "status": "published"
         }
@@ -3590,6 +3719,69 @@
       "score": 27,
       "source_page": "https://commons.wikimedia.org/wiki/File:Extreme_Ocean_Temperatures_Are_Affecting_Florida%E2%80%99s_Coral_Reef_(NESDIS_2023-08-18_20230818_EFO-OTD).png",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Extreme_Ocean_Temperatures_Are_Affecting_Florida%E2%80%99s_Coral_Reef_%28NESDIS_2023-08-18_20230818_EFO-OTD%29.png/1280px-Extreme_Ocean_Temperatures_Are_Affecting_Florida%E2%80%99s_Coral_Reef_%28NESDIS_2023-08-18_20230818_EFO-OTD%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-05-S11": {
+      "cached_at": "2026-10-05T19:33:37.495071+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-05-S11.jpg",
+      "query": "Dholavira cemetery cenotaphs six types",
+      "score": 19,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-05-S12": {
+      "cached_at": "2026-10-05T19:33:38.613992+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-05-S12.jpg",
+      "query": "archaeological bead-processing workshop at Dholavira site, Harappan civilization",
+      "score": 19,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-05-S15": {
+      "cached_at": "2026-10-05T19:33:49.893599+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-05-S15.jpg",
+      "query": "Peter Cooper Hewitt mercury vapor lamp blue green light",
+      "score": 43,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-05-S16": {
+      "cached_at": "2026-10-05T19:33:52.523407+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-05-S16.jpg",
+      "query": "Language-network interhemispheric connectivity is higher during story listening than resting state Neuroscience",
+      "score": 41,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-05-S17": {
+      "cached_at": "2026-10-05T19:33:53.830896+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-05-S17.jpg",
+      "query": "Edward Hammer created the first compact fluorescent light Compact fluorescent lighting",
+      "score": 50,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-05-S18": {
+      "cached_at": "2026-10-05T19:33:55.979293+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-05-S18.jpg",
+      "query": "Language-network activation patterns are not reliably more similar within the same language than between languages Neuroscience",
+      "score": 52,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-05-S19": {
+      "cached_at": "2026-10-05T19:34:01.574642+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-05-S19.jpg",
+      "query": "Gulf Stream route Gulf Stream",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Papers_on_the_eastern_and_northern_extensions_of_the_Gulf_Stream_(IA_papersoneasternn00unit).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Papers_on_the_eastern_and_northern_extensions_of_the_Gulf_Stream_%28IA_papersoneasternn00unit%29.pdf/page1-1280px-Papers_on_the_eastern_and_northern_extensions_of_the_Gulf_Stream_%28IA_papersoneasternn00unit%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -3604,6 +3796,10 @@
     "03a10ae3c761330d0d19a038": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S07"
+    },
+    "03ef63e3fb2052ae06626139": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S16"
     },
     "09cbaca23b94d554b9728dc8": {
       "date": "2026-10-02",
@@ -3709,6 +3905,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S17"
     },
+    "23ded3ff032a2eb3371d76be": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S19"
+    },
     "240e881033e07f80378484f5": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S06"
@@ -3724,6 +3924,10 @@
     "28d62f915568a81bf5be4bdd": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S11"
+    },
+    "28d708266200071b8848249e": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S13"
     },
     "2b395274207c882ffd590bf70e936ae908bc1b9c": {
       "date": "2026-09-25",
@@ -3764,6 +3968,10 @@
     "35d8ef29a94701c635b0efb3aeb51be40c9533d5": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S09"
+    },
+    "3d03684da41493abd2aa8c56": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S15"
     },
     "3de2d570a9cfc9552c120689": {
       "date": "2026-10-05",
@@ -3869,6 +4077,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S09"
     },
+    "66a392383b5f4c9bc22c5ed4": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S18"
+    },
     "680eacac99fd3c78d7f49d0d": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S11"
@@ -3904,6 +4116,10 @@
     "76c279d6c4e25f0fd547a47e": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S10"
+    },
+    "77934c45dffead12a378f18c": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S11"
     },
     "79589c7462440105b067762263fe3fdf7c05cbed": {
       "date": "2026-09-24",
@@ -4009,6 +4225,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S04"
     },
+    "a1fd9d431e919e6cd42dcfe2": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S12"
+    },
     "a29ac01d5084388701cea15e926b32d929846d96": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S10"
@@ -4028,6 +4248,10 @@
     "aa0c3d927a6b6297affbe520b732c90ecc75c8c3": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S11"
+    },
+    "ad6e3908f1fb50ef047f9640": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S20"
     },
     "adad68654fd553bdc9f02b72": {
       "date": "2026-10-04",
@@ -4129,6 +4353,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S02"
     },
+    "ce2762198340941de11b3970": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S17"
+    },
     "cf8fb4f4a72371f5c501b5c0": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S15"
@@ -4148,6 +4376,10 @@
     "db22cd60d3d63e81722f4194": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S19"
+    },
+    "db4a28e95c0b4344863e2d9a": {
+      "date": "2026-10-05",
+      "fact_id": "FACT-2026-10-05-S14"
     },
     "dd7edc121b444a7f2e69208a": {
       "date": "2026-10-01",
@@ -4538,6 +4770,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-05",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-05T19:34:06.737156+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
