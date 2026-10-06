@@ -2415,6 +2415,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-06": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-06-S01",
+            "FACT-2026-10-06-S02",
+            "FACT-2026-10-06-S03",
+            "FACT-2026-10-06-S04",
+            "FACT-2026-10-06-S05",
+            "FACT-2026-10-06-S06",
+            "FACT-2026-10-06-S07",
+            "FACT-2026-10-06-S08",
+            "FACT-2026-10-06-S09",
+            "FACT-2026-10-06-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-06T08:17:44.797922+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-06T08:17:12.454484+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-06-S01": {
+          "batch": 1,
+          "claim_key": "a710bea29af143fa0ee35394",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Cloudyexoplanet.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 277,
+          "published_at": "2026-10-06T08:17:18.028751+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S02": {
+          "batch": 1,
+          "claim_key": "61ee6eb5cafd6d6c57daad67",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:PIA22093-TRAPPIST-1-PlanetLineup-20180205.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 278,
+          "published_at": "2026-10-06T08:17:25.294518+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S03": {
+          "batch": 1,
+          "claim_key": "b4330f6be232684bd64a59b8",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Kepler_first_five_exoplanet_size.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 279,
+          "published_at": "2026-10-06T08:17:28.283189+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S04": {
+          "batch": 1,
+          "claim_key": "6b4324eac219affc652ba48b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 280,
+          "published_at": "2026-10-06T08:17:32.978237+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S05": {
+          "batch": 1,
+          "claim_key": "12d421297ef44b0b244771ce",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 281,
+          "published_at": "2026-10-06T08:17:34.058905+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S06": {
+          "batch": 1,
+          "claim_key": "066b5b4e172168932633cbf8",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 282,
+          "published_at": "2026-10-06T08:17:35.133161+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S07": {
+          "batch": 1,
+          "claim_key": "e17b3289d654fb4198e23436",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 283,
+          "published_at": "2026-10-06T08:17:36.962278+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S08": {
+          "batch": 1,
+          "claim_key": "61788c73212ced85dffa5165",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 284,
+          "published_at": "2026-10-06T08:17:42.411752+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S09": {
+          "batch": 1,
+          "claim_key": "61f75157550eea541dcedb27",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 285,
+          "published_at": "2026-10-06T08:17:43.696688+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S10": {
+          "batch": 1,
+          "claim_key": "6e0919d473aca9f80af593fb",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 286,
+          "published_at": "2026-10-06T08:17:44.792570+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -3782,6 +3917,33 @@
       "score": 20,
       "source_page": "https://commons.wikimedia.org/wiki/File:Papers_on_the_eastern_and_northern_extensions_of_the_Gulf_Stream_(IA_papersoneasternn00unit).pdf",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Papers_on_the_eastern_and_northern_extensions_of_the_Gulf_Stream_%28IA_papersoneasternn00unit%29.pdf/page1-1280px-Papers_on_the_eastern_and_northern_extensions_of_the_Gulf_Stream_%28IA_papersoneasternn00unit%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-06-S01": {
+      "cached_at": "2026-10-06T08:17:16.648886+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-06-S01.jpg",
+      "query": "exoplanet orbiting a distant star",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cloudyexoplanet.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cloudyexoplanet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-06-S02": {
+      "cached_at": "2026-10-06T08:17:21.491586+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-06-S02.jpg",
+      "query": "TRAPPIST-1 planets Exoplanets",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:PIA22093-TRAPPIST-1-PlanetLineup-20180205.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/PIA22093-TRAPPIST-1-PlanetLineup-20180205.jpg/1280px-PIA22093-TRAPPIST-1-PlanetLineup-20180205.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-06-S03": {
+      "cached_at": "2026-10-06T08:17:27.407745+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-06-S03.jpg",
+      "query": "Kepler telescope exoplanet discovery",
+      "score": 24,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kepler_first_five_exoplanet_size.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Kepler_first_five_exoplanet_size.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     }
   },
   "published_claims": {
@@ -3800,6 +3962,10 @@
     "03ef63e3fb2052ae06626139": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S16"
+    },
+    "066b5b4e172168932633cbf8": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S06"
     },
     "09cbaca23b94d554b9728dc8": {
       "date": "2026-10-02",
@@ -3828,6 +3994,10 @@
     "1279abd9b6ec45e6082a19fb": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S04"
+    },
+    "12d421297ef44b0b244771ce": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S05"
     },
     "13364c8fe2bd85b921067f9e": {
       "date": "2026-10-05",
@@ -4065,6 +4235,18 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S09"
     },
+    "61788c73212ced85dffa5165": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S08"
+    },
+    "61ee6eb5cafd6d6c57daad67": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S02"
+    },
+    "61f75157550eea541dcedb27": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S09"
+    },
     "6221087c2ed903cf39e01cc6505843e0205e4067": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S05"
@@ -4097,6 +4279,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S11"
     },
+    "6b4324eac219affc652ba48b": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S04"
+    },
     "6b6ccf3567dc140bade8e4985d5b3211a96e1ad0": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S09"
@@ -4104,6 +4290,10 @@
     "6e07ae9c930143486dc907c5": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S08"
+    },
+    "6e0919d473aca9f80af593fb": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S10"
     },
     "709b7e1ee90a5c275948a12e": {
       "date": "2026-10-02",
@@ -4245,6 +4435,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S10"
     },
+    "a710bea29af143fa0ee35394": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S01"
+    },
     "aa0c3d927a6b6297affbe520b732c90ecc75c8c3": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S11"
@@ -4284,6 +4478,10 @@
     "b4240052cef889970abdc3f7d04aa494339b12dd": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S12"
+    },
+    "b4330f6be232684bd64a59b8": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S03"
     },
     "b444fc28d3b17f8bf19559e2": {
       "date": "2026-10-02",
@@ -4392,6 +4590,10 @@
     "de849e2aa5513ee8ac952f8fe7ce555095544fb5": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S05"
+    },
+    "e17b3289d654fb4198e23436": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S07"
     },
     "e2644f6ed382dab37d5612e7": {
       "date": "2026-10-04",
@@ -4786,6 +4988,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-06",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-06T08:17:44.797935+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
