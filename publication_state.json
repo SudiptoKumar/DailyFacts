@@ -2436,6 +2436,25 @@
           "published_count": 10,
           "started_at": "2026-10-06T08:17:12.454484+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-06-S11",
+            "FACT-2026-10-06-S12",
+            "FACT-2026-10-06-S13",
+            "FACT-2026-10-06-S14",
+            "FACT-2026-10-06-S15",
+            "FACT-2026-10-06-S16",
+            "FACT-2026-10-06-S17",
+            "FACT-2026-10-06-S18",
+            "FACT-2026-10-06-S19",
+            "FACT-2026-10-06-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-06T17:06:32.516246+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-06T17:05:59.784523+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -2546,6 +2565,116 @@
           "image_source": "",
           "message_id": 286,
           "published_at": "2026-10-06T08:17:44.792570+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S11": {
+          "batch": 2,
+          "claim_key": "7c243b6c0b54de8b3cc42660",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 287,
+          "published_at": "2026-10-06T17:06:01.799641+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S12": {
+          "batch": 2,
+          "claim_key": "488878f2b6570c5a9e67bf92",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 288,
+          "published_at": "2026-10-06T17:06:03.555686+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S13": {
+          "batch": 2,
+          "claim_key": "eb278d132d9381d83d045eb5",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 289,
+          "published_at": "2026-10-06T17:06:11.213691+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S14": {
+          "batch": 2,
+          "claim_key": "1abaa63bf328a56aa3567c23",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 290,
+          "published_at": "2026-10-06T17:06:15.125158+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S15": {
+          "batch": 2,
+          "claim_key": "05f70515de10236d66ab271f",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 291,
+          "published_at": "2026-10-06T17:06:16.992166+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S16": {
+          "batch": 2,
+          "claim_key": "f74c3e89fdaf920ee3344b01",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 292,
+          "published_at": "2026-10-06T17:06:20.539538+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S17": {
+          "batch": 2,
+          "claim_key": "6eae841f07013368b9c90bdf",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+          "image_source": "Wikimedia Commons",
+          "message_id": 293,
+          "published_at": "2026-10-06T17:06:21.934056+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S18": {
+          "batch": 2,
+          "claim_key": "0f9a07815d2f5f527261981f",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 294,
+          "published_at": "2026-10-06T17:06:25.278448+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S19": {
+          "batch": 2,
+          "claim_key": "44315c9b88acf590e68264ff",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_great_and_small_game_of_Europe,_western_and_northern_Asia_and_America;_their_distribution,_habits,_and_structure_(1901)_(14768605643).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 295,
+          "published_at": "2026-10-06T17:06:30.971261+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-06-S20": {
+          "batch": 2,
+          "claim_key": "d81055cb44a331a68770dd6c",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 296,
+          "published_at": "2026-10-06T17:06:32.512936+00:00",
           "send_mode": "text_html",
           "status": "published"
         }
@@ -3944,6 +4073,69 @@
       "score": 24,
       "source_page": "https://commons.wikimedia.org/wiki/File:Kepler_first_five_exoplanet_size.jpg",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Kepler_first_five_exoplanet_size.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-06-S11": {
+      "cached_at": "2026-10-06T17:06:00.623617+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-06-S11.jpg",
+      "query": "Dholavira's artifact materials Materials and Artifacts",
+      "score": 26,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-06-S12": {
+      "cached_at": "2026-10-06T17:06:02.402931+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-06-S12.jpg",
+      "query": "Dholavira's trade connections Trade",
+      "score": 19,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-06-S15": {
+      "cached_at": "2026-10-06T17:06:15.725867+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-06-S15.jpg",
+      "query": "LEDs use semiconductors to convert electricity into light LED lighting",
+      "score": 35,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-06-S16": {
+      "cached_at": "2026-10-06T17:06:19.128972+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-06-S16.jpg",
+      "query": "Language-network activation patterns do not show clear greater similarity within language families Neuroscience",
+      "score": 38,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-06-S17": {
+      "cached_at": "2026-10-06T17:06:20.930677+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-06-S17.jpg",
+      "query": "Alternating current ultimately prevailed over direct current Alternating current",
+      "score": 38,
+      "source_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+      "source_url": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla"
+    },
+    "FACT-2026-10-06-S18": {
+      "cached_at": "2026-10-06T17:06:23.884129+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-06-S18.jpg",
+      "query": "Native-language processing activates language regions more than spatial working memory or mathematics Neuroscience",
+      "score": 40,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-06-S19": {
+      "cached_at": "2026-10-06T17:06:28.745607+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-06-S19.jpg",
+      "query": "Gulf Stream and Northern Europe Gulf Stream",
+      "score": 33,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_great_and_small_game_of_Europe,_western_and_northern_Asia_and_America;_their_distribution,_habits,_and_structure_(1901)_(14768605643).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/The_great_and_small_game_of_Europe%2C_western_and_northern_Asia_and_America%3B_their_distribution%2C_habits%2C_and_structure_%281901%29_%2814768605643%29.jpg/1280px-The_great_and_small_game_of_Europe%2C_western_and_northern_Asia_and_America%3B_their_distribution%2C_habits%2C_and_structure_%281901%29_%2814768605643%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -3962,6 +4154,10 @@
     "03ef63e3fb2052ae06626139": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S16"
+    },
+    "05f70515de10236d66ab271f": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S15"
     },
     "066b5b4e172168932633cbf8": {
       "date": "2026-10-06",
@@ -3986,6 +4182,10 @@
     "0f32e0a401bc2319d3524f979b3837cc3e30e233": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S09"
+    },
+    "0f9a07815d2f5f527261981f": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S18"
     },
     "1202f46e97abc2491a1423a3431acfc80f079723": {
       "date": "2026-09-25",
@@ -4022,6 +4222,10 @@
     "19d71d0264da875c8a464f44": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S07"
+    },
+    "1abaa63bf328a56aa3567c23": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S14"
     },
     "1b0ae1be9cb9069da1cab35e": {
       "date": "2026-10-04",
@@ -4163,6 +4367,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S01"
     },
+    "44315c9b88acf590e68264ff": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S19"
+    },
     "44eb9fb3f29faaa8a220651d672d8dde5c2547c7": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S02"
@@ -4182,6 +4390,10 @@
     "4849b841d2a1a3aaec7bc0400a59ba7d8dd01a5b": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S01"
+    },
+    "488878f2b6570c5a9e67bf92": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S12"
     },
     "4a34aa0ebdfc12eea029b4c1": {
       "date": "2026-10-01",
@@ -4295,6 +4507,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S10"
     },
+    "6eae841f07013368b9c90bdf": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S17"
+    },
     "709b7e1ee90a5c275948a12e": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S13"
@@ -4322,6 +4538,10 @@
     "7b146b8cfc9c68b2f7d806516b3b68e20acdef67": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S06"
+    },
+    "7c243b6c0b54de8b3cc42660": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S11"
     },
     "7dd8ec64b55592e6e62752a05974cd1ba5cbc7dd": {
       "date": "2026-09-30",
@@ -4571,6 +4791,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S06"
     },
+    "d81055cb44a331a68770dd6c": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S20"
+    },
     "db22cd60d3d63e81722f4194": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S19"
@@ -4611,6 +4835,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S14"
     },
+    "eb278d132d9381d83d045eb5": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S13"
+    },
     "eea5c82b45319b5c65f1a582": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S16"
@@ -4630,6 +4858,10 @@
     "f7076ea345bace95429b33f4": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S10"
+    },
+    "f74c3e89fdaf920ee3344b01": {
+      "date": "2026-10-06",
+      "fact_id": "FACT-2026-10-06-S16"
     },
     "f804a67248da3e64b3021016": {
       "date": "2026-10-01",
@@ -5004,6 +5236,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-06",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-06T17:06:32.516257+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
