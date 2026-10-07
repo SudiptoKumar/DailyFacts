@@ -2679,6 +2679,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-07": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-07-S01",
+            "FACT-2026-10-07-S02",
+            "FACT-2026-10-07-S03",
+            "FACT-2026-10-07-S04",
+            "FACT-2026-10-07-S05",
+            "FACT-2026-10-07-S06",
+            "FACT-2026-10-07-S07",
+            "FACT-2026-10-07-S08",
+            "FACT-2026-10-07-S09",
+            "FACT-2026-10-07-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-07T07:53:45.107328+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-07T07:52:52.002352+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-07-S01": {
+          "batch": 1,
+          "claim_key": "129369213001a4f286da7e82",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/10-things-exoplanets-101/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 297,
+          "published_at": "2026-10-07T07:52:55.532797+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S02": {
+          "batch": 1,
+          "claim_key": "5e4fdb2954728a7c981e8fea",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:TESS_Finds_Possible_New_Worlds_Using_Stellar_Eclipses_(SVS15033_-_How_Tess_Finds_Planets_Using_Stellar_Eclipses_7710).png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 298,
+          "published_at": "2026-10-07T07:53:02.436147+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S03": {
+          "batch": 1,
+          "claim_key": "8dfb4aab01be9f3c0d8a185f",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/10-things-exoplanets-101/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 299,
+          "published_at": "2026-10-07T07:53:03.710293+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S04": {
+          "batch": 1,
+          "claim_key": "ad582f83bb69cb93af44b1a0",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Basaltic_spatter_1_(40714297694).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 300,
+          "published_at": "2026-10-07T07:53:12.789649+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S05": {
+          "batch": 1,
+          "claim_key": "8611c8a0fda25b7c5337c94f",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Syenite_(Cuttingsville_Complex,_mid-Cretaceous,_97_Ma;_southwest_of_Cuttingsville,_southern_Vermont,_USA)_(16563008099).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 301,
+          "published_at": "2026-10-07T07:53:17.794353+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S06": {
+          "batch": 1,
+          "claim_key": "2835d441a6ec61a948aa7518",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_Laurentian_rocks_of_Canada_(microform)_(IA_cihm_55279).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 302,
+          "published_at": "2026-10-07T07:53:23.576463+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S07": {
+          "batch": 1,
+          "claim_key": "ef70a144190d3ec1c0ecb1f7",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:GDP_Categories_-_United_States.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 303,
+          "published_at": "2026-10-07T07:53:28.388501+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S08": {
+          "batch": 1,
+          "claim_key": "1523c7707c9b975875a8f986",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Volcano_Etna-Sicily-Italy_-_Creative_Commons_by_gnuckx_(3492495940).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 304,
+          "published_at": "2026-10-07T07:53:37.600903+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S09": {
+          "batch": 1,
+          "claim_key": "d3c0c3671ef74e033cdccf59",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:U.S._GDP_Growth_Rate_Over_Time.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 305,
+          "published_at": "2026-10-07T07:53:41.743741+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S10": {
+          "batch": 1,
+          "claim_key": "22656882c34e6bc46ec63f20",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Recent_volcanic_activity_at_Mexico%E2%80%99s_Popocat%C3%A9petl_volcano.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 306,
+          "published_at": "2026-10-07T07:53:45.102855+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -4136,6 +4271,96 @@
       "score": 33,
       "source_page": "https://commons.wikimedia.org/wiki/File:The_great_and_small_game_of_Europe,_western_and_northern_Asia_and_America;_their_distribution,_habits,_and_structure_(1901)_(14768605643).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/The_great_and_small_game_of_Europe%2C_western_and_northern_Asia_and_America%3B_their_distribution%2C_habits%2C_and_structure_%281901%29_%2814768605643%29.jpg/1280px-The_great_and_small_game_of_Europe%2C_western_and_northern_Asia_and_America%3B_their_distribution%2C_habits%2C_and_structure_%281901%29_%2814768605643%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-07-S01": {
+      "cached_at": "2026-10-07T07:52:54.293130+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S01.jpg",
+      "query": "artistic illustration of numerous exoplanets orbiting distant stars",
+      "score": 19,
+      "source_page": "https://science.nasa.gov/solar-system/10-things-exoplanets-101/",
+      "source_url": "https://science.nasa.gov/solar-system/10-things-exoplanets-101/"
+    },
+    "FACT-2026-10-07-S02": {
+      "cached_at": "2026-10-07T07:53:01.051079+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S02.jpg",
+      "query": "illustration of a planet transiting its star, showing dip in brightness",
+      "score": 25,
+      "source_page": "https://commons.wikimedia.org/wiki/File:TESS_Finds_Possible_New_Worlds_Using_Stellar_Eclipses_(SVS15033_-_How_Tess_Finds_Planets_Using_Stellar_Eclipses_7710).png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/TESS_Finds_Possible_New_Worlds_Using_Stellar_Eclipses_%28SVS15033_-_How_Tess_Finds_Planets_Using_Stellar_Eclipses_7710%29.png/1280px-TESS_Finds_Possible_New_Worlds_Using_Stellar_Eclipses_%28SVS15033_-_How_Tess_Finds_Planets_Using_Stellar_Eclipses_7710%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-07-S03": {
+      "cached_at": "2026-10-07T07:53:02.754837+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S03.jpg",
+      "query": "First exoplanet around a Sun-like star Exoplanets",
+      "score": 27,
+      "source_page": "https://science.nasa.gov/solar-system/10-things-exoplanets-101/",
+      "source_url": "https://science.nasa.gov/solar-system/10-things-exoplanets-101/"
+    },
+    "FACT-2026-10-07-S04": {
+      "cached_at": "2026-10-07T07:53:11.369536+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S04.jpg",
+      "query": "molten rock crystallizing into igneous rock",
+      "score": 36,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Basaltic_spatter_1_(40714297694).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Basaltic_spatter_1_%2840714297694%29.jpg/1280px-Basaltic_spatter_1_%2840714297694%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-07-S05": {
+      "cached_at": "2026-10-07T07:53:16.387121+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S05.jpg",
+      "query": "Igneous rocks are intrusive or extrusive Geology",
+      "score": 32,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Syenite_(Cuttingsville_Complex,_mid-Cretaceous,_97_Ma;_southwest_of_Cuttingsville,_southern_Vermont,_USA)_(16563008099).jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Syenite_%28Cuttingsville_Complex%2C_mid-Cretaceous%2C_97_Ma%3B_southwest_of_Cuttingsville%2C_southern_Vermont%2C_USA%29_%2816563008099%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-07-S06": {
+      "cached_at": "2026-10-07T07:53:22.234745+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S06.jpg",
+      "query": "layers of sedimentary rock showing fragments of older rocks and fossilized organisms",
+      "score": 24,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Laurentian_rocks_of_Canada_(microform)_(IA_cihm_55279).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/The_Laurentian_rocks_of_Canada_%28microform%29_%28IA_cihm_55279%29.pdf/page1-960px-The_Laurentian_rocks_of_Canada_%28microform%29_%28IA_cihm_55279%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-07-S07": {
+      "cached_at": "2026-10-07T07:53:27.171973+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S07.jpg",
+      "query": "Definition of GDP Gross domestic product",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:GDP_Categories_-_United_States.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/GDP_Categories_-_United_States.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-07-S08": {
+      "cached_at": "2026-10-07T07:53:36.333511+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S08.jpg",
+      "query": "Volcanic soils and fertility Volcanic soils",
+      "score": 27,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Volcano_Etna-Sicily-Italy_-_Creative_Commons_by_gnuckx_(3492495940).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Volcano_Etna-Sicily-Italy_-_Creative_Commons_by_gnuckx_%283492495940%29.jpg/1280px-Volcano_Etna-Sicily-Italy_-_Creative_Commons_by_gnuckx_%283492495940%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-07-S09": {
+      "cached_at": "2026-10-07T07:53:40.693878+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S09.jpg",
+      "query": "graph showing GDP growth over time at constant prices",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:U.S._GDP_Growth_Rate_Over_Time.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/U.S._GDP_Growth_Rate_Over_Time.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-07-S10": {
+      "cached_at": "2026-10-07T07:53:43.824701+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S10.jpg",
+      "query": "Potentially active volcanoes worldwide Volcanic activity",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Recent_volcanic_activity_at_Mexico%E2%80%99s_Popocat%C3%A9petl_volcano.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Recent_volcanic_activity_at_Mexico%E2%80%99s_Popocat%C3%A9petl_volcano.jpg/1280px-Recent_volcanic_activity_at_Mexico%E2%80%99s_Popocat%C3%A9petl_volcano.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -4195,6 +4420,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S04"
     },
+    "129369213001a4f286da7e82": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S01"
+    },
     "12d421297ef44b0b244771ce": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S05"
@@ -4210,6 +4439,10 @@
     "1417e1fd02c454222276c15d": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S01"
+    },
+    "1523c7707c9b975875a8f986": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S08"
     },
     "16273decdb751be27899fb1fc6dfd963dac7a096": {
       "date": "2026-09-27",
@@ -4275,6 +4508,10 @@
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S06"
     },
+    "22656882c34e6bc46ec63f20": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S10"
+    },
     "22fd1129e26abd8209a29007": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S17"
@@ -4294,6 +4531,10 @@
     "272d00299837d67e349f2b26364f166eaf0e10fb": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S08"
+    },
+    "2835d441a6ec61a948aa7518": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S06"
     },
     "28d62f915568a81bf5be4bdd": {
       "date": "2026-10-04",
@@ -4439,6 +4680,10 @@
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S03"
     },
+    "5e4fdb2954728a7c981e8fea": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S02"
+    },
     "5f20a33234fc09fbcfa871e4": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S02"
@@ -4559,6 +4804,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S13"
     },
+    "8611c8a0fda25b7c5337c94f": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S05"
+    },
     "8942d4322d8e52a9871fd5a4": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S12"
@@ -4570,6 +4819,10 @@
     "8a36be330cade9c8da152167": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S12"
+    },
+    "8dfb4aab01be9f3c0d8a185f": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S03"
     },
     "913f0e0805b3544bf826ac8d2268d9496b796b54": {
       "date": "2026-09-28",
@@ -4662,6 +4915,10 @@
     "aa0c3d927a6b6297affbe520b732c90ecc75c8c3": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S11"
+    },
+    "ad582f83bb69cb93af44b1a0": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S04"
     },
     "ad6e3908f1fb50ef047f9640": {
       "date": "2026-10-05",
@@ -4779,6 +5036,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S15"
     },
+    "d3c0c3671ef74e033cdccf59": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S09"
+    },
     "d4b8a35a6447b62053dbd8aa": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S20"
@@ -4842,6 +5103,10 @@
     "eea5c82b45319b5c65f1a582": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S16"
+    },
+    "ef70a144190d3ec1c0ecb1f7": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S07"
     },
     "ef76d2a9675b152aa7ec62d0": {
       "date": "2026-10-01",
@@ -5252,6 +5517,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-07",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-07T07:53:45.107342+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
