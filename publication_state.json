@@ -2700,6 +2700,25 @@
           "published_count": 10,
           "started_at": "2026-10-07T07:52:52.002352+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-07-S11",
+            "FACT-2026-10-07-S12",
+            "FACT-2026-10-07-S13",
+            "FACT-2026-10-07-S14",
+            "FACT-2026-10-07-S15",
+            "FACT-2026-10-07-S16",
+            "FACT-2026-10-07-S17",
+            "FACT-2026-10-07-S18",
+            "FACT-2026-10-07-S19",
+            "FACT-2026-10-07-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-07T17:44:09.710115+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-07T17:43:18.939513+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -2810,6 +2829,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 306,
           "published_at": "2026-10-07T07:53:45.102855+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S11": {
+          "batch": 2,
+          "claim_key": "e4ce2b082e52e4562f099a64",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 307,
+          "published_at": "2026-10-07T17:43:20.504011+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S12": {
+          "batch": 2,
+          "claim_key": "5969753817d869837c19ebdd",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 308,
+          "published_at": "2026-10-07T17:43:21.812283+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S13": {
+          "batch": 2,
+          "claim_key": "c39e737f779cf5987af8cf13",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Smoke_near_Lake_Toba,_Indonesia_(MODIS_2021-07-18).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 309,
+          "published_at": "2026-10-07T17:43:44.393501+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S14": {
+          "batch": 2,
+          "claim_key": "4f9f6907f62ca69ccf1f976b",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:S41598-019-44440-8.pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 310,
+          "published_at": "2026-10-07T17:43:52.521823+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S15": {
+          "batch": 2,
+          "claim_key": "a6d5ef8a3ef9b228c7f14774",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+          "image_source": "Wikimedia Commons",
+          "message_id": 311,
+          "published_at": "2026-10-07T17:43:53.701375+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S16": {
+          "batch": 2,
+          "claim_key": "96f8f22aaa911973a5092d9b",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 312,
+          "published_at": "2026-10-07T17:43:57.089791+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S17": {
+          "batch": 2,
+          "claim_key": "f57ad6c195e444c7a364839d",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+          "image_source": "Wikimedia Commons",
+          "message_id": 313,
+          "published_at": "2026-10-07T17:43:58.298767+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S18": {
+          "batch": 2,
+          "claim_key": "3ea64bc1643373a254f4c998",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 314,
+          "published_at": "2026-10-07T17:44:00.683492+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S19": {
+          "batch": 2,
+          "claim_key": "0967945b5ea0ec4a9fddbd98",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Denise%27s_pygmy_seahorse_(Hippocampus_denise)_(15625484303).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 315,
+          "published_at": "2026-10-07T17:44:08.621014+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-07-S20": {
+          "batch": 2,
+          "claim_key": "73fd3ee859ea851c74a5209a",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 316,
+          "published_at": "2026-10-07T17:44:09.703247+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -4361,6 +4490,96 @@
       "score": 23,
       "source_page": "https://commons.wikimedia.org/wiki/File:Recent_volcanic_activity_at_Mexico%E2%80%99s_Popocat%C3%A9petl_volcano.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Recent_volcanic_activity_at_Mexico%E2%80%99s_Popocat%C3%A9petl_volcano.jpg/1280px-Recent_volcanic_activity_at_Mexico%E2%80%99s_Popocat%C3%A9petl_volcano.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-07-S11": {
+      "cached_at": "2026-10-07T17:43:19.729009+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S11.jpg",
+      "query": "Aerial view of the archaeological site of Dholavira showing its grid-like layout and residential zones",
+      "score": 17,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-07-S12": {
+      "cached_at": "2026-10-07T17:43:21.051969+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S12.jpg",
+      "query": "Aerial view of the Dholavira archaeological site highlighting its fortified Castle, Bailey, Ceremonial Ground, Middle Town and Lower Town",
+      "score": 23,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-07-S13": {
+      "cached_at": "2026-10-07T17:43:41.780311+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S13.jpg",
+      "query": "Toba supervolcano eruption and caldera",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Smoke_near_Lake_Toba,_Indonesia_(MODIS_2021-07-18).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Smoke_near_Lake_Toba%2C_Indonesia_%28MODIS_2021-07-18%29.jpg/1280px-Smoke_near_Lake_Toba%2C_Indonesia_%28MODIS_2021-07-18%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-07-S14": {
+      "cached_at": "2026-10-07T17:43:51.201344+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S14.jpg",
+      "query": "Cenozoic volcanic rocks spreading over the Arabia Plate, highlighting a coverage area of roughly 140,000 square kilometers",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:S41598-019-44440-8.pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/S41598-019-44440-8.pdf/page1-960px-S41598-019-44440-8.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-07-S15": {
+      "cached_at": "2026-10-07T17:43:52.923341+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S15.jpg",
+      "query": "Nikola Tesla overseeing the Niagara Falls hydroelectric power plant, early 1900s",
+      "score": 51,
+      "source_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+      "source_url": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla"
+    },
+    "FACT-2026-10-07-S16": {
+      "cached_at": "2026-10-07T17:43:56.017496+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S16.jpg",
+      "query": "brain fMRI activation map highlighting multiple-demand network during hard spatial working-memory and math tasks",
+      "score": 37,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-07-S17": {
+      "cached_at": "2026-10-07T17:43:57.551635+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S17.jpg",
+      "query": "Wardenclyffe Tower design illustration with lightning bolts and global map background",
+      "score": 35,
+      "source_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+      "source_url": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla"
+    },
+    "FACT-2026-10-07-S18": {
+      "cached_at": "2026-10-07T17:43:59.716332+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S18.jpg",
+      "query": "The multiple-demand network responds more to unfamiliar and acoustically degraded language than native language Neuroscience",
+      "score": 47,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-07-S19": {
+      "cached_at": "2026-10-07T17:44:07.297730+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S19.jpg",
+      "query": "Pygmy seahorse camouflage Seahorses",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Denise%27s_pygmy_seahorse_(Hippocampus_denise)_(15625484303).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Denise%27s_pygmy_seahorse_%28Hippocampus_denise%29_%2815625484303%29.jpg/1280px-Denise%27s_pygmy_seahorse_%28Hippocampus_denise%29_%2815625484303%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-07-S20": {
+      "cached_at": "2026-10-07T17:44:08.943037+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-07-S20.jpg",
+      "query": "CFLs use about 75 percent less energy than incandescent bulbs Energy efficiency",
+      "score": 52,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
     }
   },
   "published_claims": {
@@ -4387,6 +4606,10 @@
     "066b5b4e172168932633cbf8": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S06"
+    },
+    "0967945b5ea0ec4a9fddbd98": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S19"
     },
     "09cbaca23b94d554b9728dc8": {
       "date": "2026-10-02",
@@ -4592,6 +4815,10 @@
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S03"
     },
+    "3ea64bc1643373a254f4c998": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S18"
+    },
     "3fa7e3b4e858bc6331ead768": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S15"
@@ -4652,6 +4879,10 @@
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S11"
     },
+    "4f9f6907f62ca69ccf1f976b": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S14"
+    },
     "507ef8518c47c274846c7b3d": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S11"
@@ -4667,6 +4898,10 @@
     "58f18870366af901b5b0b86749fb7532ba0be1d9": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S07"
+    },
+    "5969753817d869837c19ebdd": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S12"
     },
     "5ac283556002a38bc513a791": {
       "date": "2026-10-03",
@@ -4760,6 +4995,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S13"
     },
+    "73fd3ee859ea851c74a5209a": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S20"
+    },
     "758381e98d47257015996b78": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S20"
@@ -4844,6 +5083,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S20"
     },
+    "96f8f22aaa911973a5092d9b": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S16"
+    },
     "98835fab790aa4efa8c72307": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S01"
@@ -4907,6 +5150,10 @@
     "a6be0fa969f8f35c1f566f28": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S10"
+    },
+    "a6d5ef8a3ef9b228c7f14774": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S15"
     },
     "a710bea29af143fa0ee35394": {
       "date": "2026-10-06",
@@ -5000,6 +5247,10 @@
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S10"
     },
+    "c39e737f779cf5987af8cf13": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S13"
+    },
     "c3b7476a38730e231714cd20ca8b09957ef631ad": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S05"
@@ -5088,6 +5339,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S05"
     },
+    "e4ce2b082e52e4562f099a64": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S11"
+    },
     "e4e664146fdde4ad52929440ebb90a6a83c60eb8": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S01"
@@ -5115,6 +5370,10 @@
     "f44101f8d9cf809c5d4c5e552bff7bfa44c22499": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S04"
+    },
+    "f57ad6c195e444c7a364839d": {
+      "date": "2026-10-07",
+      "fact_id": "FACT-2026-10-07-S17"
     },
     "f6ee4f10b487a29ae3f14672": {
       "date": "2026-10-03",
@@ -5533,6 +5792,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-07",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-07T17:44:09.710130+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
