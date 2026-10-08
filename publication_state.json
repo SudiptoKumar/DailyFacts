@@ -2943,6 +2943,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-08": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-08-S01",
+            "FACT-2026-10-08-S02",
+            "FACT-2026-10-08-S03",
+            "FACT-2026-10-08-S04",
+            "FACT-2026-10-08-S05",
+            "FACT-2026-10-08-S06",
+            "FACT-2026-10-08-S07",
+            "FACT-2026-10-08-S08",
+            "FACT-2026-10-08-S09",
+            "FACT-2026-10-08-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-08T08:09:52.958223+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-08T08:09:00.934638+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-08-S01": {
+          "batch": 1,
+          "claim_key": "638dde3b6e4ff131cfc34a16",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/10-things-exoplanets-101/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 317,
+          "published_at": "2026-10-08T08:09:03.715715+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S02": {
+          "batch": 1,
+          "claim_key": "abf356432a686832855af37e",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/10-things-whats-that-space-rock/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 318,
+          "published_at": "2026-10-08T08:09:05.202407+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S03": {
+          "batch": 1,
+          "claim_key": "184e22bbbeb229d614e0756a",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/10-things-whats-that-space-rock/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 319,
+          "published_at": "2026-10-08T08:09:06.575758+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S04": {
+          "batch": 1,
+          "claim_key": "5b6e4af87dff94441abf8a2d",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/Sedimentary%20rock",
+          "image_source": "Wikimedia Commons",
+          "message_id": 320,
+          "published_at": "2026-10-08T08:09:18.376376+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S05": {
+          "batch": 1,
+          "claim_key": "193ad80236457e97293ccf91",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:PhysRevD.101.012009.pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 321,
+          "published_at": "2026-10-08T08:09:23.477700+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S06": {
+          "batch": 1,
+          "claim_key": "ea0c34776f8a453fbf0d15c8",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:S41467-020-18845-3.pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 322,
+          "published_at": "2026-10-08T08:09:27.434456+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S07": {
+          "batch": 1,
+          "claim_key": "12eceee6a59fca61272d27ac",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:World-banks-income-groups.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 323,
+          "published_at": "2026-10-08T08:09:32.779461+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S08": {
+          "batch": 1,
+          "claim_key": "e7a55a0ada2d0a566b0e012b",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:USS_Peoria_(LST-1183)_off_NAS_Cubi_Point_1991.JPEG",
+          "image_source": "Wikimedia Commons",
+          "message_id": 324,
+          "published_at": "2026-10-08T08:09:43.705086+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S09": {
+          "batch": 1,
+          "claim_key": "ac7c4ba41396a26414373b2d",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:World-banks-income-groups.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 325,
+          "published_at": "2026-10-08T08:09:47.887097+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S10": {
+          "batch": 1,
+          "claim_key": "897a99b5f76bd4f49a565f80",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Eruption_of_Mount_Pinatubo,_June_15,_1991.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 326,
+          "published_at": "2026-10-08T08:09:52.954258+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -4580,6 +4715,96 @@
       "score": 52,
       "source_page": "https://www.energy.gov/articles/history-light-bulb",
       "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-08-S01": {
+      "cached_at": "2026-10-08T08:09:02.407632+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S01.jpg",
+      "query": "Estimated planets per galaxy Exoplanets",
+      "score": 18,
+      "source_page": "https://science.nasa.gov/solar-system/10-things-exoplanets-101/",
+      "source_url": "https://science.nasa.gov/solar-system/10-things-exoplanets-101/"
+    },
+    "FACT-2026-10-08-S02": {
+      "cached_at": "2026-10-08T08:09:04.094366+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S02.jpg",
+      "query": "Asteroid composition and origin Asteroids",
+      "score": 21,
+      "source_page": "https://science.nasa.gov/solar-system/10-things-whats-that-space-rock/",
+      "source_url": "https://science.nasa.gov/solar-system/10-things-whats-that-space-rock/"
+    },
+    "FACT-2026-10-08-S03": {
+      "cached_at": "2026-10-08T08:09:05.680641+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S03.jpg",
+      "query": "asteroid belt between Mars and Jupiter",
+      "score": 22,
+      "source_page": "https://science.nasa.gov/solar-system/10-things-whats-that-space-rock/",
+      "source_url": "https://science.nasa.gov/solar-system/10-things-whats-that-space-rock/"
+    },
+    "FACT-2026-10-08-S04": {
+      "cached_at": "2026-10-08T08:09:16.468467+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S04.jpg",
+      "query": "Sedimentary rocks commonly show layering Geology",
+      "score": 14,
+      "source_page": "https://commons.wikimedia.org/wiki/Sedimentary%20rock",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Conglomerate_on_mars.jpg/1280px-Conglomerate_on_mars.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-08-S05": {
+      "cached_at": "2026-10-08T08:09:21.761896+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S05.jpg",
+      "query": "tectonic plates on asthenosphere",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:PhysRevD.101.012009.pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/PhysRevD.101.012009.pdf/page1-960px-PhysRevD.101.012009.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-08-S06": {
+      "cached_at": "2026-10-08T08:09:25.937719+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S06.jpg",
+      "query": "The mantle behaves differently over different timescales Earth structure",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:S41467-020-18845-3.pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/S41467-020-18845-3.pdf/page1-960px-S41467-020-18845-3.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-08-S07": {
+      "cached_at": "2026-10-08T08:09:31.300010+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S07.jpg",
+      "query": "Definition of GNI per capita Income",
+      "score": 25,
+      "source_page": "https://commons.wikimedia.org/wiki/File:World-banks-income-groups.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/World-banks-income-groups.svg/1280px-World-banks-income-groups.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-08-S08": {
+      "cached_at": "2026-10-08T08:09:41.634321+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S08.jpg",
+      "query": "Mount Pinatubo eruption ash cloud over Earth",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:USS_Peoria_(LST-1183)_off_NAS_Cubi_Point_1991.JPEG",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/USS_Peoria_%28LST-1183%29_off_NAS_Cubi_Point_1991.JPEG/1280px-USS_Peoria_%28LST-1183%29_off_NAS_Cubi_Point_1991.JPEG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-08-S09": {
+      "cached_at": "2026-10-08T08:09:46.690111+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S09.jpg",
+      "query": "Atlas method Income classification",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:World-banks-income-groups.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/World-banks-income-groups.svg/1280px-World-banks-income-groups.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-08-S10": {
+      "cached_at": "2026-10-08T08:09:51.548687+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S10.jpg",
+      "query": "aerial view of volcanic ash cloud spreading across the globe after the 1991 Mount Pinatubo eruption, showing fine ash and gas plume in the stratosphere",
+      "score": 27,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Eruption_of_Mount_Pinatubo,_June_15,_1991.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Eruption_of_Mount_Pinatubo%2C_June_15%2C_1991.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
     }
   },
   "published_claims": {
@@ -4651,6 +4876,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S05"
     },
+    "12eceee6a59fca61272d27ac": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S07"
+    },
     "13364c8fe2bd85b921067f9e": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S05"
@@ -4674,6 +4903,14 @@
     "16e258df5370726d5e2f1cfd": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S09"
+    },
+    "184e22bbbeb229d614e0756a": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S03"
+    },
+    "193ad80236457e97293ccf91": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S05"
     },
     "19d71d0264da875c8a464f44": {
       "date": "2026-10-02",
@@ -4907,6 +5144,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S08"
     },
+    "5b6e4af87dff94441abf8a2d": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S04"
+    },
     "5c3a3590dc5b398d430deb03b367dbd40521b256": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S03"
@@ -4942,6 +5183,10 @@
     "6221087c2ed903cf39e01cc6505843e0205e4067": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S05"
+    },
+    "638dde3b6e4ff131cfc34a16": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S01"
     },
     "63ed18f8d7156ae6fcf6cde6": {
       "date": "2026-10-01",
@@ -5050,6 +5295,10 @@
     "8942d4322d8e52a9871fd5a4": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S12"
+    },
+    "897a99b5f76bd4f49a565f80": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S10"
     },
     "89f392d20767e6aa658c4407": {
       "date": "2026-10-02",
@@ -5162,6 +5411,14 @@
     "aa0c3d927a6b6297affbe520b732c90ecc75c8c3": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S11"
+    },
+    "abf356432a686832855af37e": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S02"
+    },
+    "ac7c4ba41396a26414373b2d": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S09"
     },
     "ad582f83bb69cb93af44b1a0": {
       "date": "2026-10-07",
@@ -5350,6 +5607,14 @@
     "e6cf5f9eb9a87ea5092c47e3": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S14"
+    },
+    "e7a55a0ada2d0a566b0e012b": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S08"
+    },
+    "ea0c34776f8a453fbf0d15c8": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S06"
     },
     "eb278d132d9381d83d045eb5": {
       "date": "2026-10-06",
@@ -5808,6 +6073,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-08",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-08T08:09:52.958235+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
