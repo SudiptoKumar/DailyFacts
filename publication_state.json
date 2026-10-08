@@ -2964,6 +2964,25 @@
           "published_count": 10,
           "started_at": "2026-10-08T08:09:00.934638+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-08-S11",
+            "FACT-2026-10-08-S12",
+            "FACT-2026-10-08-S13",
+            "FACT-2026-10-08-S14",
+            "FACT-2026-10-08-S15",
+            "FACT-2026-10-08-S16",
+            "FACT-2026-10-08-S17",
+            "FACT-2026-10-08-S18",
+            "FACT-2026-10-08-S19",
+            "FACT-2026-10-08-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-08T17:48:48.386715+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-08T17:47:39.386063+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -3074,6 +3093,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 326,
           "published_at": "2026-10-08T08:09:52.954258+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S11": {
+          "batch": 2,
+          "claim_key": "eb0459d62222c76f21f6f097",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 327,
+          "published_at": "2026-10-08T17:47:41.902407+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S12": {
+          "batch": 2,
+          "claim_key": "6597b1091eb18ae988383c0a",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Dholavira-1.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 328,
+          "published_at": "2026-10-08T17:47:48.224177+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S13": {
+          "batch": 2,
+          "claim_key": "ba2585a146868586fc1991a8",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Arabian_Plate_showing_general_tectonic_and_structural_features,_Infracambrian_rift_salt_basins,_and_oil_and_gas_fields_of_Central_Arabia_and_North_Gulf_area.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 329,
+          "published_at": "2026-10-08T17:48:03.606520+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S14": {
+          "batch": 2,
+          "claim_key": "cf68a0ed5ede55c050bd2f95",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Lake_Chapala_(154465).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 330,
+          "published_at": "2026-10-08T17:48:10.576949+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S15": {
+          "batch": 2,
+          "claim_key": "e2200a814b047ae72da2516f",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-air-conditioning",
+          "image_source": "Wikimedia Commons",
+          "message_id": 331,
+          "published_at": "2026-10-08T17:48:22.846011+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S16": {
+          "batch": 2,
+          "claim_key": "58b6495dd4f5bfafc8b6c9a4",
+          "image_credit": "Source page",
+          "image_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 332,
+          "published_at": "2026-10-08T17:48:25.194197+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S17": {
+          "batch": 2,
+          "claim_key": "a98c6142829c23b32922d0b6",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-air-conditioning",
+          "image_source": "Wikimedia Commons",
+          "message_id": 333,
+          "published_at": "2026-10-08T17:48:27.239977+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S18": {
+          "batch": 2,
+          "claim_key": "ecf41aa68d522c7cd52be9f5",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_Grammatical_Incorporation_of_Demonstratives_in_an_Emerging_Tactile_Language.pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 334,
+          "published_at": "2026-10-08T17:48:34.345267+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S19": {
+          "batch": 2,
+          "claim_key": "1a7f00077b840c7e5b4b8215",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Thermohaline_conveyor_belt_(NASA).webm",
+          "image_source": "Wikimedia Commons",
+          "message_id": 335,
+          "published_at": "2026-10-08T17:48:44.545606+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-08-S20": {
+          "batch": 2,
+          "claim_key": "b067860dabf0878df0d3eeae",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Iron_Lung_(061)_(7184148409).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 336,
+          "published_at": "2026-10-08T17:48:48.381327+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -4805,6 +4934,96 @@
       "score": 27,
       "source_page": "https://commons.wikimedia.org/wiki/File:Eruption_of_Mount_Pinatubo,_June_15,_1991.jpg",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Eruption_of_Mount_Pinatubo%2C_June_15%2C_1991.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-08-S11": {
+      "cached_at": "2026-10-08T17:47:40.858819+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S11.jpg",
+      "query": "Aerial view of the Dholavira archaeological site in Gujarat, India, showing the ancient city layout and surrounding desert landscape",
+      "score": 17,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-08-S12": {
+      "cached_at": "2026-10-08T17:47:46.866604+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S12.jpg",
+      "query": "Dholavira archaeological site",
+      "score": 11,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dholavira-1.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Dholavira-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-08-S13": {
+      "cached_at": "2026-10-08T17:48:02.139900+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S13.jpg",
+      "query": "map of Cenozoic volcanic rocks across the Arabia Plate from southern Yemen to southeastern Turkey",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Arabian_Plate_showing_general_tectonic_and_structural_features,_Infracambrian_rift_salt_basins,_and_oil_and_gas_fields_of_Central_Arabia_and_North_Gulf_area.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Arabian_Plate_showing_general_tectonic_and_structural_features%2C_Infracambrian_rift_salt_basins%2C_and_oil_and_gas_fields_of_Central_Arabia_and_North_Gulf_area.svg/1280px-Arabian_Plate_showing_general_tectonic_and_structural_features%2C_Infracambrian_rift_salt_basins%2C_and_oil_and_gas_fields_of_Central_Arabia_and_North_Gulf_area.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-08-S14": {
+      "cached_at": "2026-10-08T17:48:09.016445+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S14.jpg",
+      "query": "A panoramic view of the Michoacán-Guanajuato volcanic field showing numerous volcanic cones spread across a broad landscape in central Mexico",
+      "score": 33,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lake_Chapala_(154465).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Lake_Chapala_%28154465%29.jpg/1280px-Lake_Chapala_%28154465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-08-S15": {
+      "cached_at": "2026-10-08T17:48:21.657090+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S15.jpg",
+      "query": "John Gorrie ice-making machine patent 1851 illustration",
+      "score": 35,
+      "source_page": "https://www.energy.gov/articles/history-air-conditioning",
+      "source_url": "https://www.energy.gov/articles/history-air-conditioning"
+    },
+    "FACT-2026-10-08-S16": {
+      "cached_at": "2026-10-08T17:48:23.743981+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S16.jpg",
+      "query": "illustration of language evolution and human communication",
+      "score": 19,
+      "source_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/"
+    },
+    "FACT-2026-10-08-S17": {
+      "cached_at": "2026-10-08T17:48:26.033447+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S17.jpg",
+      "query": "Metropolitan Theater Los Angeles 1922 air conditioning installation",
+      "score": 54,
+      "source_page": "https://www.energy.gov/articles/history-air-conditioning",
+      "source_url": "https://www.energy.gov/articles/history-air-conditioning"
+    },
+    "FACT-2026-10-08-S18": {
+      "cached_at": "2026-10-08T17:48:32.901167+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S18.jpg",
+      "query": "Language can involve multiple communication channels Language modalities",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Grammatical_Incorporation_of_Demonstratives_in_an_Emerging_Tactile_Language.pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/The_Grammatical_Incorporation_of_Demonstratives_in_an_Emerging_Tactile_Language.pdf/page1-960px-The_Grammatical_Incorporation_of_Demonstratives_in_an_Emerging_Tactile_Language.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-08-S19": {
+      "cached_at": "2026-10-08T17:48:43.304415+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S19.jpg",
+      "query": "illustration of deep-ocean currents driven by temperature and salinity differences",
+      "score": 26,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Thermohaline_conveyor_belt_(NASA).webm",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thermohaline_conveyor_belt_%28NASA%29.webm/1280px--Thermohaline_conveyor_belt_%28NASA%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo"
+    },
+    "FACT-2026-10-08-S20": {
+      "cached_at": "2026-10-08T17:48:46.923821+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-08-S20.jpg",
+      "query": "Salk conducted early polio-vaccine tests in 1952 and 1953 Vaccines",
+      "score": 33,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Iron_Lung_(061)_(7184148409).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Iron_Lung_%28061%29_%287184148409%29.jpg/1280px-Iron_Lung_%28061%29_%287184148409%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -4915,6 +5134,10 @@
     "19d71d0264da875c8a464f44": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S07"
+    },
+    "1a7f00077b840c7e5b4b8215": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S19"
     },
     "1abaa63bf328a56aa3567c23": {
       "date": "2026-10-06",
@@ -5132,6 +5355,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S05"
     },
+    "58b6495dd4f5bfafc8b6c9a4": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S16"
+    },
     "58f18870366af901b5b0b86749fb7532ba0be1d9": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S07"
@@ -5195,6 +5422,10 @@
     "644cb051398b0c128fec2c9d": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S09"
+    },
+    "6597b1091eb18ae988383c0a": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S12"
     },
     "66a392383b5f4c9bc22c5ed4": {
       "date": "2026-10-05",
@@ -5408,6 +5639,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S01"
     },
+    "a98c6142829c23b32922d0b6": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S17"
+    },
     "aa0c3d927a6b6297affbe520b732c90ecc75c8c3": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S11"
@@ -5447,6 +5682,10 @@
     "af0ebc1512ff0a4079433029c8ed6cd184b778a5": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S11"
+    },
+    "b067860dabf0878df0d3eeae": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S20"
     },
     "b18f12d26a390c388c46ae33": {
       "date": "2026-10-02",
@@ -5491,6 +5730,10 @@
     "b91b8b1569b6e6ab1f142025": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S02"
+    },
+    "ba2585a146868586fc1991a8": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S13"
     },
     "bbede9e8bebf113dee61091dc8c699c8c1584202": {
       "date": "2026-09-24",
@@ -5540,6 +5783,10 @@
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S17"
     },
+    "cf68a0ed5ede55c050bd2f95": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S14"
+    },
     "cf8fb4f4a72371f5c501b5c0": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S15"
@@ -5588,6 +5835,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S07"
     },
+    "e2200a814b047ae72da2516f": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S15"
+    },
     "e2644f6ed382dab37d5612e7": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S08"
@@ -5616,9 +5867,17 @@
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S06"
     },
+    "eb0459d62222c76f21f6f097": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S11"
+    },
     "eb278d132d9381d83d045eb5": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S13"
+    },
+    "ecf41aa68d522c7cd52be9f5": {
+      "date": "2026-10-08",
+      "fact_id": "FACT-2026-10-08-S18"
     },
     "eea5c82b45319b5c65f1a582": {
       "date": "2026-10-01",
@@ -6089,6 +6348,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-08",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-08T17:48:48.386726+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
