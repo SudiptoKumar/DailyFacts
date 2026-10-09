@@ -3228,6 +3228,25 @@
           "published_count": 10,
           "started_at": "2026-10-09T08:08:23.478099+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-09-S11",
+            "FACT-2026-10-09-S12",
+            "FACT-2026-10-09-S13",
+            "FACT-2026-10-09-S14",
+            "FACT-2026-10-09-S15",
+            "FACT-2026-10-09-S16",
+            "FACT-2026-10-09-S17",
+            "FACT-2026-10-09-S18",
+            "FACT-2026-10-09-S19",
+            "FACT-2026-10-09-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-09T17:23:51.382261+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-09T17:23:16.406420+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -3338,6 +3357,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 346,
           "published_at": "2026-10-09T08:09:25.883734+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S11": {
+          "batch": 2,
+          "claim_key": "0ca72e1ba2fab0ce9576c0af",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 347,
+          "published_at": "2026-10-09T17:23:18.795272+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S12": {
+          "batch": 2,
+          "claim_key": "1a007fc1413181f48b29bd8d",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 348,
+          "published_at": "2026-10-09T17:23:20.278529+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S13": {
+          "batch": 2,
+          "claim_key": "a3a85b81f4316637388a615d",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Monta%C3%B1aAjuscoDesdeCU-M%C3%A9xico.jpeg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 349,
+          "published_at": "2026-10-09T17:23:28.695974+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S14": {
+          "batch": 2,
+          "claim_key": "6c35273ab6da38653dc7bf56",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:State_Route_19_Across_the_1801_Hu%CA%BBehu%CA%BBe_flow_from_Hual%C4%81lai,_Hawaii_(4527304769).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 350,
+          "published_at": "2026-10-09T17:23:36.616033+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S15": {
+          "batch": 2,
+          "claim_key": "9db3bd2e35c3aef1ac7497fd",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-air-conditioning",
+          "image_source": "Wikimedia Commons",
+          "message_id": 351,
+          "published_at": "2026-10-09T17:23:38.352004+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S16": {
+          "batch": 2,
+          "claim_key": "ea87d98bda7cfc10fe63d7c1",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Case_Report_-_Globus_Pallidus_Internus_(GPi)_Deep_Brain_Stimulation_Induced_Keyboard_Typing_Dysfunction.pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 352,
+          "published_at": "2026-10-09T17:23:43.029763+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S17": {
+          "batch": 2,
+          "claim_key": "a73996ce14a7356bfb2e2b0f",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+          "image_source": "Wikimedia Commons",
+          "message_id": 353,
+          "published_at": "2026-10-09T17:23:44.590467+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S18": {
+          "batch": 2,
+          "claim_key": "8189b21fc127c2ec60745b59",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Seahorse_mating_dance.JPG",
+          "image_source": "Wikimedia Commons",
+          "message_id": 354,
+          "published_at": "2026-10-09T17:23:48.473465+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S19": {
+          "batch": 2,
+          "claim_key": "d0b4917e6a250059ac5b77ec",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-air-conditioning",
+          "image_source": "Wikimedia Commons",
+          "message_id": 355,
+          "published_at": "2026-10-09T17:23:49.912634+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S20": {
+          "batch": 2,
+          "claim_key": "89705a4725a15d112eedba52",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 356,
+          "published_at": "2026-10-09T17:23:51.375238+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -5249,6 +5378,96 @@
       "score": 22,
       "source_page": "https://commons.wikimedia.org/wiki/File:PahoehoeLava_(upscaled).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/PahoehoeLava_%28upscaled%29.jpg/960px-PahoehoeLava_%28upscaled%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-09-S11": {
+      "cached_at": "2026-10-09T17:23:17.753749+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S11.jpg",
+      "query": "Dholavira excavation site",
+      "score": 17,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-09-S12": {
+      "cached_at": "2026-10-09T17:23:19.247589+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S12.jpg",
+      "query": "ancient Dholavira stone structures, Harappan city ruins, stone walls and platforms",
+      "score": 19,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-09-S13": {
+      "cached_at": "2026-10-09T17:23:27.102635+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S13.jpg",
+      "query": "A panoramic view of the Sierra Chichinautzin volcanic field showing numerous volcanic cones across a broad landscape in Mexico",
+      "score": 24,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Monta%C3%B1aAjuscoDesdeCU-M%C3%A9xico.jpeg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Monta%C3%B1aAjuscoDesdeCU-M%C3%A9xico.jpeg/1280px-Monta%C3%B1aAjuscoDesdeCU-M%C3%A9xico.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-09-S14": {
+      "cached_at": "2026-10-09T17:23:35.022042+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S14.jpg",
+      "query": "Kiholo Bay West Hawaii with historic lava flows from Mauna Loa (1859) and Hualalai (circa 1800) visible along the coastline",
+      "score": 11,
+      "source_page": "https://commons.wikimedia.org/wiki/File:State_Route_19_Across_the_1801_Hu%CA%BBehu%CA%BBe_flow_from_Hual%C4%81lai,_Hawaii_(4527304769).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/State_Route_19_Across_the_1801_Hu%CA%BBehu%CA%BBe_flow_from_Hual%C4%81lai%2C_Hawaii_%284527304769%29.jpg/1280px-State_Route_19_Across_the_1801_Hu%CA%BBehu%CA%BBe_flow_from_Hual%C4%81lai%2C_Hawaii_%284527304769%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-09-S15": {
+      "cached_at": "2026-10-09T17:23:37.156698+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S15.jpg",
+      "query": "Carrier 1922 centrifugal chiller system debut at New York Rivoli Theater",
+      "score": 41,
+      "source_page": "https://www.energy.gov/articles/history-air-conditioning",
+      "source_url": "https://www.energy.gov/articles/history-air-conditioning"
+    },
+    "FACT-2026-10-09-S16": {
+      "cached_at": "2026-10-09T17:23:41.605334+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S16.jpg",
+      "query": "Language involves distributed brain networks Brain and language",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Case_Report_-_Globus_Pallidus_Internus_(GPi)_Deep_Brain_Stimulation_Induced_Keyboard_Typing_Dysfunction.pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Case_Report_-_Globus_Pallidus_Internus_%28GPi%29_Deep_Brain_Stimulation_Induced_Keyboard_Typing_Dysfunction.pdf/page1-960px-Case_Report_-_Globus_Pallidus_Internus_%28GPi%29_Deep_Brain_Stimulation_Induced_Keyboard_Typing_Dysfunction.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-09-S17": {
+      "cached_at": "2026-10-09T17:23:43.565481+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S17.jpg",
+      "query": "Wardenclyffe Tower demolition 1917",
+      "score": 29,
+      "source_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+      "source_url": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla"
+    },
+    "FACT-2026-10-09-S18": {
+      "cached_at": "2026-10-09T17:23:47.072952+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S18.jpg",
+      "query": "Seahorse monogamy Seahorse behavior",
+      "score": 15,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Seahorse_mating_dance.JPG",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Seahorse_mating_dance.JPG/1280px-Seahorse_mating_dance.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-09-S19": {
+      "cached_at": "2026-10-09T17:23:48.743469+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S19.jpg",
+      "query": "Frigidaire introduced a home-sized split-system room cooler in 1929 Home appliances",
+      "score": 54,
+      "source_page": "https://www.energy.gov/articles/history-air-conditioning",
+      "source_url": "https://www.energy.gov/articles/history-air-conditioning"
+    },
+    "FACT-2026-10-09-S20": {
+      "cached_at": "2026-10-09T17:23:50.347873+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S20.jpg",
+      "query": "CFLs last about ten times longer than incandescent bulbs Lighting lifespan",
+      "score": 52,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
     }
   },
   "published_claims": {
@@ -5287,6 +5506,10 @@
     "0b2d48a2f540bac39a0b927c": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S04"
+    },
+    "0ca72e1ba2fab0ce9576c0af": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S11"
     },
     "0eda06abc710872585b671e0": {
       "date": "2026-10-05",
@@ -5359,6 +5582,10 @@
     "19d71d0264da875c8a464f44": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S07"
+    },
+    "1a007fc1413181f48b29bd8d": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S12"
     },
     "1a7f00077b840c7e5b4b8215": {
       "date": "2026-10-08",
@@ -5700,6 +5927,10 @@
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S09"
     },
+    "6c35273ab6da38653dc7bf56": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S14"
+    },
     "6e07ae9c930143486dc907c5": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S08"
@@ -5764,6 +5995,10 @@
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S01"
     },
+    "8189b21fc127c2ec60745b59": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S18"
+    },
     "824ae6d119f82a7636e94a89": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S13"
@@ -5775,6 +6010,10 @@
     "8942d4322d8e52a9871fd5a4": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S12"
+    },
+    "89705a4725a15d112eedba52": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S20"
     },
     "897a99b5f76bd4f49a565f80": {
       "date": "2026-10-08",
@@ -5840,6 +6079,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S04"
     },
+    "9db3bd2e35c3aef1ac7497fd": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S15"
+    },
     "9dc774c90828e7eeac1a86aa76e2de9cb60078c4": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S06"
@@ -5868,6 +6111,10 @@
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S10"
     },
+    "a3a85b81f4316637388a615d": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S13"
+    },
     "a654b53d305407f6884e417e": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S07"
@@ -5887,6 +6134,10 @@
     "a710bea29af143fa0ee35394": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S01"
+    },
+    "a73996ce14a7356bfb2e2b0f": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S17"
     },
     "a98c6142829c23b32922d0b6": {
       "date": "2026-10-08",
@@ -6044,6 +6295,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S15"
     },
+    "d0b4917e6a250059ac5b77ec": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S19"
+    },
     "d3c0c3671ef74e033cdccf59": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S09"
@@ -6127,6 +6382,10 @@
     "ea0c34776f8a453fbf0d15c8": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S06"
+    },
+    "ea87d98bda7cfc10fe63d7c1": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S16"
     },
     "eb0459d62222c76f21f6f097": {
       "date": "2026-10-08",
@@ -6645,6 +6904,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-09",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-09T17:23:51.382279+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
