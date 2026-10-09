@@ -3207,6 +3207,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-09": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-09-S01",
+            "FACT-2026-10-09-S02",
+            "FACT-2026-10-09-S03",
+            "FACT-2026-10-09-S04",
+            "FACT-2026-10-09-S05",
+            "FACT-2026-10-09-S06",
+            "FACT-2026-10-09-S07",
+            "FACT-2026-10-09-S08",
+            "FACT-2026-10-09-S09",
+            "FACT-2026-10-09-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-09T08:09:25.903425+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-09T08:08:23.478099+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-09-S01": {
+          "batch": 1,
+          "claim_key": "507b86d7fbe7488ba70bdadc",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/10-things-whats-that-space-rock/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 337,
+          "published_at": "2026-10-09T08:08:24.877832+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S02": {
+          "batch": 1,
+          "claim_key": "39fd677a1b0715e417c45c09",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Jupiter-Family_Comets_Johnson_and_Shoemaker-Levy_3.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 338,
+          "published_at": "2026-10-09T08:08:35.977306+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S03": {
+          "batch": 1,
+          "claim_key": "e21f080226ef9180ff9eb79c",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Fireball_Over_Kitt_Peak_(iotw2522a).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 339,
+          "published_at": "2026-10-09T08:08:41.657916+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S04": {
+          "batch": 1,
+          "claim_key": "e4d7dc246bd164fc8fb1391c",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Golfo_P%C3%A9rsico_(NASA_Terra-Modis)_(4996894832).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 340,
+          "published_at": "2026-10-09T08:08:50.098696+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S05": {
+          "batch": 1,
+          "claim_key": "2f96a0ccc36a76133d2b81da",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Fault_slickenside_(Great_Smoky_Mountains,_Tennessee-North_Carolina,_USA)_3.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 341,
+          "published_at": "2026-10-09T08:08:57.318168+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S06": {
+          "batch": 1,
+          "claim_key": "c647171d3c326282453263fa",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Cascadia_subduction_zone_USGS.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 342,
+          "published_at": "2026-10-09T08:09:00.353005+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S07": {
+          "batch": 1,
+          "claim_key": "ffb47721918700d173276fc7",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:World-banks-income-groups.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 343,
+          "published_at": "2026-10-09T08:09:06.816396+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S08": {
+          "batch": 1,
+          "claim_key": "80cb8ae7a09240c8afb0d29b",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Eruption_of_Mount_Pinatubo,_June_15,_1991.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 344,
+          "published_at": "2026-10-09T08:09:15.940106+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S09": {
+          "batch": 1,
+          "claim_key": "54d758cb1d8cad2e82913ff5",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:THE_IMPLEMENTATION_OF_NATIONAL_STANDARDS_IN_FISHERIES_MANAGEMENT_(IA_gov.gpo.fdsys.CHRG-108shrg20083).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 345,
+          "published_at": "2026-10-09T08:09:22.352631+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-09-S10": {
+          "batch": 1,
+          "claim_key": "3da44dae324b1a44423b2c4e",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:PahoehoeLava_(upscaled).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 346,
+          "published_at": "2026-10-09T08:09:25.883734+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -5024,6 +5159,96 @@
       "score": 33,
       "source_page": "https://commons.wikimedia.org/wiki/File:Iron_Lung_(061)_(7184148409).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Iron_Lung_%28061%29_%287184148409%29.jpg/1280px-Iron_Lung_%28061%29_%287184148409%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-09-S01": {
+      "cached_at": "2026-10-09T08:08:23.902205+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S01.jpg",
+      "query": "Comet nucleus and tails Comets",
+      "score": 21,
+      "source_page": "https://science.nasa.gov/solar-system/10-things-whats-that-space-rock/",
+      "source_url": "https://science.nasa.gov/solar-system/10-things-whats-that-space-rock/"
+    },
+    "FACT-2026-10-09-S02": {
+      "cached_at": "2026-10-09T08:08:34.585761+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S02.jpg",
+      "query": "Definition of meteoroids Meteoroids",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jupiter-Family_Comets_Johnson_and_Shoemaker-Levy_3.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Jupiter-Family_Comets_Johnson_and_Shoemaker-Levy_3.jpg/1280px-Jupiter-Family_Comets_Johnson_and_Shoemaker-Levy_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-09-S03": {
+      "cached_at": "2026-10-09T08:08:40.064131+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S03.jpg",
+      "query": "meteors entering Earth's atmosphere, glowing streaks in the sky",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fireball_Over_Kitt_Peak_(iotw2522a).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Fireball_Over_Kitt_Peak_%28iotw2522a%29.jpg/1280px-Fireball_Over_Kitt_Peak_%28iotw2522a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-09-S04": {
+      "cached_at": "2026-10-09T08:08:48.609925+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S04.jpg",
+      "query": "Plate tectonics describes moving rigid plates Plate tectonics",
+      "score": 27,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Golfo_P%C3%A9rsico_(NASA_Terra-Modis)_(4996894832).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Golfo_P%C3%A9rsico_%28NASA_Terra-Modis%29_%284996894832%29.jpg/1280px-Golfo_P%C3%A9rsico_%28NASA_Terra-Modis%29_%284996894832%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-09-S05": {
+      "cached_at": "2026-10-09T08:08:55.746389+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S05.jpg",
+      "query": "fault slip causing earthquake",
+      "score": 14,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fault_slickenside_(Great_Smoky_Mountains,_Tennessee-North_Carolina,_USA)_3.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Fault_slickenside_%28Great_Smoky_Mountains%2C_Tennessee-North_Carolina%2C_USA%29_3.jpg/1280px-Fault_slickenside_%28Great_Smoky_Mountains%2C_Tennessee-North_Carolina%2C_USA%29_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-10-09-S06": {
+      "cached_at": "2026-10-09T08:08:59.269829+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S06.jpg",
+      "query": "Subduction zones produce powerful natural hazards Natural hazards",
+      "score": 11,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cascadia_subduction_zone_USGS.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Cascadia_subduction_zone_USGS.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-09-S07": {
+      "cached_at": "2026-10-09T08:09:05.877632+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S07.jpg",
+      "query": "World Bank income groups Income classification",
+      "score": 26,
+      "source_page": "https://commons.wikimedia.org/wiki/File:World-banks-income-groups.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/World-banks-income-groups.svg/1280px-World-banks-income-groups.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-09-S08": {
+      "cached_at": "2026-10-09T08:09:14.960691+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S08.jpg",
+      "query": "Mount Pinatubo eruption plume with vivid sunrise colors in the sky",
+      "score": 25,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Eruption_of_Mount_Pinatubo,_June_15,_1991.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Eruption_of_Mount_Pinatubo%2C_June_15%2C_1991.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-09-S09": {
+      "cached_at": "2026-10-09T08:09:21.170314+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S09.jpg",
+      "query": "National implementation of standards Economic data",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:THE_IMPLEMENTATION_OF_NATIONAL_STANDARDS_IN_FISHERIES_MANAGEMENT_(IA_gov.gpo.fdsys.CHRG-108shrg20083).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/THE_IMPLEMENTATION_OF_NATIONAL_STANDARDS_IN_FISHERIES_MANAGEMENT_%28IA_gov.gpo.fdsys.CHRG-108shrg20083%29.pdf/page1-960px-THE_IMPLEMENTATION_OF_NATIONAL_STANDARDS_IN_FISHERIES_MANAGEMENT_%28IA_gov.gpo.fdsys.CHRG-108shrg20083%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-09-S10": {
+      "cached_at": "2026-10-09T08:09:24.200894+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-09-S10.jpg",
+      "query": "pahoehoe lava flow inflation",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:PahoehoeLava_(upscaled).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/PahoehoeLava_%28upscaled%29.jpg/960px-PahoehoeLava_%28upscaled%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -5247,6 +5472,10 @@
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S10"
     },
+    "2f96a0ccc36a76133d2b81da": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S05"
+    },
     "2fbdbd951b671cd8412030c0901de12a9eb2bebc": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S06"
@@ -5267,9 +5496,17 @@
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S09"
     },
+    "39fd677a1b0715e417c45c09": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S02"
+    },
     "3d03684da41493abd2aa8c56": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S15"
+    },
+    "3da44dae324b1a44423b2c4e": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S10"
     },
     "3de2d570a9cfc9552c120689": {
       "date": "2026-10-05",
@@ -5343,9 +5580,17 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S14"
     },
+    "507b86d7fbe7488ba70bdadc": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S01"
+    },
     "507ef8518c47c274846c7b3d": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S11"
+    },
+    "54d758cb1d8cad2e82913ff5": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S09"
     },
     "576694782fcc56aeefc0b9a1": {
       "date": "2026-10-03",
@@ -5506,6 +5751,10 @@
     "7dd8ec64b55592e6e62752a05974cd1ba5cbc7dd": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S02"
+    },
+    "80cb8ae7a09240c8afb0d29b": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S08"
     },
     "812a3ec3d862a445c26ccd11b0f3ebae31ade9d6": {
       "date": "2026-09-24",
@@ -5759,6 +6008,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S05"
     },
+    "c647171d3c326282453263fa": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S06"
+    },
     "c6819f09653c8e6782b7bf9b": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S02"
@@ -5835,6 +6088,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S07"
     },
+    "e21f080226ef9180ff9eb79c": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S03"
+    },
     "e2200a814b047ae72da2516f": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S15"
@@ -5850,6 +6107,10 @@
     "e4ce2b082e52e4562f099a64": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S11"
+    },
+    "e4d7dc246bd164fc8fb1391c": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S04"
     },
     "e4e664146fdde4ad52929440ebb90a6a83c60eb8": {
       "date": "2026-09-27",
@@ -5938,6 +6199,10 @@
     "fed0ca59eade6f831847f2fa2f97c2802cafa39f": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S07"
+    },
+    "ffb47721918700d173276fc7": {
+      "date": "2026-10-09",
+      "fact_id": "FACT-2026-10-09-S07"
     }
   },
   "runs": [
@@ -6364,6 +6629,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-09",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-09T08:09:25.903444+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
