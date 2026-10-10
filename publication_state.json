@@ -3471,6 +3471,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-10": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-10-S01",
+            "FACT-2026-10-10-S02",
+            "FACT-2026-10-10-S03",
+            "FACT-2026-10-10-S04",
+            "FACT-2026-10-10-S05",
+            "FACT-2026-10-10-S06",
+            "FACT-2026-10-10-S07",
+            "FACT-2026-10-10-S08",
+            "FACT-2026-10-10-S09",
+            "FACT-2026-10-10-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-10T07:53:35.025583+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-10T07:53:05.222798+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-10-S01": {
+          "batch": 1,
+          "claim_key": "9a1b2279ad35ebe58ffe3081",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Planetas_enanos.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 357,
+          "published_at": "2026-10-10T07:53:10.430524+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S02": {
+          "batch": 1,
+          "claim_key": "ba35e14a8184d11eb194a51f",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/10-things-whats-that-space-rock/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 358,
+          "published_at": "2026-10-10T07:53:11.869221+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S03": {
+          "batch": 1,
+          "claim_key": "5faca912449e8a21010f6b28",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Oort_cloud_Sedna_and_Planet_Nine_orbits.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 359,
+          "published_at": "2026-10-10T07:53:16.078940+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S04": {
+          "batch": 1,
+          "claim_key": "607c8a4424ff9a9155697cca",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 360,
+          "published_at": "2026-10-10T07:53:21.390017+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S05": {
+          "batch": 1,
+          "claim_key": "3967ef62909e2ae0893d4ccf",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 361,
+          "published_at": "2026-10-10T07:53:22.526183+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S06": {
+          "batch": 1,
+          "claim_key": "a73e13f80aa46e0b4b2354e6",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 362,
+          "published_at": "2026-10-10T07:53:24.049294+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S07": {
+          "batch": 1,
+          "claim_key": "8a25517d73bf82d22df0dbca",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 363,
+          "published_at": "2026-10-10T07:53:25.156867+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S08": {
+          "batch": 1,
+          "claim_key": "60b49ab04405e15dfc45cc92",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 364,
+          "published_at": "2026-10-10T07:53:32.109530+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S09": {
+          "batch": 1,
+          "claim_key": "55aa7f29ee2b72ee1959f056",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 365,
+          "published_at": "2026-10-10T07:53:33.818832+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S10": {
+          "batch": 1,
+          "claim_key": "32007b1dcff2ab2a981d1f79",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 366,
+          "published_at": "2026-10-10T07:53:35.018510+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -5468,6 +5603,33 @@
       "score": 52,
       "source_page": "https://www.energy.gov/articles/history-light-bulb",
       "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-10-S01": {
+      "cached_at": "2026-10-10T07:53:09.089458+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-10-S01.jpg",
+      "query": "dwarf planet floating in space, showing its rounded shape",
+      "score": 28,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Planetas_enanos.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Planetas_enanos.png/1280px-Planetas_enanos.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-10-S02": {
+      "cached_at": "2026-10-10T07:53:11.160514+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-10-S02.jpg",
+      "query": "Ceres dwarf planet in the asteroid belt",
+      "score": 21,
+      "source_page": "https://science.nasa.gov/solar-system/10-things-whats-that-space-rock/",
+      "source_url": "https://science.nasa.gov/solar-system/10-things-whats-that-space-rock/"
+    },
+    "FACT-2026-10-10-S03": {
+      "cached_at": "2026-10-10T07:53:14.269209+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-10-S03.jpg",
+      "query": "Kuiper Belt location Kuiper Belt",
+      "score": 26,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Oort_cloud_Sedna_and_Planet_Nine_orbits.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Oort_cloud_Sedna_and_Planet_Nine_orbits.jpg/1280px-Oort_cloud_Sedna_and_Planet_Nine_orbits.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -5711,6 +5873,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S18"
     },
+    "32007b1dcff2ab2a981d1f79": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S10"
+    },
     "334da577c7783bd78b64c78ea938e1957e26fb14": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S13"
@@ -5722,6 +5888,10 @@
     "35d8ef29a94701c635b0efb3aeb51be40c9533d5": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S09"
+    },
+    "3967ef62909e2ae0893d4ccf": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S05"
     },
     "39fd677a1b0715e417c45c09": {
       "date": "2026-10-09",
@@ -5819,6 +5989,10 @@
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S09"
     },
+    "55aa7f29ee2b72ee1959f056": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S09"
+    },
     "576694782fcc56aeefc0b9a1": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S06"
@@ -5866,6 +6040,18 @@
     "5f4154a8fa06852f67fba7fc": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S09"
+    },
+    "5faca912449e8a21010f6b28": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S03"
+    },
+    "607c8a4424ff9a9155697cca": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S04"
+    },
+    "60b49ab04405e15dfc45cc92": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S08"
     },
     "61788c73212ced85dffa5165": {
       "date": "2026-10-06",
@@ -6023,6 +6209,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S06"
     },
+    "8a25517d73bf82d22df0dbca": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S07"
+    },
     "8a36be330cade9c8da152167": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S12"
@@ -6066,6 +6256,10 @@
     "995a6b4b6428c2781f70415b": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S03"
+    },
+    "9a1b2279ad35ebe58ffe3081": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S01"
     },
     "9ba4b6b1de2d5ca6116c0633": {
       "date": "2026-10-02",
@@ -6138,6 +6332,10 @@
     "a73996ce14a7356bfb2e2b0f": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S17"
+    },
+    "a73e13f80aa46e0b4b2354e6": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S06"
     },
     "a98c6142829c23b32922d0b6": {
       "date": "2026-10-08",
@@ -6234,6 +6432,10 @@
     "ba2585a146868586fc1991a8": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S13"
+    },
+    "ba35e14a8184d11eb194a51f": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S02"
     },
     "bbede9e8bebf113dee61091dc8c699c8c1584202": {
       "date": "2026-09-24",
@@ -6920,6 +7122,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-10",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-10T07:53:35.025596+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
