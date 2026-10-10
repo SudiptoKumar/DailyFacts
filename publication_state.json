@@ -3492,6 +3492,25 @@
           "published_count": 10,
           "started_at": "2026-10-10T07:53:05.222798+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-10-S11",
+            "FACT-2026-10-10-S12",
+            "FACT-2026-10-10-S13",
+            "FACT-2026-10-10-S14",
+            "FACT-2026-10-10-S15",
+            "FACT-2026-10-10-S16",
+            "FACT-2026-10-10-S17",
+            "FACT-2026-10-10-S18",
+            "FACT-2026-10-10-S19",
+            "FACT-2026-10-10-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-10T16:09:26.434447+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-10T16:09:00.703559+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -3602,6 +3621,116 @@
           "image_source": "",
           "message_id": 366,
           "published_at": "2026-10-10T07:53:35.018510+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S11": {
+          "batch": 2,
+          "claim_key": "33f62ca809995f9416d26d0c",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1645/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 367,
+          "published_at": "2026-10-10T16:09:02.533495+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S12": {
+          "batch": 2,
+          "claim_key": "a365f8b913cd38e92a4013dc",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1405/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 368,
+          "published_at": "2026-10-10T16:09:06.106737+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S13": {
+          "batch": 2,
+          "claim_key": "5dec01f2d79a3f5a1bc0bdbd",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Earthquakes_in_Cascadia_Subduction_Zone.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 369,
+          "published_at": "2026-10-10T16:09:10.994936+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S14": {
+          "batch": 2,
+          "claim_key": "0b1d1c8bfecc5875e034aaff",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 370,
+          "published_at": "2026-10-10T16:09:14.420889+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S15": {
+          "batch": 2,
+          "claim_key": "f379a44544e04e6aec794a56",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-air-conditioning",
+          "image_source": "Wikimedia Commons",
+          "message_id": 371,
+          "published_at": "2026-10-10T16:09:16.044922+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S16": {
+          "batch": 2,
+          "claim_key": "fb1313620116a8e8fa725cc7",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_Icy_Heart_of_the_North_Pacific_(MODIS_2021-03-09).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 372,
+          "published_at": "2026-10-10T16:09:20.609783+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S17": {
+          "batch": 2,
+          "claim_key": "35089a9d9852197846c3551c",
+          "image_credit": "Source page",
+          "image_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 373,
+          "published_at": "2026-10-10T16:09:22.289686+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S18": {
+          "batch": 2,
+          "claim_key": "26c405502b541b4b208caa88",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/salt/about/index.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 374,
+          "published_at": "2026-10-10T16:09:23.724352+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S19": {
+          "batch": 2,
+          "claim_key": "ed63baee4a3edfe135a29827",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-air-conditioning",
+          "image_source": "Wikimedia Commons",
+          "message_id": 375,
+          "published_at": "2026-10-10T16:09:25.027003+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-10-S20": {
+          "batch": 2,
+          "claim_key": "9d287aa24e05e857d7167940",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 376,
+          "published_at": "2026-10-10T16:09:26.427427+00:00",
           "send_mode": "text_html",
           "status": "published"
         }
@@ -5630,6 +5759,78 @@
       "score": 26,
       "source_page": "https://commons.wikimedia.org/wiki/File:Oort_cloud_Sedna_and_Planet_Nine_orbits.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Oort_cloud_Sedna_and_Planet_Nine_orbits.jpg/1280px-Oort_cloud_Sedna_and_Planet_Nine_orbits.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-10-S11": {
+      "cached_at": "2026-10-10T16:09:01.523833+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-10-S11.jpg",
+      "query": "Dholavira archaeological site UNESCO World Heritage inscription 2021",
+      "score": 22,
+      "source_page": "https://whc.unesco.org/en/list/1645/",
+      "source_url": "https://whc.unesco.org/en/list/1645/"
+    },
+    "FACT-2026-10-10-S12": {
+      "cached_at": "2026-10-10T16:09:04.659409+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-10-S12.jpg",
+      "query": "two archaeological mounds at Çatalhöyük on the Southern Anatolian Plateau, aerial view, archaeological site",
+      "score": 22,
+      "source_page": "https://whc.unesco.org/en/list/1405/",
+      "source_url": "https://whc.unesco.org/en/list/1405/"
+    },
+    "FACT-2026-10-10-S13": {
+      "cached_at": "2026-10-10T16:09:09.090405+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-10-S13.jpg",
+      "query": "Cascadia Trench",
+      "score": 25,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Earthquakes_in_Cascadia_Subduction_Zone.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Earthquakes_in_Cascadia_Subduction_Zone.jpg/1280px-Earthquakes_in_Cascadia_Subduction_Zone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-10-S15": {
+      "cached_at": "2026-10-10T16:09:15.043940+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-10-S15.jpg",
+      "query": "Thomas Midgley, Albert Henne, and Robert McNary developing CFC refrigerants",
+      "score": 39,
+      "source_page": "https://www.energy.gov/articles/history-air-conditioning",
+      "source_url": "https://www.energy.gov/articles/history-air-conditioning"
+    },
+    "FACT-2026-10-10-S16": {
+      "cached_at": "2026-10-10T16:09:19.138014+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-10-S16.jpg",
+      "query": "Dense seawater sinks Thermohaline circulation",
+      "score": 28,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Icy_Heart_of_the_North_Pacific_(MODIS_2021-03-09).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/The_Icy_Heart_of_the_North_Pacific_%28MODIS_2021-03-09%29.jpg/1280px-The_Icy_Heart_of_the_North_Pacific_%28MODIS_2021-03-09%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-10-S17": {
+      "cached_at": "2026-10-10T16:09:21.274436+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-10-S17.jpg",
+      "query": "Whistled languages are based on spoken languages Whistled languages",
+      "score": 25,
+      "source_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/"
+    },
+    "FACT-2026-10-10-S18": {
+      "cached_at": "2026-10-10T16:09:22.692011+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-10-S18.jpg",
+      "query": "The body's sodium requirement Sodium",
+      "score": 28,
+      "source_page": "https://www.cdc.gov/salt/about/index.html",
+      "source_url": "https://www.cdc.gov/salt/about/index.html"
+    },
+    "FACT-2026-10-10-S19": {
+      "cached_at": "2026-10-10T16:09:24.034697+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-10-S19.jpg",
+      "query": "The 1904 St. Louis World's Fair introduced comfort cooling to the American public Public buildings",
+      "score": 52,
+      "source_page": "https://www.energy.gov/articles/history-air-conditioning",
+      "source_url": "https://www.energy.gov/articles/history-air-conditioning"
     }
   },
   "published_claims": {
@@ -5664,6 +5865,10 @@
     "09cbaca23b94d554b9728dc8": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S03"
+    },
+    "0b1d1c8bfecc5875e034aaff": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S14"
     },
     "0b2d48a2f540bac39a0b927c": {
       "date": "2026-10-05",
@@ -5821,6 +6026,10 @@
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S06"
     },
+    "26c405502b541b4b208caa88": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S18"
+    },
     "270195956a592e48134b4854b22c66d480b273e9": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S05"
@@ -5881,9 +6090,17 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S13"
     },
+    "33f62ca809995f9416d26d0c": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S11"
+    },
     "3409f5c0bde4872fab6bc52c51ff423084863408": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S05"
+    },
+    "35089a9d9852197846c3551c": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S17"
     },
     "35d8ef29a94701c635b0efb3aeb51be40c9533d5": {
       "date": "2026-09-27",
@@ -6024,6 +6241,10 @@
     "5c3a3590dc5b398d430deb03b367dbd40521b256": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S03"
+    },
+    "5dec01f2d79a3f5a1bc0bdbd": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S13"
     },
     "5e20d1a1b8b2568df860e313e8301772f463a186": {
       "date": "2026-09-26",
@@ -6273,6 +6494,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S04"
     },
+    "9d287aa24e05e857d7167940": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S20"
+    },
     "9db3bd2e35c3aef1ac7497fd": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S15"
@@ -6304,6 +6529,10 @@
     "a29ac01d5084388701cea15e926b32d929846d96": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S10"
+    },
+    "a365f8b913cd38e92a4013dc": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S12"
     },
     "a3a85b81f4316637388a615d": {
       "date": "2026-10-09",
@@ -6601,6 +6830,10 @@
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S18"
     },
+    "ed63baee4a3edfe135a29827": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S19"
+    },
     "eea5c82b45319b5c65f1a582": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S16"
@@ -6612,6 +6845,10 @@
     "ef76d2a9675b152aa7ec62d0": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S18"
+    },
+    "f379a44544e04e6aec794a56": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S15"
     },
     "f44101f8d9cf809c5d4c5e552bff7bfa44c22499": {
       "date": "2026-09-26",
@@ -6648,6 +6885,10 @@
     "fa6a139b384e6586d6af06a2bf7b606d5c54be06": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S08"
+    },
+    "fb1313620116a8e8fa725cc7": {
+      "date": "2026-10-10",
+      "fact_id": "FACT-2026-10-10-S16"
     },
     "fb3ec2598eee1d93bbdc04cb": {
       "date": "2026-10-04",
@@ -7138,6 +7379,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-10",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-10T16:09:26.434460+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
