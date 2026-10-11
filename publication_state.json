@@ -3756,6 +3756,25 @@
           "published_count": 10,
           "started_at": "2026-10-11T07:59:37.432674+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-11-S11",
+            "FACT-2026-10-11-S12",
+            "FACT-2026-10-11-S13",
+            "FACT-2026-10-11-S14",
+            "FACT-2026-10-11-S15",
+            "FACT-2026-10-11-S16",
+            "FACT-2026-10-11-S17",
+            "FACT-2026-10-11-S18",
+            "FACT-2026-10-11-S19",
+            "FACT-2026-10-11-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-11T16:36:24.399773+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-11T16:35:41.860781+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -3867,6 +3886,116 @@
           "message_id": 386,
           "published_at": "2026-10-11T08:00:11.836244+00:00",
           "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-11-S11": {
+          "batch": 2,
+          "claim_key": "61ecd430d83ec314dbe6e63a",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1405/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 387,
+          "published_at": "2026-10-11T16:35:43.871758+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-11-S12": {
+          "batch": 2,
+          "claim_key": "874fb5cdede217352f17e655",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1405/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 388,
+          "published_at": "2026-10-11T16:35:45.780434+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-11-S13": {
+          "batch": 2,
+          "claim_key": "e3fb228b451cb72beb3feaa4",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Jewel_Cave_Visitor_Center.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 389,
+          "published_at": "2026-10-11T16:35:54.553931+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-11-S14": {
+          "batch": 2,
+          "claim_key": "91ab81985d4a9019ec22fbe1",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:This_formation_is_in_the_Formation_Room_at_Jewel_Cave._Flowstone_is_created_by_water_flowing_over_existing_rock._The_water_(eb1201d2-f288-c90f-e891-34485eb7e43b).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 390,
+          "published_at": "2026-10-11T16:36:00.367307+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-11-S15": {
+          "batch": 2,
+          "claim_key": "289249aa656a8629f36ed9c1",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 391,
+          "published_at": "2026-10-11T16:36:02.960588+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-11-S16": {
+          "batch": 2,
+          "claim_key": "63ad8a02aab8bd240d03fa0c",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-air-conditioning",
+          "image_source": "Wikimedia Commons",
+          "message_id": 392,
+          "published_at": "2026-10-11T16:36:04.279364+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-11-S17": {
+          "batch": 2,
+          "claim_key": "256f5c0df8e3e55c2be45497",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_7019_Supergyre_ocean_currents_in_the_Australian_region_including_the_Tasman_Outflow_blue_passing_south_of_Tasmania_towards_the_Indian_Ocean_August_2007.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 393,
+          "published_at": "2026-10-11T16:36:10.263132+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-11-S18": {
+          "batch": 2,
+          "claim_key": "a9a57c77adc5fd8c00bf8a47",
+          "image_credit": "Source page",
+          "image_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 394,
+          "published_at": "2026-10-11T16:36:12.752901+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-11-S19": {
+          "batch": 2,
+          "claim_key": "3ac1597cda36c766e7a1dcdc",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/salt/about/index.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 395,
+          "published_at": "2026-10-11T16:36:14.817396+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-11-S20": {
+          "batch": 2,
+          "claim_key": "5f88f54a392b305988c6d0bb",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Natural_history_of_animals;_(1895)_(14779408161).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 396,
+          "published_at": "2026-10-11T16:36:24.395312+00:00",
+          "send_mode": "photo_html",
           "status": "published"
         }
       }
@@ -6020,6 +6149,96 @@
       "score": 19,
       "source_page": "https://commons.wikimedia.org/wiki/File:Igneous_structures.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Igneous_structures.jpg/1280px-Igneous_structures.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-11-S11": {
+      "cached_at": "2026-10-11T16:35:42.838822+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-11-S11.jpg",
+      "query": "Eastern mound of Çatalhöyük archaeological site with Neolithic layers",
+      "score": 21,
+      "source_page": "https://whc.unesco.org/en/list/1405/",
+      "source_url": "https://whc.unesco.org/en/list/1405/"
+    },
+    "FACT-2026-10-11-S12": {
+      "cached_at": "2026-10-11T16:35:44.812023+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-11-S12.jpg",
+      "query": "Western mound of Çatalhöyük archaeological site Chalcolithic layers",
+      "score": 23,
+      "source_page": "https://whc.unesco.org/en/list/1405/",
+      "source_url": "https://whc.unesco.org/en/list/1405/"
+    },
+    "FACT-2026-10-11-S13": {
+      "cached_at": "2026-10-11T16:35:53.224577+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-11-S13.jpg",
+      "query": "Jewel Cave",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jewel_Cave_Visitor_Center.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Jewel_Cave_Visitor_Center.jpg/1280px-Jewel_Cave_Visitor_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-11-S14": {
+      "cached_at": "2026-10-11T16:35:58.962569+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-11-S14.jpg",
+      "query": "Jewel Cave underwater formation, dark limestone walls with water reflections",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:This_formation_is_in_the_Formation_Room_at_Jewel_Cave._Flowstone_is_created_by_water_flowing_over_existing_rock._The_water_(eb1201d2-f288-c90f-e891-34485eb7e43b).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/This_formation_is_in_the_Formation_Room_at_Jewel_Cave._Flowstone_is_created_by_water_flowing_over_existing_rock._The_water_%28eb1201d2-f288-c90f-e891-34485eb7e43b%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-11-S15": {
+      "cached_at": "2026-10-11T16:36:01.797500+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-11-S15.jpg",
+      "query": "LED replacement bulbs with a lumens-per-watt chart showing 70‑120 lm/W range and 85 lm/W average",
+      "score": 42,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-11-S16": {
+      "cached_at": "2026-10-11T16:36:03.280166+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-11-S16.jpg",
+      "query": "Modern air conditioners use about half the energy of 1990 models Energy efficiency",
+      "score": 55,
+      "source_page": "https://www.energy.gov/articles/history-air-conditioning",
+      "source_url": "https://www.energy.gov/articles/history-air-conditioning"
+    },
+    "FACT-2026-10-11-S17": {
+      "cached_at": "2026-10-11T16:36:08.928518+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-11-S17.jpg",
+      "query": "Global ocean conveyor belt Global circulation",
+      "score": 30,
+      "source_page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_7019_Supergyre_ocean_currents_in_the_Australian_region_including_the_Tasman_Outflow_blue_passing_south_of_Tasmania_towards_the_Indian_Ocean_August_2007.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/CSIRO_ScienceImage_7019_Supergyre_ocean_currents_in_the_Australian_region_including_the_Tasman_Outflow_blue_passing_south_of_Tasmania_towards_the_Indian_Ocean_August_2007.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-11-S18": {
+      "cached_at": "2026-10-11T16:36:11.769262+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-11-S18.jpg",
+      "query": "person whistling outdoors, visual representation of sound waves forming linguistic patterns, close-up of mouth and whistle",
+      "score": 31,
+      "source_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/"
+    },
+    "FACT-2026-10-11-S19": {
+      "cached_at": "2026-10-11T16:36:13.998979+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-11-S19.jpg",
+      "query": "Health risks of excess sodium Sodium",
+      "score": 27,
+      "source_page": "https://www.cdc.gov/salt/about/index.html",
+      "source_url": "https://www.cdc.gov/salt/about/index.html"
+    },
+    "FACT-2026-10-11-S20": {
+      "cached_at": "2026-10-11T16:36:23.067612+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-11-S20.jpg",
+      "query": "First appearance of animals Evolutionary history",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Natural_history_of_animals;_(1895)_(14779408161).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Natural_history_of_animals%3B_%281895%29_%2814779408161%29.jpg/1280px-Natural_history_of_animals%3B_%281895%29_%2814779408161%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -6219,6 +6438,10 @@
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S06"
     },
+    "256f5c0df8e3e55c2be45497": {
+      "date": "2026-10-11",
+      "fact_id": "FACT-2026-10-11-S17"
+    },
     "26c405502b541b4b208caa88": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S18"
@@ -6234,6 +6457,10 @@
     "2835d441a6ec61a948aa7518": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S06"
+    },
+    "289249aa656a8629f36ed9c1": {
+      "date": "2026-10-11",
+      "fact_id": "FACT-2026-10-11-S15"
     },
     "28d62f915568a81bf5be4bdd": {
       "date": "2026-10-04",
@@ -6310,6 +6537,10 @@
     "39fd677a1b0715e417c45c09": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S02"
+    },
+    "3ac1597cda36c766e7a1dcdc": {
+      "date": "2026-10-11",
+      "fact_id": "FACT-2026-10-11-S19"
     },
     "3d03684da41493abd2aa8c56": {
       "date": "2026-10-05",
@@ -6467,6 +6698,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S09"
     },
+    "5f88f54a392b305988c6d0bb": {
+      "date": "2026-10-11",
+      "fact_id": "FACT-2026-10-11-S20"
+    },
     "5faca912449e8a21010f6b28": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S03"
@@ -6483,6 +6718,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S08"
     },
+    "61ecd430d83ec314dbe6e63a": {
+      "date": "2026-10-11",
+      "fact_id": "FACT-2026-10-11-S11"
+    },
     "61ee6eb5cafd6d6c57daad67": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S02"
@@ -6498,6 +6737,10 @@
     "638dde3b6e4ff131cfc34a16": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S01"
+    },
+    "63ad8a02aab8bd240d03fa0c": {
+      "date": "2026-10-11",
+      "fact_id": "FACT-2026-10-11-S16"
     },
     "63ed18f8d7156ae6fcf6cde6": {
       "date": "2026-10-01",
@@ -6627,6 +6870,10 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S05"
     },
+    "874fb5cdede217352f17e655": {
+      "date": "2026-10-11",
+      "fact_id": "FACT-2026-10-11-S12"
+    },
     "8942d4322d8e52a9871fd5a4": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S12"
@@ -6662,6 +6909,10 @@
     "913f0e0805b3544bf826ac8d2268d9496b796b54": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S04"
+    },
+    "91ab81985d4a9019ec22fbe1": {
+      "date": "2026-10-11",
+      "fact_id": "FACT-2026-10-11-S14"
     },
     "93c3e8547c247957b9bdb8c2": {
       "date": "2026-10-02",
@@ -6790,6 +7041,10 @@
     "a98c6142829c23b32922d0b6": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S17"
+    },
+    "a9a57c77adc5fd8c00bf8a47": {
+      "date": "2026-10-11",
+      "fact_id": "FACT-2026-10-11-S18"
     },
     "aa0c3d927a6b6297affbe520b732c90ecc75c8c3": {
       "date": "2026-09-27",
@@ -7010,6 +7265,10 @@
     "e2644f6ed382dab37d5612e7": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S08"
+    },
+    "e3fb228b451cb72beb3feaa4": {
+      "date": "2026-10-11",
+      "fact_id": "FACT-2026-10-11-S13"
     },
     "e4a2e1c1ffc7bce976fa4a84b7a21a0ef527fec9": {
       "date": "2026-09-25",
@@ -7640,6 +7899,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-11",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-11T16:36:24.399785+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
