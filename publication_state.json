@@ -3999,6 +3999,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-12": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-12-S01",
+            "FACT-2026-10-12-S02",
+            "FACT-2026-10-12-S03",
+            "FACT-2026-10-12-S04",
+            "FACT-2026-10-12-S05",
+            "FACT-2026-10-12-S06",
+            "FACT-2026-10-12-S07",
+            "FACT-2026-10-12-S08",
+            "FACT-2026-10-12-S09",
+            "FACT-2026-10-12-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-12T08:16:00.102849+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-12T08:15:11.810414+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-12-S01": {
+          "batch": 1,
+          "claim_key": "c44f0185c7b3328fc0b69efc",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 397,
+          "published_at": "2026-10-12T08:15:14.810660+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S02": {
+          "batch": 1,
+          "claim_key": "376f8dc43f31640ebf1f5097",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 398,
+          "published_at": "2026-10-12T08:15:17.586219+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S03": {
+          "batch": 1,
+          "claim_key": "be79833d01d00a3689395284",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Webb_finds_water_vapor,_but_from_a_rocky_planet_or_its_star%3F_(GJ486b).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 399,
+          "published_at": "2026-10-12T08:15:26.896063+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S04": {
+          "batch": 1,
+          "claim_key": "b4082df2fcaaf6ad26ae8de5",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 400,
+          "published_at": "2026-10-12T08:15:36.790696+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S05": {
+          "batch": 1,
+          "claim_key": "2ce976ad0cfc34a220fbf568",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Annual_growth_of_general_government_final_consumption_expenditure,_World,_2023.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 401,
+          "published_at": "2026-10-12T08:15:46.223449+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S06": {
+          "batch": 1,
+          "claim_key": "bfe30ba1b1d3f2f9bd0c3de9",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 402,
+          "published_at": "2026-10-12T08:15:48.570864+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S07": {
+          "batch": 1,
+          "claim_key": "7191c869043d3c8f1d4a71d0",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 403,
+          "published_at": "2026-10-12T08:15:51.001569+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S08": {
+          "batch": 1,
+          "claim_key": "56cd87dd106a435a7ca44547",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 404,
+          "published_at": "2026-10-12T08:15:54.773318+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S09": {
+          "batch": 1,
+          "claim_key": "a75fc584a32e7d1aaf87fb11",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 405,
+          "published_at": "2026-10-12T08:15:56.493949+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S10": {
+          "batch": 1,
+          "claim_key": "bafb52efa86803b51885b268",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1405/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 406,
+          "published_at": "2026-10-12T08:16:00.094189+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -6239,6 +6374,51 @@
       "score": 22,
       "source_page": "https://commons.wikimedia.org/wiki/File:Natural_history_of_animals;_(1895)_(14779408161).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Natural_history_of_animals%3B_%281895%29_%2814779408161%29.jpg/1280px-Natural_history_of_animals%3B_%281895%29_%2814779408161%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-12-S01": {
+      "cached_at": "2026-10-12T08:15:13.304654+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-12-S01.jpg",
+      "query": "illustration of the solar system orbiting the Milky Way galaxy, showing the Sun and planets moving around the galactic center",
+      "score": 24,
+      "source_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "source_url": "https://science.nasa.gov/solar-system/solar-system-facts/"
+    },
+    "FACT-2026-10-12-S02": {
+      "cached_at": "2026-10-12T08:15:16.547690+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-12-S02.jpg",
+      "query": "Milky Way galaxy with solar system orbit illustration",
+      "score": 18,
+      "source_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "source_url": "https://science.nasa.gov/solar-system/solar-system-facts/"
+    },
+    "FACT-2026-10-12-S03": {
+      "cached_at": "2026-10-12T08:15:25.604100+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-12-S03.jpg",
+      "query": "Hottest planet Planets",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Webb_finds_water_vapor,_but_from_a_rocky_planet_or_its_star%3F_(GJ486b).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Webb_finds_water_vapor%2C_but_from_a_rocky_planet_or_its_star%3F_%28GJ486b%29.jpg/1280px-Webb_finds_water_vapor%2C_but_from_a_rocky_planet_or_its_star%3F_%28GJ486b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-12-S05": {
+      "cached_at": "2026-10-12T08:15:44.818894+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-12-S05.jpg",
+      "query": "Final consumption expenditure Consumption",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Annual_growth_of_general_government_final_consumption_expenditure,_World,_2023.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Annual_growth_of_general_government_final_consumption_expenditure%2C_World%2C_2023.svg/1280px-Annual_growth_of_general_government_final_consumption_expenditure%2C_World%2C_2023.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-12-S10": {
+      "cached_at": "2026-10-12T08:15:58.940683+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-12-S10.jpg",
+      "query": "Çatalhöyük's streetless settlement Architecture",
+      "score": 19,
+      "source_page": "https://whc.unesco.org/en/list/1405/",
+      "source_url": "https://whc.unesco.org/en/list/1405/"
     }
   },
   "published_claims": {
@@ -6482,6 +6662,10 @@
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S02"
     },
+    "2ce976ad0cfc34a220fbf568": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S05"
+    },
     "2d12d822bf7139a334843a3da35a83e05cf51a32": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S02"
@@ -6529,6 +6713,10 @@
     "363d619eb17dbee17914d71c": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S09"
+    },
+    "376f8dc43f31640ebf1f5097": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S02"
     },
     "3967ef62909e2ae0893d4ccf": {
       "date": "2026-10-10",
@@ -6645,6 +6833,10 @@
     "55aa7f29ee2b72ee1959f056": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S09"
+    },
+    "56cd87dd106a435a7ca44547": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S08"
     },
     "576694782fcc56aeefc0b9a1": {
       "date": "2026-10-03",
@@ -6801,6 +6993,10 @@
     "709b7e1ee90a5c275948a12e": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S13"
+    },
+    "7191c869043d3c8f1d4a71d0": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S07"
     },
     "73fd3ee859ea851c74a5209a": {
       "date": "2026-10-07",
@@ -7038,6 +7234,10 @@
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S06"
     },
+    "a75fc584a32e7d1aaf87fb11": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S09"
+    },
     "a98c6142829c23b32922d0b6": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S17"
@@ -7098,6 +7298,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S12"
     },
+    "b4082df2fcaaf6ad26ae8de5": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S04"
+    },
     "b4240052cef889970abdc3f7d04aa494339b12dd": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S12"
@@ -7142,6 +7346,10 @@
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S02"
     },
+    "bafb52efa86803b51885b268": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S10"
+    },
     "bbede9e8bebf113dee61091dc8c699c8c1584202": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S08"
@@ -7149,6 +7357,14 @@
     "bc5730b2af895ec2ed1cac0d3e957b5ffd2279fc": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S10"
+    },
+    "be79833d01d00a3689395284": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S03"
+    },
+    "bfe30ba1b1d3f2f9bd0c3de9": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S06"
     },
     "c22cf21a6f34e313c1ea3c3240155df0bafc619d": {
       "date": "2026-09-28",
@@ -7161,6 +7377,10 @@
     "c3b7476a38730e231714cd20ca8b09957ef631ad": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S05"
+    },
+    "c44f0185c7b3328fc0b69efc": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S01"
     },
     "c5f4a7946939a079171ceb83": {
       "date": "2026-10-03",
@@ -7915,6 +8135,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-12",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-12T08:16:00.102861+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
