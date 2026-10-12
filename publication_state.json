@@ -4020,6 +4020,25 @@
           "published_count": 10,
           "started_at": "2026-10-12T08:15:11.810414+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-12-S11",
+            "FACT-2026-10-12-S12",
+            "FACT-2026-10-12-S13",
+            "FACT-2026-10-12-S14",
+            "FACT-2026-10-12-S15",
+            "FACT-2026-10-12-S16",
+            "FACT-2026-10-12-S17",
+            "FACT-2026-10-12-S18",
+            "FACT-2026-10-12-S19",
+            "FACT-2026-10-12-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-12T20:12:44.653259+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-12T20:11:43.881937+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -4130,6 +4149,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 406,
           "published_at": "2026-10-12T08:16:00.094189+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S11": {
+          "batch": 2,
+          "claim_key": "2d8ab5687a421e510ca5e94d",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1405/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 407,
+          "published_at": "2026-10-12T20:11:46.266478+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S12": {
+          "batch": 2,
+          "claim_key": "dbfe44de701018e5975ae02a",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Half_Dome_08377p.JPG",
+          "image_source": "Wikimedia Commons",
+          "message_id": 408,
+          "published_at": "2026-10-12T20:11:56.254635+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S13": {
+          "batch": 2,
+          "claim_key": "83ba6f46726322ea4bb8cfed",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 409,
+          "published_at": "2026-10-12T20:12:00.658164+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S14": {
+          "batch": 2,
+          "claim_key": "5bef26b001f078b6652e3b3b",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:DSC28092,_Zebrasnout_Seahorse,_Monterey_Bay_Aquarium,_Monterey,_California,_USA_(4750608169).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 410,
+          "published_at": "2026-10-12T20:12:09.344656+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S15": {
+          "batch": 2,
+          "claim_key": "343b69dd632043eed48cda2d",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:EXAMINING_THE_FINANCIAL_SERVICES_INDUSTRY%27S_RESPONSIBILITIES_AND_ROLE_IN_PREVENTING_IDENTITY_THEFT_AND_PROTECTING_SENSITIVE_FINANCIAL_INFORMATION_(IA_gov.gpo.fdsys.CHRG-109shrg31069).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 411,
+          "published_at": "2026-10-12T20:12:18.675632+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S16": {
+          "batch": 2,
+          "claim_key": "7b17fa2086c4066a08183538",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Cycling_of_marine_phytoplankton.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 412,
+          "published_at": "2026-10-12T20:12:30.569905+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S17": {
+          "batch": 2,
+          "claim_key": "33c06d27baf7db4228142ff4",
+          "image_credit": "Source page",
+          "image_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 413,
+          "published_at": "2026-10-12T20:12:39.089603+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S18": {
+          "batch": 2,
+          "claim_key": "6e7453b76a5aa9a33fa8c708",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 414,
+          "published_at": "2026-10-12T20:12:40.751190+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S19": {
+          "batch": 2,
+          "claim_key": "8080cd2dfb461ce7e505dd1c",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 415,
+          "published_at": "2026-10-12T20:12:42.256998+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-12-S20": {
+          "batch": 2,
+          "claim_key": "9afa7b29e99797a606d61c6b",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 416,
+          "published_at": "2026-10-12T20:12:44.646515+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -6419,6 +6548,69 @@
       "score": 19,
       "source_page": "https://whc.unesco.org/en/list/1405/",
       "source_url": "https://whc.unesco.org/en/list/1405/"
+    },
+    "FACT-2026-10-12-S11": {
+      "cached_at": "2026-10-12T20:11:45.093490+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-12-S11.jpg",
+      "query": "wall paintings and sculptures at the Neolithic site of Çatalhöyük",
+      "score": 22,
+      "source_page": "https://whc.unesco.org/en/list/1405/",
+      "source_url": "https://whc.unesco.org/en/list/1405/"
+    },
+    "FACT-2026-10-12-S12": {
+      "cached_at": "2026-10-12T20:11:54.644096+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-12-S12.jpg",
+      "query": "Half Dome",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Half_Dome_08377p.JPG",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Half_Dome_08377p.JPG/1280px-Half_Dome_08377p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-12-S14": {
+      "cached_at": "2026-10-12T20:12:07.489549+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-12-S14.jpg",
+      "query": "big-bellied seahorse Hippocampus abdominalis",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:DSC28092,_Zebrasnout_Seahorse,_Monterey_Bay_Aquarium,_Monterey,_California,_USA_(4750608169).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/DSC28092%2C_Zebrasnout_Seahorse%2C_Monterey_Bay_Aquarium%2C_Monterey%2C_California%2C_USA_%284750608169%29.jpg/1280px-DSC28092%2C_Zebrasnout_Seahorse%2C_Monterey_Bay_Aquarium%2C_Monterey%2C_California%2C_USA_%284750608169%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-12-S15": {
+      "cached_at": "2026-10-12T20:12:17.339785+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-12-S15.jpg",
+      "query": "World Bank indicators API interface",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:EXAMINING_THE_FINANCIAL_SERVICES_INDUSTRY%27S_RESPONSIBILITIES_AND_ROLE_IN_PREVENTING_IDENTITY_THEFT_AND_PROTECTING_SENSITIVE_FINANCIAL_INFORMATION_(IA_gov.gpo.fdsys.CHRG-109shrg31069).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/EXAMINING_THE_FINANCIAL_SERVICES_INDUSTRY%27S_RESPONSIBILITIES_AND_ROLE_IN_PREVENTING_IDENTITY_THEFT_AND_PROTECTING_SENSITIVE_FINANCIAL_INFORMATION_%28IA_gov.gpo.fdsys.CHRG-109shrg31069%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-12-S16": {
+      "cached_at": "2026-10-12T20:12:22.306623+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-12-S16.jpg",
+      "query": "ocean currents interacting with marine food webs and ecosystems",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cycling_of_marine_phytoplankton.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Cycling_of_marine_phytoplankton.png/1280px-Cycling_of_marine_phytoplankton.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-12-S17": {
+      "cached_at": "2026-10-12T20:12:36.893782+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-12-S17.jpg",
+      "query": "people communicating with whistles in a mountainous or forested landscape",
+      "score": 30,
+      "source_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/"
+    },
+    "FACT-2026-10-12-S20": {
+      "cached_at": "2026-10-12T20:12:43.419450+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-12-S20.jpg",
+      "query": "definition of added sugars illustration",
+      "score": 27,
+      "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+      "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
     }
   },
   "published_claims": {
@@ -6670,6 +6862,10 @@
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S02"
     },
+    "2d8ab5687a421e510ca5e94d": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S11"
+    },
     "2f4247311c30bf8214e2747a0171712fd84582a2": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S10"
@@ -6694,6 +6890,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S13"
     },
+    "33c06d27baf7db4228142ff4": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S17"
+    },
     "33f62ca809995f9416d26d0c": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S11"
@@ -6701,6 +6901,10 @@
     "3409f5c0bde4872fab6bc52c51ff423084863408": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S05"
+    },
+    "343b69dd632043eed48cda2d": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S15"
     },
     "35089a9d9852197846c3551c": {
       "date": "2026-10-10",
@@ -6866,6 +7070,10 @@
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S04"
     },
+    "5bef26b001f078b6652e3b3b": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S14"
+    },
     "5c3a3590dc5b398d430deb03b367dbd40521b256": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S03"
@@ -6986,6 +7194,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S10"
     },
+    "6e7453b76a5aa9a33fa8c708": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S18"
+    },
     "6eae841f07013368b9c90bdf": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S17"
@@ -7026,6 +7238,10 @@
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S06"
     },
+    "7b17fa2086c4066a08183538": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S16"
+    },
     "7b9e539bcc47954b3a54fb0d": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S04"
@@ -7037,6 +7253,10 @@
     "7dd8ec64b55592e6e62752a05974cd1ba5cbc7dd": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S02"
+    },
+    "8080cd2dfb461ce7e505dd1c": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S19"
     },
     "80cb8ae7a09240c8afb0d29b": {
       "date": "2026-10-09",
@@ -7057,6 +7277,10 @@
     "824ae6d119f82a7636e94a89": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S13"
+    },
+    "83ba6f46726322ea4bb8cfed": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S13"
     },
     "855e585137b43648f7992101": {
       "date": "2026-10-11",
@@ -7149,6 +7373,10 @@
     "9a1b2279ad35ebe58ffe3081": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S01"
+    },
+    "9afa7b29e99797a606d61c6b": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S20"
     },
     "9ba4b6b1de2d5ca6116c0633": {
       "date": "2026-10-02",
@@ -7457,6 +7685,10 @@
     "db4a28e95c0b4344863e2d9a": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S14"
+    },
+    "dbfe44de701018e5975ae02a": {
+      "date": "2026-10-12",
+      "fact_id": "FACT-2026-10-12-S12"
     },
     "dd7edc121b444a7f2e69208a": {
       "date": "2026-10-01",
@@ -8151,6 +8383,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-12",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-12T20:12:44.653273+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
