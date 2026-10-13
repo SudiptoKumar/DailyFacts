@@ -4284,6 +4284,25 @@
           "published_count": 10,
           "started_at": "2026-10-13T08:40:52.822813+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-13-S11",
+            "FACT-2026-10-13-S12",
+            "FACT-2026-10-13-S13",
+            "FACT-2026-10-13-S14",
+            "FACT-2026-10-13-S15",
+            "FACT-2026-10-13-S16",
+            "FACT-2026-10-13-S17",
+            "FACT-2026-10-13-S18",
+            "FACT-2026-10-13-S19",
+            "FACT-2026-10-13-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-13T18:04:29.164625+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-13T18:04:01.780783+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -4394,6 +4413,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 426,
           "published_at": "2026-10-13T08:41:22.631127+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S11": {
+          "batch": 2,
+          "claim_key": "4e97b4bf94cc1f73102f7eca",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1405/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 427,
+          "published_at": "2026-10-13T18:04:04.195668+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S12": {
+          "batch": 2,
+          "claim_key": "704726d8d1fdee5169a0cc5c",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Yosemite_Valley_(Sierra_Nevada_Mountains,_eastern_California,_USA)_2.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 428,
+          "published_at": "2026-10-13T18:04:13.421027+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S13": {
+          "batch": 2,
+          "claim_key": "5a938265dd9d66952a6f7a61",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Hippocampus_-_Aliona_Huziankova.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 429,
+          "published_at": "2026-10-13T18:04:18.506702+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S14": {
+          "batch": 2,
+          "claim_key": "cfb2256872c4bd4cc7294665",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 430,
+          "published_at": "2026-10-13T18:04:20.803882+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S15": {
+          "batch": 2,
+          "claim_key": "1726d67cfe9f025272a874cd",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/five-fast-facts-about-actress-and-inventor-hedy-lamarr",
+          "image_source": "Wikimedia Commons",
+          "message_id": 431,
+          "published_at": "2026-10-13T18:04:23.484320+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S16": {
+          "batch": 2,
+          "claim_key": "cbf49b67a7fc9535734ee9fa",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 432,
+          "published_at": "2026-10-13T18:04:24.506257+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S17": {
+          "batch": 2,
+          "claim_key": "f8239a29ddf69e9ce55ac218",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 433,
+          "published_at": "2026-10-13T18:04:25.477056+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S18": {
+          "batch": 2,
+          "claim_key": "476d41beb4ff12cc30a1fbc9",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 434,
+          "published_at": "2026-10-13T18:04:26.729181+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S19": {
+          "batch": 2,
+          "claim_key": "47e317f5d70c338a1ab5e383",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 435,
+          "published_at": "2026-10-13T18:04:27.987053+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S20": {
+          "batch": 2,
+          "claim_key": "d023750a26601d6be7a5fc94",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 436,
+          "published_at": "2026-10-13T18:04:29.157594+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -6800,6 +6929,51 @@
       "score": 28,
       "source_page": "https://whc.unesco.org/en/list/1405/",
       "source_url": "https://whc.unesco.org/en/list/1405/"
+    },
+    "FACT-2026-10-13-S11": {
+      "cached_at": "2026-10-13T18:04:02.584320+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-13-S11.jpg",
+      "query": "Aerial view of the Neolithic archaeological site Çatalhöyük showing dense mound of ancient dwellings and surrounding landscape",
+      "score": 16,
+      "source_page": "https://whc.unesco.org/en/list/1405/",
+      "source_url": "https://whc.unesco.org/en/list/1405/"
+    },
+    "FACT-2026-10-13-S12": {
+      "cached_at": "2026-10-13T18:04:11.727794+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-13-S12.jpg",
+      "query": "Half Dome granodiorite Yosemite National Park",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Yosemite_Valley_(Sierra_Nevada_Mountains,_eastern_California,_USA)_2.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Yosemite_Valley_%28Sierra_Nevada_Mountains%2C_eastern_California%2C_USA%29_2.jpg/1280px-Yosemite_Valley_%28Sierra_Nevada_Mountains%2C_eastern_California%2C_USA%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-13-S13": {
+      "cached_at": "2026-10-13T18:04:17.054999+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-13-S13.jpg",
+      "query": "male seahorse with pouch",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hippocampus_-_Aliona_Huziankova.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Hippocampus_-_Aliona_Huziankova.jpg/1280px-Hippocampus_-_Aliona_Huziankova.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-13-S15": {
+      "cached_at": "2026-10-13T18:04:22.435856+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-13-S15.jpg",
+      "query": "Hedy Lamarr portrait with schematic of frequency hopping concept",
+      "score": 28,
+      "source_page": "https://www.energy.gov/articles/five-fast-facts-about-actress-and-inventor-hedy-lamarr",
+      "source_url": "https://www.energy.gov/articles/five-fast-facts-about-actress-and-inventor-hedy-lamarr"
+    },
+    "FACT-2026-10-13-S20": {
+      "cached_at": "2026-10-13T18:04:28.188425+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-13-S20.jpg",
+      "query": "Naturally occurring sugars Added Sugars",
+      "score": 27,
+      "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+      "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
     }
   },
   "published_claims": {
@@ -6914,6 +7088,10 @@
     "16e258df5370726d5e2f1cfd": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S09"
+    },
+    "1726d67cfe9f025272a874cd": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S15"
     },
     "184e22bbbeb229d614e0756a": {
       "date": "2026-10-08",
@@ -7195,6 +7373,14 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S16"
     },
+    "476d41beb4ff12cc30a1fbc9": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S18"
+    },
+    "47e317f5d70c338a1ab5e383": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S19"
+    },
     "4849b841d2a1a3aaec7bc0400a59ba7d8dd01a5b": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S01"
@@ -7226,6 +7412,10 @@
     "4e8ded038aa041683e1d1f433c46b69e8ae44e02": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S11"
+    },
+    "4e97b4bf94cc1f73102f7eca": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S11"
     },
     "4f9f6907f62ca69ccf1f976b": {
       "date": "2026-10-07",
@@ -7270,6 +7460,10 @@
     "5969753817d869837c19ebdd": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S12"
+    },
+    "5a938265dd9d66952a6f7a61": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S13"
     },
     "5ac283556002a38bc513a791": {
       "date": "2026-10-03",
@@ -7410,6 +7604,10 @@
     "6eae841f07013368b9c90bdf": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S17"
+    },
+    "704726d8d1fdee5169a0cc5c": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S12"
     },
     "709b7e1ee90a5c275948a12e": {
       "date": "2026-10-02",
@@ -7859,6 +8057,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S02"
     },
+    "cbf49b67a7fc9535734ee9fa": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S16"
+    },
     "ce2762198340941de11b3970": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S17"
@@ -7870,6 +8072,14 @@
     "cf8fb4f4a72371f5c501b5c0": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S15"
+    },
+    "cfb2256872c4bd4cc7294665": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S14"
+    },
+    "d023750a26601d6be7a5fc94": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S20"
     },
     "d0b4917e6a250059ac5b77ec": {
       "date": "2026-10-09",
@@ -8042,6 +8252,10 @@
     "f804a67248da3e64b3021016": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S02"
+    },
+    "f8239a29ddf69e9ce55ac218": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S17"
     },
     "f92270f804e01df519afd8f6b9d01c950819f9d2": {
       "date": "2026-09-30",
@@ -8644,6 +8858,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-13",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-13T18:04:29.164637+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
