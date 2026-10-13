@@ -4263,6 +4263,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-13": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-13-S01",
+            "FACT-2026-10-13-S02",
+            "FACT-2026-10-13-S03",
+            "FACT-2026-10-13-S04",
+            "FACT-2026-10-13-S05",
+            "FACT-2026-10-13-S06",
+            "FACT-2026-10-13-S07",
+            "FACT-2026-10-13-S08",
+            "FACT-2026-10-13-S09",
+            "FACT-2026-10-13-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-13T08:41:22.636872+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-13T08:40:52.822813+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-13-S01": {
+          "batch": 1,
+          "claim_key": "8a9ec3256943fc14cd8007a5",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Giant_Planets_-2_(4089198369).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 417,
+          "published_at": "2026-10-13T08:40:58.379387+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S02": {
+          "batch": 1,
+          "claim_key": "4536e38083af8b0eb1b99887",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 418,
+          "published_at": "2026-10-13T08:40:59.687041+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S03": {
+          "batch": 1,
+          "claim_key": "c32df8a90295687f28baf51c",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 419,
+          "published_at": "2026-10-13T08:41:01.116702+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S04": {
+          "batch": 1,
+          "claim_key": "2899b83fbd106b312fc9a64d",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Pyrite_vein_in_quartz_monzonite_(Continental_Mine,_Butte,_Montana,_USA)_7.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 420,
+          "published_at": "2026-10-13T08:41:07.810523+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S05": {
+          "batch": 1,
+          "claim_key": "466df1a4072380f6e6f30a59",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Development_of_per_capita_meat_consumption_and_gross_domestic_product_(GDP)_over_time_(1990%E2%80%932017).png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 421,
+          "published_at": "2026-10-13T08:41:13.628543+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S06": {
+          "batch": 1,
+          "claim_key": "0cc4173bb62d4c697b300fbf",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 422,
+          "published_at": "2026-10-13T08:41:16.711661+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S07": {
+          "batch": 1,
+          "claim_key": "e6305ffb498e8b9419f371ef",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 423,
+          "published_at": "2026-10-13T08:41:17.841346+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S08": {
+          "batch": 1,
+          "claim_key": "a862eaa01e82534d41d6425d",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 424,
+          "published_at": "2026-10-13T08:41:19.532050+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S09": {
+          "batch": 1,
+          "claim_key": "dffc0a2fa0ff7dc826e406a8",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 425,
+          "published_at": "2026-10-13T08:41:20.968378+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-13-S10": {
+          "batch": 1,
+          "claim_key": "49b9010f1f66c6d0d534b163",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1405/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 426,
+          "published_at": "2026-10-13T08:41:22.631127+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -6611,6 +6746,60 @@
       "score": 27,
       "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
       "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
+    },
+    "FACT-2026-10-13-S01": {
+      "cached_at": "2026-10-13T08:40:56.594706+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-13-S01.jpg",
+      "query": "Jupiter planet",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Giant_Planets_-2_(4089198369).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Giant_Planets_-2_%284089198369%29.jpg/1280px-Giant_Planets_-2_%284089198369%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-13-S02": {
+      "cached_at": "2026-10-13T08:40:58.788235+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-13-S02.jpg",
+      "query": "rings of giant planets and asteroid",
+      "score": 16,
+      "source_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "source_url": "https://science.nasa.gov/solar-system/solar-system-facts/"
+    },
+    "FACT-2026-10-13-S03": {
+      "cached_at": "2026-10-13T08:41:00.197694+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-13-S03.jpg",
+      "query": "Earth in space, highlighting its habitability",
+      "score": 24,
+      "source_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "source_url": "https://science.nasa.gov/solar-system/solar-system-facts/"
+    },
+    "FACT-2026-10-13-S04": {
+      "cached_at": "2026-10-13T08:41:06.334973+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-13-S04.jpg",
+      "query": "Pyrite nickname Mineralogy",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pyrite_vein_in_quartz_monzonite_(Continental_Mine,_Butte,_Montana,_USA)_7.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Pyrite_vein_in_quartz_monzonite_%28Continental_Mine%2C_Butte%2C_Montana%2C_USA%29_7.jpg/1280px-Pyrite_vein_in_quartz_monzonite_%28Continental_Mine%2C_Butte%2C_Montana%2C_USA%29_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-13-S05": {
+      "cached_at": "2026-10-13T08:41:12.403171+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-13-S05.jpg",
+      "query": "World Development Indicators GDP (current US$) chart",
+      "score": 25,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Development_of_per_capita_meat_consumption_and_gross_domestic_product_(GDP)_over_time_(1990%E2%80%932017).png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Development_of_per_capita_meat_consumption_and_gross_domestic_product_%28GDP%29_over_time_%281990%E2%80%932017%29.png/1280px-Development_of_per_capita_meat_consumption_and_gross_domestic_product_%28GDP%29_over_time_%281990%E2%80%932017%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-13-S10": {
+      "cached_at": "2026-10-13T08:41:21.678213+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-13-S10.jpg",
+      "query": "Çatalhöyük and sedentary life Human Settlement",
+      "score": 28,
+      "source_page": "https://whc.unesco.org/en/list/1405/",
+      "source_url": "https://whc.unesco.org/en/list/1405/"
     }
   },
   "published_claims": {
@@ -6657,6 +6846,10 @@
     "0ca72e1ba2fab0ce9576c0af": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S11"
+    },
+    "0cc4173bb62d4c697b300fbf": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S06"
     },
     "0eda06abc710872585b671e0": {
       "date": "2026-10-05",
@@ -6834,6 +7027,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S15"
     },
+    "2899b83fbd106b312fc9a64d": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S04"
+    },
     "28d62f915568a81bf5be4bdd": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S11"
@@ -6978,9 +7175,17 @@
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S02"
     },
+    "4536e38083af8b0eb1b99887": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S02"
+    },
     "459c5c1c9a08fe8a254a40f2": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S05"
+    },
+    "466df1a4072380f6e6f30a59": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S05"
     },
     "46f695603f3418c638fbc85c91e4d0364981a40a": {
       "date": "2026-09-26",
@@ -6997,6 +7202,10 @@
     "488878f2b6570c5a9e67bf92": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S12"
+    },
+    "49b9010f1f66c6d0d534b163": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S10"
     },
     "4a34aa0ebdfc12eea029b4c1": {
       "date": "2026-10-01",
@@ -7318,6 +7527,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S12"
     },
+    "8a9ec3256943fc14cd8007a5": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S01"
+    },
     "8dfb4aab01be9f3c0d8a185f": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S03"
@@ -7466,6 +7679,10 @@
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S09"
     },
+    "a862eaa01e82534d41d6425d": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S08"
+    },
     "a98c6142829c23b32922d0b6": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S17"
@@ -7598,6 +7815,10 @@
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S10"
     },
+    "c32df8a90295687f28baf51c": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S03"
+    },
     "c39e737f779cf5987af8cf13": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S13"
@@ -7702,6 +7923,10 @@
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S05"
     },
+    "dffc0a2fa0ff7dc826e406a8": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S09"
+    },
     "e17b3289d654fb4198e23436": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S07"
@@ -7737,6 +7962,10 @@
     "e4e664146fdde4ad52929440ebb90a6a83c60eb8": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S01"
+    },
+    "e6305ffb498e8b9419f371ef": {
+      "date": "2026-10-13",
+      "fact_id": "FACT-2026-10-13-S07"
     },
     "e6cf5f9eb9a87ea5092c47e3": {
       "date": "2026-10-04",
@@ -8399,6 +8628,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-13",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-13T08:41:22.636889+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
