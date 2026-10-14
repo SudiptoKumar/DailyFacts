@@ -4548,6 +4548,25 @@
           "published_count": 10,
           "started_at": "2026-10-14T06:52:54.494807+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-14-S11",
+            "FACT-2026-10-14-S12",
+            "FACT-2026-10-14-S13",
+            "FACT-2026-10-14-S14",
+            "FACT-2026-10-14-S15",
+            "FACT-2026-10-14-S16",
+            "FACT-2026-10-14-S17",
+            "FACT-2026-10-14-S18",
+            "FACT-2026-10-14-S19",
+            "FACT-2026-10-14-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-14T15:46:26.314750+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-14T15:45:38.452574+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -4659,6 +4678,116 @@
           "message_id": 446,
           "published_at": "2026-10-14T06:54:22.777915+00:00",
           "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S11": {
+          "batch": 2,
+          "claim_key": "ae82f1e7fe27ed976a1c02e1",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1405/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 447,
+          "published_at": "2026-10-14T15:45:40.701801+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S12": {
+          "batch": 2,
+          "claim_key": "601e33ad7c7c96788865db7d",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:North_Dome_and_Half_Dome_in_Yosemite_National_Park,_ca.1900_(CHS-1206).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 448,
+          "published_at": "2026-10-14T15:45:50.832408+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S13": {
+          "batch": 2,
+          "claim_key": "9ab4695aaf5cbe7baf90041b",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Seahorse_Life_Cycle.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 449,
+          "published_at": "2026-10-14T15:45:57.096810+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S14": {
+          "batch": 2,
+          "claim_key": "b71c4ebb3dafe48a264d1177",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 450,
+          "published_at": "2026-10-14T15:46:02.157674+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S15": {
+          "batch": 2,
+          "claim_key": "c224dfd343717d294eac5387",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/ne/articles/10-intriguing-facts-about-worlds-first-nuclear-chain-reaction",
+          "image_source": "Wikimedia Commons",
+          "message_id": 451,
+          "published_at": "2026-10-14T15:46:04.481436+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S16": {
+          "batch": 2,
+          "claim_key": "241f0385ce4649bb19fa881c",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Improving_wind-based_upwelling_estimates_off_the_west_coasts_of_North_and_South_America_(IA_improvingwindbas109459830).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 452,
+          "published_at": "2026-10-14T15:46:12.049135+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S17": {
+          "batch": 2,
+          "claim_key": "93c9784361fa452d672e975f",
+          "image_credit": "Source page",
+          "image_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 453,
+          "published_at": "2026-10-14T15:46:14.541240+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S18": {
+          "batch": 2,
+          "claim_key": "d0ff1f3eb597cb9f2ba73ba1",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 454,
+          "published_at": "2026-10-14T15:46:23.341249+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S19": {
+          "batch": 2,
+          "claim_key": "14c207597251560df66a9fb6",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 455,
+          "published_at": "2026-10-14T15:46:24.966901+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S20": {
+          "batch": 2,
+          "claim_key": "355fd02f88ccc39fdc928a77",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 456,
+          "published_at": "2026-10-14T15:46:26.307214+00:00",
+          "send_mode": "photo_html",
           "status": "published"
         }
       }
@@ -7145,6 +7274,69 @@
       "score": 23,
       "source_page": "https://commons.wikimedia.org/wiki/File:Cumulative_concentration_of_active_pharmaceutical_ingredients_observed_across_respective_rivers_worldwide.webp",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Cumulative_concentration_of_active_pharmaceutical_ingredients_observed_across_respective_rivers_worldwide.webp/1280px-Cumulative_concentration_of_active_pharmaceutical_ingredients_observed_across_respective_rivers_worldwide.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-14-S11": {
+      "cached_at": "2026-10-14T15:45:39.614108+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-14-S11.jpg",
+      "query": "Çatalhöyük settlement dwellings layout",
+      "score": 17,
+      "source_page": "https://whc.unesco.org/en/list/1405/",
+      "source_url": "https://whc.unesco.org/en/list/1405/"
+    },
+    "FACT-2026-10-14-S12": {
+      "cached_at": "2026-10-14T15:45:49.324104+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-14-S12.jpg",
+      "query": "Half Dome Yosemite National Park",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:North_Dome_and_Half_Dome_in_Yosemite_National_Park,_ca.1900_(CHS-1206).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/North_Dome_and_Half_Dome_in_Yosemite_National_Park%2C_ca.1900_%28CHS-1206%29.jpg/1280px-North_Dome_and_Half_Dome_in_Yosemite_National_Park%2C_ca.1900_%28CHS-1206%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-14-S13": {
+      "cached_at": "2026-10-14T15:45:55.740798+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-14-S13.jpg",
+      "query": "male seahorse pouch with eggs during mating season",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Seahorse_Life_Cycle.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Seahorse_Life_Cycle.svg/1280px-Seahorse_Life_Cycle.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-14-S15": {
+      "cached_at": "2026-10-14T15:46:03.081172+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-14-S15.jpg",
+      "query": "America's first full-scale atomic electric power plant, 1957, criticality ceremony, early nuclear power plant infrastructure",
+      "score": 35,
+      "source_page": "https://www.energy.gov/ne/articles/10-intriguing-facts-about-worlds-first-nuclear-chain-reaction",
+      "source_url": "https://www.energy.gov/ne/articles/10-intriguing-facts-about-worlds-first-nuclear-chain-reaction"
+    },
+    "FACT-2026-10-14-S16": {
+      "cached_at": "2026-10-14T15:46:10.598735+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-14-S16.jpg",
+      "query": "upwelling ocean currents nutrient-rich water supporting marine life",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Improving_wind-based_upwelling_estimates_off_the_west_coasts_of_North_and_South_America_(IA_improvingwindbas109459830).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Improving_wind-based_upwelling_estimates_off_the_west_coasts_of_North_and_South_America_%28IA_improvingwindbas109459830%29.pdf/page1-960px-Improving_wind-based_upwelling_estimates_off_the_west_coasts_of_North_and_South_America_%28IA_improvingwindbas109459830%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-14-S17": {
+      "cached_at": "2026-10-14T15:46:12.991596+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-14-S17.jpg",
+      "query": "Light Warlpiri combines three linguistic sources Emerging languages",
+      "score": 28,
+      "source_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/"
+    },
+    "FACT-2026-10-14-S20": {
+      "cached_at": "2026-10-14T15:46:25.428911+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-14-S20.jpg",
+      "query": "Health risks of excess added sugar Added Sugars",
+      "score": 35,
+      "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+      "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
     }
   },
   "published_claims": {
@@ -7247,6 +7439,10 @@
     "1417e1fd02c454222276c15d": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S01"
+    },
+    "14c207597251560df66a9fb6": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S19"
     },
     "1523c7707c9b975875a8f986": {
       "date": "2026-10-07",
@@ -7356,6 +7552,10 @@
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S06"
     },
+    "241f0385ce4649bb19fa881c": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S16"
+    },
     "256f5c0df8e3e55c2be45497": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S17"
@@ -7459,6 +7659,10 @@
     "35089a9d9852197846c3551c": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S17"
+    },
+    "355fd02f88ccc39fdc928a77": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S20"
     },
     "35d8ef29a94701c635b0efb3aeb51be40c9533d5": {
       "date": "2026-09-27",
@@ -7695,6 +7899,10 @@
     "5faca912449e8a21010f6b28": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S03"
+    },
+    "601e33ad7c7c96788865db7d": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S12"
     },
     "607c8a4424ff9a9155697cca": {
       "date": "2026-10-10",
@@ -7948,6 +8156,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S14"
     },
+    "93c9784361fa452d672e975f": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S17"
+    },
     "941b541652b13026dc9f7250b12fc455864910a5": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S01"
@@ -7983,6 +8195,10 @@
     "9a1b2279ad35ebe58ffe3081": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S01"
+    },
+    "9ab4695aaf5cbe7baf90041b": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S13"
     },
     "9afa7b29e99797a606d61c6b": {
       "date": "2026-10-12",
@@ -8124,6 +8340,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S19"
     },
+    "ae82f1e7fe27ed976a1c02e1": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S11"
+    },
     "ae8651feabb7a8d0c93db3b7": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S03"
@@ -8176,6 +8396,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S07"
     },
+    "b71c4ebb3dafe48a264d1177": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S14"
+    },
     "b7247d0f70c93596823aad17": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S01"
@@ -8219,6 +8443,10 @@
     "bfe30ba1b1d3f2f9bd0c3de9": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S06"
+    },
+    "c224dfd343717d294eac5387": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S15"
     },
     "c22cf21a6f34e313c1ea3c3240155df0bafc619d": {
       "date": "2026-09-28",
@@ -8295,6 +8523,10 @@
     "d0b4917e6a250059ac5b77ec": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S19"
+    },
+    "d0ff1f3eb597cb9f2ba73ba1": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S18"
     },
     "d3c0c3671ef74e033cdccf59": {
       "date": "2026-10-07",
@@ -9101,6 +9333,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-14",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-14T15:46:26.314765+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
