@@ -4527,6 +4527,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-14": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-14-S01",
+            "FACT-2026-10-14-S02",
+            "FACT-2026-10-14-S03",
+            "FACT-2026-10-14-S04",
+            "FACT-2026-10-14-S05",
+            "FACT-2026-10-14-S06",
+            "FACT-2026-10-14-S07",
+            "FACT-2026-10-14-S08",
+            "FACT-2026-10-14-S09",
+            "FACT-2026-10-14-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-14T06:54:22.786731+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-14T06:52:54.494807+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-14-S01": {
+          "batch": 1,
+          "claim_key": "5ad079117d0521df137b3e34",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Habitability_solar_system.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 437,
+          "published_at": "2026-10-14T06:52:59.414154+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S02": {
+          "batch": 1,
+          "claim_key": "9ffde6605ed629c74ab30818",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 438,
+          "published_at": "2026-10-14T06:53:00.973126+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S03": {
+          "batch": 1,
+          "claim_key": "b96e617954784ffbdbfa84cb",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Terrestrial_planet_sizes.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 439,
+          "published_at": "2026-10-14T06:53:04.766867+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S04": {
+          "batch": 1,
+          "claim_key": "370c5f2e97f20d93124484a0",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 440,
+          "published_at": "2026-10-14T06:53:28.158257+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S05": {
+          "batch": 1,
+          "claim_key": "9e368ccc713fa5d23a70cd7a",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Cumulative_concentration_of_active_pharmaceutical_ingredients_observed_across_respective_rivers_worldwide.webp",
+          "image_source": "Wikimedia Commons",
+          "message_id": 441,
+          "published_at": "2026-10-14T06:53:31.391087+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S06": {
+          "batch": 1,
+          "claim_key": "0b59b9f76689fe1758b5481b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 442,
+          "published_at": "2026-10-14T06:53:52.640842+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S07": {
+          "batch": 1,
+          "claim_key": "6c7f6bbde34407421605b319",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 443,
+          "published_at": "2026-10-14T06:54:05.838682+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S08": {
+          "batch": 1,
+          "claim_key": "5d0f0472482a57db414462d9",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 444,
+          "published_at": "2026-10-14T06:54:08.768377+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S09": {
+          "batch": 1,
+          "claim_key": "692d34dc3012b977503e5656",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 445,
+          "published_at": "2026-10-14T06:54:21.629368+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-14-S10": {
+          "batch": 1,
+          "claim_key": "723a356bbb1d03ca873850cf",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 446,
+          "published_at": "2026-10-14T06:54:22.777915+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -6974,6 +7109,42 @@
       "score": 27,
       "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
       "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
+    },
+    "FACT-2026-10-14-S01": {
+      "cached_at": "2026-10-14T06:52:57.867724+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-14-S01.jpg",
+      "query": "Solar-system formation Solar System",
+      "score": 32,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Habitability_solar_system.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Habitability_solar_system.png/1280px-Habitability_solar_system.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-14-S02": {
+      "cached_at": "2026-10-14T06:52:59.770938+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-14-S02.jpg",
+      "query": "young Sun gathering matter in early solar system",
+      "score": 29,
+      "source_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "source_url": "https://science.nasa.gov/solar-system/solar-system-facts/"
+    },
+    "FACT-2026-10-14-S03": {
+      "cached_at": "2026-10-14T06:53:03.700621+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-14-S03.jpg",
+      "query": "Terrestrial planets Planet Classification",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Terrestrial_planet_sizes.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Terrestrial_planet_sizes.jpg/1280px-Terrestrial_planet_sizes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-14-S05": {
+      "cached_at": "2026-10-14T06:53:30.272641+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-14-S05.jpg",
+      "query": "World Development Indicators GNI per capita Atlas method chart",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cumulative_concentration_of_active_pharmaceutical_ingredients_observed_across_respective_rivers_worldwide.webp",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Cumulative_concentration_of_active_pharmaceutical_ingredients_observed_across_respective_rivers_worldwide.webp/1280px-Cumulative_concentration_of_active_pharmaceutical_ingredients_observed_across_respective_rivers_worldwide.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -7016,6 +7187,10 @@
     "0b2d48a2f540bac39a0b927c": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S04"
+    },
+    "0b59b9f76689fe1758b5481b": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S06"
     },
     "0ca72e1ba2fab0ce9576c0af": {
       "date": "2026-10-09",
@@ -7293,6 +7468,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S09"
     },
+    "370c5f2e97f20d93124484a0": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S04"
+    },
     "376f8dc43f31640ebf1f5097": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S02"
@@ -7469,6 +7648,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S08"
     },
+    "5ad079117d0521df137b3e34": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S01"
+    },
     "5b6e4af87dff94441abf8a2d": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S04"
@@ -7480,6 +7663,10 @@
     "5c3a3590dc5b398d430deb03b367dbd40521b256": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S03"
+    },
+    "5d0f0472482a57db414462d9": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S08"
     },
     "5dec01f2d79a3f5a1bc0bdbd": {
       "date": "2026-10-10",
@@ -7565,6 +7752,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S11"
     },
+    "692d34dc3012b977503e5656": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S09"
+    },
     "696c11fcd0f4c6a628495e998fdad4c5e0280e35": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S06"
@@ -7588,6 +7779,10 @@
     "6c35273ab6da38653dc7bf56": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S14"
+    },
+    "6c7f6bbde34407421605b319": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S07"
     },
     "6e07ae9c930143486dc907c5": {
       "date": "2026-10-05",
@@ -7616,6 +7811,10 @@
     "7191c869043d3c8f1d4a71d0": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S07"
+    },
+    "723a356bbb1d03ca873850cf": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S10"
     },
     "73fd3ee859ea851c74a5209a": {
       "date": "2026-10-07",
@@ -7813,6 +8012,10 @@
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S06"
     },
+    "9e368ccc713fa5d23a70cd7a": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S05"
+    },
     "9e7ff1f26522b3205bf815b1b55a19a5571c1ebf": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S03"
@@ -7828,6 +8031,10 @@
     "9faf089ac1953eef85cf29b9": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S04"
+    },
+    "9ffde6605ed629c74ab30818": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S02"
     },
     "a1fd9d431e919e6cd42dcfe2": {
       "date": "2026-10-05",
@@ -7980,6 +8187,10 @@
     "b91b8b1569b6e6ab1f142025": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S02"
+    },
+    "b96e617954784ffbdbfa84cb": {
+      "date": "2026-10-14",
+      "fact_id": "FACT-2026-10-14-S03"
     },
     "ba2585a146868586fc1991a8": {
       "date": "2026-10-08",
@@ -8874,6 +9085,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-14",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-14T06:54:22.786785+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
