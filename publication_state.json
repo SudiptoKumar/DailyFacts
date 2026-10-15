@@ -4812,6 +4812,25 @@
           "published_count": 10,
           "started_at": "2026-10-15T06:41:25.334906+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-15-S11",
+            "FACT-2026-10-15-S12",
+            "FACT-2026-10-15-S13",
+            "FACT-2026-10-15-S14",
+            "FACT-2026-10-15-S15",
+            "FACT-2026-10-15-S16",
+            "FACT-2026-10-15-S17",
+            "FACT-2026-10-15-S18",
+            "FACT-2026-10-15-S19",
+            "FACT-2026-10-15-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-15T15:33:02.650843+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-15T15:32:31.648258+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -4922,6 +4941,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 466,
           "published_at": "2026-10-15T06:43:42.920077+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S11": {
+          "batch": 2,
+          "claim_key": "b29650890a9503c405cc346e",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1572/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 467,
+          "published_at": "2026-10-15T15:32:33.735318+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S12": {
+          "batch": 2,
+          "claim_key": "d2877cb9e2500ee5351d3b03",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 468,
+          "published_at": "2026-10-15T15:32:43.546939+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S13": {
+          "batch": 2,
+          "claim_key": "a06a9aa3821407bc0e6c8e1b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 469,
+          "published_at": "2026-10-15T15:32:49.449166+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S14": {
+          "batch": 2,
+          "claim_key": "01563b4d97d00fc0b5a81828",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 470,
+          "published_at": "2026-10-15T15:32:52.101711+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S15": {
+          "batch": 2,
+          "claim_key": "18945d00284d84bff0054248",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 471,
+          "published_at": "2026-10-15T15:32:53.712454+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S16": {
+          "batch": 2,
+          "claim_key": "d48ab1e488ec5f787fc6fff0",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 472,
+          "published_at": "2026-10-15T15:32:55.342432+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S17": {
+          "batch": 2,
+          "claim_key": "027ebc34021c265c457c6206",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 473,
+          "published_at": "2026-10-15T15:32:57.172177+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S18": {
+          "batch": 2,
+          "claim_key": "189e33c80d4d53716b54f200",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 474,
+          "published_at": "2026-10-15T15:32:58.880203+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S19": {
+          "batch": 2,
+          "claim_key": "663c71649a7e42aea725daf7",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 475,
+          "published_at": "2026-10-15T15:33:00.583125+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S20": {
+          "batch": 2,
+          "claim_key": "a48166b56492eb5c1e9086ba",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 476,
+          "published_at": "2026-10-15T15:33:02.641820+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -7553,6 +7682,24 @@
       "score": 21,
       "source_page": "https://whc.unesco.org/en/list/1405/",
       "source_url": "https://whc.unesco.org/en/list/1405/"
+    },
+    "FACT-2026-10-15-S11": {
+      "cached_at": "2026-10-15T15:32:32.276826+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-15-S11.jpg",
+      "query": "Göbekli Tepe's location Neolithic Archaeology",
+      "score": 22,
+      "source_page": "https://whc.unesco.org/en/list/1572/",
+      "source_url": "https://whc.unesco.org/en/list/1572/"
+    },
+    "FACT-2026-10-15-S20": {
+      "cached_at": "2026-10-15T15:33:01.739062+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-15-S20.jpg",
+      "query": "Leading sources of added sugar Added Sugars",
+      "score": 32,
+      "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+      "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
     }
   },
   "published_claims": {
@@ -7563,6 +7710,14 @@
     "0091987aec61956975bf9406": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S19"
+    },
+    "01563b4d97d00fc0b5a81828": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S14"
+    },
+    "027ebc34021c265c457c6206": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S17"
     },
     "03a10ae3c761330d0d19a038": {
       "date": "2026-10-04",
@@ -7683,6 +7838,14 @@
     "184e22bbbeb229d614e0756a": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S03"
+    },
+    "18945d00284d84bff0054248": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S15"
+    },
+    "189e33c80d4d53716b54f200": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S18"
     },
     "193ad80236457e97293ccf91": {
       "date": "2026-10-08",
@@ -8184,6 +8347,10 @@
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S12"
     },
+    "663c71649a7e42aea725daf7": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S19"
+    },
     "66a392383b5f4c9bc22c5ed4": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S18"
@@ -8496,6 +8663,10 @@
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S02"
     },
+    "a06a9aa3821407bc0e6c8e1b": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S13"
+    },
     "a1fd9d431e919e6cd42dcfe2": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S12"
@@ -8511,6 +8682,10 @@
     "a3a85b81f4316637388a615d": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S13"
+    },
+    "a48166b56492eb5c1e9086ba": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S20"
     },
     "a654b53d305407f6884e417e": {
       "date": "2026-10-05",
@@ -8611,6 +8786,10 @@
     "b1fc91f73629e9753abd10ae": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S12"
+    },
+    "b29650890a9503c405cc346e": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S11"
     },
     "b4082df2fcaaf6ad26ae8de5": {
       "date": "2026-10-12",
@@ -8776,9 +8955,17 @@
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S18"
     },
+    "d2877cb9e2500ee5351d3b03": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S12"
+    },
     "d3c0c3671ef74e033cdccf59": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S09"
+    },
+    "d48ab1e488ec5f787fc6fff0": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S16"
     },
     "d4b8a35a6447b62053dbd8aa": {
       "date": "2026-10-01",
@@ -9621,6 +9808,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-15",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-15T15:33:02.650864+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
