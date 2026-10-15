@@ -4791,6 +4791,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-15": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-15-S01",
+            "FACT-2026-10-15-S02",
+            "FACT-2026-10-15-S03",
+            "FACT-2026-10-15-S04",
+            "FACT-2026-10-15-S05",
+            "FACT-2026-10-15-S06",
+            "FACT-2026-10-15-S07",
+            "FACT-2026-10-15-S08",
+            "FACT-2026-10-15-S09",
+            "FACT-2026-10-15-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-15T06:43:42.929709+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-15T06:41:25.334906+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-15-S01": {
+          "batch": 1,
+          "claim_key": "390499f9bc1834fea0b2796b",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Jupiter_(b03).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 457,
+          "published_at": "2026-10-15T06:41:32.368285+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S02": {
+          "batch": 1,
+          "claim_key": "5a2b75132d17d0e23adfc0fe",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 458,
+          "published_at": "2026-10-15T06:41:34.129222+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S03": {
+          "batch": 1,
+          "claim_key": "bdcaf383bf2eccc7952adcab",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_%22jewels%22_of_Jewel_Cave._Nailhead_Spar_covers_most_of_the_surfaces_in_the_cave._It_is_what_gave_the_cave_its_name._(ec5e60a1-cfb0-76d6-3ad7-3db12388b312).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 459,
+          "published_at": "2026-10-15T06:42:00.540099+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S04": {
+          "batch": 1,
+          "claim_key": "5ae2786f468baf2edf0672bb",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Family_and_economic_well-being_-_a_Cooperative_Extension_System_response_(IA_CAT89915432).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 460,
+          "published_at": "2026-10-15T06:42:11.978511+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S05": {
+          "batch": 1,
+          "claim_key": "8e323b9d1007995dd8170b7a",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 461,
+          "published_at": "2026-10-15T06:42:14.190443+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S06": {
+          "batch": 1,
+          "claim_key": "67b9c4c5234ed98f2fac0a33",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Contributions_to_lithology_(microform)_-_I._Theoretical_notions;_II._Classification_and_nomenclature;_III._On_some_eruptive_rocks;_IV._Local_metamorphism_(IA_cihm_62740).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 462,
+          "published_at": "2026-10-15T06:42:42.603349+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S07": {
+          "batch": 1,
+          "claim_key": "9e3d6ee9cf50557d81963bfa",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 463,
+          "published_at": "2026-10-15T06:43:05.815670+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S08": {
+          "batch": 1,
+          "claim_key": "eaf6da6b00806c9b81d310f6",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:SDG_08-dtp_latn-Pakalajaan_di_Kosudong_om_Koingkakatan_Ekonomi.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 464,
+          "published_at": "2026-10-15T06:43:15.358031+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S09": {
+          "batch": 1,
+          "claim_key": "34bd7670ae3981179ada8489",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Slate_(Knife_Lake_Formation,_metamorphism_at_2.7_Ga,_Neoarchean;_Rt._135_roadcut,_Gilbert,_Minnesota,_USA)_11_(23139943949).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 465,
+          "published_at": "2026-10-15T06:43:40.788826+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-15-S10": {
+          "batch": 1,
+          "claim_key": "d9aff0113eddcd9e999d1894",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1405/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 466,
+          "published_at": "2026-10-15T06:43:42.920077+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -7337,6 +7472,87 @@
       "score": 35,
       "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
       "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
+    },
+    "FACT-2026-10-15-S01": {
+      "cached_at": "2026-10-15T06:41:30.591349+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-15-S01.jpg",
+      "query": "Jupiter Saturn Uranus Neptune outer planets",
+      "score": 27,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jupiter_(b03).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Jupiter_%28b03%29.jpg/1280px-Jupiter_%28b03%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-15-S02": {
+      "cached_at": "2026-10-15T06:41:32.878531+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-15-S02.jpg",
+      "query": "Kuiper Belt icy bodies beyond Neptune's orbit",
+      "score": 20,
+      "source_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "source_url": "https://science.nasa.gov/solar-system/solar-system-facts/"
+    },
+    "FACT-2026-10-15-S03": {
+      "cached_at": "2026-10-15T06:41:58.976314+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-15-S03.jpg",
+      "query": "Jewel Cave calcite crystal formations",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_%22jewels%22_of_Jewel_Cave._Nailhead_Spar_covers_most_of_the_surfaces_in_the_cave._It_is_what_gave_the_cave_its_name._(ec5e60a1-cfb0-76d6-3ad7-3db12388b312).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/The_%22jewels%22_of_Jewel_Cave._Nailhead_Spar_covers_most_of_the_surfaces_in_the_cave._It_is_what_gave_the_cave_its_name._%28ec5e60a1-cfb0-76d6-3ad7-3db12388b312%29.jpg/1280px-The_%22jewels%22_of_Jewel_Cave._Nailhead_Spar_covers_most_of_the_surfaces_in_the_cave._It_is_what_gave_the_cave_its_name._%28ec5e60a1-cfb0-76d6-3ad7-3db12388b312%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-15-S04": {
+      "cached_at": "2026-10-15T06:42:10.707941+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-15-S04.jpg",
+      "query": "people analyzing economic activity data, charts and graphs representing regional economic performance",
+      "score": 30,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Family_and_economic_well-being_-_a_Cooperative_Extension_System_response_(IA_CAT89915432).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Family_and_economic_well-being_-_a_Cooperative_Extension_System_response_%28IA_CAT89915432%29.pdf/page1-960px-Family_and_economic_well-being_-_a_Cooperative_Extension_System_response_%28IA_CAT89915432%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-15-S05": {
+      "cached_at": "2026-10-15T06:42:12.902824+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-15-S05.jpg",
+      "query": "illustration of the Oort Cloud surrounding the solar system",
+      "score": 18,
+      "source_page": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "source_url": "https://science.nasa.gov/solar-system/solar-system-facts/"
+    },
+    "FACT-2026-10-15-S06": {
+      "cached_at": "2026-10-15T06:42:41.181006+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-15-S06.jpg",
+      "query": "metamorphic rocks transformation",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Contributions_to_lithology_(microform)_-_I._Theoretical_notions;_II._Classification_and_nomenclature;_III._On_some_eruptive_rocks;_IV._Local_metamorphism_(IA_cihm_62740).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Contributions_to_lithology_%28microform%29_-_I._Theoretical_notions%3B_II._Classification_and_nomenclature%3B_III._On_some_eruptive_rocks%3B_IV._Local_metamorphism_%28IA_cihm_62740%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-15-S08": {
+      "cached_at": "2026-10-15T06:43:13.895223+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-15-S08.jpg",
+      "query": "World Development Indicators chart illustrating progress toward SDG Goal 8",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:SDG_08-dtp_latn-Pakalajaan_di_Kosudong_om_Koingkakatan_Ekonomi.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/SDG_08-dtp_latn-Pakalajaan_di_Kosudong_om_Koingkakatan_Ekonomi.svg/1280px-SDG_08-dtp_latn-Pakalajaan_di_Kosudong_om_Koingkakatan_Ekonomi.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-15-S09": {
+      "cached_at": "2026-10-15T06:43:39.085817+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-15-S09.jpg",
+      "query": "metamorphic rock showing mineral rearrangement and fluid-induced mineral formation",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Slate_(Knife_Lake_Formation,_metamorphism_at_2.7_Ga,_Neoarchean;_Rt._135_roadcut,_Gilbert,_Minnesota,_USA)_11_(23139943949).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Slate_%28Knife_Lake_Formation%2C_metamorphism_at_2.7_Ga%2C_Neoarchean%3B_Rt._135_roadcut%2C_Gilbert%2C_Minnesota%2C_USA%29_11_%2823139943949%29.jpg/1280px-Slate_%28Knife_Lake_Formation%2C_metamorphism_at_2.7_Ga%2C_Neoarchean%3B_Rt._135_roadcut%2C_Gilbert%2C_Minnesota%2C_USA%29_11_%2823139943949%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-15-S10": {
+      "cached_at": "2026-10-15T06:43:41.593798+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-15-S10.jpg",
+      "query": "Çatalhöyük archaeological site preserved in situ",
+      "score": 21,
+      "source_page": "https://whc.unesco.org/en/list/1405/",
+      "source_url": "https://whc.unesco.org/en/list/1405/"
     }
   },
   "published_claims": {
@@ -7656,6 +7872,10 @@
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S15"
     },
+    "34bd7670ae3981179ada8489": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S09"
+    },
     "35089a9d9852197846c3551c": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S17"
@@ -7679,6 +7899,10 @@
     "376f8dc43f31640ebf1f5097": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S02"
+    },
+    "390499f9bc1834fea0b2796b": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S01"
     },
     "3967ef62909e2ae0893d4ccf": {
       "date": "2026-10-10",
@@ -7844,6 +8068,10 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S12"
     },
+    "5a2b75132d17d0e23adfc0fe": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S02"
+    },
     "5a938265dd9d66952a6f7a61": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S13"
@@ -7855,6 +8083,10 @@
     "5ad079117d0521df137b3e34": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S01"
+    },
+    "5ae2786f468baf2edf0672bb": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S04"
     },
     "5b6e4af87dff94441abf8a2d": {
       "date": "2026-10-08",
@@ -7955,6 +8187,10 @@
     "66a392383b5f4c9bc22c5ed4": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S18"
+    },
+    "67b9c4c5234ed98f2fac0a33": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S06"
     },
     "680eacac99fd3c78d7f49d0d": {
       "date": "2026-10-03",
@@ -8140,6 +8376,10 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S03"
     },
+    "8e323b9d1007995dd8170b7a": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S05"
+    },
     "8ffcc55ff4143ffdc4a3de47": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S01"
@@ -8231,6 +8471,10 @@
     "9e368ccc713fa5d23a70cd7a": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S05"
+    },
+    "9e3d6ee9cf50557d81963bfa": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S07"
     },
     "9e7ff1f26522b3205bf815b1b55a19a5571c1ebf": {
       "date": "2026-09-25",
@@ -8436,6 +8680,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S10"
     },
+    "bdcaf383bf2eccc7952adcab": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S03"
+    },
     "be79833d01d00a3689395284": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S03"
@@ -8552,6 +8800,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S10"
     },
+    "d9aff0113eddcd9e999d1894": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S10"
+    },
     "db22cd60d3d63e81722f4194": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S19"
@@ -8635,6 +8887,10 @@
     "ea87d98bda7cfc10fe63d7c1": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S16"
+    },
+    "eaf6da6b00806c9b81d310f6": {
+      "date": "2026-10-15",
+      "fact_id": "FACT-2026-10-15-S08"
     },
     "eb0459d62222c76f21f6f097": {
       "date": "2026-10-08",
@@ -9349,6 +9605,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-15",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-15T06:43:42.929729+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
