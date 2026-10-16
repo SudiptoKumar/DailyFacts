@@ -5076,6 +5076,25 @@
           "published_count": 10,
           "started_at": "2026-10-16T06:33:01.028344+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-16-S11",
+            "FACT-2026-10-16-S12",
+            "FACT-2026-10-16-S13",
+            "FACT-2026-10-16-S14",
+            "FACT-2026-10-16-S15",
+            "FACT-2026-10-16-S16",
+            "FACT-2026-10-16-S17",
+            "FACT-2026-10-16-S18",
+            "FACT-2026-10-16-S19",
+            "FACT-2026-10-16-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-16T15:19:20.805198+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-16T15:18:48.587802+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -5186,6 +5205,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 486,
           "published_at": "2026-10-16T06:34:13.639186+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S11": {
+          "batch": 2,
+          "claim_key": "87b07f846df8ddd84cea5c39",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1572/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 487,
+          "published_at": "2026-10-16T15:18:50.293273+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S12": {
+          "batch": 2,
+          "claim_key": "4f8a27f977c4359c02009100",
+          "image_credit": "Source page",
+          "image_page": "https://www.nps.gov/subjects/geology/landforms.htm",
+          "image_source": "Wikimedia Commons",
+          "message_id": 488,
+          "published_at": "2026-10-16T15:18:51.732942+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S13": {
+          "batch": 2,
+          "claim_key": "943f7a8af3ee896363eb0a90",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Giant_Seahorse-_in_total_darkness_in_a_remote_corner_(27798709462).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 489,
+          "published_at": "2026-10-16T15:18:58.228658+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S14": {
+          "batch": 2,
+          "claim_key": "972b89b17a686b61a7242525",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Smithsonian_Miscellaneous_Collections._Volume_59_(IA_smithsonianmisce59smit).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 490,
+          "published_at": "2026-10-16T15:19:04.881138+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S15": {
+          "batch": 2,
+          "claim_key": "1fe6258bbfd8ed80d48983b2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 491,
+          "published_at": "2026-10-16T15:19:08.929477+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S16": {
+          "batch": 2,
+          "claim_key": "cee0760ad9ff49f62c67a4c0",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Using_virtual_reality_to_estimate_aesthetic_values_of_coral_reefs.pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 492,
+          "published_at": "2026-10-16T15:19:14.997688+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S17": {
+          "batch": 2,
+          "claim_key": "b210349a571fdbf379b2abfa",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 493,
+          "published_at": "2026-10-16T15:19:16.332780+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S18": {
+          "batch": 2,
+          "claim_key": "3cbbeae8bd2e5f1d54c151ed",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 494,
+          "published_at": "2026-10-16T15:19:17.818615+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S19": {
+          "batch": 2,
+          "claim_key": "230ea6941a99c38a7cfcdbbd",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 495,
+          "published_at": "2026-10-16T15:19:19.049029+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S20": {
+          "batch": 2,
+          "claim_key": "39bbd6fafd90f9a9185eb922",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 496,
+          "published_at": "2026-10-16T15:19:20.799378+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -7871,6 +8000,60 @@
       "score": 17,
       "source_page": "https://whc.unesco.org/en/list/1572/",
       "source_url": "https://whc.unesco.org/en/list/1572/"
+    },
+    "FACT-2026-10-16-S11": {
+      "cached_at": "2026-10-16T15:18:49.104407+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-16-S11.jpg",
+      "query": "Göbekli Tepe's dating Archaeological Dating",
+      "score": 23,
+      "source_page": "https://whc.unesco.org/en/list/1572/",
+      "source_url": "https://whc.unesco.org/en/list/1572/"
+    },
+    "FACT-2026-10-16-S12": {
+      "cached_at": "2026-10-16T15:18:50.628893+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-16-S12.jpg",
+      "query": "Geologic processes shape landforms Landforms",
+      "score": 23,
+      "source_page": "https://www.nps.gov/subjects/geology/landforms.htm",
+      "source_url": "https://www.nps.gov/subjects/geology/landforms.htm"
+    },
+    "FACT-2026-10-16-S13": {
+      "cached_at": "2026-10-16T15:18:56.139650+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-16-S13.jpg",
+      "query": "Seahorse development period Seahorse reproduction",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Giant_Seahorse-_in_total_darkness_in_a_remote_corner_(27798709462).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Giant_Seahorse-_in_total_darkness_in_a_remote_corner_%2827798709462%29.jpg/1280px-Giant_Seahorse-_in_total_darkness_in_a_remote_corner_%2827798709462%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-16-S14": {
+      "cached_at": "2026-10-16T15:19:02.403678+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-16-S14.jpg",
+      "query": "Smithsonian institutional scope Museums and collections",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Smithsonian_Miscellaneous_Collections._Volume_59_(IA_smithsonianmisce59smit).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Smithsonian_Miscellaneous_Collections._Volume_59_%28IA_smithsonianmisce59smit%29.pdf/page1-1280px-Smithsonian_Miscellaneous_Collections._Volume_59_%28IA_smithsonianmisce59smit%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-16-S16": {
+      "cached_at": "2026-10-16T15:19:12.407423+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-16-S16.jpg",
+      "query": "Fish dependence on coral reefs Coral reef ecology",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Using_virtual_reality_to_estimate_aesthetic_values_of_coral_reefs.pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Using_virtual_reality_to_estimate_aesthetic_values_of_coral_reefs.pdf/page1-960px-Using_virtual_reality_to_estimate_aesthetic_values_of_coral_reefs.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-16-S20": {
+      "cached_at": "2026-10-16T15:19:19.990505+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-16-S20.jpg",
+      "query": "Added-sugar intake among U.S. adults Added Sugars",
+      "score": 33,
+      "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+      "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
     }
   },
   "published_claims": {
@@ -8066,6 +8249,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S12"
     },
+    "1fe6258bbfd8ed80d48983b2": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S15"
+    },
     "20149cc8d0941131ab57f060d501aeb7f2090fcc": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S08"
@@ -8101,6 +8288,10 @@
     "22fd1129e26abd8209a29007": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S17"
+    },
+    "230ea6941a99c38a7cfcdbbd": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S19"
     },
     "23ded3ff032a2eb3371d76be": {
       "date": "2026-10-05",
@@ -8250,6 +8441,10 @@
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S05"
     },
+    "39bbd6fafd90f9a9185eb922": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S20"
+    },
     "39fd677a1b0715e417c45c09": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S02"
@@ -8257,6 +8452,10 @@
     "3ac1597cda36c766e7a1dcdc": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S19"
+    },
+    "3cbbeae8bd2e5f1d54c151ed": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S18"
     },
     "3d03684da41493abd2aa8c56": {
       "date": "2026-10-05",
@@ -8369,6 +8568,10 @@
     "4e97b4bf94cc1f73102f7eca": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S11"
+    },
+    "4f8a27f977c4359c02009100": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S12"
     },
     "4f9f6907f62ca69ccf1f976b": {
       "date": "2026-10-07",
@@ -8702,6 +8905,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S12"
     },
+    "87b07f846df8ddd84cea5c39": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S11"
+    },
     "8942d4322d8e52a9871fd5a4": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S12"
@@ -8766,6 +8973,10 @@
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S01"
     },
+    "943f7a8af3ee896363eb0a90": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S13"
+    },
     "94a7a9209b87507bf42e45ce": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S08"
@@ -8781,6 +8992,10 @@
     "96f8f22aaa911973a5092d9b": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S16"
+    },
+    "972b89b17a686b61a7242525": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S14"
     },
     "98835fab790aa4efa8c72307": {
       "date": "2026-10-02",
@@ -8982,6 +9197,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S12"
     },
+    "b210349a571fdbf379b2abfa": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S17"
+    },
     "b29650890a9503c405cc346e": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S11"
@@ -9133,6 +9352,10 @@
     "ce2762198340941de11b3970": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S17"
+    },
+    "cee0760ad9ff49f62c67a4c0": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S16"
     },
     "cf68a0ed5ede55c050bd2f95": {
       "date": "2026-10-08",
@@ -10051,6 +10274,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-16",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-16T15:19:20.805215+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
