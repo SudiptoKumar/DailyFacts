@@ -5055,6 +5055,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-16": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-16-S01",
+            "FACT-2026-10-16-S02",
+            "FACT-2026-10-16-S03",
+            "FACT-2026-10-16-S04",
+            "FACT-2026-10-16-S05",
+            "FACT-2026-10-16-S06",
+            "FACT-2026-10-16-S07",
+            "FACT-2026-10-16-S08",
+            "FACT-2026-10-16-S09",
+            "FACT-2026-10-16-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-16T06:34:13.649302+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-16T06:33:01.028344+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-16-S01": {
+          "batch": 1,
+          "claim_key": "cac664657eab980569e7c3e6",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:NASA%E2%80%99s_Voyager_Probe_Speeds_Through_Space_(Artist%E2%80%99s_Concept)_(PIA26353).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 477,
+          "published_at": "2026-10-16T06:33:06.089839+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S02": {
+          "batch": 1,
+          "claim_key": "84d63cad32e6ad369e7d5c43",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 478,
+          "published_at": "2026-10-16T06:33:20.806907+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S03": {
+          "batch": 1,
+          "claim_key": "083d916fb4eca3386430f131",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:DEVELOPMENT_PROJECTS_IN_TIBETAN_AREAS_OF_CHINA-_ARTICULATING_CLEAR_GOALS_AND_ACHIEVING_SUSTAINABLE_RESULTS_(IA_gov.gpo.fdsys.CHRG-108hhrg93221).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 479,
+          "published_at": "2026-10-16T06:33:26.783686+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S04": {
+          "batch": 1,
+          "claim_key": "3dfaecbeefcfe33dcaf827c8",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 480,
+          "published_at": "2026-10-16T06:33:28.289319+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S05": {
+          "batch": 1,
+          "claim_key": "dd727170097d68a4b106e60b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 481,
+          "published_at": "2026-10-16T06:33:39.752088+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S06": {
+          "batch": 1,
+          "claim_key": "5255734bea5e5cec63022989",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 482,
+          "published_at": "2026-10-16T06:33:51.435858+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S07": {
+          "batch": 1,
+          "claim_key": "bd925c62a72397ecfd1cf06a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 483,
+          "published_at": "2026-10-16T06:33:53.579508+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S08": {
+          "batch": 1,
+          "claim_key": "895047df98f7027e84f95738",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 484,
+          "published_at": "2026-10-16T06:33:55.058567+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S09": {
+          "batch": 1,
+          "claim_key": "fe9b985c8048a3d724429df5",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Soapstone_with_manganese_oxide_dendrites_(Mesoproterozoic,_1.1_to_1.3_Ga;_near_Ennis,_Montana,_USA)_1_(49147054227).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 485,
+          "published_at": "2026-10-16T06:34:11.123680+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-16-S10": {
+          "batch": 1,
+          "claim_key": "1003d76cb68bcbe9329140a1",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1572/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 486,
+          "published_at": "2026-10-16T06:34:13.639186+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -7700,6 +7835,42 @@
       "score": 32,
       "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
       "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
+    },
+    "FACT-2026-10-16-S01": {
+      "cached_at": "2026-10-16T06:33:04.685957+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-16-S01.jpg",
+      "query": "Voyager interstellar entry Spacecraft",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:NASA%E2%80%99s_Voyager_Probe_Speeds_Through_Space_(Artist%E2%80%99s_Concept)_(PIA26353).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/NASA%E2%80%99s_Voyager_Probe_Speeds_Through_Space_%28Artist%E2%80%99s_Concept%29_%28PIA26353%29.jpg/1280px-NASA%E2%80%99s_Voyager_Probe_Speeds_Through_Space_%28Artist%E2%80%99s_Concept%29_%28PIA26353%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-16-S03": {
+      "cached_at": "2026-10-16T06:33:25.570165+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-16-S03.jpg",
+      "query": "World Development Indicators chart sustainable consumption and production",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:DEVELOPMENT_PROJECTS_IN_TIBETAN_AREAS_OF_CHINA-_ARTICULATING_CLEAR_GOALS_AND_ACHIEVING_SUSTAINABLE_RESULTS_(IA_gov.gpo.fdsys.CHRG-108hhrg93221).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/DEVELOPMENT_PROJECTS_IN_TIBETAN_AREAS_OF_CHINA-_ARTICULATING_CLEAR_GOALS_AND_ACHIEVING_SUSTAINABLE_RESULTS_%28IA_gov.gpo.fdsys.CHRG-108hhrg93221%29.pdf/page1-960px-DEVELOPMENT_PROJECTS_IN_TIBETAN_AREAS_OF_CHINA-_ARTICULATING_CLEAR_GOALS_AND_ACHIEVING_SUSTAINABLE_RESULTS_%28IA_gov.gpo.fdsys.CHRG-108hhrg93221%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-16-S09": {
+      "cached_at": "2026-10-16T06:34:09.491888+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-16-S09.jpg",
+      "query": "Metamorphic deformation Geology",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Soapstone_with_manganese_oxide_dendrites_(Mesoproterozoic,_1.1_to_1.3_Ga;_near_Ennis,_Montana,_USA)_1_(49147054227).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Soapstone_with_manganese_oxide_dendrites_%28Mesoproterozoic%2C_1.1_to_1.3_Ga%3B_near_Ennis%2C_Montana%2C_USA%29_1_%2849147054227%29.jpg/1280px-Soapstone_with_manganese_oxide_dendrites_%28Mesoproterozoic%2C_1.1_to_1.3_Ga%3B_near_Ennis%2C_Montana%2C_USA%29_1_%2849147054227%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-16-S10": {
+      "cached_at": "2026-10-16T06:34:12.392300+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-16-S10.jpg",
+      "query": "Göbekli Tepe stone pillars hunter-gatherer site",
+      "score": 17,
+      "source_page": "https://whc.unesco.org/en/list/1572/",
+      "source_url": "https://whc.unesco.org/en/list/1572/"
     }
   },
   "published_claims": {
@@ -7734,6 +7905,10 @@
     "066b5b4e172168932633cbf8": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S06"
+    },
+    "083d916fb4eca3386430f131": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S03"
     },
     "0967945b5ea0ec4a9fddbd98": {
       "date": "2026-10-07",
@@ -7778,6 +7953,10 @@
     "0f9a07815d2f5f527261981f": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S18"
+    },
+    "1003d76cb68bcbe9329140a1": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S10"
     },
     "1202f46e97abc2491a1423a3431acfc80f079723": {
       "date": "2026-09-25",
@@ -8091,6 +8270,10 @@
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S03"
     },
+    "3dfaecbeefcfe33dcaf827c8": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S04"
+    },
     "3ea64bc1643373a254f4c998": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S18"
@@ -8198,6 +8381,10 @@
     "507ef8518c47c274846c7b3d": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S11"
+    },
+    "5255734bea5e5cec63022989": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S06"
     },
     "54d758cb1d8cad2e82913ff5": {
       "date": "2026-10-09",
@@ -8499,6 +8686,10 @@
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S13"
     },
+    "84d63cad32e6ad369e7d5c43": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S02"
+    },
     "855e585137b43648f7992101": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S03"
@@ -8514,6 +8705,10 @@
     "8942d4322d8e52a9871fd5a4": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S12"
+    },
+    "895047df98f7027e84f95738": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S08"
     },
     "89705a4725a15d112eedba52": {
       "date": "2026-10-09",
@@ -8859,6 +9054,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S10"
     },
+    "bd925c62a72397ecfd1cf06a": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S07"
+    },
     "bdcaf383bf2eccc7952adcab": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S03"
@@ -8918,6 +9117,10 @@
     "c8965b7436102da3345fa413": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S04"
+    },
+    "cac664657eab980569e7c3e6": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S01"
     },
     "cb2c2344bb3452aa292fa6814a9b980b4d7a073c": {
       "date": "2026-09-25",
@@ -9002,6 +9205,10 @@
     "dbfe44de701018e5975ae02a": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S12"
+    },
+    "dd727170097d68a4b106e60b": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S05"
     },
     "dd7edc121b444a7f2e69208a": {
       "date": "2026-10-01",
@@ -9166,6 +9373,10 @@
     "fc8f121cfd56696cf5454ffbf3f965a1b200689d": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S07"
+    },
+    "fe9b985c8048a3d724429df5": {
+      "date": "2026-10-16",
+      "fact_id": "FACT-2026-10-16-S09"
     },
     "fed0ca59eade6f831847f2fa2f97c2802cafa39f": {
       "date": "2026-09-25",
@@ -9824,6 +10035,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-16",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-16T06:34:13.649317+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
