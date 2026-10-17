@@ -5319,6 +5319,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-17": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-17-S01",
+            "FACT-2026-10-17-S02",
+            "FACT-2026-10-17-S03",
+            "FACT-2026-10-17-S04",
+            "FACT-2026-10-17-S05",
+            "FACT-2026-10-17-S06",
+            "FACT-2026-10-17-S07",
+            "FACT-2026-10-17-S08",
+            "FACT-2026-10-17-S09",
+            "FACT-2026-10-17-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-17T06:22:28.288131+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-17T06:22:01.519806+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-17-S01": {
+          "batch": 1,
+          "claim_key": "63d6f0d9e666e2b23b2298d8",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/moons/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 497,
+          "published_at": "2026-10-17T06:22:03.658867+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S02": {
+          "batch": 1,
+          "claim_key": "097a83369c53feea156f613c",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 498,
+          "published_at": "2026-10-17T06:22:11.299349+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S03": {
+          "batch": 1,
+          "claim_key": "11a35a21a65bca046d5a48a0",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Entropy_and_self-organization%E2%80%94an_open_system_approach_to_the_origins_of_homeland_security_threats_(IA_entropyndselforg1094545839).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 499,
+          "published_at": "2026-10-17T06:22:16.082905+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S04": {
+          "batch": 1,
+          "claim_key": "f507849580c28ac6fb85da7a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 500,
+          "published_at": "2026-10-17T06:22:20.853981+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S05": {
+          "batch": 1,
+          "claim_key": "8fa3fabfede552bd00aeaab5",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/moons/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 501,
+          "published_at": "2026-10-17T06:22:21.797868+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S06": {
+          "batch": 1,
+          "claim_key": "8ab2df953feeb24b1360c8fd",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 502,
+          "published_at": "2026-10-17T06:22:22.740148+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S07": {
+          "batch": 1,
+          "claim_key": "9f59559829deb17133e4c975",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 503,
+          "published_at": "2026-10-17T06:22:23.897845+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S08": {
+          "batch": 1,
+          "claim_key": "ec7a014cb78b0a461e34c9c9",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 504,
+          "published_at": "2026-10-17T06:22:25.465375+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S09": {
+          "batch": 1,
+          "claim_key": "7a886f486a6264a1ca8a29e2",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1572/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 505,
+          "published_at": "2026-10-17T06:22:27.202671+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S10": {
+          "batch": 1,
+          "claim_key": "b91bfe15f84d529c17389956",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1572/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 506,
+          "published_at": "2026-10-17T06:22:28.277906+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -8054,6 +8189,51 @@
       "score": 33,
       "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
       "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
+    },
+    "FACT-2026-10-17-S01": {
+      "cached_at": "2026-10-17T06:22:02.437259+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-17-S01.jpg",
+      "query": "Solar-system moon count Moons",
+      "score": 19,
+      "source_page": "https://science.nasa.gov/solar-system/moons/facts/",
+      "source_url": "https://science.nasa.gov/solar-system/moons/facts/"
+    },
+    "FACT-2026-10-17-S03": {
+      "cached_at": "2026-10-17T06:22:15.074099+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-17-S03.jpg",
+      "query": "GDP approaches should theoretically agree Economic Measurement",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Entropy_and_self-organization%E2%80%94an_open_system_approach_to_the_origins_of_homeland_security_threats_(IA_entropyndselforg1094545839).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Entropy_and_self-organization%E2%80%94an_open_system_approach_to_the_origins_of_homeland_security_threats_%28IA_entropyndselforg1094545839%29.pdf/page1-960px-Entropy_and_self-organization%E2%80%94an_open_system_approach_to_the_origins_of_homeland_security_threats_%28IA_entropyndselforg1094545839%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-17-S05": {
+      "cached_at": "2026-10-17T06:22:21.021211+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-17-S05.jpg",
+      "query": "Saturn's confirmed moons Moons",
+      "score": 16,
+      "source_page": "https://science.nasa.gov/solar-system/moons/facts/",
+      "source_url": "https://science.nasa.gov/solar-system/moons/facts/"
+    },
+    "FACT-2026-10-17-S09": {
+      "cached_at": "2026-10-17T06:22:26.338031+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-17-S09.jpg",
+      "query": "Göbekli Tepe's monumental forms Architecture",
+      "score": 25,
+      "source_page": "https://whc.unesco.org/en/list/1572/",
+      "source_url": "https://whc.unesco.org/en/list/1572/"
+    },
+    "FACT-2026-10-17-S10": {
+      "cached_at": "2026-10-17T06:22:27.440518+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-17-S10.jpg",
+      "query": "Göbekli Tepe's probable ritual use Rituals",
+      "score": 29,
+      "source_page": "https://whc.unesco.org/en/list/1572/",
+      "source_url": "https://whc.unesco.org/en/list/1572/"
     }
   },
   "published_claims": {
@@ -8096,6 +8276,10 @@
     "0967945b5ea0ec4a9fddbd98": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S19"
+    },
+    "097a83369c53feea156f613c": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S02"
     },
     "09cbaca23b94d554b9728dc8": {
       "date": "2026-10-02",
@@ -8140,6 +8324,10 @@
     "1003d76cb68bcbe9329140a1": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S10"
+    },
+    "11a35a21a65bca046d5a48a0": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S03"
     },
     "1202f46e97abc2491a1423a3431acfc80f079723": {
       "date": "2026-09-25",
@@ -8725,6 +8913,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S16"
     },
+    "63d6f0d9e666e2b23b2298d8": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S01"
+    },
     "63ed18f8d7156ae6fcf6cde6": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S15"
@@ -8837,6 +9029,10 @@
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S04"
     },
+    "7a886f486a6264a1ca8a29e2": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S09"
+    },
     "7ab5ba4e86cb52e5341ba3eef80e7f6638ed3d25": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S04"
@@ -8941,6 +9137,10 @@
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S01"
     },
+    "8ab2df953feeb24b1360c8fd": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S06"
+    },
     "8dfb4aab01be9f3c0d8a185f": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S03"
@@ -8948,6 +9148,10 @@
     "8e323b9d1007995dd8170b7a": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S05"
+    },
+    "8fa3fabfede552bd00aeaab5": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S05"
     },
     "8ffcc55ff4143ffdc4a3de47": {
       "date": "2026-10-11",
@@ -9060,6 +9264,10 @@
     "9e87793522149c4059c168c7": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S10"
+    },
+    "9f59559829deb17133e4c975": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S07"
     },
     "9f5d987d31bf9627f6a7fdcf": {
       "date": "2026-10-02",
@@ -9248,6 +9456,10 @@
     "b91b8b1569b6e6ab1f142025": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S02"
+    },
+    "b91bfe15f84d529c17389956": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S10"
     },
     "b96e617954784ffbdbfa84cb": {
       "date": "2026-10-14",
@@ -9517,6 +9729,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S13"
     },
+    "ec7a014cb78b0a461e34c9c9": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S08"
+    },
     "ecf41aa68d522c7cd52be9f5": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S18"
@@ -9548,6 +9764,10 @@
     "f44101f8d9cf809c5d4c5e552bff7bfa44c22499": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S04"
+    },
+    "f507849580c28ac6fb85da7a": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S04"
     },
     "f57ad6c195e444c7a364839d": {
       "date": "2026-10-07",
@@ -10290,6 +10510,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-17",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-17T06:22:28.288150+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
