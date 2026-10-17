@@ -5340,6 +5340,25 @@
           "published_count": 10,
           "started_at": "2026-10-17T06:22:01.519806+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-17-S11",
+            "FACT-2026-10-17-S12",
+            "FACT-2026-10-17-S13",
+            "FACT-2026-10-17-S14",
+            "FACT-2026-10-17-S15",
+            "FACT-2026-10-17-S16",
+            "FACT-2026-10-17-S17",
+            "FACT-2026-10-17-S18",
+            "FACT-2026-10-17-S19",
+            "FACT-2026-10-17-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-17T14:07:34.086546+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-17T14:07:14.201454+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -5451,6 +5470,116 @@
           "message_id": 506,
           "published_at": "2026-10-17T06:22:28.277906+00:00",
           "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S11": {
+          "batch": 2,
+          "claim_key": "a77ec72bb027acfc89ecf313",
+          "image_credit": "Source page",
+          "image_page": "https://www.nps.gov/subjects/geology/landforms.htm",
+          "image_source": "Wikimedia Commons",
+          "message_id": 507,
+          "published_at": "2026-10-17T14:07:15.054692+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S12": {
+          "batch": 2,
+          "claim_key": "099193a166e1d23fd00bd880",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 508,
+          "published_at": "2026-10-17T14:07:18.625805+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S13": {
+          "batch": 2,
+          "claim_key": "3a67a40e2502e1f6c45333c1",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Dolichometopus_-_Smithsonian_miscellaneous_collections_(1916)_(14779041781).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 509,
+          "published_at": "2026-10-17T14:07:24.736076+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S14": {
+          "batch": 2,
+          "claim_key": "ebd937c0ea470daa3119bee6",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:An_expert_system_for_reward_systems_design._(IA_expertsystemforr00ertu).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 510,
+          "published_at": "2026-10-17T14:07:28.433630+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S15": {
+          "batch": 2,
+          "claim_key": "75394f3be541c139eabaf0a6",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 511,
+          "published_at": "2026-10-17T14:07:29.541232+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S16": {
+          "batch": 2,
+          "claim_key": "0be489fd10eaa941e44027eb",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 512,
+          "published_at": "2026-10-17T14:07:30.459678+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S17": {
+          "batch": 2,
+          "claim_key": "0cabe9f4692d40fc5d8a8750",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 513,
+          "published_at": "2026-10-17T14:07:31.414632+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S18": {
+          "batch": 2,
+          "claim_key": "be9a2b0ea3b87f0ab0d97da4",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 514,
+          "published_at": "2026-10-17T14:07:32.321792+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S19": {
+          "batch": 2,
+          "claim_key": "f398e493cf95eb6ee977f391",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 515,
+          "published_at": "2026-10-17T14:07:33.191384+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-17-S20": {
+          "batch": 2,
+          "claim_key": "f571685b549e4f0b61c741d9",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 516,
+          "published_at": "2026-10-17T14:07:34.076522+00:00",
+          "send_mode": "text_html",
           "status": "published"
         }
       }
@@ -8234,6 +8363,42 @@
       "score": 29,
       "source_page": "https://whc.unesco.org/en/list/1572/",
       "source_url": "https://whc.unesco.org/en/list/1572/"
+    },
+    "FACT-2026-10-17-S11": {
+      "cached_at": "2026-10-17T14:07:14.444165+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-17-S11.jpg",
+      "query": "Landforms influence climate and habitats Landforms and Climate",
+      "score": 31,
+      "source_page": "https://www.nps.gov/subjects/geology/landforms.htm",
+      "source_url": "https://www.nps.gov/subjects/geology/landforms.htm"
+    },
+    "FACT-2026-10-17-S13": {
+      "cached_at": "2026-10-17T14:07:23.170236+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-17-S13.jpg",
+      "query": "Smithsonian collection size Museums and collections",
+      "score": 27,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dolichometopus_-_Smithsonian_miscellaneous_collections_(1916)_(14779041781).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Dolichometopus_-_Smithsonian_miscellaneous_collections_%281916%29_%2814779041781%29.jpg/1280px-Dolichometopus_-_Smithsonian_miscellaneous_collections_%281916%29_%2814779041781%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-17-S14": {
+      "cached_at": "2026-10-17T14:07:26.587121+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-17-S14.jpg",
+      "query": "museum exhibit screen reader testing with user expert",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:An_expert_system_for_reward_systems_design._(IA_expertsystemforr00ertu).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/An_expert_system_for_reward_systems_design._%28IA_expertsystemforr00ertu%29.pdf/page1-960px-An_expert_system_for_reward_systems_design._%28IA_expertsystemforr00ertu%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-17-S19": {
+      "cached_at": "2026-10-17T14:07:32.513704+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-17-S19.jpg",
+      "query": "Added-sugar intake by sex Added Sugars",
+      "score": 30,
+      "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+      "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
     }
   },
   "published_claims": {
@@ -8281,6 +8446,10 @@
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S02"
     },
+    "099193a166e1d23fd00bd880": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S12"
+    },
     "09cbaca23b94d554b9728dc8": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S03"
@@ -8297,9 +8466,17 @@
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S06"
     },
+    "0be489fd10eaa941e44027eb": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S16"
+    },
     "0ca72e1ba2fab0ce9576c0af": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S11"
+    },
+    "0cabe9f4692d40fc5d8a8750": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S17"
     },
     "0cc4173bb62d4c697b300fbf": {
       "date": "2026-10-13",
@@ -8636,6 +8813,10 @@
     "39fd677a1b0715e417c45c09": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S02"
+    },
+    "3a67a40e2502e1f6c45333c1": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S13"
     },
     "3ac1597cda36c766e7a1dcdc": {
       "date": "2026-10-11",
@@ -9013,6 +9194,10 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S20"
     },
+    "75394f3be541c139eabaf0a6": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S15"
+    },
     "758381e98d47257015996b78": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S20"
@@ -9337,6 +9522,10 @@
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S09"
     },
+    "a77ec72bb027acfc89ecf313": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S11"
+    },
     "a862eaa01e82534d41d6425d": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S08"
@@ -9496,6 +9685,10 @@
     "be79833d01d00a3689395284": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S03"
+    },
+    "be9a2b0ea3b87f0ab0d97da4": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S18"
     },
     "bfe30ba1b1d3f2f9bd0c3de9": {
       "date": "2026-10-12",
@@ -9729,6 +9922,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S13"
     },
+    "ebd937c0ea470daa3119bee6": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S14"
+    },
     "ec7a014cb78b0a461e34c9c9": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S08"
@@ -9761,6 +9958,10 @@
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S15"
     },
+    "f398e493cf95eb6ee977f391": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S19"
+    },
     "f44101f8d9cf809c5d4c5e552bff7bfa44c22499": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S04"
@@ -9768,6 +9969,10 @@
     "f507849580c28ac6fb85da7a": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S04"
+    },
+    "f571685b549e4f0b61c741d9": {
+      "date": "2026-10-17",
+      "fact_id": "FACT-2026-10-17-S20"
     },
     "f57ad6c195e444c7a364839d": {
       "date": "2026-10-07",
@@ -10526,6 +10731,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-17",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-17T14:07:34.086558+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
