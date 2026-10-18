@@ -5583,6 +5583,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-18": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-18-S01",
+            "FACT-2026-10-18-S02",
+            "FACT-2026-10-18-S03",
+            "FACT-2026-10-18-S04",
+            "FACT-2026-10-18-S05",
+            "FACT-2026-10-18-S06",
+            "FACT-2026-10-18-S07",
+            "FACT-2026-10-18-S08",
+            "FACT-2026-10-18-S09",
+            "FACT-2026-10-18-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-18T06:48:43.498950+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-18T06:46:56.873901+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-18-S01": {
+          "batch": 1,
+          "claim_key": "b0097fc8461d3ec80b0492f1",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/moons/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 517,
+          "published_at": "2026-10-18T06:46:59.154841+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S02": {
+          "batch": 1,
+          "claim_key": "4582fea66af15bf4554379ec",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 518,
+          "published_at": "2026-10-18T06:47:25.005252+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S03": {
+          "batch": 1,
+          "claim_key": "26f2a5b258a535a1bda1e2d2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 519,
+          "published_at": "2026-10-18T06:47:34.616901+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S04": {
+          "batch": 1,
+          "claim_key": "f81f686181971f0d32b50817",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 520,
+          "published_at": "2026-10-18T06:47:57.029412+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S05": {
+          "batch": 1,
+          "claim_key": "4ed77672947d250cb907cf9a",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/moons/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 521,
+          "published_at": "2026-10-18T06:47:58.288060+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S06": {
+          "batch": 1,
+          "claim_key": "7a3c36825a44a26888c281b9",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 522,
+          "published_at": "2026-10-18T06:48:11.881335+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S07": {
+          "batch": 1,
+          "claim_key": "c2775bdadc380568b8d22ede",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Evaluating_foreign-source_dependencies_in_U.S._Army_missile_system_production_(IA_evaluatingforeig1094535070).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 523,
+          "published_at": "2026-10-18T06:48:16.919844+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S08": {
+          "batch": 1,
+          "claim_key": "53b1be5ef2b7ed7247710a5b",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Examples_of_household_taste_(1875)_(14802060093).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 524,
+          "published_at": "2026-10-18T06:48:40.291844+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S09": {
+          "batch": 1,
+          "claim_key": "caadccc48f3d64d045d07e3e",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1572/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 525,
+          "published_at": "2026-10-18T06:48:42.180215+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S10": {
+          "batch": 1,
+          "claim_key": "b1910cdb8941dbb44cf24180",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1572/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 526,
+          "published_at": "2026-10-18T06:48:43.488785+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -8399,6 +8534,60 @@
       "score": 30,
       "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
       "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
+    },
+    "FACT-2026-10-18-S01": {
+      "cached_at": "2026-10-18T06:46:58.235072+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-18-S01.jpg",
+      "query": "solar system moons named after mythological characters",
+      "score": 16,
+      "source_page": "https://science.nasa.gov/solar-system/moons/facts/",
+      "source_url": "https://science.nasa.gov/solar-system/moons/facts/"
+    },
+    "FACT-2026-10-18-S05": {
+      "cached_at": "2026-10-18T06:47:57.485944+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-18-S05.jpg",
+      "query": "Uranus moons named after Shakespeare characters and Alexander Pope poems",
+      "score": 19,
+      "source_page": "https://science.nasa.gov/solar-system/moons/facts/",
+      "source_url": "https://science.nasa.gov/solar-system/moons/facts/"
+    },
+    "FACT-2026-10-18-S07": {
+      "cached_at": "2026-10-18T06:48:15.855870+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-18-S07.jpg",
+      "query": "diagram of GDP production components showing gross value added, product taxes, and subsidies",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Evaluating_foreign-source_dependencies_in_U.S._Army_missile_system_production_(IA_evaluatingforeig1094535070).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Evaluating_foreign-source_dependencies_in_U.S._Army_missile_system_production_%28IA_evaluatingforeig1094535070%29.pdf/page1-960px-Evaluating_foreign-source_dependencies_in_U.S._Army_missile_system_production_%28IA_evaluatingforeig1094535070%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-18-S08": {
+      "cached_at": "2026-10-18T06:48:38.958505+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-18-S08.jpg",
+      "query": "Foliated rock examples Geology",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Examples_of_household_taste_(1875)_(14802060093).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Examples_of_household_taste_%281875%29_%2814802060093%29.jpg/1280px-Examples_of_household_taste_%281875%29_%2814802060093%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-18-S09": {
+      "cached_at": "2026-10-18T06:48:41.255426+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-18-S09.jpg",
+      "query": "Limestone T-shaped pillars at Göbekli Tepe, some reaching 5.5 meters in height",
+      "score": 25,
+      "source_page": "https://whc.unesco.org/en/list/1572/",
+      "source_url": "https://whc.unesco.org/en/list/1572/"
+    },
+    "FACT-2026-10-18-S10": {
+      "cached_at": "2026-10-18T06:48:42.586727+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-18-S10.jpg",
+      "query": "Göbekli Tepe T-shaped pillars with animal reliefs",
+      "score": 28,
+      "source_page": "https://whc.unesco.org/en/list/1572/",
+      "source_url": "https://whc.unesco.org/en/list/1572/"
     }
   },
   "published_claims": {
@@ -8678,6 +8867,10 @@
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S18"
     },
+    "26f2a5b258a535a1bda1e2d2": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S03"
+    },
     "270195956a592e48134b4854b22c66d480b273e9": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S05"
@@ -8878,6 +9071,10 @@
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S02"
     },
+    "4582fea66af15bf4554379ec": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S02"
+    },
     "459c5c1c9a08fe8a254a40f2": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S05"
@@ -8938,6 +9135,10 @@
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S11"
     },
+    "4ed77672947d250cb907cf9a": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S05"
+    },
     "4f8a27f977c4359c02009100": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S12"
@@ -8957,6 +9158,10 @@
     "5255734bea5e5cec63022989": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S06"
+    },
+    "53b1be5ef2b7ed7247710a5b": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S08"
     },
     "54d758cb1d8cad2e82913ff5": {
       "date": "2026-10-09",
@@ -9213,6 +9418,10 @@
     "79589c7462440105b067762263fe3fdf7c05cbed": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S04"
+    },
+    "7a3c36825a44a26888c281b9": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S06"
     },
     "7a886f486a6264a1ca8a29e2": {
       "date": "2026-10-17",
@@ -9582,6 +9791,10 @@
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S11"
     },
+    "b0097fc8461d3ec80b0492f1": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S01"
+    },
     "b067860dabf0878df0d3eeae": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S20"
@@ -9589,6 +9802,10 @@
     "b18f12d26a390c388c46ae33": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S02"
+    },
+    "b1910cdb8941dbb44cf24180": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S10"
     },
     "b1fc91f73629e9753abd10ae": {
       "date": "2026-10-02",
@@ -9702,6 +9919,10 @@
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S10"
     },
+    "c2775bdadc380568b8d22ede": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S07"
+    },
     "c32df8a90295687f28baf51c": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S03"
@@ -9741,6 +9962,10 @@
     "c8965b7436102da3345fa413": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S04"
+    },
+    "caadccc48f3d64d045d07e3e": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S09"
     },
     "cac664657eab980569e7c3e6": {
       "date": "2026-10-16",
@@ -9993,6 +10218,10 @@
     "f804a67248da3e64b3021016": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S02"
+    },
+    "f81f686181971f0d32b50817": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S04"
     },
     "f8239a29ddf69e9ce55ac218": {
       "date": "2026-10-13",
@@ -10747,6 +10976,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-18",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-18T06:48:43.498963+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
