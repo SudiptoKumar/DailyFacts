@@ -5604,6 +5604,25 @@
           "published_count": 10,
           "started_at": "2026-10-18T06:46:56.873901+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-18-S11",
+            "FACT-2026-10-18-S12",
+            "FACT-2026-10-18-S13",
+            "FACT-2026-10-18-S14",
+            "FACT-2026-10-18-S15",
+            "FACT-2026-10-18-S16",
+            "FACT-2026-10-18-S17",
+            "FACT-2026-10-18-S18",
+            "FACT-2026-10-18-S19",
+            "FACT-2026-10-18-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-18T14:24:26.317986+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-18T14:24:01.604731+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -5714,6 +5733,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 526,
           "published_at": "2026-10-18T06:48:43.488785+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S11": {
+          "batch": 2,
+          "claim_key": "c601f98022b3800f54f427fc",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 527,
+          "published_at": "2026-10-18T14:24:05.712666+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S12": {
+          "batch": 2,
+          "claim_key": "be3d30836943236c452ed83c",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:USDA_ARS_And_APHIS_leadership_celebrate_MOU_with_Smithsonian_Museum_Of_Natural_History_(20260213-USDA-APHIS-CDP-1466).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 528,
+          "published_at": "2026-10-18T14:24:11.485174+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S13": {
+          "batch": 2,
+          "claim_key": "7ab8e27e6dec2b94eed745ab",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Extreme_Ocean_Temperatures_Are_Affecting_Florida%E2%80%99s_Coral_Reef_(NESDIS_2023-08-18_20230818_EFO-AHS).png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 529,
+          "published_at": "2026-10-18T14:24:14.338649+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S14": {
+          "batch": 2,
+          "claim_key": "75b03522f4a99e40c2a6a8ec",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 530,
+          "published_at": "2026-10-18T14:24:15.339598+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S15": {
+          "batch": 2,
+          "claim_key": "2ef0c4560d088f9bed27038b",
+          "image_credit": "Source page",
+          "image_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 531,
+          "published_at": "2026-10-18T14:24:16.619442+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S16": {
+          "batch": 2,
+          "claim_key": "c45a7a0c208b6922d38b4add",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 532,
+          "published_at": "2026-10-18T14:24:17.593072+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S17": {
+          "batch": 2,
+          "claim_key": "5420146feb6016eebfcd4258",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 533,
+          "published_at": "2026-10-18T14:24:18.691097+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S18": {
+          "batch": 2,
+          "claim_key": "ca1b86e3aa616cc598e06825",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 534,
+          "published_at": "2026-10-18T14:24:23.885639+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S19": {
+          "batch": 2,
+          "claim_key": "fe365abfe82676284bb19ab6",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 535,
+          "published_at": "2026-10-18T14:24:24.949956+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-18-S20": {
+          "batch": 2,
+          "claim_key": "b44440db4d2a0af18075d223",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 536,
+          "published_at": "2026-10-18T14:24:26.306656+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -8588,6 +8717,42 @@
       "score": 28,
       "source_page": "https://whc.unesco.org/en/list/1572/",
       "source_url": "https://whc.unesco.org/en/list/1572/"
+    },
+    "FACT-2026-10-18-S12": {
+      "cached_at": "2026-10-18T14:24:10.339908+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-18-S12.jpg",
+      "query": "National Museum of Natural History collection specimens",
+      "score": 33,
+      "source_page": "https://commons.wikimedia.org/wiki/File:USDA_ARS_And_APHIS_leadership_celebrate_MOU_with_Smithsonian_Museum_Of_Natural_History_(20260213-USDA-APHIS-CDP-1466).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/USDA_ARS_And_APHIS_leadership_celebrate_MOU_with_Smithsonian_Museum_Of_Natural_History_%2820260213-USDA-APHIS-CDP-1466%29.jpg/1280px-USDA_ARS_And_APHIS_leadership_celebrate_MOU_with_Smithsonian_Museum_Of_Natural_History_%2820260213-USDA-APHIS-CDP-1466%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-18-S13": {
+      "cached_at": "2026-10-18T14:24:13.324635+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-18-S13.jpg",
+      "query": "Coral bleaching outlooks Environmental monitoring",
+      "score": 25,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Extreme_Ocean_Temperatures_Are_Affecting_Florida%E2%80%99s_Coral_Reef_(NESDIS_2023-08-18_20230818_EFO-AHS).png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Extreme_Ocean_Temperatures_Are_Affecting_Florida%E2%80%99s_Coral_Reef_%28NESDIS_2023-08-18_20230818_EFO-AHS%29.png/1280px-Extreme_Ocean_Temperatures_Are_Affecting_Florida%E2%80%99s_Coral_Reef_%28NESDIS_2023-08-18_20230818_EFO-AHS%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-18-S15": {
+      "cached_at": "2026-10-18T14:24:15.715735+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-18-S15.jpg",
+      "query": "Internet communication influences language Language and technology",
+      "score": 24,
+      "source_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/"
+    },
+    "FACT-2026-10-18-S20": {
+      "cached_at": "2026-10-18T14:24:25.626831+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-18-S20.jpg",
+      "query": "Added-sugar intake among U.S. youth Added Sugars",
+      "score": 33,
+      "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+      "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
     }
   },
   "published_claims": {
@@ -8923,6 +9088,10 @@
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S11"
     },
+    "2ef0c4560d088f9bed27038b": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S15"
+    },
     "2f4247311c30bf8214e2747a0171712fd84582a2": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S10"
@@ -9162,6 +9331,10 @@
     "53b1be5ef2b7ed7247710a5b": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S08"
+    },
+    "5420146feb6016eebfcd4258": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S17"
     },
     "54d758cb1d8cad2e82913ff5": {
       "date": "2026-10-09",
@@ -9407,6 +9580,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S20"
     },
+    "75b03522f4a99e40c2a6a8ec": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S14"
+    },
     "76c279d6c4e25f0fd547a47e": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S10"
@@ -9430,6 +9607,10 @@
     "7ab5ba4e86cb52e5341ba3eef80e7f6638ed3d25": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S04"
+    },
+    "7ab8e27e6dec2b94eed745ab": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S13"
     },
     "7b146b8cfc9c68b2f7d806516b3b68e20acdef67": {
       "date": "2026-09-27",
@@ -9831,6 +10012,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S03"
     },
+    "b44440db4d2a0af18075d223": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S20"
+    },
     "b444fc28d3b17f8bf19559e2": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S18"
@@ -9899,6 +10084,10 @@
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S03"
     },
+    "be3d30836943236c452ed83c": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S12"
+    },
     "be79833d01d00a3689395284": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S03"
@@ -9939,9 +10128,17 @@
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S01"
     },
+    "c45a7a0c208b6922d38b4add": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S16"
+    },
     "c5f4a7946939a079171ceb83": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S05"
+    },
+    "c601f98022b3800f54f427fc": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S11"
     },
     "c647171d3c326282453263fa": {
       "date": "2026-10-09",
@@ -9962,6 +10159,10 @@
     "c8965b7436102da3345fa413": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S04"
+    },
+    "ca1b86e3aa616cc598e06825": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S18"
     },
     "caadccc48f3d64d045d07e3e": {
       "date": "2026-10-18",
@@ -10250,6 +10451,10 @@
     "fc8f121cfd56696cf5454ffbf3f965a1b200689d": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S07"
+    },
+    "fe365abfe82676284bb19ab6": {
+      "date": "2026-10-18",
+      "fact_id": "FACT-2026-10-18-S19"
     },
     "fe9b985c8048a3d724429df5": {
       "date": "2026-10-16",
@@ -10992,6 +11197,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-18",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-18T14:24:26.317999+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
