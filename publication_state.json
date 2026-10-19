@@ -5868,6 +5868,25 @@
           "published_count": 10,
           "started_at": "2026-10-19T07:05:16.689546+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-19-S11",
+            "FACT-2026-10-19-S12",
+            "FACT-2026-10-19-S13",
+            "FACT-2026-10-19-S14",
+            "FACT-2026-10-19-S15",
+            "FACT-2026-10-19-S16",
+            "FACT-2026-10-19-S17",
+            "FACT-2026-10-19-S18",
+            "FACT-2026-10-19-S19",
+            "FACT-2026-10-19-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-19T17:24:00.482561+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-19T17:23:23.696183+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -5978,6 +5997,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 546,
           "published_at": "2026-10-19T07:07:10.861954+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-19-S11": {
+          "batch": 2,
+          "claim_key": "0325d84e52fcf6b473e63f7c",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1572/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 547,
+          "published_at": "2026-10-19T17:23:33.338936+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-19-S12": {
+          "batch": 2,
+          "claim_key": "c8ffe3814781cdf1b42c291f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 548,
+          "published_at": "2026-10-19T17:23:38.761831+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-19-S13": {
+          "batch": 2,
+          "claim_key": "37cab111d39fd46f86349b13",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Geothermal_Energy_Sources.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 549,
+          "published_at": "2026-10-19T17:23:47.444255+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-19-S14": {
+          "batch": 2,
+          "claim_key": "4f5321292798a15756ecb270",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 550,
+          "published_at": "2026-10-19T17:23:50.450687+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-19-S15": {
+          "batch": 2,
+          "claim_key": "f43e620a1854f07f966a3b5b",
+          "image_credit": "Source page",
+          "image_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 551,
+          "published_at": "2026-10-19T17:23:52.384423+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-19-S16": {
+          "batch": 2,
+          "claim_key": "a241270ca36fb5bd7f6ce574",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 552,
+          "published_at": "2026-10-19T17:23:53.890286+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-19-S17": {
+          "batch": 2,
+          "claim_key": "e7459b337148e8fa592e4c70",
+          "image_credit": "Source page",
+          "image_page": "https://www.nhlbi.nih.gov/health/heart",
+          "image_source": "Wikimedia Commons",
+          "message_id": 553,
+          "published_at": "2026-10-19T17:23:55.565032+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-19-S18": {
+          "batch": 2,
+          "claim_key": "94081642b2503bfef1737fb2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 554,
+          "published_at": "2026-10-19T17:23:56.847547+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-19-S19": {
+          "batch": 2,
+          "claim_key": "f5d7e3684b608a99af8fadef",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 555,
+          "published_at": "2026-10-19T17:23:58.173095+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-19-S20": {
+          "batch": 2,
+          "claim_key": "3cbc99997e3f317b83b9bdb8",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 556,
+          "published_at": "2026-10-19T17:24:00.471414+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -8951,6 +9080,51 @@
       "score": 20,
       "source_page": "https://commons.wikimedia.org/wiki/File:Entangled_Long-Snouted_Seahorses.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Entangled_Long-Snouted_Seahorses.jpg/1280px-Entangled_Long-Snouted_Seahorses.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-19-S11": {
+      "cached_at": "2026-10-19T17:23:32.234652+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-19-S11.jpg",
+      "query": "decorated T-shaped limestone pillars at Göbekli Tepe",
+      "score": 25,
+      "source_page": "https://whc.unesco.org/en/list/1572/",
+      "source_url": "https://whc.unesco.org/en/list/1572/"
+    },
+    "FACT-2026-10-19-S13": {
+      "cached_at": "2026-10-19T17:23:45.893078+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-19-S13.jpg",
+      "query": "geothermal power plant near a volcano, steam vents, volcanic landscape",
+      "score": 26,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Geothermal_Energy_Sources.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Geothermal_Energy_Sources.svg/1280px-Geothermal_Energy_Sources.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-19-S15": {
+      "cached_at": "2026-10-19T17:23:51.343737+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-19-S15.jpg",
+      "query": "laboratory setting with researchers observing participants using experimental symbols or gestures to convey task-relevant information",
+      "score": 29,
+      "source_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/"
+    },
+    "FACT-2026-10-19-S17": {
+      "cached_at": "2026-10-19T17:23:54.475239+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-19-S17.jpg",
+      "query": "Heart Function Internal Organs",
+      "score": 20,
+      "source_page": "https://www.nhlbi.nih.gov/health/heart",
+      "source_url": "https://www.nhlbi.nih.gov/health/heart"
+    },
+    "FACT-2026-10-19-S20": {
+      "cached_at": "2026-10-19T17:23:59.658624+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-19-S20.jpg",
+      "query": "Young children's beverage consumption Sugar-Sweetened Beverages",
+      "score": 34,
+      "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+      "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
     }
   },
   "published_claims": {
@@ -8973,6 +9147,10 @@
     "02b8bc9d61e98405c5e88b00": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S07"
+    },
+    "0325d84e52fcf6b473e63f7c": {
+      "date": "2026-10-19",
+      "fact_id": "FACT-2026-10-19-S11"
     },
     "03a10ae3c761330d0d19a038": {
       "date": "2026-10-04",
@@ -9374,6 +9552,10 @@
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S02"
     },
+    "37cab111d39fd46f86349b13": {
+      "date": "2026-10-19",
+      "fact_id": "FACT-2026-10-19-S13"
+    },
     "390499f9bc1834fea0b2796b": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S01"
@@ -9401,6 +9583,10 @@
     "3cbbeae8bd2e5f1d54c151ed": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S18"
+    },
+    "3cbc99997e3f317b83b9bdb8": {
+      "date": "2026-10-19",
+      "fact_id": "FACT-2026-10-19-S20"
     },
     "3d03684da41493abd2aa8c56": {
       "date": "2026-10-05",
@@ -9521,6 +9707,10 @@
     "4ed77672947d250cb907cf9a": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S05"
+    },
+    "4f5321292798a15756ecb270": {
+      "date": "2026-10-19",
+      "fact_id": "FACT-2026-10-19-S14"
     },
     "4f8a27f977c4359c02009100": {
       "date": "2026-10-16",
@@ -9978,6 +10168,10 @@
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S17"
     },
+    "94081642b2503bfef1737fb2": {
+      "date": "2026-10-19",
+      "fact_id": "FACT-2026-10-19-S18"
+    },
     "941b541652b13026dc9f7250b12fc455864910a5": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S01"
@@ -10093,6 +10287,10 @@
     "a1fd9d431e919e6cd42dcfe2": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S12"
+    },
+    "a241270ca36fb5bd7f6ce574": {
+      "date": "2026-10-19",
+      "fact_id": "FACT-2026-10-19-S16"
     },
     "a29ac01d5084388701cea15e926b32d929846d96": {
       "date": "2026-09-27",
@@ -10394,6 +10592,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S04"
     },
+    "c8ffe3814781cdf1b42c291f": {
+      "date": "2026-10-19",
+      "fact_id": "FACT-2026-10-19-S12"
+    },
     "ca1b86e3aa616cc598e06825": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S18"
@@ -10562,6 +10764,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S14"
     },
+    "e7459b337148e8fa592e4c70": {
+      "date": "2026-10-19",
+      "fact_id": "FACT-2026-10-19-S17"
+    },
     "e7a55a0ada2d0a566b0e012b": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S08"
@@ -10626,6 +10832,10 @@
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S19"
     },
+    "f43e620a1854f07f966a3b5b": {
+      "date": "2026-10-19",
+      "fact_id": "FACT-2026-10-19-S15"
+    },
     "f44101f8d9cf809c5d4c5e552bff7bfa44c22499": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S04"
@@ -10641,6 +10851,10 @@
     "f57ad6c195e444c7a364839d": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S17"
+    },
+    "f5d7e3684b608a99af8fadef": {
+      "date": "2026-10-19",
+      "fact_id": "FACT-2026-10-19-S19"
     },
     "f6ee4f10b487a29ae3f14672": {
       "date": "2026-10-03",
@@ -11467,6 +11681,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-19",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-19T17:24:00.482579+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
