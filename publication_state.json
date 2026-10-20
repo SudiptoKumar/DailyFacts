@@ -6132,6 +6132,25 @@
           "published_count": 10,
           "started_at": "2026-10-20T06:50:06.976337+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-20-S11",
+            "FACT-2026-10-20-S12",
+            "FACT-2026-10-20-S13",
+            "FACT-2026-10-20-S14",
+            "FACT-2026-10-20-S15",
+            "FACT-2026-10-20-S16",
+            "FACT-2026-10-20-S17",
+            "FACT-2026-10-20-S18",
+            "FACT-2026-10-20-S19",
+            "FACT-2026-10-20-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-20T15:36:33.481631+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-20T15:35:52.251923+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -6242,6 +6261,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 566,
           "published_at": "2026-10-20T06:52:01.683409+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S11": {
+          "batch": 2,
+          "claim_key": "483f55b9b8de6fd7f7187b20",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:First_Smithsonian_Guidebook_Published.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 567,
+          "published_at": "2026-10-20T15:36:00.336841+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S12": {
+          "batch": 2,
+          "claim_key": "0fa4b89f69418de8c5c5d911",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 568,
+          "published_at": "2026-10-20T15:36:09.944004+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S13": {
+          "batch": 2,
+          "claim_key": "568e09f27b36b7b5c926763f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 569,
+          "published_at": "2026-10-20T15:36:15.037704+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S14": {
+          "batch": 2,
+          "claim_key": "bac9fa1dcc4bff807c6a22e2",
+          "image_credit": "Source page",
+          "image_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 570,
+          "published_at": "2026-10-20T15:36:17.303860+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S15": {
+          "batch": 2,
+          "claim_key": "c920c972d9c6a7cf30872fb7",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 571,
+          "published_at": "2026-10-20T15:36:20.213013+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S16": {
+          "batch": 2,
+          "claim_key": "137f6c0936c334de3c1899d0",
+          "image_credit": "Source page",
+          "image_page": "https://www.nhlbi.nih.gov/health/heart",
+          "image_source": "Wikimedia Commons",
+          "message_id": 572,
+          "published_at": "2026-10-20T15:36:21.476821+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S17": {
+          "batch": 2,
+          "claim_key": "fe11dbc2878a22ba2f00f41f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 573,
+          "published_at": "2026-10-20T15:36:26.636919+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S18": {
+          "batch": 2,
+          "claim_key": "c43f798c8cc60d19c6af4bb2",
+          "image_credit": "Source page",
+          "image_page": "https://www.nps.gov/glac/learn/nature/geologicformations.htm",
+          "image_source": "Wikimedia Commons",
+          "message_id": 574,
+          "published_at": "2026-10-20T15:36:28.538395+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S19": {
+          "batch": 2,
+          "claim_key": "5d0c1664eacfd787a91cb02f",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/salt/about/index.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 575,
+          "published_at": "2026-10-20T15:36:31.397315+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S20": {
+          "batch": 2,
+          "claim_key": "5bedd04843739bba11e76fce",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 576,
+          "published_at": "2026-10-20T15:36:33.469754+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -9323,6 +9452,60 @@
       "score": 26,
       "source_page": "https://whc.unesco.org/en/list/1572/",
       "source_url": "https://whc.unesco.org/en/list/1572/"
+    },
+    "FACT-2026-10-20-S11": {
+      "cached_at": "2026-10-20T15:35:58.914853+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-20-S11.jpg",
+      "query": "Smithsonian library holdings Museums and collections",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:First_Smithsonian_Guidebook_Published.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/First_Smithsonian_Guidebook_Published.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-20-S14": {
+      "cached_at": "2026-10-20T15:36:16.048445+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-20-S14.jpg",
+      "query": "a collage of digital symbols including acronyms, emojis, typographic marks, and logograms representing modern online language conventions",
+      "score": 16,
+      "source_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/"
+    },
+    "FACT-2026-10-20-S16": {
+      "cached_at": "2026-10-20T15:36:20.527018+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-20-S16.jpg",
+      "query": "Heart Anatomy and Valves Internal Organs",
+      "score": 28,
+      "source_page": "https://www.nhlbi.nih.gov/health/heart",
+      "source_url": "https://www.nhlbi.nih.gov/health/heart"
+    },
+    "FACT-2026-10-20-S18": {
+      "cached_at": "2026-10-20T15:36:26.935809+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-20-S18.jpg",
+      "query": "The Ice Age shaped Glacier National Park Glacial History",
+      "score": 22,
+      "source_page": "https://www.nps.gov/glac/learn/nature/geologicformations.htm",
+      "source_url": "https://www.nps.gov/glac/learn/nature/geologicformations.htm"
+    },
+    "FACT-2026-10-20-S19": {
+      "cached_at": "2026-10-20T15:36:30.102311+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-20-S19.jpg",
+      "query": "salt shaker and measuring spoon on a kitchen counter",
+      "score": 24,
+      "source_page": "https://www.cdc.gov/salt/about/index.html",
+      "source_url": "https://www.cdc.gov/salt/about/index.html"
+    },
+    "FACT-2026-10-20-S20": {
+      "cached_at": "2026-10-20T15:36:32.069993+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-20-S20.jpg",
+      "query": "Soap removes germs Hand Hygiene",
+      "score": 27,
+      "source_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+      "source_url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html"
     }
   },
   "published_claims": {
@@ -9442,6 +9625,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S18"
     },
+    "0fa4b89f69418de8c5c5d911": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S12"
+    },
     "1003d76cb68bcbe9329140a1": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S10"
@@ -9481,6 +9668,10 @@
     "137049d4485542883169410c": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S04"
+    },
+    "137f6c0936c334de3c1899d0": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S16"
     },
     "1417e1fd02c454222276c15d": {
       "date": "2026-10-03",
@@ -9874,6 +10065,10 @@
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S19"
     },
+    "483f55b9b8de6fd7f7187b20": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S11"
+    },
     "4849b841d2a1a3aaec7bc0400a59ba7d8dd01a5b": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S01"
@@ -9962,6 +10157,10 @@
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S09"
     },
+    "568e09f27b36b7b5c926763f": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S13"
+    },
     "56cd87dd106a435a7ca44547": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S08"
@@ -10010,6 +10209,10 @@
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S04"
     },
+    "5bedd04843739bba11e76fce": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S20"
+    },
     "5bef26b001f078b6652e3b3b": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S14"
@@ -10017,6 +10220,10 @@
     "5c3a3590dc5b398d430deb03b367dbd40521b256": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S03"
+    },
+    "5d0c1664eacfd787a91cb02f": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S19"
     },
     "5d0f0472482a57db414462d9": {
       "date": "2026-10-14",
@@ -10722,6 +10929,10 @@
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S02"
     },
+    "bac9fa1dcc4bff807c6a22e2": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S14"
+    },
     "bafb52efa86803b51885b268": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S10"
@@ -10786,6 +10997,10 @@
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S05"
     },
+    "c43f798c8cc60d19c6af4bb2": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S18"
+    },
     "c44f0185c7b3328fc0b69efc": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S01"
@@ -10825,6 +11040,10 @@
     "c8ffe3814781cdf1b42c291f": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S12"
+    },
+    "c920c972d9c6a7cf30872fb7": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S15"
     },
     "ca1b86e3aa616cc598e06825": {
       "date": "2026-10-18",
@@ -11141,6 +11360,10 @@
     "fc8f121cfd56696cf5454ffbf3f965a1b200689d": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S07"
+    },
+    "fe11dbc2878a22ba2f00f41f": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S17"
     },
     "fe365abfe82676284bb19ab6": {
       "date": "2026-10-18",
@@ -11951,6 +12174,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-20",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-20T15:36:33.481652+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
