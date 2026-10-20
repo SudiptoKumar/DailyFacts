@@ -6111,6 +6111,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-20": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-20-S01",
+            "FACT-2026-10-20-S02",
+            "FACT-2026-10-20-S03",
+            "FACT-2026-10-20-S04",
+            "FACT-2026-10-20-S05",
+            "FACT-2026-10-20-S06",
+            "FACT-2026-10-20-S07",
+            "FACT-2026-10-20-S08",
+            "FACT-2026-10-20-S09",
+            "FACT-2026-10-20-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-20T06:52:01.690786+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-20T06:50:06.976337+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-20-S01": {
+          "batch": 1,
+          "claim_key": "a2dd726ecb655eba8ecee47e",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Jupiter_and_Ganymede_(opo0842a).tiff",
+          "image_source": "Wikimedia Commons",
+          "message_id": 557,
+          "published_at": "2026-10-20T06:50:10.870264+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S02": {
+          "batch": 1,
+          "claim_key": "edff06d7e0c2fd85d6a44236",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:American_painters-_with_eighty-three_examples_of_their_work_engraved_on_wood_(1879)_(14583917590).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 558,
+          "published_at": "2026-10-20T06:50:36.578564+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S03": {
+          "batch": 1,
+          "claim_key": "50f4c515ce6c93d9c93d341b",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:World-banks-income-groups.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 559,
+          "published_at": "2026-10-20T06:50:42.024066+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S04": {
+          "batch": 1,
+          "claim_key": "8751f1617e51e1c455143403",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Quartzite_(Harpers_Formation,_Lower_Cambrian;_Verona,_Virginia,_USA).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 560,
+          "published_at": "2026-10-20T06:51:07.621480+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S05": {
+          "batch": 1,
+          "claim_key": "04d377b8935fac4fd05da53d",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Webb_Tracks_Clouds_on_Saturn%E2%80%99s_Moon_Titan_(Annotated)_(titan1).tiff",
+          "image_source": "Wikimedia Commons",
+          "message_id": 561,
+          "published_at": "2026-10-20T06:51:11.983692+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S06": {
+          "batch": 1,
+          "claim_key": "bd5b4da8b61c738703bcec63",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Intrusive-Extrusive_Igneous_Features.pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 562,
+          "published_at": "2026-10-20T06:51:35.544757+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S07": {
+          "batch": 1,
+          "claim_key": "99039034218d8eb88aeaa8c2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 563,
+          "published_at": "2026-10-20T06:51:37.073552+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S08": {
+          "batch": 1,
+          "claim_key": "901856bb743263614c8a0b22",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 564,
+          "published_at": "2026-10-20T06:51:58.348515+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S09": {
+          "batch": 1,
+          "claim_key": "f5d7d9f0564d43fa106c6ddf",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 565,
+          "published_at": "2026-10-20T06:51:59.785939+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-20-S10": {
+          "batch": 1,
+          "claim_key": "1c03752b54e576b7ad3e5710",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1572/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 566,
+          "published_at": "2026-10-20T06:52:01.683409+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -9125,6 +9260,69 @@
       "score": 34,
       "source_page": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
       "source_url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
+    },
+    "FACT-2026-10-20-S01": {
+      "cached_at": "2026-10-20T06:50:09.731053+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-20-S01.jpg",
+      "query": "Ganymede's size Moons",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jupiter_and_Ganymede_(opo0842a).tiff",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Jupiter_and_Ganymede_%28opo0842a%29.tiff/lossy-page1-960px-Jupiter_and_Ganymede_%28opo0842a%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-20-S02": {
+      "cached_at": "2026-10-20T06:50:35.073297+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-20-S02.jpg",
+      "query": "Examples of intrusive rocks Geology",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:American_painters-_with_eighty-three_examples_of_their_work_engraved_on_wood_(1879)_(14583917590).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/American_painters-_with_eighty-three_examples_of_their_work_engraved_on_wood_%281879%29_%2814583917590%29.jpg/1280px-American_painters-_with_eighty-three_examples_of_their_work_engraved_on_wood_%281879%29_%2814583917590%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-20-S03": {
+      "cached_at": "2026-10-20T06:50:40.834046+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-20-S03.jpg",
+      "query": "Gross national income illustration",
+      "score": 28,
+      "source_page": "https://commons.wikimedia.org/wiki/File:World-banks-income-groups.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/World-banks-income-groups.svg/1280px-World-banks-income-groups.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-20-S04": {
+      "cached_at": "2026-10-20T06:51:06.185319+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-20-S04.jpg",
+      "query": "non-foliated metamorphic rocks texture",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Quartzite_(Harpers_Formation,_Lower_Cambrian;_Verona,_Virginia,_USA).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Quartzite_%28Harpers_Formation%2C_Lower_Cambrian%3B_Verona%2C_Virginia%2C_USA%29.jpg/1280px-Quartzite_%28Harpers_Formation%2C_Lower_Cambrian%3B_Verona%2C_Virginia%2C_USA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-20-S05": {
+      "cached_at": "2026-10-20T06:51:10.915314+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-20-S05.jpg",
+      "query": "Titan moon thick atmosphere",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Webb_Tracks_Clouds_on_Saturn%E2%80%99s_Moon_Titan_(Annotated)_(titan1).tiff",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Webb_Tracks_Clouds_on_Saturn%E2%80%99s_Moon_Titan_%28Annotated%29_%28titan1%29.tiff/lossy-page1-960px-Webb_Tracks_Clouds_on_Saturn%E2%80%99s_Moon_Titan_%28Annotated%29_%28titan1%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-20-S06": {
+      "cached_at": "2026-10-20T06:51:34.624946+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-20-S06.jpg",
+      "query": "extrusive igneous rock cooling above Earth's surface",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Intrusive-Extrusive_Igneous_Features.pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Intrusive-Extrusive_Igneous_Features.pdf/page1-960px-Intrusive-Extrusive_Igneous_Features.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-20-S10": {
+      "cached_at": "2026-10-20T06:52:00.577482+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-20-S10.jpg",
+      "query": "Göbekli Tepe's regional connections Social Networks",
+      "score": 26,
+      "source_page": "https://whc.unesco.org/en/list/1572/",
+      "source_url": "https://whc.unesco.org/en/list/1572/"
     }
   },
   "published_claims": {
@@ -9159,6 +9357,10 @@
     "03ef63e3fb2052ae06626139": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S16"
+    },
+    "04d377b8935fac4fd05da53d": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S05"
     },
     "05f70515de10236d66ab271f": {
       "date": "2026-10-06",
@@ -9351,6 +9553,10 @@
     "1bfcf8f8ee1bd3e9f09b766d": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S17"
+    },
+    "1c03752b54e576b7ad3e5710": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S10"
     },
     "1db78455e3cd9d419709866541a1a1a284909a8e": {
       "date": "2026-09-27",
@@ -9732,6 +9938,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S11"
     },
+    "50f4c515ce6c93d9c93d341b": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S03"
+    },
     "5255734bea5e5cec63022989": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S06"
@@ -10092,6 +10302,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S12"
     },
+    "8751f1617e51e1c455143403": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S04"
+    },
     "87b07f846df8ddd84cea5c39": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S11"
@@ -10152,6 +10366,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S01"
     },
+    "901856bb743263614c8a0b22": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S08"
+    },
     "913f0e0805b3544bf826ac8d2268d9496b796b54": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S04"
@@ -10207,6 +10425,10 @@
     "98c3cf70249e879c9220001df50fad8e4aad8115": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S09"
+    },
+    "99039034218d8eb88aeaa8c2": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S07"
     },
     "995a6b4b6428c2781f70415b": {
       "date": "2026-10-01",
@@ -10295,6 +10517,10 @@
     "a29ac01d5084388701cea15e926b32d929846d96": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S10"
+    },
+    "a2dd726ecb655eba8ecee47e": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S01"
     },
     "a365f8b913cd38e92a4013dc": {
       "date": "2026-10-10",
@@ -10507,6 +10733,10 @@
     "bc5730b2af895ec2ed1cac0d3e957b5ffd2279fc": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S10"
+    },
+    "bd5b4da8b61c738703bcec63": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S06"
     },
     "bd925c62a72397ecfd1cf06a": {
       "date": "2026-10-16",
@@ -10808,6 +11038,10 @@
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S19"
     },
+    "edff06d7e0c2fd85d6a44236": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S02"
+    },
     "ee09cff7127813da430d6910": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S06"
@@ -10851,6 +11085,10 @@
     "f57ad6c195e444c7a364839d": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S17"
+    },
+    "f5d7d9f0564d43fa106c6ddf": {
+      "date": "2026-10-20",
+      "fact_id": "FACT-2026-10-20-S09"
     },
     "f5d7e3684b608a99af8fadef": {
       "date": "2026-10-19",
@@ -11697,6 +11935,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-20",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-20T06:52:01.690797+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
