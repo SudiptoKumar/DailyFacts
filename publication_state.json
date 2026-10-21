@@ -6396,6 +6396,25 @@
           "published_count": 10,
           "started_at": "2026-10-21T06:45:12.401787+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-21-S11",
+            "FACT-2026-10-21-S12",
+            "FACT-2026-10-21-S13",
+            "FACT-2026-10-21-S14",
+            "FACT-2026-10-21-S15",
+            "FACT-2026-10-21-S16",
+            "FACT-2026-10-21-S17",
+            "FACT-2026-10-21-S18",
+            "FACT-2026-10-21-S19",
+            "FACT-2026-10-21-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-21T15:53:37.435239+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-21T15:53:05.851043+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -6506,6 +6525,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 586,
           "published_at": "2026-10-21T06:47:17.190115+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S11": {
+          "batch": 2,
+          "claim_key": "d7681975d53356c3764e0b02",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Smithsonian_miscellaneous_collections_(IA_smithsonianmisce14319611962smit).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 587,
+          "published_at": "2026-10-21T15:53:12.386111+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S12": {
+          "batch": 2,
+          "claim_key": "5d5f3ce1d1aa7412c12046b0",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Titanium_(Element_-_22).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 588,
+          "published_at": "2026-10-21T15:53:20.508477+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S13": {
+          "batch": 2,
+          "claim_key": "e0f07f9622c095bab0065ded",
+          "image_credit": "Source page",
+          "image_page": "https://oceanservice.noaa.gov/ocean/corals/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 589,
+          "published_at": "2026-10-21T15:53:22.316913+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S14": {
+          "batch": 2,
+          "claim_key": "4bea7eb4a627dd957391d63b",
+          "image_credit": "Source page",
+          "image_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 590,
+          "published_at": "2026-10-21T15:53:23.776280+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S15": {
+          "batch": 2,
+          "claim_key": "b56abc75db45e5af3b5e1047",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:General_Electric_National_Mazda_Drawn_Tungsten_Filament_Incandescent_Light_Bulb_-_DPLA_-_e7482d5a269c6645ef8d76b7b55ffac7.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 591,
+          "published_at": "2026-10-21T15:53:26.895394+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S16": {
+          "batch": 2,
+          "claim_key": "78bf4f523e85b015977b43b0",
+          "image_credit": "Source page",
+          "image_page": "https://newsinhealth.nih.gov/2023/01/your-bodys-disease-defenses",
+          "image_source": "Wikimedia Commons",
+          "message_id": 592,
+          "published_at": "2026-10-21T15:53:28.327555+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S17": {
+          "batch": 2,
+          "claim_key": "9de368f9f093f3761c3d7600",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 593,
+          "published_at": "2026-10-21T15:53:32.578940+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S18": {
+          "batch": 2,
+          "claim_key": "ea63d4dda82a9d73489eeecf",
+          "image_credit": "Source page",
+          "image_page": "https://www.nps.gov/glac/learn/nature/geologicformations.htm",
+          "image_source": "Wikimedia Commons",
+          "message_id": 594,
+          "published_at": "2026-10-21T15:53:33.815709+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S19": {
+          "batch": 2,
+          "claim_key": "95ed3077aed432917f0ac709",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/salt/about/index.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 595,
+          "published_at": "2026-10-21T15:53:35.809862+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S20": {
+          "batch": 2,
+          "claim_key": "24383544d477defdcad2a6ce",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 596,
+          "published_at": "2026-10-21T15:53:37.423376+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -9704,6 +9833,87 @@
       "score": 22,
       "source_page": "https://whc.unesco.org/en/list/1572/",
       "source_url": "https://whc.unesco.org/en/list/1572/"
+    },
+    "FACT-2026-10-21-S11": {
+      "cached_at": "2026-10-21T15:53:11.215961+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S11.jpg",
+      "query": "Smithsonian museum collection display",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Smithsonian_miscellaneous_collections_(IA_smithsonianmisce14319611962smit).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Smithsonian_miscellaneous_collections_%28IA_smithsonianmisce14319611962smit%29.pdf/page1-960px-Smithsonian_miscellaneous_collections_%28IA_smithsonianmisce14319611962smit%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-21-S12": {
+      "cached_at": "2026-10-21T15:53:19.105210+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S12.jpg",
+      "query": "titanium oxide pigment powder",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Titanium_(Element_-_22).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Titanium_%28Element_-_22%29.jpg/1280px-Titanium_%28Element_-_22%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-21-S13": {
+      "cached_at": "2026-10-21T15:53:21.302384+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S13.jpg",
+      "query": "vibrant coral reef teeming with diverse marine life, colorful corals and fish, underwater scene",
+      "score": 39,
+      "source_page": "https://oceanservice.noaa.gov/ocean/corals/",
+      "source_url": "https://oceanservice.noaa.gov/ocean/corals/"
+    },
+    "FACT-2026-10-21-S14": {
+      "cached_at": "2026-10-21T15:53:22.829632+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S14.jpg",
+      "query": "a collection of emoji icons representing facial expressions and concepts",
+      "score": 28,
+      "source_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/"
+    },
+    "FACT-2026-10-21-S15": {
+      "cached_at": "2026-10-21T15:53:25.777191+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S15.jpg",
+      "query": "Thomas Edison carbon filament incandescent lamp",
+      "score": 38,
+      "source_page": "https://commons.wikimedia.org/wiki/File:General_Electric_National_Mazda_Drawn_Tungsten_Filament_Incandescent_Light_Bulb_-_DPLA_-_e7482d5a269c6645ef8d76b7b55ffac7.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/General_Electric_National_Mazda_Drawn_Tungsten_Filament_Incandescent_Light_Bulb_-_DPLA_-_e7482d5a269c6645ef8d76b7b55ffac7.jpg/1280px-General_Electric_National_Mazda_Drawn_Tungsten_Filament_Incandescent_Light_Bulb_-_DPLA_-_e7482d5a269c6645ef8d76b7b55ffac7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-21-S16": {
+      "cached_at": "2026-10-21T15:53:27.276499+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S16.jpg",
+      "query": "Maternal Antibody Transfer Immune System",
+      "score": 31,
+      "source_page": "https://newsinhealth.nih.gov/2023/01/your-bodys-disease-defenses",
+      "source_url": "https://newsinhealth.nih.gov/2023/01/your-bodys-disease-defenses"
+    },
+    "FACT-2026-10-21-S18": {
+      "cached_at": "2026-10-21T15:53:33.064317+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S18.jpg",
+      "query": "glacially carved landforms U-shaped valleys cirque lakes horns moraines arêtes",
+      "score": 23,
+      "source_page": "https://www.nps.gov/glac/learn/nature/geologicformations.htm",
+      "source_url": "https://www.nps.gov/glac/learn/nature/geologicformations.htm"
+    },
+    "FACT-2026-10-21-S19": {
+      "cached_at": "2026-10-21T15:53:35.118756+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S19.jpg",
+      "query": "Federal sodium recommendation Sodium",
+      "score": 24,
+      "source_page": "https://www.cdc.gov/salt/about/index.html",
+      "source_url": "https://www.cdc.gov/salt/about/index.html"
+    },
+    "FACT-2026-10-21-S20": {
+      "cached_at": "2026-10-21T15:53:36.584907+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S20.jpg",
+      "query": "Handwashing and diarrheal illness Hand Hygiene",
+      "score": 30,
+      "source_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+      "source_url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html"
     }
   },
   "published_claims": {
@@ -10019,6 +10229,10 @@
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S16"
     },
+    "24383544d477defdcad2a6ce": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S20"
+    },
     "256f5c0df8e3e55c2be45497": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S17"
@@ -10299,6 +10513,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S05"
     },
+    "4bea7eb4a627dd957391d63b": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S14"
+    },
     "4cbdcb77bb586d0abf6d43d37c22a97c19f7a097": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S09"
@@ -10438,6 +10656,10 @@
     "5d0f0472482a57db414462d9": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S08"
+    },
+    "5d5f3ce1d1aa7412c12046b0": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S12"
     },
     "5dec01f2d79a3f5a1bc0bdbd": {
       "date": "2026-10-10",
@@ -10647,6 +10869,10 @@
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S11"
     },
+    "78bf4f523e85b015977b43b0": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S16"
+    },
     "79589c7462440105b067762263fe3fdf7c05cbed": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S04"
@@ -10831,6 +11057,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S08"
     },
+    "95ed3077aed432917f0ac709": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S19"
+    },
     "962ea4d6354365665db939b7": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S08"
@@ -10902,6 +11132,10 @@
     "9dc774c90828e7eeac1a86aa76e2de9cb60078c4": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S06"
+    },
+    "9de368f9f093f3761c3d7600": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S17"
     },
     "9e368ccc713fa5d23a70cd7a": {
       "date": "2026-10-14",
@@ -11118,6 +11352,10 @@
     "b4a0d390735d0e6d0f18b3df": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S09"
+    },
+    "b56abc75db45e5af3b5e1047": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S15"
     },
     "b5e1a8ffd9811de1f28c75c0": {
       "date": "2026-10-01",
@@ -11355,6 +11593,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S06"
     },
+    "d7681975d53356c3764e0b02": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S11"
+    },
     "d81055cb44a331a68770dd6c": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S20"
@@ -11398,6 +11640,10 @@
     "dffc0a2fa0ff7dc826e406a8": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S09"
+    },
+    "e0f07f9622c095bab0065ded": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S13"
     },
     "e17b3289d654fb4198e23436": {
       "date": "2026-10-06",
@@ -11458,6 +11704,10 @@
     "ea0c34776f8a453fbf0d15c8": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S06"
+    },
+    "ea63d4dda82a9d73489eeecf": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S18"
     },
     "ea87d98bda7cfc10fe63d7c1": {
       "date": "2026-10-09",
@@ -12444,6 +12694,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-21",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-21T15:53:37.435253+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
