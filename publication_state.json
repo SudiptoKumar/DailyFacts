@@ -6375,6 +6375,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-21": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-21-S01",
+            "FACT-2026-10-21-S02",
+            "FACT-2026-10-21-S03",
+            "FACT-2026-10-21-S04",
+            "FACT-2026-10-21-S05",
+            "FACT-2026-10-21-S06",
+            "FACT-2026-10-21-S07",
+            "FACT-2026-10-21-S08",
+            "FACT-2026-10-21-S09",
+            "FACT-2026-10-21-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-21T06:47:17.200153+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-21T06:45:12.401787+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-21-S01": {
+          "batch": 1,
+          "claim_key": "080a318d12b213613858ffe2",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Naiad-Thalassa_73-69_orbital_resonance.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 577,
+          "published_at": "2026-10-21T06:45:18.448764+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S02": {
+          "batch": 1,
+          "claim_key": "5fa472840c1475d23781df26",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 578,
+          "published_at": "2026-10-21T06:45:43.615239+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S03": {
+          "batch": 1,
+          "claim_key": "a8a7e367c63143d9c88582ee",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:GNI_per_capita,_Atlas_method_(current_US$)_2023.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 579,
+          "published_at": "2026-10-21T06:45:49.815252+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S04": {
+          "batch": 1,
+          "claim_key": "30b2cdfcfda02e5d55948ab1",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Chlorite_schist_(Wissahickon_Schist,_Neoproterozoic_to_Cambrian;_Jarrettsville,_Maryland,_USA)_(16735383710).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 580,
+          "published_at": "2026-10-21T06:46:17.441650+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S05": {
+          "batch": 1,
+          "claim_key": "6268b65badbd35dedb71167b",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/moons/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 581,
+          "published_at": "2026-10-21T06:46:19.009130+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S06": {
+          "batch": 1,
+          "claim_key": "e32370c886cad6d8faae0abf",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Pegmatitic_granite_(Spruce_Pine_Pegmatite_District,_Devonian;_Wiseman_Quarry,_near_Spruce_Pine,_North_Carolina,_USA)_2_(26613088577).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 582,
+          "published_at": "2026-10-21T06:46:35.418133+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S07": {
+          "batch": 1,
+          "claim_key": "96a922055830469ebe525a8e",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 583,
+          "published_at": "2026-10-21T06:46:39.287829+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S08": {
+          "batch": 1,
+          "claim_key": "eaa218cf7a3c7ee6866a2bc6",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Muscovite_schist_(Appalachian_Gap,_Green_Mountains,_Vermont,_USA)_4.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 584,
+          "published_at": "2026-10-21T06:47:09.182098+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S09": {
+          "batch": 1,
+          "claim_key": "646660f2996e3849a1686525",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 585,
+          "published_at": "2026-10-21T06:47:14.467966+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-21-S10": {
+          "batch": 1,
+          "claim_key": "1a4f71889ac1f60901b2dec0",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1572/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 586,
+          "published_at": "2026-10-21T06:47:17.190115+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -9506,6 +9641,69 @@
       "score": 27,
       "source_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
       "source_url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html"
+    },
+    "FACT-2026-10-21-S01": {
+      "cached_at": "2026-10-21T06:45:17.258463+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S01.jpg",
+      "query": "Triton moon orbiting Neptune",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Naiad-Thalassa_73-69_orbital_resonance.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Naiad-Thalassa_73-69_orbital_resonance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-21-S03": {
+      "cached_at": "2026-10-21T06:45:48.502356+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S03.jpg",
+      "query": "World Bank Atlas method GNI calculation illustration",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:GNI_per_capita,_Atlas_method_(current_US$)_2023.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/GNI_per_capita%2C_Atlas_method_%28current_US%24%29_2023.png/1280px-GNI_per_capita%2C_Atlas_method_%28current_US%24%29_2023.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-21-S04": {
+      "cached_at": "2026-10-21T06:46:15.865466+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S04.jpg",
+      "query": "hot igneous rock intruding into surrounding rock causing contact metamorphism",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Chlorite_schist_(Wissahickon_Schist,_Neoproterozoic_to_Cambrian;_Jarrettsville,_Maryland,_USA)_(16735383710).jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Chlorite_schist_%28Wissahickon_Schist%2C_Neoproterozoic_to_Cambrian%3B_Jarrettsville%2C_Maryland%2C_USA%29_%2816735383710%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-21-S05": {
+      "cached_at": "2026-10-21T06:46:17.954894+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S05.jpg",
+      "query": "Galileo spacecraft 1993 images of asteroid Ida showing moon Dactyl",
+      "score": 17,
+      "source_page": "https://science.nasa.gov/solar-system/moons/facts/",
+      "source_url": "https://science.nasa.gov/solar-system/moons/facts/"
+    },
+    "FACT-2026-10-21-S06": {
+      "cached_at": "2026-10-21T06:46:33.745496+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S06.jpg",
+      "query": "close-up of extrusive igneous rock showing fine-grained or glassy texture",
+      "score": 26,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pegmatitic_granite_(Spruce_Pine_Pegmatite_District,_Devonian;_Wiseman_Quarry,_near_Spruce_Pine,_North_Carolina,_USA)_2_(26613088577).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Pegmatitic_granite_%28Spruce_Pine_Pegmatite_District%2C_Devonian%3B_Wiseman_Quarry%2C_near_Spruce_Pine%2C_North_Carolina%2C_USA%29_2_%2826613088577%29.jpg/1280px-Pegmatitic_granite_%28Spruce_Pine_Pegmatite_District%2C_Devonian%3B_Wiseman_Quarry%2C_near_Spruce_Pine%2C_North_Carolina%2C_USA%29_2_%2826613088577%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-21-S08": {
+      "cached_at": "2026-10-21T06:47:04.831767+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S08.jpg",
+      "query": "intruding igneous rock heating surrounding pre-existing rock contact metamorphism",
+      "score": 27,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Muscovite_schist_(Appalachian_Gap,_Green_Mountains,_Vermont,_USA)_4.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Muscovite_schist_%28Appalachian_Gap%2C_Green_Mountains%2C_Vermont%2C_USA%29_4.jpg/1280px-Muscovite_schist_%28Appalachian_Gap%2C_Green_Mountains%2C_Vermont%2C_USA%29_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-21-S10": {
+      "cached_at": "2026-10-21T06:47:15.893331+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-21-S10.jpg",
+      "query": "Göbekli Tepe monolithic pillars",
+      "score": 22,
+      "source_page": "https://whc.unesco.org/en/list/1572/",
+      "source_url": "https://whc.unesco.org/en/list/1572/"
     }
   },
   "published_claims": {
@@ -9552,6 +9750,10 @@
     "066b5b4e172168932633cbf8": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S06"
+    },
+    "080a318d12b213613858ffe2": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S01"
     },
     "083d916fb4eca3386430f131": {
       "date": "2026-10-16",
@@ -9725,6 +9927,10 @@
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S12"
     },
+    "1a4f71889ac1f60901b2dec0": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S10"
+    },
     "1a7f00077b840c7e5b4b8215": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S19"
@@ -9896,6 +10102,10 @@
     "30b0900017f674ead29ff767": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S18"
+    },
+    "30b2cdfcfda02e5d55948ab1": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S04"
     },
     "32007b1dcff2ab2a981d1f79": {
       "date": "2026-10-10",
@@ -10253,6 +10463,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S20"
     },
+    "5fa472840c1475d23781df26": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S02"
+    },
     "5faca912449e8a21010f6b28": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S03"
@@ -10289,6 +10503,10 @@
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S05"
     },
+    "6268b65badbd35dedb71167b": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S05"
+    },
     "638dde3b6e4ff131cfc34a16": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S01"
@@ -10308,6 +10526,10 @@
     "644cb051398b0c128fec2c9d": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S09"
+    },
+    "646660f2996e3849a1686525": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S09"
     },
     "64d2a14312037da726a7f53b": {
       "date": "2026-10-19",
@@ -10613,6 +10835,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S08"
     },
+    "96a922055830469ebe525a8e": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S07"
+    },
     "96c14fd0e6d691316e0d5405": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S20"
@@ -10780,6 +11006,10 @@
     "a862eaa01e82534d41d6425d": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S08"
+    },
+    "a8a7e367c63143d9c88582ee": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S03"
     },
     "a98c6142829c23b32922d0b6": {
       "date": "2026-10-08",
@@ -11185,6 +11415,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S08"
     },
+    "e32370c886cad6d8faae0abf": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S06"
+    },
     "e3fb228b451cb72beb3feaa4": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S13"
@@ -11228,6 +11462,10 @@
     "ea87d98bda7cfc10fe63d7c1": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S16"
+    },
+    "eaa218cf7a3c7ee6866a2bc6": {
+      "date": "2026-10-21",
+      "fact_id": "FACT-2026-10-21-S08"
     },
     "eaf6da6b00806c9b81d310f6": {
       "date": "2026-10-15",
@@ -12190,6 +12428,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-21",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-21T06:47:17.200164+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
