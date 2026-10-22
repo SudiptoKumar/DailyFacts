@@ -6639,6 +6639,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-22": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-22-S01",
+            "FACT-2026-10-22-S02",
+            "FACT-2026-10-22-S03",
+            "FACT-2026-10-22-S04",
+            "FACT-2026-10-22-S05",
+            "FACT-2026-10-22-S06",
+            "FACT-2026-10-22-S07",
+            "FACT-2026-10-22-S08",
+            "FACT-2026-10-22-S09",
+            "FACT-2026-10-22-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-22T06:49:31.455478+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-22T06:47:55.408595+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-22-S01": {
+          "batch": 1,
+          "claim_key": "ec4b56edbf5511684de1c1b8",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_planetary_nebula_Fleming_1_seen_with_ESO%E2%80%99s_Very_Large_Telescope.tiff",
+          "image_source": "Wikimedia Commons",
+          "message_id": 597,
+          "published_at": "2026-10-22T06:48:01.805748+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-22-S02": {
+          "batch": 1,
+          "claim_key": "9453257820f68c4d5541aee9",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Vesicular_metakomatiite_(serpentinized)_(Upper_Komatiitic_Unit,_Kidd-Munro_Assemblage,_Neoarchean,_2.711-2.717_Ga;_west-southwest_of_the_Potter_Mine,_east_of_Timmins,_Ontario,_Canada)_1_(47097554734).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 598,
+          "published_at": "2026-10-22T06:48:17.694370+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-22-S03": {
+          "batch": 1,
+          "claim_key": "aeab226312cc3ae28e3449d1",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Modern_foreign_exchange;_monetary_systems,_intrinsic_equivalents_and_commercial_rates_of_exchange_of_all_countries_and_their_relation_to_United_States_money_(IA_modernforeignexcgonz00rich).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 599,
+          "published_at": "2026-10-22T06:48:26.616586+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-22-S04": {
+          "batch": 1,
+          "claim_key": "e8213417f9ca4827f96f8076",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 600,
+          "published_at": "2026-10-22T06:48:40.502873+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-22-S05": {
+          "batch": 1,
+          "claim_key": "6a211b4567b9957793cf9c73",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 601,
+          "published_at": "2026-10-22T06:48:42.358337+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-22-S06": {
+          "batch": 1,
+          "claim_key": "1e2c55d4f0cd2ff2e40fbadc",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Xenolith_in_andesite_(Tertiary;_Yellowstone,_Wyoming,_USA)_3_(48555516117).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 602,
+          "published_at": "2026-10-22T06:49:08.453788+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-22-S07": {
+          "batch": 1,
+          "claim_key": "276b2e6416be26814b109151",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 603,
+          "published_at": "2026-10-22T06:49:14.230676+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-22-S08": {
+          "batch": 1,
+          "claim_key": "3aac9c8d62d1f0f046b85e82",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 604,
+          "published_at": "2026-10-22T06:49:27.777458+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-22-S09": {
+          "batch": 1,
+          "claim_key": "d57bf6845951f2726f91b9b3",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 605,
+          "published_at": "2026-10-22T06:49:29.531619+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-22-S10": {
+          "batch": 1,
+          "claim_key": "c482e75f8916471ff64e259f",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1572/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 606,
+          "published_at": "2026-10-22T06:49:31.445088+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -9914,6 +10049,51 @@
       "score": 30,
       "source_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
       "source_url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html"
+    },
+    "FACT-2026-10-22-S01": {
+      "cached_at": "2026-10-22T06:48:00.530826+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-22-S01.jpg",
+      "query": "Earth's orbital period Planetary Data",
+      "score": 25,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_planetary_nebula_Fleming_1_seen_with_ESO%E2%80%99s_Very_Large_Telescope.tiff",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/The_planetary_nebula_Fleming_1_seen_with_ESO%E2%80%99s_Very_Large_Telescope.tiff/lossy-page1-1280px-The_planetary_nebula_Fleming_1_seen_with_ESO%E2%80%99s_Very_Large_Telescope.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-22-S02": {
+      "cached_at": "2026-10-22T06:48:16.062290+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-22-S02.jpg",
+      "query": "Vesicular texture Volcanology",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vesicular_metakomatiite_(serpentinized)_(Upper_Komatiitic_Unit,_Kidd-Munro_Assemblage,_Neoarchean,_2.711-2.717_Ga;_west-southwest_of_the_Potter_Mine,_east_of_Timmins,_Ontario,_Canada)_1_(47097554734).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Vesicular_metakomatiite_%28serpentinized%29_%28Upper_Komatiitic_Unit%2C_Kidd-Munro_Assemblage%2C_Neoarchean%2C_2.711-2.717_Ga%3B_west-southwest_of_the_Potter_Mine%2C_east_of_Timmins%2C_Ontario%2C_Canada%29_1_%2847097554734%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-22-S03": {
+      "cached_at": "2026-10-22T06:48:25.472658+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-22-S03.jpg",
+      "query": "illustration of market exchange rates versus GDP and GNI with differing price levels",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Modern_foreign_exchange;_monetary_systems,_intrinsic_equivalents_and_commercial_rates_of_exchange_of_all_countries_and_their_relation_to_United_States_money_(IA_modernforeignexcgonz00rich).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Modern_foreign_exchange%3B_monetary_systems%2C_intrinsic_equivalents_and_commercial_rates_of_exchange_of_all_countries_and_their_relation_to_United_States_money_%28IA_modernforeignexcgonz00rich%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-22-S06": {
+      "cached_at": "2026-10-22T06:49:06.861265+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-22-S06.jpg",
+      "query": "Examples of extrusive rocks Geology",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xenolith_in_andesite_(Tertiary;_Yellowstone,_Wyoming,_USA)_3_(48555516117).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Xenolith_in_andesite_%28Tertiary%3B_Yellowstone%2C_Wyoming%2C_USA%29_3_%2848555516117%29.jpg/1280px-Xenolith_in_andesite_%28Tertiary%3B_Yellowstone%2C_Wyoming%2C_USA%29_3_%2848555516117%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-22-S10": {
+      "cached_at": "2026-10-22T06:49:30.294955+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-22-S10.jpg",
+      "query": "Göbekli Tepe's domestic structures Archaeology",
+      "score": 23,
+      "source_page": "https://whc.unesco.org/en/list/1572/",
+      "source_url": "https://whc.unesco.org/en/list/1572/"
     }
   },
   "published_claims": {
@@ -10169,6 +10349,10 @@
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S03"
     },
+    "1e2c55d4f0cd2ff2e40fbadc": {
+      "date": "2026-10-22",
+      "fact_id": "FACT-2026-10-22-S06"
+    },
     "1ee2a91b2a9f37aca57448c087380e4f444faaf9": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S12"
@@ -10252,6 +10436,10 @@
     "272d00299837d67e349f2b26364f166eaf0e10fb": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S08"
+    },
+    "276b2e6416be26814b109151": {
+      "date": "2026-10-22",
+      "fact_id": "FACT-2026-10-22-S07"
     },
     "2835d441a6ec61a948aa7518": {
       "date": "2026-10-07",
@@ -10396,6 +10584,10 @@
     "3a67a40e2502e1f6c45333c1": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S13"
+    },
+    "3aac9c8d62d1f0f046b85e82": {
+      "date": "2026-10-22",
+      "fact_id": "FACT-2026-10-22-S08"
     },
     "3ac1597cda36c766e7a1dcdc": {
       "date": "2026-10-11",
@@ -10785,6 +10977,10 @@
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S06"
     },
+    "6a211b4567b9957793cf9c73": {
+      "date": "2026-10-22",
+      "fact_id": "FACT-2026-10-22-S05"
+    },
     "6a405a4e22fa7d68ffa63b95": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S19"
@@ -11053,6 +11249,10 @@
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S13"
     },
+    "9453257820f68c4d5541aee9": {
+      "date": "2026-10-22",
+      "fact_id": "FACT-2026-10-22-S02"
+    },
     "94a7a9209b87507bf42e45ce": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S08"
@@ -11289,6 +11489,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S03"
     },
+    "aeab226312cc3ae28e3449d1": {
+      "date": "2026-10-22",
+      "fact_id": "FACT-2026-10-22-S03"
+    },
     "aed63ee8707746ef115a23fdb7683a23ab2e6191": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S10"
@@ -11477,6 +11681,10 @@
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S16"
     },
+    "c482e75f8916471ff64e259f": {
+      "date": "2026-10-22",
+      "fact_id": "FACT-2026-10-22-S10"
+    },
     "c5f4a7946939a079171ceb83": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S05"
@@ -11584,6 +11792,10 @@
     "d4b8a35a6447b62053dbd8aa": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S20"
+    },
+    "d57bf6845951f2726f91b9b3": {
+      "date": "2026-10-22",
+      "fact_id": "FACT-2026-10-22-S09"
     },
     "d6166bfc138a8ad925098c1f": {
       "date": "2026-10-02",
@@ -11701,6 +11913,10 @@
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S08"
     },
+    "e8213417f9ca4827f96f8076": {
+      "date": "2026-10-22",
+      "fact_id": "FACT-2026-10-22-S04"
+    },
     "ea0c34776f8a453fbf0d15c8": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S06"
@@ -11732,6 +11948,10 @@
     "ebd937c0ea470daa3119bee6": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S14"
+    },
+    "ec4b56edbf5511684de1c1b8": {
+      "date": "2026-10-22",
+      "fact_id": "FACT-2026-10-22-S01"
     },
     "ec7a014cb78b0a461e34c9c9": {
       "date": "2026-10-17",
@@ -12710,6 +12930,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-22",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-22T06:49:31.455489+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
