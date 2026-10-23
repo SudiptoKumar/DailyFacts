@@ -6903,6 +6903,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-23": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-23-S01",
+            "FACT-2026-10-23-S02",
+            "FACT-2026-10-23-S03",
+            "FACT-2026-10-23-S04",
+            "FACT-2026-10-23-S05",
+            "FACT-2026-10-23-S06",
+            "FACT-2026-10-23-S07",
+            "FACT-2026-10-23-S08",
+            "FACT-2026-10-23-S09",
+            "FACT-2026-10-23-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-23T06:42:35.779219+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-23T06:42:08.501730+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-23-S01": {
+          "batch": 1,
+          "claim_key": "4b991dd146bfd895b7378b82",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:PIA23791-Venus-NewlyProcessedView-20200608.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 617,
+          "published_at": "2026-10-23T06:42:13.829823+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S02": {
+          "batch": 1,
+          "claim_key": "cac777bbc4ff6231552c9568",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 618,
+          "published_at": "2026-10-23T06:42:21.197993+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S03": {
+          "batch": 1,
+          "claim_key": "12bcd4cf3267ae054902fea7",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 619,
+          "published_at": "2026-10-23T06:42:24.195154+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S04": {
+          "batch": 1,
+          "claim_key": "cdca2feaf64c9bb3293bf66b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 620,
+          "published_at": "2026-10-23T06:42:27.934049+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S05": {
+          "batch": 1,
+          "claim_key": "a568f02a9ab1031f3585deb1",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 621,
+          "published_at": "2026-10-23T06:42:29.303311+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S06": {
+          "batch": 1,
+          "claim_key": "0c755ea5b3b5e26293e30244",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 622,
+          "published_at": "2026-10-23T06:42:30.419339+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S07": {
+          "batch": 1,
+          "claim_key": "7d3458da2e6f79e7c8baec47",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 623,
+          "published_at": "2026-10-23T06:42:31.974405+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S08": {
+          "batch": 1,
+          "claim_key": "12a54ec464a672d61e14e3d0",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 624,
+          "published_at": "2026-10-23T06:42:33.088487+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S09": {
+          "batch": 1,
+          "claim_key": "379ac48c889d0ea24d722ebd",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 625,
+          "published_at": "2026-10-23T06:42:34.319174+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S10": {
+          "batch": 1,
+          "claim_key": "adaaf19ff85c407284ac1ad4",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1572/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 626,
+          "published_at": "2026-10-23T06:42:35.771508+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -10304,6 +10439,24 @@
       "score": 33,
       "source_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
       "source_url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html"
+    },
+    "FACT-2026-10-23-S01": {
+      "cached_at": "2026-10-23T06:42:12.586755+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-23-S01.jpg",
+      "query": "Venus planet retrograde rotation illustration",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:PIA23791-Venus-NewlyProcessedView-20200608.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/PIA23791-Venus-NewlyProcessedView-20200608.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-23-S10": {
+      "cached_at": "2026-10-23T06:42:34.753170+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-23-S10.jpg",
+      "query": "Göbekli Tepe's authenticity Archaeological Preservation",
+      "score": 23,
+      "source_page": "https://whc.unesco.org/en/list/1572/",
+      "source_url": "https://whc.unesco.org/en/list/1572/"
     }
   },
   "published_claims": {
@@ -10391,6 +10544,10 @@
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S16"
     },
+    "0c755ea5b3b5e26293e30244": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S06"
+    },
     "0ca72e1ba2fab0ce9576c0af": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S11"
@@ -10454,6 +10611,14 @@
     "129369213001a4f286da7e82": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S01"
+    },
+    "12a54ec464a672d61e14e3d0": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S08"
+    },
+    "12bcd4cf3267ae054902fea7": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S03"
     },
     "12d421297ef44b0b244771ce": {
       "date": "2026-10-06",
@@ -10771,6 +10936,10 @@
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S02"
     },
+    "379ac48c889d0ea24d722ebd": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S09"
+    },
     "37cab111d39fd46f86349b13": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S13"
@@ -10922,6 +11091,10 @@
     "4b3ee59d144fc11044716385": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S05"
+    },
+    "4b991dd146bfd895b7378b82": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S01"
     },
     "4bea7eb4a627dd957391d63b": {
       "date": "2026-10-21",
@@ -11335,6 +11508,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S11"
     },
+    "7d3458da2e6f79e7c8baec47": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S07"
+    },
     "7dd8ec64b55592e6e62752a05974cd1ba5cbc7dd": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S02"
@@ -11639,6 +11816,10 @@
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S20"
     },
+    "a568f02a9ab1031f3585deb1": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S05"
+    },
     "a654b53d305407f6884e417e": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S07"
@@ -11710,6 +11891,10 @@
     "ad6e3908f1fb50ef047f9640": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S20"
+    },
+    "adaaf19ff85c407284ac1ad4": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S10"
     },
     "adad68654fd553bdc9f02b72": {
       "date": "2026-10-04",
@@ -11975,6 +12160,10 @@
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S01"
     },
+    "cac777bbc4ff6231552c9568": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S02"
+    },
     "cb2c2344bb3452aa292fa6814a9b980b4d7a073c": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S02"
@@ -11982,6 +12171,10 @@
     "cbf49b67a7fc9535734ee9fa": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S16"
+    },
+    "cdca2feaf64c9bb3293bf66b": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S04"
     },
     "ce2762198340941de11b3970": {
       "date": "2026-10-05",
@@ -13212,6 +13405,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-23",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-23T06:42:35.779232+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
