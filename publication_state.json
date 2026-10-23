@@ -6924,6 +6924,25 @@
           "published_count": 10,
           "started_at": "2026-10-23T06:42:08.501730+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-23-S11",
+            "FACT-2026-10-23-S12",
+            "FACT-2026-10-23-S13",
+            "FACT-2026-10-23-S14",
+            "FACT-2026-10-23-S15",
+            "FACT-2026-10-23-S16",
+            "FACT-2026-10-23-S17",
+            "FACT-2026-10-23-S18",
+            "FACT-2026-10-23-S19",
+            "FACT-2026-10-23-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-23T15:41:14.187952+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-23T15:40:39.146748+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -7034,6 +7053,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 626,
           "published_at": "2026-10-23T06:42:35.771508+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S11": {
+          "batch": 2,
+          "claim_key": "118ed21de6e2981888e5e06c",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Shed_2_at_the_Colne_Valley_Postal_History_Museum,_Essex.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 627,
+          "published_at": "2026-10-23T15:40:42.780603+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S12": {
+          "batch": 2,
+          "claim_key": "7a5ddc2b26a5ba1fea4b9fb2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 628,
+          "published_at": "2026-10-23T15:40:50.829945+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S13": {
+          "batch": 2,
+          "claim_key": "6c899c483219884ea4d10313",
+          "image_credit": "Source page",
+          "image_page": "https://dictionary.apa.org/emotional-memory",
+          "image_source": "Wikimedia Commons",
+          "message_id": 629,
+          "published_at": "2026-10-23T15:40:52.557719+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S14": {
+          "batch": 2,
+          "claim_key": "999e25b59fbfbc348690e987",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 630,
+          "published_at": "2026-10-23T15:40:54.941375+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S15": {
+          "batch": 2,
+          "claim_key": "5355237430767856a029a3b3",
+          "image_credit": "Source page",
+          "image_page": "https://guides.loc.gov/folktales-oral-storytelling",
+          "image_source": "Wikimedia Commons",
+          "message_id": 631,
+          "published_at": "2026-10-23T15:40:56.943526+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S16": {
+          "batch": 2,
+          "claim_key": "99ef2b4368b523268d8f543c",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 632,
+          "published_at": "2026-10-23T15:40:57.855532+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S17": {
+          "batch": 2,
+          "claim_key": "8eff37c4e0a28a88756f5430",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 633,
+          "published_at": "2026-10-23T15:40:59.454668+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S18": {
+          "batch": 2,
+          "claim_key": "a031fb10a569a43b8d22e080",
+          "image_credit": "Source page",
+          "image_page": "https://newsinhealth.nih.gov/2023/01/your-bodys-disease-defenses",
+          "image_source": "Wikimedia Commons",
+          "message_id": 634,
+          "published_at": "2026-10-23T15:41:00.602378+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S19": {
+          "batch": 2,
+          "claim_key": "4ad59fdfc7f1ba408afe42ee",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:On_the_mountain%27s_brink_-_a_forest_service_history_of_the_1980_Mount_St._Helens_volcanic_emergency_(IA_CAT11137241).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 635,
+          "published_at": "2026-10-23T15:41:12.931443+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-23-S20": {
+          "batch": 2,
+          "claim_key": "da81c75cc23b670273895cb1",
+          "image_credit": "Source page",
+          "image_page": "https://www.nps.gov/glac/learn/nature/geologicformations.htm",
+          "image_source": "Wikimedia Commons",
+          "message_id": 636,
+          "published_at": "2026-10-23T15:41:14.174855+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -10457,6 +10586,69 @@
       "score": 23,
       "source_page": "https://whc.unesco.org/en/list/1572/",
       "source_url": "https://whc.unesco.org/en/list/1572/"
+    },
+    "FACT-2026-10-23-S11": {
+      "cached_at": "2026-10-23T15:40:41.330451+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-23-S11.jpg",
+      "query": "National Postal Museum collection",
+      "score": 25,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Shed_2_at_the_Colne_Valley_Postal_History_Museum,_Essex.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Shed_2_at_the_Colne_Valley_Postal_History_Museum%2C_Essex.jpg/1280px-Shed_2_at_the_Colne_Valley_Postal_History_Museum%2C_Essex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-23-S13": {
+      "cached_at": "2026-10-23T15:40:51.739134+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-23-S13.jpg",
+      "query": "brain with emotional memory illustration",
+      "score": 22,
+      "source_page": "https://dictionary.apa.org/emotional-memory",
+      "source_url": "https://dictionary.apa.org/emotional-memory"
+    },
+    "FACT-2026-10-23-S15": {
+      "cached_at": "2026-10-23T15:40:55.865953+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-23-S15.jpg",
+      "query": "Folktales are orally transmitted community stories Folklore",
+      "score": 24,
+      "source_page": "https://guides.loc.gov/folktales-oral-storytelling",
+      "source_url": "https://guides.loc.gov/folktales-oral-storytelling"
+    },
+    "FACT-2026-10-23-S17": {
+      "cached_at": "2026-10-23T15:40:58.193777+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-23-S17.jpg",
+      "query": "The light bulb resulted from cumulative improvements Electric lighting",
+      "score": 40,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-23-S18": {
+      "cached_at": "2026-10-23T15:40:59.817462+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-23-S18.jpg",
+      "query": "Germinal Center Function Immune System",
+      "score": 32,
+      "source_page": "https://newsinhealth.nih.gov/2023/01/your-bodys-disease-defenses",
+      "source_url": "https://newsinhealth.nih.gov/2023/01/your-bodys-disease-defenses"
+    },
+    "FACT-2026-10-23-S19": {
+      "cached_at": "2026-10-23T15:41:11.756696+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-23-S19.jpg",
+      "query": "Mount St. Helens historical activity U.S. volcanic activity",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:On_the_mountain%27s_brink_-_a_forest_service_history_of_the_1980_Mount_St._Helens_volcanic_emergency_(IA_CAT11137241).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/On_the_mountain%27s_brink_-_a_forest_service_history_of_the_1980_Mount_St._Helens_volcanic_emergency_%28IA_CAT11137241%29.pdf/page1-960px-On_the_mountain%27s_brink_-_a_forest_service_history_of_the_1980_Mount_St._Helens_volcanic_emergency_%28IA_CAT11137241%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-23-S20": {
+      "cached_at": "2026-10-23T15:41:13.452386+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-23-S20.jpg",
+      "query": "red and purple rocks showing iron oxidation",
+      "score": 20,
+      "source_page": "https://www.nps.gov/glac/learn/nature/geologicformations.htm",
+      "source_url": "https://www.nps.gov/glac/learn/nature/geologicformations.htm"
     }
   },
   "published_claims": {
@@ -10595,6 +10787,10 @@
     "1094318c6fdff451b6846423": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S06"
+    },
+    "118ed21de6e2981888e5e06c": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S11"
     },
     "11a35a21a65bca046d5a48a0": {
       "date": "2026-10-17",
@@ -11088,6 +11284,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S14"
     },
+    "4ad59fdfc7f1ba408afe42ee": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S19"
+    },
     "4b3ee59d144fc11044716385": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S05"
@@ -11151,6 +11351,10 @@
     "5255734bea5e5cec63022989": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S06"
+    },
+    "5355237430767856a029a3b3": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S15"
     },
     "53b1be5ef2b7ed7247710a5b": {
       "date": "2026-10-18",
@@ -11400,6 +11604,10 @@
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S07"
     },
+    "6c899c483219884ea4d10313": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S13"
+    },
     "6e07ae9c930143486dc907c5": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S08"
@@ -11479,6 +11687,10 @@
     "7a3c36825a44a26888c281b9": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S06"
+    },
+    "7a5ddc2b26a5ba1fea4b9fb2": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S12"
     },
     "7a886f486a6264a1ca8a29e2": {
       "date": "2026-10-17",
@@ -11620,6 +11832,10 @@
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S05"
     },
+    "8eff37c4e0a28a88756f5430": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S17"
+    },
     "8fa3fabfede552bd00aeaab5": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S05"
@@ -11708,6 +11924,14 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S03"
     },
+    "999e25b59fbfbc348690e987": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S14"
+    },
+    "99ef2b4368b523268d8f543c": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S16"
+    },
     "9a1b2279ad35ebe58ffe3081": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S01"
@@ -11779,6 +12003,10 @@
     "9ffde6605ed629c74ab30818": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S02"
+    },
+    "a031fb10a569a43b8d22e080": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S18"
     },
     "a06a9aa3821407bc0e6c8e1b": {
       "date": "2026-10-15",
@@ -12259,6 +12487,10 @@
     "d9aff0113eddcd9e999d1894": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S10"
+    },
+    "da81c75cc23b670273895cb1": {
+      "date": "2026-10-23",
+      "fact_id": "FACT-2026-10-23-S20"
     },
     "db22cd60d3d63e81722f4194": {
       "date": "2026-10-03",
@@ -13421,6 +13653,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-23",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-23T15:41:14.187965+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
