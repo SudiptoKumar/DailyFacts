@@ -7188,6 +7188,25 @@
           "published_count": 10,
           "started_at": "2026-10-24T06:39:29.956553+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-24-S11",
+            "FACT-2026-10-24-S12",
+            "FACT-2026-10-24-S13",
+            "FACT-2026-10-24-S14",
+            "FACT-2026-10-24-S15",
+            "FACT-2026-10-24-S16",
+            "FACT-2026-10-24-S17",
+            "FACT-2026-10-24-S18",
+            "FACT-2026-10-24-S19",
+            "FACT-2026-10-24-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-24T14:23:48.978232+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-24T14:23:20.102392+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -7299,6 +7318,116 @@
           "message_id": 646,
           "published_at": "2026-10-24T06:39:57.445816+00:00",
           "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S11": {
+          "batch": 2,
+          "claim_key": "51b1f6afbad00cd6bafcc60a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 647,
+          "published_at": "2026-10-24T14:23:24.366108+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S12": {
+          "batch": 2,
+          "claim_key": "67b5657a948cae0688797243",
+          "image_credit": "Source page",
+          "image_page": "https://whc.unesco.org/en/list/1572/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 648,
+          "published_at": "2026-10-24T14:23:26.220000+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S13": {
+          "batch": 2,
+          "claim_key": "75b5b6cac0843e2056899ddc",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 649,
+          "published_at": "2026-10-24T14:23:30.291084+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S14": {
+          "batch": 2,
+          "claim_key": "50b4d9c604bd0ea99cb8592f",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Towards_an_Ethical_Electronics_Ecologies_of_Congolese_Conflict_Minerals.pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 650,
+          "published_at": "2026-10-24T14:23:38.199707+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S15": {
+          "batch": 2,
+          "claim_key": "30f8e939db6f7b69ee89362b",
+          "image_credit": "Source page",
+          "image_page": "https://dictionary.apa.org/emotional-memory",
+          "image_source": "Wikimedia Commons",
+          "message_id": 651,
+          "published_at": "2026-10-24T14:23:39.637042+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S16": {
+          "batch": 2,
+          "claim_key": "831d5716c4a219cba6e267e5",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 652,
+          "published_at": "2026-10-24T14:23:40.837218+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S17": {
+          "batch": 2,
+          "claim_key": "9ef94695195f5c01930b6398",
+          "image_credit": "Source page",
+          "image_page": "https://guides.loc.gov/folktales-oral-storytelling",
+          "image_source": "Wikimedia Commons",
+          "message_id": 653,
+          "published_at": "2026-10-24T14:23:43.027029+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S18": {
+          "batch": 2,
+          "claim_key": "89e9bdec362ec73fbdd87621",
+          "image_credit": "Source page",
+          "image_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 654,
+          "published_at": "2026-10-24T14:23:44.882534+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S19": {
+          "batch": 2,
+          "claim_key": "afeffbd69fc9f7737a9fcc54",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 655,
+          "published_at": "2026-10-24T14:23:46.323897+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S20": {
+          "batch": 2,
+          "claim_key": "a78f27057c5e1b453a9d8a12",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 656,
+          "published_at": "2026-10-24T14:23:48.969818+00:00",
+          "send_mode": "text_html",
           "status": "published"
         }
       }
@@ -10829,6 +10958,60 @@
       "score": 28,
       "source_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
       "source_url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html"
+    },
+    "FACT-2026-10-24-S12": {
+      "cached_at": "2026-10-24T14:23:25.245611+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-24-S12.jpg",
+      "query": "Göbekli Tepe UNESCO World Heritage inscription site",
+      "score": 26,
+      "source_page": "https://whc.unesco.org/en/list/1572/",
+      "source_url": "https://whc.unesco.org/en/list/1572/"
+    },
+    "FACT-2026-10-24-S14": {
+      "cached_at": "2026-10-24T14:23:35.923710+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-24-S14.jpg",
+      "query": "Minerals in mobile devices Consumer Electronics",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Towards_an_Ethical_Electronics_Ecologies_of_Congolese_Conflict_Minerals.pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Towards_an_Ethical_Electronics_Ecologies_of_Congolese_Conflict_Minerals.pdf/page1-960px-Towards_an_Ethical_Electronics_Ecologies_of_Congolese_Conflict_Minerals.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-24-S15": {
+      "cached_at": "2026-10-24T14:23:38.965592+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-24-S15.jpg",
+      "query": "illustration of the amygdala in the brain",
+      "score": 28,
+      "source_page": "https://dictionary.apa.org/emotional-memory",
+      "source_url": "https://dictionary.apa.org/emotional-memory"
+    },
+    "FACT-2026-10-24-S17": {
+      "cached_at": "2026-10-24T14:23:42.133489+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-24-S17.jpg",
+      "query": "Folktales can be spoken or sung Oral traditions",
+      "score": 20,
+      "source_page": "https://guides.loc.gov/folktales-oral-storytelling",
+      "source_url": "https://guides.loc.gov/folktales-oral-storytelling"
+    },
+    "FACT-2026-10-24-S18": {
+      "cached_at": "2026-10-24T14:23:43.801341+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-24-S18.jpg",
+      "query": "Text-speak is an additional communication form Online language",
+      "score": 24,
+      "source_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/"
+    },
+    "FACT-2026-10-24-S19": {
+      "cached_at": "2026-10-24T14:23:45.416061+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-24-S19.jpg",
+      "query": "Edison patented his incandescent bulb in 1879 and 1880 Incandescent lighting",
+      "score": 49,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
     }
   },
   "published_claims": {
@@ -11260,6 +11443,10 @@
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S04"
     },
+    "30f8e939db6f7b69ee89362b": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S15"
+    },
     "32007b1dcff2ab2a981d1f79": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S10"
@@ -11536,9 +11723,17 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S11"
     },
+    "50b4d9c604bd0ea99cb8592f": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S14"
+    },
     "50f4c515ce6c93d9c93d341b": {
       "date": "2026-10-20",
       "fact_id": "FACT-2026-10-20-S03"
+    },
+    "51b1f6afbad00cd6bafcc60a": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S11"
     },
     "5255734bea5e5cec63022989": {
       "date": "2026-10-16",
@@ -11756,6 +11951,10 @@
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S18"
     },
+    "67b5657a948cae0688797243": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S12"
+    },
     "67b9c4c5234ed98f2fac0a33": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S06"
@@ -11864,6 +12063,10 @@
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S14"
     },
+    "75b5b6cac0843e2056899ddc": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S13"
+    },
     "76c279d6c4e25f0fd547a47e": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S10"
@@ -11952,6 +12155,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S13"
     },
+    "831d5716c4a219cba6e267e5": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S16"
+    },
     "83ba6f46726322ea4bb8cfed": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S13"
@@ -12003,6 +12210,10 @@
     "897a99b5f76bd4f49a565f80": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S10"
+    },
+    "89e9bdec362ec73fbdd87621": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S18"
     },
     "89f392d20767e6aa658c4407": {
       "date": "2026-10-02",
@@ -12196,6 +12407,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S10"
     },
+    "9ef94695195f5c01930b6398": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S17"
+    },
     "9f59559829deb17133e4c975": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S07"
@@ -12292,6 +12507,10 @@
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S11"
     },
+    "a78f27057c5e1b453a9d8a12": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S20"
+    },
     "a862eaa01e82534d41d6425d": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S08"
@@ -12359,6 +12578,10 @@
     "af0ebc1512ff0a4079433029c8ed6cd184b778a5": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S11"
+    },
+    "afeffbd69fc9f7737a9fcc54": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S19"
     },
     "b0097fc8461d3ec80b0492f1": {
       "date": "2026-10-18",
@@ -13905,6 +14128,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-24",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-24T14:23:48.978245+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
