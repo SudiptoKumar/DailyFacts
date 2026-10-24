@@ -7167,6 +7167,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-24": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-24-S01",
+            "FACT-2026-10-24-S02",
+            "FACT-2026-10-24-S03",
+            "FACT-2026-10-24-S04",
+            "FACT-2026-10-24-S05",
+            "FACT-2026-10-24-S06",
+            "FACT-2026-10-24-S07",
+            "FACT-2026-10-24-S08",
+            "FACT-2026-10-24-S09",
+            "FACT-2026-10-24-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-24T06:39:57.458501+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-24T06:39:29.956553+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-24-S01": {
+          "batch": 1,
+          "claim_key": "432a461bc5008f5789b7e770",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Wasp-39b_and_its_parent_star_(artist%E2%80%99s_impression).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 637,
+          "published_at": "2026-10-24T06:39:34.435072+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S02": {
+          "batch": 1,
+          "claim_key": "32c360961253b816fe0bdf14",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Rock_Glacier_(50323315248).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 638,
+          "published_at": "2026-10-24T06:39:42.634791+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S03": {
+          "batch": 1,
+          "claim_key": "93c389074f171949b441e9a7",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:An_international_comparison_of_military_compensation._(IA_internationalcom00oylo).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 639,
+          "published_at": "2026-10-24T06:39:46.124229+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S04": {
+          "batch": 1,
+          "claim_key": "43ee474d2189efd75f02dd5a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 640,
+          "published_at": "2026-10-24T06:39:49.944148+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S05": {
+          "batch": 1,
+          "claim_key": "96d3166a0afc4331472beb93",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 641,
+          "published_at": "2026-10-24T06:39:51.019257+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S06": {
+          "batch": 1,
+          "claim_key": "5b4fcbd61b9a11e91afd4b9f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 642,
+          "published_at": "2026-10-24T06:39:52.094352+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S07": {
+          "batch": 1,
+          "claim_key": "e1ee299596f162385b5d977b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 643,
+          "published_at": "2026-10-24T06:39:53.509608+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S08": {
+          "batch": 1,
+          "claim_key": "cf6908a35a244a5580c8a6d9",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 644,
+          "published_at": "2026-10-24T06:39:54.567549+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S09": {
+          "batch": 1,
+          "claim_key": "bd1891d8f5c655bdde8105d0",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/salt/about/index.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 645,
+          "published_at": "2026-10-24T06:39:55.639482+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-24-S10": {
+          "batch": 1,
+          "claim_key": "686711d724612b3e7e8c4100",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 646,
+          "published_at": "2026-10-24T06:39:57.445816+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -10649,6 +10784,51 @@
       "score": 20,
       "source_page": "https://www.nps.gov/glac/learn/nature/geologicformations.htm",
       "source_url": "https://www.nps.gov/glac/learn/nature/geologicformations.htm"
+    },
+    "FACT-2026-10-24-S01": {
+      "cached_at": "2026-10-24T06:39:33.338858+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-24-S01.jpg",
+      "query": "artist's impression of exoplanet WASP-39b",
+      "score": 26,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wasp-39b_and_its_parent_star_(artist%E2%80%99s_impression).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Wasp-39b_and_its_parent_star_%28artist%E2%80%99s_impression%29.jpg/1280px-Wasp-39b_and_its_parent_star_%28artist%E2%80%99s_impression%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-24-S02": {
+      "cached_at": "2026-10-24T06:39:41.169545+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-24-S02.jpg",
+      "query": "glacier ice rock formation",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rock_Glacier_(50323315248).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Rock_Glacier_%2850323315248%29.jpg/1280px-Rock_Glacier_%2850323315248%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-24-S03": {
+      "cached_at": "2026-10-24T06:39:45.194343+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-24-S03.jpg",
+      "query": "International Comparison Program",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:An_international_comparison_of_military_compensation._(IA_internationalcom00oylo).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/An_international_comparison_of_military_compensation._%28IA_internationalcom00oylo%29.pdf/page1-960px-An_international_comparison_of_military_compensation._%28IA_internationalcom00oylo%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-24-S09": {
+      "cached_at": "2026-10-24T06:39:54.880812+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-24-S09.jpg",
+      "query": "close-up of white crystalline table salt on a dark background",
+      "score": 23,
+      "source_page": "https://www.cdc.gov/salt/about/index.html",
+      "source_url": "https://www.cdc.gov/salt/about/index.html"
+    },
+    "FACT-2026-10-24-S10": {
+      "cached_at": "2026-10-24T06:39:56.591922+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-24-S10.jpg",
+      "query": "Handwashing and antibiotic resistance Hand Hygiene",
+      "score": 28,
+      "source_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+      "source_url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html"
     }
   },
   "published_claims": {
@@ -11084,6 +11264,10 @@
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S10"
     },
+    "32c360961253b816fe0bdf14": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S02"
+    },
     "334da577c7783bd78b64c78ea938e1957e26fb14": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S13"
@@ -11208,9 +11392,17 @@
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S03"
     },
+    "432a461bc5008f5789b7e770": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S01"
+    },
     "435d29278881aca3bcb6dc43": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S01"
+    },
+    "43ee474d2189efd75f02dd5a": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S04"
     },
     "44315c9b88acf590e68264ff": {
       "date": "2026-10-06",
@@ -11420,6 +11612,10 @@
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S04"
     },
+    "5b4fcbd61b9a11e91afd4b9f": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S06"
+    },
     "5b6e4af87dff94441abf8a2d": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S04"
@@ -11567,6 +11763,10 @@
     "680eacac99fd3c78d7f49d0d": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S11"
+    },
+    "686711d724612b3e7e8c4100": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S10"
     },
     "692d34dc3012b977503e5656": {
       "date": "2026-10-14",
@@ -11856,6 +12056,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S14"
     },
+    "93c389074f171949b441e9a7": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S03"
+    },
     "93c3e8547c247957b9bdb8c2": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S14"
@@ -11899,6 +12103,10 @@
     "96c14fd0e6d691316e0d5405": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S20"
+    },
+    "96d3166a0afc4331472beb93": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S05"
     },
     "96f8f22aaa911973a5092d9b": {
       "date": "2026-10-07",
@@ -12272,6 +12480,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S10"
     },
+    "bd1891d8f5c655bdde8105d0": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S09"
+    },
     "bd5b4da8b61c738703bcec63": {
       "date": "2026-10-20",
       "fact_id": "FACT-2026-10-20-S06"
@@ -12416,6 +12628,10 @@
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S14"
     },
+    "cf6908a35a244a5580c8a6d9": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S08"
+    },
     "cf8fb4f4a72371f5c501b5c0": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S15"
@@ -12535,6 +12751,10 @@
     "e17b3289d654fb4198e23436": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S07"
+    },
+    "e1ee299596f162385b5d977b": {
+      "date": "2026-10-24",
+      "fact_id": "FACT-2026-10-24-S07"
     },
     "e21f080226ef9180ff9eb79c": {
       "date": "2026-10-09",
@@ -13669,6 +13889,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-24",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-24T06:39:57.458521+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
