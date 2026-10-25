@@ -7431,6 +7431,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-25": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-25-S01",
+            "FACT-2026-10-25-S02",
+            "FACT-2026-10-25-S03",
+            "FACT-2026-10-25-S04",
+            "FACT-2026-10-25-S05",
+            "FACT-2026-10-25-S06",
+            "FACT-2026-10-25-S07",
+            "FACT-2026-10-25-S08",
+            "FACT-2026-10-25-S09",
+            "FACT-2026-10-25-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-25T07:07:19.872232+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-25T07:05:11.816217+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-25-S01": {
+          "batch": 1,
+          "claim_key": "0f5679de7ca23a5a6b855eb6",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/sun/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 657,
+          "published_at": "2026-10-25T07:05:13.215122+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S02": {
+          "batch": 1,
+          "claim_key": "8c027ac853f5102c2f787eae",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Rock_Glacier_(50323315248).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 658,
+          "published_at": "2026-10-25T07:05:37.052225+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S03": {
+          "batch": 1,
+          "claim_key": "642aaae66cdb675d17d311b8",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Business_case_analysis_of_future_immersive_training_environment_(FITE)_joint_capability_technology_demonstration_(JCTD)_(IA_businesscasenaly1094546413).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 659,
+          "published_at": "2026-10-25T07:05:41.349150+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S04": {
+          "batch": 1,
+          "claim_key": "89bfeceba2588c9e2089ab69",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 660,
+          "published_at": "2026-10-25T07:06:04.641379+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S05": {
+          "batch": 1,
+          "claim_key": "d0725b87b3f9d4504c74201f",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/sun/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 661,
+          "published_at": "2026-10-25T07:06:05.772213+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S06": {
+          "batch": 1,
+          "claim_key": "241be6d4a54686989c36b9fd",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 662,
+          "published_at": "2026-10-25T07:06:28.495838+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S07": {
+          "batch": 1,
+          "claim_key": "a0d03d1515aaeb56d6aca780",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 663,
+          "published_at": "2026-10-25T07:06:31.959966+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S08": {
+          "batch": 1,
+          "claim_key": "5344132609b0a528bc40c03b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 664,
+          "published_at": "2026-10-25T07:06:53.188221+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S09": {
+          "batch": 1,
+          "claim_key": "57f57bdb7991bd770af0c75a",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Dacite_(upper_Holocene,_14_May_1915;_Hot_Rock,_Devastated_Area,_Lassen_Volcano_National_Park,_California,_USA).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 665,
+          "published_at": "2026-10-25T07:07:17.158429+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S10": {
+          "batch": 1,
+          "claim_key": "b9c4683a2ff80b8c96b7e708",
+          "image_credit": "Source page",
+          "image_page": "https://www.nps.gov/subjects/geology/plate-tectonics.htm",
+          "image_source": "Wikimedia Commons",
+          "message_id": 666,
+          "published_at": "2026-10-25T07:07:19.859096+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -11012,6 +11147,60 @@
       "score": 49,
       "source_page": "https://www.energy.gov/articles/history-light-bulb",
       "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-25-S01": {
+      "cached_at": "2026-10-25T07:05:12.178251+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-25-S01.jpg",
+      "query": "A high‑resolution image of the Sun shining in space, showing its bright disc against the dark background of the solar system.",
+      "score": 31,
+      "source_page": "https://science.nasa.gov/sun/facts/",
+      "source_url": "https://science.nasa.gov/sun/facts/"
+    },
+    "FACT-2026-10-25-S02": {
+      "cached_at": "2026-10-25T07:05:35.850304+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-25-S02.jpg",
+      "query": "glacier ice formation metamorphism of snowflakes into ice crystals",
+      "score": 24,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rock_Glacier_(50323315248).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Rock_Glacier_%2850323315248%29.jpg/1280px-Rock_Glacier_%2850323315248%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-25-S03": {
+      "cached_at": "2026-10-25T07:05:40.194570+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-25-S03.jpg",
+      "query": "illustration of a line chart depicting adjusted net savings trends over time",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Business_case_analysis_of_future_immersive_training_environment_(FITE)_joint_capability_technology_demonstration_(JCTD)_(IA_businesscasenaly1094546413).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Business_case_analysis_of_future_immersive_training_environment_%28FITE%29_joint_capability_technology_demonstration_%28JCTD%29_%28IA_businesscasenaly1094546413%29.pdf/page1-960px-Business_case_analysis_of_future_immersive_training_environment_%28FITE%29_joint_capability_technology_demonstration_%28JCTD%29_%28IA_businesscasenaly1094546413%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-25-S05": {
+      "cached_at": "2026-10-25T07:06:05.080847+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-25-S05.jpg",
+      "query": "Sun at the center of the solar system, bright star in space",
+      "score": 27,
+      "source_page": "https://science.nasa.gov/sun/facts/",
+      "source_url": "https://science.nasa.gov/sun/facts/"
+    },
+    "FACT-2026-10-25-S09": {
+      "cached_at": "2026-10-25T07:07:15.551519+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-25-S09.jpg",
+      "query": "Lassen Peak eruption 1915",
+      "score": 33,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dacite_(upper_Holocene,_14_May_1915;_Hot_Rock,_Devastated_Area,_Lassen_Volcano_National_Park,_California,_USA).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Dacite_%28upper_Holocene%2C_14_May_1915%3B_Hot_Rock%2C_Devastated_Area%2C_Lassen_Volcano_National_Park%2C_California%2C_USA%29.jpg/1280px-Dacite_%28upper_Holocene%2C_14_May_1915%3B_Hot_Rock%2C_Devastated_Area%2C_Lassen_Volcano_National_Park%2C_California%2C_USA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-25-S10": {
+      "cached_at": "2026-10-25T07:07:18.233170+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-25-S10.jpg",
+      "query": "National Park Service shaded relief map of the United States highlighting the rugged terrain of the western United States",
+      "score": 30,
+      "source_page": "https://www.nps.gov/subjects/geology/plate-tectonics.htm",
+      "source_url": "https://www.nps.gov/subjects/geology/plate-tectonics.htm"
     }
   },
   "published_claims": {
@@ -11134,6 +11323,10 @@
     "0f32e0a401bc2319d3524f979b3837cc3e30e233": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S09"
+    },
+    "0f5679de7ca23a5a6b855eb6": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S01"
     },
     "0f9a07815d2f5f527261981f": {
       "date": "2026-10-06",
@@ -11342,6 +11535,10 @@
     "240e881033e07f80378484f5": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S06"
+    },
+    "241be6d4a54686989c36b9fd": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S06"
     },
     "241f0385ce4649bb19fa881c": {
       "date": "2026-10-14",
@@ -11739,6 +11936,10 @@
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S06"
     },
+    "5344132609b0a528bc40c03b": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S08"
+    },
     "5355237430767856a029a3b3": {
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S15"
@@ -11774,6 +11975,10 @@
     "57876de6e571f6a87889a8e8": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S05"
+    },
+    "57f57bdb7991bd770af0c75a": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S09"
     },
     "58b6495dd4f5bfafc8b6c9a4": {
       "date": "2026-10-08",
@@ -11926,6 +12131,10 @@
     "63ed18f8d7156ae6fcf6cde6": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S15"
+    },
+    "642aaae66cdb675d17d311b8": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S03"
     },
     "644cb051398b0c128fec2c9d": {
       "date": "2026-10-02",
@@ -12211,6 +12420,10 @@
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S10"
     },
+    "89bfeceba2588c9e2089ab69": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S04"
+    },
     "89e9bdec362ec73fbdd87621": {
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S18"
@@ -12234,6 +12447,10 @@
     "8ab2df953feeb24b1360c8fd": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S06"
+    },
+    "8c027ac853f5102c2f787eae": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S02"
     },
     "8dfb4aab01be9f3c0d8a185f": {
       "date": "2026-10-07",
@@ -12434,6 +12651,10 @@
     "a06a9aa3821407bc0e6c8e1b": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S13"
+    },
+    "a0d03d1515aaeb56d6aca780": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S07"
     },
     "a1fd9d431e919e6cd42dcfe2": {
       "date": "2026-10-05",
@@ -12679,6 +12900,10 @@
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S03"
     },
+    "b9c4683a2ff80b8c96b7e708": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S10"
+    },
     "ba2585a146868586fc1991a8": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S13"
@@ -12866,6 +13091,10 @@
     "d023750a26601d6be7a5fc94": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S20"
+    },
+    "d0725b87b3f9d4504c74201f": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S05"
     },
     "d0b4917e6a250059ac5b77ec": {
       "date": "2026-10-09",
@@ -14144,6 +14373,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-25",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-25T07:07:19.872245+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
