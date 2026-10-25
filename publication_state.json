@@ -7452,6 +7452,25 @@
           "published_count": 10,
           "started_at": "2026-10-25T07:05:11.816217+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-25-S11",
+            "FACT-2026-10-25-S12",
+            "FACT-2026-10-25-S13",
+            "FACT-2026-10-25-S14",
+            "FACT-2026-10-25-S15",
+            "FACT-2026-10-25-S16",
+            "FACT-2026-10-25-S17",
+            "FACT-2026-10-25-S18",
+            "FACT-2026-10-25-S19",
+            "FACT-2026-10-25-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-25T14:55:29.658225+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-25T14:54:59.648501+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -7563,6 +7582,116 @@
           "message_id": 666,
           "published_at": "2026-10-25T07:07:19.859096+00:00",
           "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S11": {
+          "batch": 2,
+          "claim_key": "8a4bbd4e50563ab8dc3bdb77",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/salt/about/index.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 667,
+          "published_at": "2026-10-25T14:55:00.799388+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S12": {
+          "batch": 2,
+          "claim_key": "ca05dbd2d28c80a60b97b579",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 668,
+          "published_at": "2026-10-25T14:55:03.276018+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S13": {
+          "batch": 2,
+          "claim_key": "14fa761f545eccbde719f558",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 669,
+          "published_at": "2026-10-25T14:55:08.293401+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S14": {
+          "batch": 2,
+          "claim_key": "7a45201a74d5a56ffb6afd6f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 670,
+          "published_at": "2026-10-25T14:55:12.350478+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S15": {
+          "batch": 2,
+          "claim_key": "529dce4b59c53d315df0db48",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Activity_at_Shiveluch_Volcano_2010-03-26_lrg.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 671,
+          "published_at": "2026-10-25T14:55:22.048565+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S16": {
+          "batch": 2,
+          "claim_key": "395f97e47902205a5a91c7c6",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 672,
+          "published_at": "2026-10-25T14:55:23.225177+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S17": {
+          "batch": 2,
+          "claim_key": "c36f3dabaeefd97cc4e7d909",
+          "image_credit": "Source page",
+          "image_page": "https://dictionary.apa.org/emotional-memory",
+          "image_source": "Wikimedia Commons",
+          "message_id": 673,
+          "published_at": "2026-10-25T14:55:24.641205+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S18": {
+          "batch": 2,
+          "claim_key": "f8294fe0546db57e6b75dd30",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 674,
+          "published_at": "2026-10-25T14:55:25.977599+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S19": {
+          "batch": 2,
+          "claim_key": "d24e666f12aa1b84f892b350",
+          "image_credit": "Source page",
+          "image_page": "https://guides.loc.gov/folktales-oral-storytelling",
+          "image_source": "Wikimedia Commons",
+          "message_id": 675,
+          "published_at": "2026-10-25T14:55:28.283603+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-25-S20": {
+          "batch": 2,
+          "claim_key": "4d74d33b735ea7630cb4df23",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 676,
+          "published_at": "2026-10-25T14:55:29.644225+00:00",
+          "send_mode": "text_html",
           "status": "published"
         }
       }
@@ -11201,6 +11330,51 @@
       "score": 30,
       "source_page": "https://www.nps.gov/subjects/geology/plate-tectonics.htm",
       "source_url": "https://www.nps.gov/subjects/geology/plate-tectonics.htm"
+    },
+    "FACT-2026-10-25-S11": {
+      "cached_at": "2026-10-25T14:55:00.007797+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-25-S11.jpg",
+      "query": "Sodium in a teaspoon of salt Salt Chemistry",
+      "score": 27,
+      "source_page": "https://www.cdc.gov/salt/about/index.html",
+      "source_url": "https://www.cdc.gov/salt/about/index.html"
+    },
+    "FACT-2026-10-25-S12": {
+      "cached_at": "2026-10-25T14:55:02.310974+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-25-S12.jpg",
+      "query": "Water temperature and germ removal Hand Hygiene",
+      "score": 33,
+      "source_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+      "source_url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html"
+    },
+    "FACT-2026-10-25-S15": {
+      "cached_at": "2026-10-25T14:55:20.537310+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-25-S15.jpg",
+      "query": "Largest active volcano Volcanoes",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Activity_at_Shiveluch_Volcano_2010-03-26_lrg.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Activity_at_Shiveluch_Volcano_2010-03-26_lrg.jpg/1280px-Activity_at_Shiveluch_Volcano_2010-03-26_lrg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-25-S17": {
+      "cached_at": "2026-10-25T14:55:23.891649+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-25-S17.jpg",
+      "query": "The hippocampus is involved in explicit emotional memory Memory and Neuroscience",
+      "score": 32,
+      "source_page": "https://dictionary.apa.org/emotional-memory",
+      "source_url": "https://dictionary.apa.org/emotional-memory"
+    },
+    "FACT-2026-10-25-S19": {
+      "cached_at": "2026-10-25T14:55:27.320542+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-25-S19.jpg",
+      "query": "Folklore includes multiple narrative genres Folklore genres",
+      "score": 21,
+      "source_page": "https://guides.loc.gov/folktales-oral-storytelling",
+      "source_url": "https://guides.loc.gov/folktales-oral-storytelling"
     }
   },
   "published_claims": {
@@ -11399,6 +11573,10 @@
     "14c207597251560df66a9fb6": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S19"
+    },
+    "14fa761f545eccbde719f558": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S13"
     },
     "1523c7707c9b975875a8f986": {
       "date": "2026-10-07",
@@ -11712,6 +11890,10 @@
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S01"
     },
+    "395f97e47902205a5a91c7c6": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S16"
+    },
     "3967ef62909e2ae0893d4ccf": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S05"
@@ -11880,6 +12062,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S09"
     },
+    "4d74d33b735ea7630cb4df23": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S20"
+    },
     "4deea630ab136c3770f994be": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S03"
@@ -11935,6 +12121,10 @@
     "5255734bea5e5cec63022989": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S06"
+    },
+    "529dce4b59c53d315df0db48": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S15"
     },
     "5344132609b0a528bc40c03b": {
       "date": "2026-10-25",
@@ -12300,6 +12490,10 @@
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S06"
     },
+    "7a45201a74d5a56ffb6afd6f": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S14"
+    },
     "7a5ddc2b26a5ba1fea4b9fb2": {
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S12"
@@ -12439,6 +12633,10 @@
     "8a36be330cade9c8da152167": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S12"
+    },
+    "8a4bbd4e50563ab8dc3bdb77": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S11"
     },
     "8a9ec3256943fc14cd8007a5": {
       "date": "2026-10-13",
@@ -12976,6 +13174,10 @@
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S03"
     },
+    "c36f3dabaeefd97cc4e7d909": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S17"
+    },
     "c39e737f779cf5987af8cf13": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S13"
@@ -13035,6 +13237,10 @@
     "c920c972d9c6a7cf30872fb7": {
       "date": "2026-10-20",
       "fact_id": "FACT-2026-10-20-S15"
+    },
+    "ca05dbd2d28c80a60b97b579": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S12"
     },
     "ca1b86e3aa616cc598e06825": {
       "date": "2026-10-18",
@@ -13103,6 +13309,10 @@
     "d0ff1f3eb597cb9f2ba73ba1": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S18"
+    },
+    "d24e666f12aa1b84f892b350": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S19"
     },
     "d2877cb9e2500ee5351d3b03": {
       "date": "2026-10-15",
@@ -13391,6 +13601,10 @@
     "f8239a29ddf69e9ce55ac218": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S17"
+    },
+    "f8294fe0546db57e6b75dd30": {
+      "date": "2026-10-25",
+      "fact_id": "FACT-2026-10-25-S18"
     },
     "f92270f804e01df519afd8f6b9d01c950819f9d2": {
       "date": "2026-09-30",
@@ -14389,6 +14603,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-25",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-25T14:55:29.658253+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
