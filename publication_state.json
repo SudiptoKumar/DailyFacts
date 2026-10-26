@@ -7716,6 +7716,25 @@
           "published_count": 10,
           "started_at": "2026-10-26T07:12:04.064072+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-26-S11",
+            "FACT-2026-10-26-S12",
+            "FACT-2026-10-26-S13",
+            "FACT-2026-10-26-S14",
+            "FACT-2026-10-26-S15",
+            "FACT-2026-10-26-S16",
+            "FACT-2026-10-26-S17",
+            "FACT-2026-10-26-S18",
+            "FACT-2026-10-26-S19",
+            "FACT-2026-10-26-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-26T17:13:48.995115+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-26T17:12:50.131175+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -7827,6 +7846,116 @@
           "message_id": 686,
           "published_at": "2026-10-26T07:13:18.434569+00:00",
           "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S11": {
+          "batch": 2,
+          "claim_key": "fd41a7c8a1996842e83fb3b5",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Banded_dacite_pumice-andesite_(upper_Holocene,_22_May_1915;_Devastated_Area,_Lassen_Volcano_National_Park,_California,_USA)_2.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 687,
+          "published_at": "2026-10-26T17:13:02.835338+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S12": {
+          "batch": 2,
+          "claim_key": "3931ebb468b9dd1e40acb304",
+          "image_credit": "Source page",
+          "image_page": "https://www.nps.gov/yose/learn/nature/geology.htm",
+          "image_source": "Wikimedia Commons",
+          "message_id": 688,
+          "published_at": "2026-10-26T17:13:05.335762+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S13": {
+          "batch": 2,
+          "claim_key": "724c3082f8a0ef2aa33dd852",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/salt/about/index.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 689,
+          "published_at": "2026-10-26T17:13:07.643931+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S14": {
+          "batch": 2,
+          "claim_key": "c111f2b61a7294203a6891fa",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 690,
+          "published_at": "2026-10-26T17:13:09.834177+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S15": {
+          "batch": 2,
+          "claim_key": "347c89ff7c49e518945a9602",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+          "image_source": "Wikimedia Commons",
+          "message_id": 691,
+          "published_at": "2026-10-26T17:13:11.757371+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S16": {
+          "batch": 2,
+          "claim_key": "43501077336159e01d07a84a",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:H.R._39,_TO_REQUIRE_THE_SECRETARY_OF_THE_INTERIOR_TO_ESTABLISH_A_PROGRAM_TO_PROVIDE_ASSISTANCE_IN_THE_CONSERVATION_OF_NEOTROPICAL_MIGRATORY_BIRDS_(IA_gov.gpo.fdsys.CHRG-106hhrg55004).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 692,
+          "published_at": "2026-10-26T17:13:18.957666+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S17": {
+          "batch": 2,
+          "claim_key": "4b240468ee0bc9917890ed10",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 693,
+          "published_at": "2026-10-26T17:13:25.521027+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S18": {
+          "batch": 2,
+          "claim_key": "6f451553e2e316b21576335a",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:A_history_of_the_earthquake_and_fire_in_San_Francisco;_an_account_of_the_disaster_of_April_18,_1906_and_its_immediate_results_(IA_historyofearthqu00aitk).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 694,
+          "published_at": "2026-10-26T17:13:29.869029+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S19": {
+          "batch": 2,
+          "claim_key": "8c690b9a7ae4618301640b8e",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 695,
+          "published_at": "2026-10-26T17:13:47.249330+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S20": {
+          "batch": 2,
+          "claim_key": "74d37231207c0629ad8d3dc2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 696,
+          "published_at": "2026-10-26T17:13:48.986007+00:00",
+          "send_mode": "text_html",
           "status": "published"
         }
       }
@@ -11573,6 +11702,69 @@
       "score": 30,
       "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
       "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-26-S11": {
+      "cached_at": "2026-10-26T17:13:00.820096+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-26-S11.jpg",
+      "query": "Lassen Peak activity after 1915 U.S. volcanic activity",
+      "score": 35,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Banded_dacite_pumice-andesite_(upper_Holocene,_22_May_1915;_Devastated_Area,_Lassen_Volcano_National_Park,_California,_USA)_2.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Banded_dacite_pumice-andesite_%28upper_Holocene%2C_22_May_1915%3B_Devastated_Area%2C_Lassen_Volcano_National_Park%2C_California%2C_USA%29_2.jpg/1280px-Banded_dacite_pumice-andesite_%28upper_Holocene%2C_22_May_1915%3B_Devastated_Area%2C_Lassen_Volcano_National_Park%2C_California%2C_USA%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-26-S12": {
+      "cached_at": "2026-10-26T17:13:03.494181+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-26-S12.jpg",
+      "query": "The Sierra Nevada is a fault-block mountain range Mountain Ranges",
+      "score": 25,
+      "source_page": "https://www.nps.gov/yose/learn/nature/geology.htm",
+      "source_url": "https://www.nps.gov/yose/learn/nature/geology.htm"
+    },
+    "FACT-2026-10-26-S13": {
+      "cached_at": "2026-10-26T17:13:05.840982+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-26-S13.jpg",
+      "query": "Common sodium-containing ingredients Sodium Compounds",
+      "score": 32,
+      "source_page": "https://www.cdc.gov/salt/about/index.html",
+      "source_url": "https://www.cdc.gov/salt/about/index.html"
+    },
+    "FACT-2026-10-26-S14": {
+      "cached_at": "2026-10-26T17:13:08.473252+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-26-S14.jpg",
+      "query": "Soap versus water alone Hand Hygiene",
+      "score": 27,
+      "source_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+      "source_url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html"
+    },
+    "FACT-2026-10-26-S15": {
+      "cached_at": "2026-10-26T17:13:10.239626+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-26-S15.jpg",
+      "query": "Nikola Tesla was born in the Austrian Empire in 1856 Nikola Tesla",
+      "score": 48,
+      "source_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+      "source_url": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla"
+    },
+    "FACT-2026-10-26-S16": {
+      "cached_at": "2026-10-26T17:13:17.364186+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-26-S16.jpg",
+      "query": "National Zoological Park living collection Zoos and conservation",
+      "score": 30,
+      "source_page": "https://commons.wikimedia.org/wiki/File:H.R._39,_TO_REQUIRE_THE_SECRETARY_OF_THE_INTERIOR_TO_ESTABLISH_A_PROGRAM_TO_PROVIDE_ASSISTANCE_IN_THE_CONSERVATION_OF_NEOTROPICAL_MIGRATORY_BIRDS_(IA_gov.gpo.fdsys.CHRG-106hhrg55004).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/H.R._39%2C_TO_REQUIRE_THE_SECRETARY_OF_THE_INTERIOR_TO_ESTABLISH_A_PROGRAM_TO_PROVIDE_ASSISTANCE_IN_THE_CONSERVATION_OF_NEOTROPICAL_MIGRATORY_BIRDS_%28IA_gov.gpo.fdsys.CHRG-106hhrg55004%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-26-S18": {
+      "cached_at": "2026-10-26T17:13:28.536054+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-26-S18.jpg",
+      "query": "Most earthquakes occur in the Ring of Fire Earthquakes",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_history_of_the_earthquake_and_fire_in_San_Francisco;_an_account_of_the_disaster_of_April_18,_1906_and_its_immediate_results_(IA_historyofearthqu00aitk).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/A_history_of_the_earthquake_and_fire_in_San_Francisco%3B_an_account_of_the_disaster_of_April_18%2C_1906_and_its_immediate_results_%28IA_historyofearthqu00aitk%29.pdf/page1-500px-A_history_of_the_earthquake_and_fire_in_San_Francisco%3B_an_account_of_the_disaster_of_April_18%2C_1906_and_its_immediate_results_%28IA_historyofearthqu00aitk%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -12048,6 +12240,10 @@
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S15"
     },
+    "347c89ff7c49e518945a9602": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S15"
+    },
     "34bd7670ae3981179ada8489": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S09"
@@ -12087,6 +12283,10 @@
     "390499f9bc1834fea0b2796b": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S01"
+    },
+    "3931ebb468b9dd1e40acb304": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S12"
     },
     "395f97e47902205a5a91c7c6": {
       "date": "2026-10-25",
@@ -12159,6 +12359,10 @@
     "432a461bc5008f5789b7e770": {
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S01"
+    },
+    "43501077336159e01d07a84a": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S16"
     },
     "435d29278881aca3bcb6dc43": {
       "date": "2026-10-01",
@@ -12243,6 +12447,10 @@
     "4ad59fdfc7f1ba408afe42ee": {
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S19"
+    },
+    "4b240468ee0bc9917890ed10": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S17"
     },
     "4b3ee59d144fc11044716385": {
       "date": "2026-10-11",
@@ -12632,6 +12840,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S17"
     },
+    "6f451553e2e316b21576335a": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S18"
+    },
     "704726d8d1fdee5169a0cc5c": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S12"
@@ -12648,6 +12860,10 @@
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S10"
     },
+    "724c3082f8a0ef2aa33dd852": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S13"
+    },
     "7317ae76432e497b8eac3773": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S09"
@@ -12659,6 +12875,10 @@
     "744c877b1901f215bffc5fd8": {
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S13"
+    },
+    "74d37231207c0629ad8d3dc2": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S20"
     },
     "75394f3be541c139eabaf0a6": {
       "date": "2026-10-17",
@@ -12867,6 +13087,10 @@
     "8c027ac853f5102c2f787eae": {
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S02"
+    },
+    "8c690b9a7ae4618301640b8e": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S19"
     },
     "8dfb4aab01be9f3c0d8a185f": {
       "date": "2026-10-07",
@@ -13388,6 +13612,10 @@
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S06"
     },
+    "c111f2b61a7294203a6891fa": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S14"
+    },
     "c224dfd343717d294eac5387": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S15"
@@ -13867,6 +14095,10 @@
     "fc8f121cfd56696cf5454ffbf3f965a1b200689d": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S07"
+    },
+    "fd41a7c8a1996842e83fb3b5": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S11"
     },
     "fe11dbc2878a22ba2f00f41f": {
       "date": "2026-10-20",
@@ -14873,6 +15105,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-26",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-26T17:13:48.995128+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
