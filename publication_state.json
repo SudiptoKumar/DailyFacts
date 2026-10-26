@@ -7695,6 +7695,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-26": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-26-S01",
+            "FACT-2026-10-26-S02",
+            "FACT-2026-10-26-S03",
+            "FACT-2026-10-26-S04",
+            "FACT-2026-10-26-S05",
+            "FACT-2026-10-26-S06",
+            "FACT-2026-10-26-S07",
+            "FACT-2026-10-26-S08",
+            "FACT-2026-10-26-S09",
+            "FACT-2026-10-26-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-26T07:13:18.444724+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-26T07:12:04.064072+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-26-S01": {
+          "batch": 1,
+          "claim_key": "8031501e26a99ef49154a49c",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_Day_the_Earth_Smiled_-_PIA17172.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 677,
+          "published_at": "2026-10-26T07:12:08.376456+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S02": {
+          "batch": 1,
+          "claim_key": "56314bdf31308ff9cf271f75",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Columnar-jointed_rhyolitic_obsidian_lava_flow_(Roaring_Mountain_Member,_Plateau_Rhyolite,_Upper_Pleistocene,_~59_ka;_Obsidian_Cliff,_Yellowstone,_Wyoming,_USA)_10_(31876683447).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 678,
+          "published_at": "2026-10-26T07:12:32.556930+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S03": {
+          "batch": 1,
+          "claim_key": "b96f5c6cc4430795bff67531",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_Uniformed_Services%27_Thrift_Savings_Plan_and_Military_Retirement_Compensation_package_options_(IA_theuniformedserv109459963).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 679,
+          "published_at": "2026-10-26T07:12:37.987492+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S04": {
+          "batch": 1,
+          "claim_key": "936d521f0c081a24f4b3df97",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 680,
+          "published_at": "2026-10-26T07:12:39.213738+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S05": {
+          "batch": 1,
+          "claim_key": "f3e0cb799f944158b0d4e7ed",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/sun/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 681,
+          "published_at": "2026-10-26T07:12:40.368474+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S06": {
+          "batch": 1,
+          "claim_key": "826de82494485085a35efc34",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 682,
+          "published_at": "2026-10-26T07:13:04.293247+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S07": {
+          "batch": 1,
+          "claim_key": "61c97bb33f30f4efad2d33bd",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 683,
+          "published_at": "2026-10-26T07:13:08.900257+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S08": {
+          "batch": 1,
+          "claim_key": "4eee628e24d1a7e9a1686180",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Lago_Maggiore_NM23-743-51.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 684,
+          "published_at": "2026-10-26T07:13:12.686855+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S09": {
+          "batch": 1,
+          "claim_key": "d4387173a29f02831ecc0003",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 685,
+          "published_at": "2026-10-26T07:13:14.502348+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-26-S10": {
+          "batch": 1,
+          "claim_key": "99eebe361e0b32df32ec4262",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 686,
+          "published_at": "2026-10-26T07:13:18.434569+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -11375,6 +11510,69 @@
       "score": 21,
       "source_page": "https://guides.loc.gov/folktales-oral-storytelling",
       "source_url": "https://guides.loc.gov/folktales-oral-storytelling"
+    },
+    "FACT-2026-10-26-S01": {
+      "cached_at": "2026-10-26T07:12:07.195817+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-26-S01.jpg",
+      "query": "Earth–Sun distance Sun",
+      "score": 27,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Day_the_Earth_Smiled_-_PIA17172.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/The_Day_the_Earth_Smiled_-_PIA17172.jpg/1280px-The_Day_the_Earth_Smiled_-_PIA17172.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-26-S02": {
+      "cached_at": "2026-10-26T07:12:30.974498+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-26-S02.jpg",
+      "query": "Obsidian Cliff lava flow Volcanology",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Columnar-jointed_rhyolitic_obsidian_lava_flow_(Roaring_Mountain_Member,_Plateau_Rhyolite,_Upper_Pleistocene,_~59_ka;_Obsidian_Cliff,_Yellowstone,_Wyoming,_USA)_10_(31876683447).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Columnar-jointed_rhyolitic_obsidian_lava_flow_%28Roaring_Mountain_Member%2C_Plateau_Rhyolite%2C_Upper_Pleistocene%2C_~59_ka%3B_Obsidian_Cliff%2C_Yellowstone%2C_Wyoming%2C_USA%29_10_%2831876683447%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-26-S03": {
+      "cached_at": "2026-10-26T07:12:36.549041+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-26-S03.jpg",
+      "query": "Meaning of negative adjusted net savings Adjusted Net Savings",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Uniformed_Services%27_Thrift_Savings_Plan_and_Military_Retirement_Compensation_package_options_(IA_theuniformedserv109459963).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/The_Uniformed_Services%27_Thrift_Savings_Plan_and_Military_Retirement_Compensation_package_options_%28IA_theuniformedserv109459963%29.pdf/page1-960px-The_Uniformed_Services%27_Thrift_Savings_Plan_and_Military_Retirement_Compensation_package_options_%28IA_theuniformedserv109459963%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-26-S05": {
+      "cached_at": "2026-10-26T07:12:39.479612+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-26-S05.jpg",
+      "query": "The Sun is wider than Earth Sun",
+      "score": 23,
+      "source_page": "https://science.nasa.gov/sun/facts/",
+      "source_url": "https://science.nasa.gov/sun/facts/"
+    },
+    "FACT-2026-10-26-S08": {
+      "cached_at": "2026-10-26T07:13:11.115587+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-26-S08.jpg",
+      "query": "Glaciers create U-shaped valleys Glacial Landforms",
+      "score": 25,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lago_Maggiore_NM23-743-51.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lago_Maggiore_NM23-743-51.jpg/1280px-Lago_Maggiore_NM23-743-51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-26-S09": {
+      "cached_at": "2026-10-26T07:13:13.283570+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-26-S09.jpg",
+      "query": "Edison developed the Edison screw socket Electrical systems",
+      "score": 35,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-26-S10": {
+      "cached_at": "2026-10-26T07:13:16.351747+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-26-S10.jpg",
+      "query": "Language regions respond more strongly to meaningful language than degraded or unfamiliar speech Brain",
+      "score": 30,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
     }
   },
   "published_claims": {
@@ -12082,6 +12280,10 @@
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S05"
     },
+    "4eee628e24d1a7e9a1686180": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S08"
+    },
     "4f5321292798a15756ecb270": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S14"
@@ -12149,6 +12351,10 @@
     "55aa7f29ee2b72ee1959f056": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S09"
+    },
+    "56314bdf31308ff9cf271f75": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S02"
     },
     "568e09f27b36b7b5c926763f": {
       "date": "2026-10-20",
@@ -12281,6 +12487,10 @@
     "61788c73212ced85dffa5165": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S08"
+    },
+    "61c97bb33f30f4efad2d33bd": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S07"
     },
     "61ecd430d83ec314dbe6e63a": {
       "date": "2026-10-11",
@@ -12534,6 +12744,10 @@
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S02"
     },
+    "8031501e26a99ef49154a49c": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S01"
+    },
     "8080cd2dfb461ce7e505dd1c": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S19"
@@ -12557,6 +12771,10 @@
     "824ae6d119f82a7636e94a89": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S13"
+    },
+    "826de82494485085a35efc34": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S06"
     },
     "831d5716c4a219cba6e267e5": {
       "date": "2026-10-24",
@@ -12682,6 +12900,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S14"
     },
+    "936d521f0c081a24f4b3df97": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S04"
+    },
     "93c389074f171949b441e9a7": {
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S03"
@@ -12761,6 +12983,10 @@
     "999e25b59fbfbc348690e987": {
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S14"
+    },
+    "99eebe361e0b32df32ec4262": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S10"
     },
     "99ef2b4368b523268d8f543c": {
       "date": "2026-10-23",
@@ -13098,6 +13324,10 @@
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S03"
     },
+    "b96f5c6cc4430795bff67531": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S03"
+    },
     "b9c4683a2ff80b8c96b7e708": {
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S10"
@@ -13321,6 +13551,10 @@
     "d3c0c3671ef74e033cdccf59": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S09"
+    },
+    "d4387173a29f02831ecc0003": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S09"
     },
     "d4622c95c5220797cc436554": {
       "date": "2026-10-19",
@@ -13549,6 +13783,10 @@
     "f398e493cf95eb6ee977f391": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S19"
+    },
+    "f3e0cb799f944158b0d4e7ed": {
+      "date": "2026-10-26",
+      "fact_id": "FACT-2026-10-26-S05"
     },
     "f43e620a1854f07f966a3b5b": {
       "date": "2026-10-19",
@@ -14619,6 +14857,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-26",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-26T07:13:18.444744+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
