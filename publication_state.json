@@ -7980,6 +7980,25 @@
           "published_count": 10,
           "started_at": "2026-10-27T06:59:56.032375+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-27-S11",
+            "FACT-2026-10-27-S12",
+            "FACT-2026-10-27-S13",
+            "FACT-2026-10-27-S14",
+            "FACT-2026-10-27-S15",
+            "FACT-2026-10-27-S16",
+            "FACT-2026-10-27-S17",
+            "FACT-2026-10-27-S18",
+            "FACT-2026-10-27-S19",
+            "FACT-2026-10-27-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-27T16:18:43.494466+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-27T16:18:10.950420+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -8090,6 +8109,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 706,
           "published_at": "2026-10-27T07:01:19.011606+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S11": {
+          "batch": 2,
+          "claim_key": "53e0cd1896c19a60f1df07a5",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/sun/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 707,
+          "published_at": "2026-10-27T16:18:12.642138+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S12": {
+          "batch": 2,
+          "claim_key": "51d918f0aa3cd74f7e52303e",
+          "image_credit": "Source page",
+          "image_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 708,
+          "published_at": "2026-10-27T16:18:15.212944+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S13": {
+          "batch": 2,
+          "claim_key": "747002fc7e07648a21643bbd",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-light-bulb",
+          "image_source": "Wikimedia Commons",
+          "message_id": 709,
+          "published_at": "2026-10-27T16:18:17.389499+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S14": {
+          "batch": 2,
+          "claim_key": "5c3170587cd6c0c1ed479278",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 710,
+          "published_at": "2026-10-27T16:18:21.297323+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S15": {
+          "batch": 2,
+          "claim_key": "502cda165084b5a5c6e50ab0",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 711,
+          "published_at": "2026-10-27T16:18:27.604067+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S16": {
+          "batch": 2,
+          "claim_key": "e25301c0755f3461147cbcad",
+          "image_credit": "Source page",
+          "image_page": "https://www.nps.gov/yose/learn/nature/geology.htm",
+          "image_source": "Wikimedia Commons",
+          "message_id": 712,
+          "published_at": "2026-10-27T16:18:30.315496+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S17": {
+          "batch": 2,
+          "claim_key": "df31b4a5d69478227a1d188e",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/nutrition/php/data-research/sugar-sweetened-beverages.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 713,
+          "published_at": "2026-10-27T16:18:32.955539+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S18": {
+          "batch": 2,
+          "claim_key": "7120ce141878b2a2d9eb70ef",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 714,
+          "published_at": "2026-10-27T16:18:34.995468+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S19": {
+          "batch": 2,
+          "claim_key": "67dcac305319e4d84e5abbb2",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/history-air-conditioning",
+          "image_source": "Wikimedia Commons",
+          "message_id": 715,
+          "published_at": "2026-10-27T16:18:37.489437+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S20": {
+          "batch": 2,
+          "claim_key": "a93cb292bb3c6b1458a948d4",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:H.R._39,_TO_REQUIRE_THE_SECRETARY_OF_THE_INTERIOR_TO_ESTABLISH_A_PROGRAM_TO_PROVIDE_ASSISTANCE_IN_THE_CONSERVATION_OF_NEOTROPICAL_MIGRATORY_BIRDS_(IA_gov.gpo.fdsys.CHRG-106hhrg55004).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 716,
+          "published_at": "2026-10-27T16:18:43.479431+00:00",
           "send_mode": "photo_html",
           "status": "published"
         }
@@ -11972,6 +12101,87 @@
       "score": 27,
       "source_page": "https://guides.loc.gov/american-tall-tales-and-folk-heroes/definitions",
       "source_url": "https://guides.loc.gov/american-tall-tales-and-folk-heroes/definitions"
+    },
+    "FACT-2026-10-27-S11": {
+      "cached_at": "2026-10-27T16:18:11.608174+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S11.jpg",
+      "query": "Sun corona heating mystery",
+      "score": 17,
+      "source_page": "https://science.nasa.gov/sun/facts/",
+      "source_url": "https://science.nasa.gov/sun/facts/"
+    },
+    "FACT-2026-10-27-S12": {
+      "cached_at": "2026-10-27T16:18:13.373032+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S12.jpg",
+      "query": "diagram illustrating Zipf's law of brevity showing frequent short words and rare long words",
+      "score": 27,
+      "source_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10142271/"
+    },
+    "FACT-2026-10-27-S13": {
+      "cached_at": "2026-10-27T16:18:16.178710+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S13.jpg",
+      "query": "Nick Holonyak Jr. with a red LED diode, 1962",
+      "score": 48,
+      "source_page": "https://www.energy.gov/articles/history-light-bulb",
+      "source_url": "https://www.energy.gov/articles/history-light-bulb"
+    },
+    "FACT-2026-10-27-S14": {
+      "cached_at": "2026-10-27T16:18:19.649474+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S14.jpg",
+      "query": "functional MRI brain scan highlighting left-hemisphere language network activity during story comprehension",
+      "score": 29,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-27-S16": {
+      "cached_at": "2026-10-27T16:18:28.603091+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S16.jpg",
+      "query": "Mount Whitney summit, Sequoia National Park, California, USA",
+      "score": 19,
+      "source_page": "https://www.nps.gov/yose/learn/nature/geology.htm",
+      "source_url": "https://www.nps.gov/yose/learn/nature/geology.htm"
+    },
+    "FACT-2026-10-27-S17": {
+      "cached_at": "2026-10-27T16:18:31.730190+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S17.jpg",
+      "query": "Health Risks of Sugar-Sweetened Beverages Nutrition",
+      "score": 32,
+      "source_page": "https://www.cdc.gov/nutrition/php/data-research/sugar-sweetened-beverages.html",
+      "source_url": "https://www.cdc.gov/nutrition/php/data-research/sugar-sweetened-beverages.html"
+    },
+    "FACT-2026-10-27-S18": {
+      "cached_at": "2026-10-27T16:18:33.747053+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S18.jpg",
+      "query": "Recommended handwashing duration Hand Hygiene",
+      "score": 23,
+      "source_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+      "source_url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html"
+    },
+    "FACT-2026-10-27-S19": {
+      "cached_at": "2026-10-27T16:18:35.327962+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S19.jpg",
+      "query": "Air conditioning is installed in nearly 100 million American homes Air conditioning",
+      "score": 47,
+      "source_page": "https://www.energy.gov/articles/history-air-conditioning",
+      "source_url": "https://www.energy.gov/articles/history-air-conditioning"
+    },
+    "FACT-2026-10-27-S20": {
+      "cached_at": "2026-10-27T16:18:42.216887+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S20.jpg",
+      "query": "Threatened species at the National Zoological Park Zoos and conservation",
+      "score": 33,
+      "source_page": "https://commons.wikimedia.org/wiki/File:H.R._39,_TO_REQUIRE_THE_SECRETARY_OF_THE_INTERIOR_TO_ESTABLISH_A_PROGRAM_TO_PROVIDE_ASSISTANCE_IN_THE_CONSERVATION_OF_NEOTROPICAL_MIGRATORY_BIRDS_(IA_gov.gpo.fdsys.CHRG-106hhrg55004).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/H.R._39%2C_TO_REQUIRE_THE_SECRETARY_OF_THE_INTERIOR_TO_ESTABLISH_A_PROGRAM_TO_PROVIDE_ASSISTANCE_IN_THE_CONSERVATION_OF_NEOTROPICAL_MIGRATORY_BIRDS_%28IA_gov.gpo.fdsys.CHRG-106hhrg55004%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -12727,6 +12937,10 @@
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S08"
     },
+    "502cda165084b5a5c6e50ab0": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S15"
+    },
     "507b86d7fbe7488ba70bdadc": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S01"
@@ -12747,6 +12961,10 @@
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S11"
     },
+    "51d918f0aa3cd74f7e52303e": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S12"
+    },
     "5255734bea5e5cec63022989": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S06"
@@ -12766,6 +12984,10 @@
     "53b1be5ef2b7ed7247710a5b": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S08"
+    },
+    "53e0cd1896c19a60f1df07a5": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S11"
     },
     "5420146feb6016eebfcd4258": {
       "date": "2026-10-18",
@@ -12850,6 +13072,10 @@
     "5bef26b001f078b6652e3b3b": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S14"
+    },
+    "5c3170587cd6c0c1ed479278": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S14"
     },
     "5c3a3590dc5b398d430deb03b367dbd40521b256": {
       "date": "2026-09-28",
@@ -12999,6 +13225,10 @@
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S06"
     },
+    "67dcac305319e4d84e5abbb2": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S19"
+    },
     "680eacac99fd3c78d7f49d0d": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S11"
@@ -13079,6 +13309,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S13"
     },
+    "7120ce141878b2a2d9eb70ef": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S18"
+    },
     "7191c869043d3c8f1d4a71d0": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S07"
@@ -13102,6 +13336,10 @@
     "744c877b1901f215bffc5fd8": {
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S13"
+    },
+    "747002fc7e07648a21643bbd": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S13"
     },
     "74d37231207c0629ad8d3dc2": {
       "date": "2026-10-26",
@@ -13627,6 +13865,10 @@
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S03"
     },
+    "a93cb292bb3c6b1458a948d4": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S20"
+    },
     "a98c6142829c23b32922d0b6": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S17"
@@ -14103,6 +14345,10 @@
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S05"
     },
+    "df31b4a5d69478227a1d188e": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S17"
+    },
     "dffc0a2fa0ff7dc826e406a8": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S09"
@@ -14126,6 +14372,10 @@
     "e2200a814b047ae72da2516f": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S15"
+    },
+    "e25301c0755f3461147cbcad": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S16"
     },
     "e2644f6ed382dab37d5612e7": {
       "date": "2026-10-04",
@@ -15384,6 +15634,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-27",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-27T16:18:43.494484+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
