@@ -7959,6 +7959,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-27": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-27-S01",
+            "FACT-2026-10-27-S02",
+            "FACT-2026-10-27-S03",
+            "FACT-2026-10-27-S04",
+            "FACT-2026-10-27-S05",
+            "FACT-2026-10-27-S06",
+            "FACT-2026-10-27-S07",
+            "FACT-2026-10-27-S08",
+            "FACT-2026-10-27-S09",
+            "FACT-2026-10-27-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-27T07:01:19.023434+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-27T06:59:56.032375+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-27-S01": {
+          "batch": 1,
+          "claim_key": "31d7955267824849a1efb2a4",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/sun/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 697,
+          "published_at": "2026-10-27T06:59:57.571341+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S02": {
+          "batch": 1,
+          "claim_key": "3bc8582fc8950e1eeb778864",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 698,
+          "published_at": "2026-10-27T07:00:21.823698+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S03": {
+          "batch": 1,
+          "claim_key": "f4c2e095705eadc0a502a8c7",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Current_Account_Balances_2010.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 699,
+          "published_at": "2026-10-27T07:00:29.768283+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S04": {
+          "batch": 1,
+          "claim_key": "9b091c70bd9be5790e4a6231",
+          "image_credit": "Source page",
+          "image_page": "https://www.nps.gov/yose/learn/nature/geology.htm",
+          "image_source": "Wikimedia Commons",
+          "message_id": 700,
+          "published_at": "2026-10-27T07:00:32.600541+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S05": {
+          "batch": 1,
+          "claim_key": "e98bb8163d72dea99fb38ff1",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/sun/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 701,
+          "published_at": "2026-10-27T07:00:34.076098+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S06": {
+          "batch": 1,
+          "claim_key": "8ac1830609f1ebfb36c6dcdd",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Pahoehoe_basalt_lava_(Peru)_(35879768356).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 702,
+          "published_at": "2026-10-27T07:00:59.371360+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S07": {
+          "batch": 1,
+          "claim_key": "68619beb4162d12c9089c355",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:ABS-5302.0-BalancePaymentsInternationalInvestmentPositionAustralia-SelectedInternationalAccountsRatios-Original_FinancialYear-NetIncomeOnForeignDebtRatiosGoodsServicesCredits-A3572064C.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 703,
+          "published_at": "2026-10-27T07:01:08.220214+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S08": {
+          "batch": 1,
+          "claim_key": "93809c6ae72f53e17c8608fa",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:View_of_the_side_of_Pan_de_Az%C3%BAcar_peak_.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 704,
+          "published_at": "2026-10-27T07:01:14.375280+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S09": {
+          "batch": 1,
+          "claim_key": "0cba8a933b288fa1b6482aa0",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 705,
+          "published_at": "2026-10-27T07:01:16.050853+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-27-S10": {
+          "batch": 1,
+          "claim_key": "5d9bd765428e1fcbce312cd0",
+          "image_credit": "Source page",
+          "image_page": "https://guides.loc.gov/american-tall-tales-and-folk-heroes/definitions",
+          "image_source": "Wikimedia Commons",
+          "message_id": 706,
+          "published_at": "2026-10-27T07:01:19.011606+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -11765,6 +11900,78 @@
       "score": 18,
       "source_page": "https://commons.wikimedia.org/wiki/File:A_history_of_the_earthquake_and_fire_in_San_Francisco;_an_account_of_the_disaster_of_April_18,_1906_and_its_immediate_results_(IA_historyofearthqu00aitk).pdf",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/A_history_of_the_earthquake_and_fire_in_San_Francisco%3B_an_account_of_the_disaster_of_April_18%2C_1906_and_its_immediate_results_%28IA_historyofearthqu00aitk%29.pdf/page1-500px-A_history_of_the_earthquake_and_fire_in_San_Francisco%3B_an_account_of_the_disaster_of_April_18%2C_1906_and_its_immediate_results_%28IA_historyofearthqu00aitk%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-27-S01": {
+      "cached_at": "2026-10-27T06:59:56.705942+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S01.jpg",
+      "query": "Sun and Jupiter side by side comparison",
+      "score": 22,
+      "source_page": "https://science.nasa.gov/sun/facts/",
+      "source_url": "https://science.nasa.gov/sun/facts/"
+    },
+    "FACT-2026-10-27-S03": {
+      "cached_at": "2026-10-27T07:00:28.601063+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S03.jpg",
+      "query": "balance of payments diagram",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Current_Account_Balances_2010.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Current_Account_Balances_2010.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-27-S04": {
+      "cached_at": "2026-10-27T07:00:31.262680+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S04.jpg",
+      "query": "Tioga Glaciation Yosemite landscape",
+      "score": 25,
+      "source_page": "https://www.nps.gov/yose/learn/nature/geology.htm",
+      "source_url": "https://www.nps.gov/yose/learn/nature/geology.htm"
+    },
+    "FACT-2026-10-27-S05": {
+      "cached_at": "2026-10-27T07:00:33.300101+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S05.jpg",
+      "query": "Sun",
+      "score": 27,
+      "source_page": "https://science.nasa.gov/sun/facts/",
+      "source_url": "https://science.nasa.gov/sun/facts/"
+    },
+    "FACT-2026-10-27-S06": {
+      "cached_at": "2026-10-27T07:00:57.800996+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S06.jpg",
+      "query": "recently crusted pāhoehoe lava ropey texture",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pahoehoe_basalt_lava_(Peru)_(35879768356).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Pahoehoe_basalt_lava_%28Peru%29_%2835879768356%29.jpg/1280px-Pahoehoe_basalt_lava_%28Peru%29_%2835879768356%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-27-S07": {
+      "cached_at": "2026-10-27T07:01:06.935369+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S07.jpg",
+      "query": "diagram of balance of payments accounts",
+      "score": 26,
+      "source_page": "https://commons.wikimedia.org/wiki/File:ABS-5302.0-BalancePaymentsInternationalInvestmentPositionAustralia-SelectedInternationalAccountsRatios-Original_FinancialYear-NetIncomeOnForeignDebtRatiosGoodsServicesCredits-A3572064C.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/ABS-5302.0-BalancePaymentsInternationalInvestmentPositionAustralia-SelectedInternationalAccountsRatios-Original_FinancialYear-NetIncomeOnForeignDebtRatiosGoodsServicesCredits-A3572064C.svg/1280px-thumbnail.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-27-S08": {
+      "cached_at": "2026-10-27T07:01:12.915676+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S08.jpg",
+      "query": "glacier depositing moraines and erratic boulders",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:View_of_the_side_of_Pan_de_Az%C3%BAcar_peak_.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/View_of_the_side_of_Pan_de_Az%C3%BAcar_peak_.jpg/1280px-View_of_the_side_of_Pan_de_Az%C3%BAcar_peak_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-27-S10": {
+      "cached_at": "2026-10-27T07:01:17.561618+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-27-S10.jpg",
+      "query": "Oral storytelling takes many forms Storytelling traditions",
+      "score": 27,
+      "source_page": "https://guides.loc.gov/american-tall-tales-and-folk-heroes/definitions",
+      "source_url": "https://guides.loc.gov/american-tall-tales-and-folk-heroes/definitions"
     }
   },
   "published_claims": {
@@ -11863,6 +12070,10 @@
     "0cabe9f4692d40fc5d8a8750": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S17"
+    },
+    "0cba8a933b288fa1b6482aa0": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S09"
     },
     "0cc3d2e02f4fecc9c1972626": {
       "date": "2026-10-19",
@@ -12212,6 +12423,10 @@
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S15"
     },
+    "31d7955267824849a1efb2a4": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S01"
+    },
     "32007b1dcff2ab2a981d1f79": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S10"
@@ -12315,6 +12530,10 @@
     "3ac1597cda36c766e7a1dcdc": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S19"
+    },
+    "3bc8582fc8950e1eeb778864": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S02"
     },
     "3cbbeae8bd2e5f1d54c151ed": {
       "date": "2026-10-16",
@@ -12648,6 +12867,10 @@
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S12"
     },
+    "5d9bd765428e1fcbce312cd0": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S10"
+    },
     "5dec01f2d79a3f5a1bc0bdbd": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S13"
@@ -12779,6 +13002,10 @@
     "680eacac99fd3c78d7f49d0d": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S11"
+    },
+    "68619beb4162d12c9089c355": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S07"
     },
     "686711d724612b3e7e8c4100": {
       "date": "2026-10-24",
@@ -13084,6 +13311,10 @@
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S06"
     },
+    "8ac1830609f1ebfb36c6dcdd": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S06"
+    },
     "8c027ac853f5102c2f787eae": {
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S02"
@@ -13127,6 +13358,10 @@
     "936d521f0c081a24f4b3df97": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S04"
+    },
+    "93809c6ae72f53e17c8608fa": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S08"
     },
     "93c389074f171949b441e9a7": {
       "date": "2026-10-24",
@@ -13227,6 +13462,10 @@
     "9afa7b29e99797a606d61c6b": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S20"
+    },
+    "9b091c70bd9be5790e4a6231": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S04"
     },
     "9ba4b6b1de2d5ca6116c0633": {
       "date": "2026-10-02",
@@ -13936,6 +14175,10 @@
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S04"
     },
+    "e98bb8163d72dea99fb38ff1": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S05"
+    },
     "ea0c34776f8a453fbf0d15c8": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S06"
@@ -14023,6 +14266,10 @@
     "f44101f8d9cf809c5d4c5e552bff7bfa44c22499": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S04"
+    },
+    "f4c2e095705eadc0a502a8c7": {
+      "date": "2026-10-27",
+      "fact_id": "FACT-2026-10-27-S03"
     },
     "f507849580c28ac6fb85da7a": {
       "date": "2026-10-17",
@@ -15121,6 +15368,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-27",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-27T07:01:19.023462+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
