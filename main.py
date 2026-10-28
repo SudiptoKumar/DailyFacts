@@ -299,10 +299,17 @@ def publish_one(
                 message_id = send_photo(str(image), caption)
                 send_mode = "photo_html"
         elif card:
-            # The quote card carries the fact itself; the post is the card
-            # alone, with no extra text around it.
-            message_id = send_photo(str(card), "")
-            send_mode = "card"
+            # The quote card carries the fact itself, with no extra text.
+            # Send it as an image-only rich message: Telegram gives rich
+            # messages the full post width, while a plain photo post renders
+            # narrower — Karn flagged the width mismatch on his phone.
+            try:
+                message_id = send_rich_message('<img src="tg://photo?id=cover">', str(card))
+                send_mode = "card_rich"
+            except Exception as rich_exc:
+                logger.warning("Rich card publish failed for %s: %s. Falling back to plain photo.", fact.fact_id, rich_exc)
+                message_id = send_photo(str(card), "")
+                send_mode = "card"
         else:
             message_id = send_message(caption)
             send_mode = "text_html"
