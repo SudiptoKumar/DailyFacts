@@ -555,17 +555,23 @@ def self_test() -> None:
     assert "\n\n" in caption
     assert sample.date_value not in caption
 
-    # Native image-ratio regression from the production pipeline.
-    from image_pipeline import _prepare_image
+    # Fixed-frame regression from the production pipeline: every photo is
+    # cover-cropped to 1200x675 and stamped; the no-photo quote card is the
+    # same fixed frame.
+    from image_pipeline import _prepare_image, generate_fallback_card
     with TemporaryDirectory() as temp:
         src = Path(temp) / "source.jpg"
         out = Path(temp) / "out.jpg"
         Image.new("RGB", (1600, 900), "white").save(src, "JPEG")
         _prepare_image(src, out)
         with Image.open(out) as check:
-            assert check.size == (1536, 864)
+            assert check.size == (1200, 675)
+        card_out = Path(temp) / "card.jpg"
+        generate_fallback_card(sample, content, card_out)
+        with Image.open(card_out) as check:
+            assert check.size == (1200, 675)
 
-    logger.info("SELF-TEST PASS | records=%d | scheduler cursor regression | duplicate-safe allocation | caption | native image ratio", len(facts))
+    logger.info("SELF-TEST PASS | records=%d | scheduler cursor regression | duplicate-safe allocation | caption | fixed 1200x675 frame + quote card", len(facts))
 
 
 def main() -> None:
