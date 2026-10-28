@@ -8223,6 +8223,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-28": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-28-S01",
+            "FACT-2026-10-28-S02",
+            "FACT-2026-10-28-S03",
+            "FACT-2026-10-28-S04",
+            "FACT-2026-10-28-S05",
+            "FACT-2026-10-28-S06",
+            "FACT-2026-10-28-S07",
+            "FACT-2026-10-28-S08",
+            "FACT-2026-10-28-S09",
+            "FACT-2026-10-28-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-28T07:43:50.004672+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-28T07:42:11.634435+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-28-S01": {
+          "batch": 1,
+          "claim_key": "3d7204cfac9ef639aa8fd26f",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Solar_Orbiter%E2%80%99s_widest_high-res_view_of_the_Sun_ESA508430.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 717,
+          "published_at": "2026-10-28T07:42:28.082570+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S02": {
+          "batch": 1,
+          "claim_key": "a7c82601f2067950d9251573",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 718,
+          "published_at": "2026-10-28T07:42:52.371289+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S03": {
+          "batch": 1,
+          "claim_key": "e137dbd0cc493fc765fb4a36",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Current_Account_Balances_2010.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 719,
+          "published_at": "2026-10-28T07:43:05.684504+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S04": {
+          "batch": 1,
+          "claim_key": "0c041c02b1ceb4f15c6058b5",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Glacial_grooves_from_Pleistocene_glaciation_on_Columbus_Limestone_(Middle_Devonian)_(Glacial_Grooves_State_Park,_Kelleys_Island,_Ohio,_Lake_Erie,_USA)_1_(14972543349).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 720,
+          "published_at": "2026-10-28T07:43:12.914857+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S05": {
+          "batch": 1,
+          "claim_key": "81e9e1ef54e3b14ff2d60b09",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Our_Sun_at_a_distance_of_150_Mio._km.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 721,
+          "published_at": "2026-10-28T07:43:20.629389+00:00",
+          "send_mode": "photo_html",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S06": {
+          "batch": 1,
+          "claim_key": "7384cf6c46ecb933768efad6",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 722,
+          "published_at": "2026-10-28T07:43:42.161284+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S07": {
+          "batch": 1,
+          "claim_key": "dc15c96a66deb589c7d9a20b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 723,
+          "published_at": "2026-10-28T07:43:44.202010+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S08": {
+          "batch": 1,
+          "claim_key": "9aec5d8ce878e170614453ab",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 724,
+          "published_at": "2026-10-28T07:43:45.764728+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S09": {
+          "batch": 1,
+          "claim_key": "9512fc2cc8b42de4862e6e2a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 725,
+          "published_at": "2026-10-28T07:43:47.535369+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S10": {
+          "batch": 1,
+          "claim_key": "7d40f084be7723524d3272cb",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "",
+          "message_id": 726,
+          "published_at": "2026-10-28T07:43:49.992224+00:00",
+          "send_mode": "text_html",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -12182,6 +12317,42 @@
       "score": 33,
       "source_page": "https://commons.wikimedia.org/wiki/File:H.R._39,_TO_REQUIRE_THE_SECRETARY_OF_THE_INTERIOR_TO_ESTABLISH_A_PROGRAM_TO_PROVIDE_ASSISTANCE_IN_THE_CONSERVATION_OF_NEOTROPICAL_MIGRATORY_BIRDS_(IA_gov.gpo.fdsys.CHRG-106hhrg55004).pdf",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/H.R._39%2C_TO_REQUIRE_THE_SECRETARY_OF_THE_INTERIOR_TO_ESTABLISH_A_PROGRAM_TO_PROVIDE_ASSISTANCE_IN_THE_CONSERVATION_OF_NEOTROPICAL_MIGRATORY_BIRDS_%28IA_gov.gpo.fdsys.CHRG-106hhrg55004%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-28-S01": {
+      "cached_at": "2026-10-28T07:42:18.671577+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-28-S01.jpg",
+      "query": "Sun diameter",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Solar_Orbiter%E2%80%99s_widest_high-res_view_of_the_Sun_ESA508430.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Solar_Orbiter%E2%80%99s_widest_high-res_view_of_the_Sun_ESA508430.jpg/1280px-Solar_Orbiter%E2%80%99s_widest_high-res_view_of_the_Sun_ESA508430.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-28-S03": {
+      "cached_at": "2026-10-28T07:43:04.798632+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-28-S03.jpg",
+      "query": "illustration of current account balance showing net exports, net primary income, and net secondary income",
+      "score": 33,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Current_Account_Balances_2010.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Current_Account_Balances_2010.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-28-S04": {
+      "cached_at": "2026-10-28T07:43:11.140548+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-28-S04.jpg",
+      "query": "glacial striations on polished granite bedrock",
+      "score": 36,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Glacial_grooves_from_Pleistocene_glaciation_on_Columbus_Limestone_(Middle_Devonian)_(Glacial_Grooves_State_Park,_Kelleys_Island,_Ohio,_Lake_Erie,_USA)_1_(14972543349).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Glacial_grooves_from_Pleistocene_glaciation_on_Columbus_Limestone_%28Middle_Devonian%29_%28Glacial_Grooves_State_Park%2C_Kelleys_Island%2C_Ohio%2C_Lake_Erie%2C_USA%29_1_%2814972543349%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-28-S05": {
+      "cached_at": "2026-10-28T07:43:19.035196+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-28-S05.jpg",
+      "query": "Sun",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Our_Sun_at_a_distance_of_150_Mio._km.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Our_Sun_at_a_distance_of_150_Mio._km.jpg/1280px-Our_Sun_at_a_distance_of_150_Mio._km.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -12268,6 +12439,10 @@
     "0be489fd10eaa941e44027eb": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S16"
+    },
+    "0c041c02b1ceb4f15c6058b5": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S04"
     },
     "0c755ea5b3b5e26293e30244": {
       "date": "2026-10-23",
@@ -12756,6 +12931,10 @@
     "3d03684da41493abd2aa8c56": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S15"
+    },
+    "3d7204cfac9ef639aa8fd26f": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S01"
     },
     "3da44dae324b1a44423b2c4e": {
       "date": "2026-10-09",
@@ -13329,6 +13508,10 @@
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S09"
     },
+    "7384cf6c46ecb933768efad6": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S06"
+    },
     "73fd3ee859ea851c74a5209a": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S20"
@@ -13425,6 +13608,10 @@
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S07"
     },
+    "7d40f084be7723524d3272cb": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S10"
+    },
     "7dd8ec64b55592e6e62752a05974cd1ba5cbc7dd": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S02"
@@ -13452,6 +13639,10 @@
     "8189b21fc127c2ec60745b59": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S18"
+    },
+    "81e9e1ef54e3b14ff2d60b09": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S05"
     },
     "824ae6d119f82a7636e94a89": {
       "date": "2026-10-03",
@@ -13633,6 +13824,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S08"
     },
+    "9512fc2cc8b42de4862e6e2a": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S09"
+    },
     "95ed3077aed432917f0ac709": {
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S19"
@@ -13696,6 +13891,10 @@
     "9ab4695aaf5cbe7baf90041b": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S13"
+    },
+    "9aec5d8ce878e170614453ab": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S08"
     },
     "9afa7b29e99797a606d61c6b": {
       "date": "2026-10-12",
@@ -13856,6 +14055,10 @@
     "a78f27057c5e1b453a9d8a12": {
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S20"
+    },
+    "a7c82601f2067950d9251573": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S02"
     },
     "a862eaa01e82534d41d6425d": {
       "date": "2026-10-13",
@@ -14329,6 +14532,10 @@
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S12"
     },
+    "dc15c96a66deb589c7d9a20b": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S07"
+    },
     "dd727170097d68a4b106e60b": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S05"
@@ -14356,6 +14563,10 @@
     "e0f07f9622c095bab0065ded": {
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S13"
+    },
+    "e137dbd0cc493fc765fb4a36": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S03"
     },
     "e17b3289d654fb4198e23436": {
       "date": "2026-10-06",
@@ -15650,6 +15861,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-28",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-28T07:43:50.004685+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
