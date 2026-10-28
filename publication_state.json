@@ -8244,6 +8244,25 @@
           "published_count": 10,
           "started_at": "2026-10-28T07:42:11.634435+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-28-S11",
+            "FACT-2026-10-28-S12",
+            "FACT-2026-10-28-S13",
+            "FACT-2026-10-28-S14",
+            "FACT-2026-10-28-S15",
+            "FACT-2026-10-28-S16",
+            "FACT-2026-10-28-S17",
+            "FACT-2026-10-28-S18",
+            "FACT-2026-10-28-S19",
+            "FACT-2026-10-28-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-28T17:04:22.713059+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-28T17:03:21.983482+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -8355,6 +8374,116 @@
           "message_id": 726,
           "published_at": "2026-10-28T07:43:49.992224+00:00",
           "send_mode": "text_html",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S11": {
+          "batch": 2,
+          "claim_key": "6ccfca36f7b38866b91db168",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:H.R._1528,_THE_NATIONAL_GEOLOGIC_MAPPING_REAUTHORIZATION_ACT_OF_1999,_TO_REAUTHORIZE_AND_AMEND_THE_NATIONAL_GEOLOGIC_MAPPING_ACT_OF_1992_(IA_gov.gpo.fdsys.CHRG-106hhrg58948).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 737,
+          "published_at": "2026-10-28T17:03:32.347459+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S12": {
+          "batch": 2,
+          "claim_key": "d563cd936e4497e6fa4fef1e",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Facial_Indicators_of_Positive_Emotions_in_Rats.pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 738,
+          "published_at": "2026-10-28T17:03:41.635093+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S13": {
+          "batch": 2,
+          "claim_key": "4c9e1e0d3c36de3de74c5a4b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 739,
+          "published_at": "2026-10-28T17:03:43.330614+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S14": {
+          "batch": 2,
+          "claim_key": "dc8e2da99746318279cf919a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 740,
+          "published_at": "2026-10-28T17:03:55.089070+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S15": {
+          "batch": 2,
+          "claim_key": "db36e1aaf081e1a9becd1e50",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 741,
+          "published_at": "2026-10-28T17:03:58.663308+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S16": {
+          "batch": 2,
+          "claim_key": "5c37dccf6dfe1e20515269b4",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 742,
+          "published_at": "2026-10-28T17:04:01.317349+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S17": {
+          "batch": 2,
+          "claim_key": "58d950638ff5113a6662009d",
+          "image_credit": "Source page",
+          "image_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+          "image_source": "Wikimedia Commons",
+          "message_id": 743,
+          "published_at": "2026-10-28T17:04:03.053447+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S18": {
+          "batch": 2,
+          "claim_key": "f8bc4a2a1eefcdbbf9a06b01",
+          "image_credit": "Source page",
+          "image_page": "https://doi.org/10.1038/s41593-022-01114-5",
+          "image_source": "Wikimedia Commons",
+          "message_id": 744,
+          "published_at": "2026-10-28T17:04:06.476866+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S19": {
+          "batch": 2,
+          "claim_key": "735ef43ce6e288b4b77ed964",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Traditions_of_the_earliest_visits_of_foreigners_to_North_America,_the_first_formed_and_first_inhabited_of_the_continents_(IA_traditionsofearl00durr_0).pdf",
+          "image_source": "Wikimedia Commons",
+          "message_id": 745,
+          "published_at": "2026-10-28T17:04:14.914564+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-28-S20": {
+          "batch": 2,
+          "claim_key": "820ce059b5fbeaeb75420331",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Our_national_parks_(1909)_(14596229768).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 746,
+          "published_at": "2026-10-28T17:04:22.696973+00:00",
+          "send_mode": "rich_photo",
           "status": "published"
         }
       }
@@ -12353,6 +12482,60 @@
       "score": 22,
       "source_page": "https://commons.wikimedia.org/wiki/File:Our_Sun_at_a_distance_of_150_Mio._km.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Our_Sun_at_a_distance_of_150_Mio._km.jpg/1280px-Our_Sun_at_a_distance_of_150_Mio._km.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-28-S11": {
+      "cached_at": "2026-10-28T17:03:31.036092+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-28-S11.jpg",
+      "query": "National Geologic Map Database collection of geologic maps",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:H.R._1528,_THE_NATIONAL_GEOLOGIC_MAPPING_REAUTHORIZATION_ACT_OF_1999,_TO_REAUTHORIZE_AND_AMEND_THE_NATIONAL_GEOLOGIC_MAPPING_ACT_OF_1992_(IA_gov.gpo.fdsys.CHRG-106hhrg58948).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/H.R._1528%2C_THE_NATIONAL_GEOLOGIC_MAPPING_REAUTHORIZATION_ACT_OF_1999%2C_TO_REAUTHORIZE_AND_AMEND_THE_NATIONAL_GEOLOGIC_MAPPING_ACT_OF_1992_%28IA_gov.gpo.fdsys.CHRG-106hhrg58948%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-28-S12": {
+      "cached_at": "2026-10-28T17:03:39.864460+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-28-S12.jpg",
+      "query": "a person witnessing an armed robbery, looking intensely at specific details while appearing emotionally distressed",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Facial_Indicators_of_Positive_Emotions_in_Rats.pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Facial_Indicators_of_Positive_Emotions_in_Rats.pdf/page1-960px-Facial_Indicators_of_Positive_Emotions_in_Rats.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-28-S17": {
+      "cached_at": "2026-10-28T17:04:01.736670+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-28-S17.jpg",
+      "query": "Tesla invented the Tesla coil in 1891 Electrical circuits",
+      "score": 33,
+      "source_page": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla",
+      "source_url": "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-nikola-tesla"
+    },
+    "FACT-2026-10-28-S18": {
+      "cached_at": "2026-10-28T17:04:04.840645+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-28-S18.jpg",
+      "query": "Language-network activity is more correlated during story comprehension than rest Brain Connectivity",
+      "score": 33,
+      "source_page": "https://doi.org/10.1038/s41593-022-01114-5",
+      "source_url": "https://doi.org/10.1038/s41593-022-01114-5"
+    },
+    "FACT-2026-10-28-S19": {
+      "cached_at": "2026-10-28T17:04:13.517464+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-28-S19.jpg",
+      "query": "North America was once joined to Africa, South America, and Europe Continental drift",
+      "score": 26,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Traditions_of_the_earliest_visits_of_foreigners_to_North_America,_the_first_formed_and_first_inhabited_of_the_continents_(IA_traditionsofearl00durr_0).pdf",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Traditions_of_the_earliest_visits_of_foreigners_to_North_America%2C_the_first_formed_and_first_inhabited_of_the_continents_%28IA_traditionsofearl00durr_0%29.pdf/page1-960px-Traditions_of_the_earliest_visits_of_foreigners_to_North_America%2C_the_first_formed_and_first_inhabited_of_the_continents_%28IA_traditionsofearl00durr_0%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-28-S20": {
+      "cached_at": "2026-10-28T17:04:20.156794+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-28-S20.jpg",
+      "query": "Mount Lyell Yosemite National Park",
+      "score": 36,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Our_national_parks_(1909)_(14596229768).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Our_national_parks_%281909%29_%2814596229768%29.jpg/1280px-Our_national_parks_%281909%29_%2814596229768%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -13072,6 +13255,10 @@
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S14"
     },
+    "4c9e1e0d3c36de3de74c5a4b": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S13"
+    },
     "4cbdcb77bb586d0abf6d43d37c22a97c19f7a097": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S09"
@@ -13208,6 +13395,10 @@
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S16"
     },
+    "58d950638ff5113a6662009d": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S17"
+    },
     "58f18870366af901b5b0b86749fb7532ba0be1d9": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S07"
@@ -13255,6 +13446,10 @@
     "5c3170587cd6c0c1ed479278": {
       "date": "2026-10-27",
       "fact_id": "FACT-2026-10-27-S14"
+    },
+    "5c37dccf6dfe1e20515269b4": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S16"
     },
     "5c3a3590dc5b398d430deb03b367dbd40521b256": {
       "date": "2026-09-28",
@@ -13460,6 +13655,10 @@
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S13"
     },
+    "6ccfca36f7b38866b91db168": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S11"
+    },
     "6e07ae9c930143486dc907c5": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S08"
@@ -13507,6 +13706,10 @@
     "7317ae76432e497b8eac3773": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S09"
+    },
+    "735ef43ce6e288b4b77ed964": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S19"
     },
     "7384cf6c46ecb933768efad6": {
       "date": "2026-10-28",
@@ -13643,6 +13846,10 @@
     "81e9e1ef54e3b14ff2d60b09": {
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S05"
+    },
+    "820ce059b5fbeaeb75420331": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S20"
     },
     "824ae6d119f82a7636e94a89": {
       "date": "2026-10-03",
@@ -14480,6 +14687,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S20"
     },
+    "d563cd936e4497e6fa4fef1e": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S12"
+    },
     "d57bf6845951f2726f91b9b3": {
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S09"
@@ -14520,6 +14731,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S19"
     },
+    "db36e1aaf081e1a9becd1e50": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S15"
+    },
     "db4a28e95c0b4344863e2d9a": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S14"
@@ -14535,6 +14750,10 @@
     "dc15c96a66deb589c7d9a20b": {
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S07"
+    },
+    "dc8e2da99746318279cf919a": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S14"
     },
     "dd727170097d68a4b106e60b": {
       "date": "2026-10-16",
@@ -14779,6 +14998,10 @@
     "f8294fe0546db57e6b75dd30": {
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S18"
+    },
+    "f8bc4a2a1eefcdbbf9a06b01": {
+      "date": "2026-10-28",
+      "fact_id": "FACT-2026-10-28-S18"
     },
     "f92270f804e01df519afd8f6b9d01c950819f9d2": {
       "date": "2026-09-30",
@@ -15877,6 +16100,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-28",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-28T17:04:22.713078+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
