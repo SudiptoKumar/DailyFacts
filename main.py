@@ -12,8 +12,8 @@ from PIL import Image
 from config import GENERATED_DIR, LOG_DIR, SETTINGS, STATE_FILE
 from content_ai import EnrichedContent, enrich_fact, fallback_hashtags
 from dataset import Fact, facts_for_exact_date, load_all, validate_dataset
-from formatter import format_fallback_caption
-from image_pipeline import prepare_fact_image
+from formatter import format_fallback_caption, format_rich_html
+from image_pipeline import generate_fallback_card, prepare_fact_image
 from image_resolver import resolve_fact_image
 from scheduler_cursor import (
     SchedulerCursor,
@@ -36,7 +36,7 @@ from state_store import (
     mark_fact_published,
     save_state,
 )
-from telegram_client import send_message, send_photo
+from telegram_client import send_message, send_photo, send_rich_message
 
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
@@ -267,7 +267,15 @@ def publish_one(
     if not skip_image:
         image, image_meta = prepare_image(state, fact, content.image_query)
 
-    if SETTINGS.image_required and image is None and not dry_run:
+    card = None
+    if image is None and not skip_image and not dry_run:
+        try:
+            card = generate_fallback_card(fact, content, GENERATED_DIR / f"{fact.fact_id}.card.jpg")
+        except Exception as exc:
+            logger.warning("Fallback card generation failed for %s: %s", fact.fact_id, exc)
+            card = None
+
+    if SETTINGS.image_required and image is None and card is None and not dry_run:
         reason = "no acceptable image and IMAGE_REQUIRED=true"
         mark_fact_failed(state, date_key, batch, fact.fact_id, reason)
         if persist_state:
@@ -282,8 +290,19 @@ def publish_one(
     caption = format_fallback_caption(fact, content)
     try:
         if image:
-            message_id = send_photo(str(image), caption)
-            send_mode = "photo_html"
+            rich_html = format_rich_html(fact, content)
+            try:
+                message_id = send_rich_message(rich_html, str(image))
+                send_mode = "rich_photo"
+            except Exception as rich_exc:
+                logger.warning("Rich publish failed for %s: %s. Falling back to caption photo.", fact.fact_id, rich_exc)
+                message_id = send_photo(str(image), caption)
+                send_mode = "photo_html"
+        elif card:
+            # The quote card carries the fact itself; the post is the card
+            # alone, with no extra text around it.
+            message_id = send_photo(str(card), "")
+            send_mode = "card"
         else:
             message_id = send_message(caption)
             send_mode = "text_html"
@@ -303,7 +322,7 @@ def publish_one(
         message_id,
         image_page=image_meta.get("source_page", ""),
         image_credit=image_meta.get("credit", ""),
-        image_source="Wikimedia Commons" if image_meta else "",
+        image_source="Wikimedia Commons" if image_meta else ("Generated card" if card else ""),
         send_mode=send_mode,
     )
     if persist_state:

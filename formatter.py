@@ -41,3 +41,24 @@ def format_fallback_caption(fact: Fact, content: EnrichedContent) -> str:
     trimmed = body[:body_limit].rstrip(" .") + "..."
     caption = caption.replace(body, trimmed, 1)
     return caption[:1024]
+
+
+def format_rich_html(fact: Fact, content: EnrichedContent) -> str:
+    """Build the fact as a Telegram rich message (HTML form), the network's
+    layout system: photo, H1 title, category chip, body, channel + hashtags.
+    Same words as the caption, in rich structure; no length cap applies."""
+    raw_category = fact.category.strip() or "Facts"
+    cat = _escape_html_text(raw_category.upper())
+    title = _escape_html_text(content.title.strip() or fact.title.strip() or "Did You Know?")
+    body = _escape_html_text(content.fact.strip() or fact.fact.strip())
+    tags = [_safe_tag(x) for x in content.hashtags[:2]]
+    while len(tags) < 2:
+        tags.append("Facts")
+    parts = [
+        '<img src="tg://photo?id=cover">',
+        f"<h1>{title}</h1>",
+        f"<aside>{category_emoji(fact.category)} {cat}</aside>",
+        f"<p>{subject_emoji(content.title, content.fact, fact.category)} {body}</p>",
+        f'<p><a href="https://t.me/FactsNewsroom"><b>Daily Facts</b></a> #{tags[0]} #{tags[1]}</p>',
+    ]
+    return "\n".join(parts)
