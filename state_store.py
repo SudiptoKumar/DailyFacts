@@ -113,6 +113,39 @@ def is_claim_published_anywhere(state: dict, claim_key: str) -> bool:
     return bool(str(claim_key).strip()) and claim_key in state.get("published_claims", {})
 
 
+def used_image_keys(state: dict, *, exclude_fact_id: str = "") -> tuple[set[str], set[str]]:
+    """Identities of every image already given to ANOTHER fact: (pages, urls).
+
+    Pages are Commons file pages and source-article URLs (a source article
+    always yields the same og:image, so the article URL identifies its
+    image); urls are direct image file URLs. Built from the image cache and
+    from published fact records, so it covers the channel's whole history.
+    """
+    pages: set[str] = set()
+    urls: set[str] = set()
+    for fact_id, meta in (state.get("image_cache") or {}).items():
+        if fact_id == exclude_fact_id or not isinstance(meta, dict):
+            continue
+        page = str(meta.get("source_page") or "").strip()
+        if page:
+            pages.add(page)
+        url = str(meta.get("source_url") or "").strip()
+        if url:
+            urls.add(url)
+    for record in (state.get("dates") or {}).values():
+        if not isinstance(record, dict):
+            continue
+        for fact_id, meta in (record.get("facts") or {}).items():
+            if fact_id == exclude_fact_id or not isinstance(meta, dict):
+                continue
+            if meta.get("status") != "published":
+                continue
+            page = str(meta.get("image_page") or "").strip()
+            if page:
+                pages.add(page)
+    return pages, urls
+
+
 def cache_image(state: dict, fact_id: str, meta: dict) -> None:
     state.setdefault("image_cache", {})[fact_id] = {**meta, "cached_at": _now()}
 
