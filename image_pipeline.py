@@ -10,8 +10,9 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 MAX_DIMENSION = 1536
 MAX_BYTES = 9_500_000
 
-# Every published image leaves at the fixed Telegram photo frame, the same
-# standard the Sports/Gaming channels use: 1200x675 (16:9), stamped.
+# Every published photo leaves at a fixed width of 1200 px with its original
+# aspect ratio kept (nothing cropped), stamped. The generated quote card
+# keeps the fixed 1200x675 (16:9) frame.
 FRAME = (1200, 675)
 # The network's house template (Vocabulary/Sports cards): warm paper, ink,
 # one red accent, hairline frame, Playfair display type.
@@ -78,16 +79,12 @@ def _font(family: str, size: int, weight: int = 700):
         return ImageFont.load_default()
 
 
-def _cover_crop(img: Image.Image) -> Image.Image:
-    W, H = FRAME
-    scale = max(W / img.width, H / img.height)
-    resized = img.resize(
-        (max(W, round(img.width * scale)), max(H, round(img.height * scale))),
-        Image.Resampling.LANCZOS,
-    )
-    left = (resized.width - W) // 2
-    top = (resized.height - H) // 2
-    return resized.crop((left, top, left + W, top + H))
+def _fit_width(img: Image.Image) -> Image.Image:
+    """Resize to the fixed publish width, keeping the original aspect
+    ratio — the full photo stays visible, nothing is cropped."""
+    W = FRAME[0]
+    scale = W / img.width
+    return img.resize((W, max(1, round(img.height * scale))), Image.Resampling.LANCZOS)
 
 
 def _stamp(rgba: Image.Image) -> Image.Image:
@@ -125,7 +122,7 @@ def _save_jpeg(img: Image.Image, output: Path) -> Path:
 def _prepare_image(source: Path, output: Path) -> Path:
     with Image.open(source) as img:
         img = ImageOps.exif_transpose(img).convert("RGB")
-        framed = _stamp(_cover_crop(img).convert("RGBA")).convert("RGB")
+        framed = _stamp(_fit_width(img).convert("RGBA")).convert("RGB")
         return _save_jpeg(framed, output)
 
 
