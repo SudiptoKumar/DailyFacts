@@ -8487,6 +8487,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-29": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-29-S01",
+            "FACT-2026-10-29-S02",
+            "FACT-2026-10-29-S03",
+            "FACT-2026-10-29-S04",
+            "FACT-2026-10-29-S05",
+            "FACT-2026-10-29-S06",
+            "FACT-2026-10-29-S07",
+            "FACT-2026-10-29-S08",
+            "FACT-2026-10-29-S09",
+            "FACT-2026-10-29-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-29T07:47:38.903219+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-29T07:46:14.265173+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-29-S01": {
+          "batch": 1,
+          "claim_key": "1f99925935007dff55086d3d",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/sun/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 747,
+          "published_at": "2026-10-29T07:46:16.266925+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S02": {
+          "batch": 1,
+          "claim_key": "f9f8dc7bace7bcc8dbf39b14",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 748,
+          "published_at": "2026-10-29T07:46:41.620638+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S03": {
+          "batch": 1,
+          "claim_key": "51e7bfc40bc1ea39adbfb33f",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:A_new_and_complete_dictionary_of_trade_and_commerce_-_containing_a_distinct_explanation_of_the_general_principles_of_commerce;_an_accurate_definition_of_its_terms_a_particular_description_of_the_(14763121285).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 749,
+          "published_at": "2026-10-29T07:46:49.495089+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S04": {
+          "batch": 1,
+          "claim_key": "b41c573420eb98197b8d9036",
+          "image_credit": "Source page",
+          "image_page": "https://www.nps.gov/yose/learn/nature/geology.htm",
+          "image_source": "Wikimedia Commons",
+          "message_id": 750,
+          "published_at": "2026-10-29T07:46:51.893562+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S05": {
+          "batch": 1,
+          "claim_key": "b8f2fe81aa4ed01bbdfb379b",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/sun/facts/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 751,
+          "published_at": "2026-10-29T07:46:53.043344+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S06": {
+          "batch": 1,
+          "claim_key": "aa394fbd872c70614227fbe4",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 752,
+          "published_at": "2026-10-29T07:47:20.556373+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S07": {
+          "batch": 1,
+          "claim_key": "0864066b3bb93a6da0e9c28a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 753,
+          "published_at": "2026-10-29T07:47:28.671073+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S08": {
+          "batch": 1,
+          "claim_key": "15a3bfe91aabb3a2553eab94",
+          "image_credit": "Source page",
+          "image_page": "https://www.nps.gov/yose/learn/nature/geology.htm",
+          "image_source": "Wikimedia Commons",
+          "message_id": 754,
+          "published_at": "2026-10-29T07:47:30.425756+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S09": {
+          "batch": 1,
+          "claim_key": "64d9966f3acd98f00365aef1",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/nutrition/php/data-research/sugar-sweetened-beverages.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 755,
+          "published_at": "2026-10-29T07:47:36.423811+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S10": {
+          "batch": 1,
+          "claim_key": "ab7a4aff670366350b1afb9f",
+          "image_credit": "Source page",
+          "image_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+          "image_source": "Wikimedia Commons",
+          "message_id": 756,
+          "published_at": "2026-10-29T07:47:38.888172+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -12536,6 +12671,69 @@
       "score": 36,
       "source_page": "https://commons.wikimedia.org/wiki/File:Our_national_parks_(1909)_(14596229768).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Our_national_parks_%281909%29_%2814596229768%29.jpg/1280px-Our_national_parks_%281909%29_%2814596229768%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-29-S01": {
+      "cached_at": "2026-10-29T07:46:14.826011+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-29-S01.jpg",
+      "query": "illustration showing the Sun's mass compared to Earth's mass, emphasizing the 330,000‑fold difference",
+      "score": 28,
+      "source_page": "https://science.nasa.gov/sun/facts/",
+      "source_url": "https://science.nasa.gov/sun/facts/"
+    },
+    "FACT-2026-10-29-S03": {
+      "cached_at": "2026-10-29T07:46:47.988214+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-29-S03.jpg",
+      "query": "a balance scale with cargo containers on one side and shipping boxes on the other, representing exports versus imports",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_new_and_complete_dictionary_of_trade_and_commerce_-_containing_a_distinct_explanation_of_the_general_principles_of_commerce;_an_accurate_definition_of_its_terms_a_particular_description_of_the_(14763121285).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/A_new_and_complete_dictionary_of_trade_and_commerce_-_containing_a_distinct_explanation_of_the_general_principles_of_commerce%3B_an_accurate_definition_of_its_terms_a_particular_description_of_the_%2814763121285%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-29-S04": {
+      "cached_at": "2026-10-29T07:46:50.457087+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-29-S04.jpg",
+      "query": "Yosemite natural lakes glacial scouring",
+      "score": 24,
+      "source_page": "https://www.nps.gov/yose/learn/nature/geology.htm",
+      "source_url": "https://www.nps.gov/yose/learn/nature/geology.htm"
+    },
+    "FACT-2026-10-29-S05": {
+      "cached_at": "2026-10-29T07:46:52.090072+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-29-S05.jpg",
+      "query": "The Sun’s volume compared with Earth Sun",
+      "score": 25,
+      "source_page": "https://science.nasa.gov/sun/facts/",
+      "source_url": "https://science.nasa.gov/sun/facts/"
+    },
+    "FACT-2026-10-29-S08": {
+      "cached_at": "2026-10-29T07:47:29.476094+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-29-S08.jpg",
+      "query": "Lyell and Maclure glaciers in Yosemite National Park",
+      "score": 23,
+      "source_page": "https://www.nps.gov/yose/learn/nature/geology.htm",
+      "source_url": "https://www.nps.gov/yose/learn/nature/geology.htm"
+    },
+    "FACT-2026-10-29-S09": {
+      "cached_at": "2026-10-29T07:47:30.616751+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-29-S09.jpg",
+      "query": "Sugar-Sweetened Beverage Definitions Nutrition",
+      "score": 25,
+      "source_page": "https://www.cdc.gov/nutrition/php/data-research/sugar-sweetened-beverages.html",
+      "source_url": "https://www.cdc.gov/nutrition/php/data-research/sugar-sweetened-beverages.html"
+    },
+    "FACT-2026-10-29-S10": {
+      "cached_at": "2026-10-29T07:47:37.609048+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-29-S10.jpg",
+      "query": "person drying hands with a towel after washing",
+      "score": 39,
+      "source_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+      "source_url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html"
     }
   },
   "published_claims": {
@@ -12590,6 +12788,10 @@
     "083d916fb4eca3386430f131": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S03"
+    },
+    "0864066b3bb93a6da0e9c28a": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S07"
     },
     "0967945b5ea0ec4a9fddbd98": {
       "date": "2026-10-07",
@@ -12751,6 +12953,10 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S08"
     },
+    "15a3bfe91aabb3a2553eab94": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S08"
+    },
     "15fd60b6827336571329c2ab": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S07"
@@ -12830,6 +13036,10 @@
     "1ee2a91b2a9f37aca57448c087380e4f444faaf9": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S12"
+    },
+    "1f99925935007dff55086d3d": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S01"
     },
     "1fe6258bbfd8ed80d48983b2": {
       "date": "2026-10-16",
@@ -13331,6 +13541,10 @@
       "date": "2026-10-27",
       "fact_id": "FACT-2026-10-27-S12"
     },
+    "51e7bfc40bc1ea39adbfb33f": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S03"
+    },
     "5255734bea5e5cec63022989": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S06"
@@ -13578,6 +13792,10 @@
     "64d2a14312037da726a7f53b": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S02"
+    },
+    "64d9966f3acd98f00365aef1": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S09"
     },
     "6597b1091eb18ae988383c0a": {
       "date": "2026-10-08",
@@ -14291,6 +14509,14 @@
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S11"
     },
+    "aa394fbd872c70614227fbe4": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S06"
+    },
+    "ab7a4aff670366350b1afb9f": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S10"
+    },
     "abf356432a686832855af37e": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S02"
@@ -14379,6 +14605,10 @@
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S04"
     },
+    "b41c573420eb98197b8d9036": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S04"
+    },
     "b4240052cef889970abdc3f7d04aa494339b12dd": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S12"
@@ -14426,6 +14656,10 @@
     "b8273e43e091549ac4aa38187697d1e3d65df7b2": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S04"
+    },
+    "b8f2fe81aa4ed01bbdfb379b": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S05"
     },
     "b91b8b1569b6e6ab1f142025": {
       "date": "2026-10-04",
@@ -15006,6 +15240,10 @@
     "f92270f804e01df519afd8f6b9d01c950819f9d2": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S07"
+    },
+    "f9f8dc7bace7bcc8dbf39b14": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S02"
     },
     "fa53d3c5d5967a591a4ecdc09795dd72ceb32059": {
       "date": "2026-09-27",
@@ -16116,6 +16354,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-29",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-29T07:47:38.903240+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
