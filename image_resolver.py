@@ -73,7 +73,9 @@ def _score_candidate(text: str, fact: Fact, width: int, height: int) -> int:
     return score
 
 
-def _source_page_candidate(fact: Fact, query: str) -> tuple[str, str, str, int] | None:
+def _source_page_candidate(
+    fact: Fact, query: str, exclude_pages=frozenset(), exclude_urls=frozenset()
+) -> tuple[str, str, str, str, int] | None:
     if not fact.source_url.startswith(("http://", "https://")):
         return None
     try:
@@ -84,6 +86,11 @@ def _source_page_candidate(fact: Fact, query: str) -> tuple[str, str, str, int] 
         if not og:
             return None
         image_url = html.unescape(og.group(1)).strip()
+        # A source article always yields this same og:image. If another fact
+        # already used it, skip so the fact falls through to a fresh image.
+        if fact.source_url in exclude_pages or image_url in exclude_urls:
+            logger.info("Source-page image already used by another fact; skipping for %s", fact.fact_id)
+            return None
         title = re.sub(r"<[^>]+>", " ", html_text[:20000])
         score = _score_candidate(f"{query} {fact.title} {title}", fact, 1000, 700)
         if score < SETTINGS.image_min_score:
@@ -91,7 +98,7 @@ def _source_page_candidate(fact: Fact, query: str) -> tuple[str, str, str, int] 
         raw_path = GENERATED_DIR / f"{fact.fact_id}.source"
         out_path = GENERATED_DIR / f"{fact.fact_id}.jpg"
         if _download(image_url, raw_path):
-            return (str(raw_path), str(out_path), fact.source_url, score)
+            return (str(raw_path), str(out_path), fact.source_url, image_url, score)
     except Exception as exc:
         logger.debug("source page image failed: %s", exc)
     return None
@@ -156,25 +163,41 @@ def _exa_candidates(query: str, fact: Fact) -> list[tuple[int, str, str, str]]:
     return sorted(candidates, reverse=True)
 
 
-def _resolve_commons_candidate(candidates, fact: Fact) -> ResolvedImage | None:
+def _resolve_commons_candidate(candidates, fact: Fact, exclude_pages=frozenset(), exclude_urls=frozenset()) -> ResolvedImage | None:
+    fallback = None
     for score, title, image_url, source_page in candidates:
         if score < SETTINGS.image_min_score:
+            continue
+        if source_page in exclude_pages or image_url in exclude_urls:
+            # Already shown with another fact — remember as a last resort
+            # only, and keep looking for a fresh image.
+            if fallback is None:
+                fallback = (score, image_url, source_page)
             continue
         raw = GENERATED_DIR / f"{fact.fact_id}.raw"
         out = GENERATED_DIR / f"{fact.fact_id}.jpg"
         if not _download(image_url, raw):
             continue
         return ResolvedImage(raw, out, source_page, image_url, "Wikimedia Commons", score)
+    if fallback is not None:
+        score, image_url, source_page = fallback
+        logger.warning("Image pool exhausted for %s; reusing %s", fact.fact_id, source_page)
+        raw = GENERATED_DIR / f"{fact.fact_id}.raw"
+        out = GENERATED_DIR / f"{fact.fact_id}.jpg"
+        if _download(image_url, raw):
+            return ResolvedImage(raw, out, source_page, image_url, "Wikimedia Commons", score)
     return None
 
 
-def resolve_fact_image(fact: Fact, image_query: str = "") -> ResolvedImage | None:
+def resolve_fact_image(
+    fact: Fact, image_query: str = "", exclude_pages=frozenset(), exclude_urls=frozenset()
+) -> ResolvedImage | None:
     query = image_query.strip() or f"{fact.title} {fact.subcategory}".strip()
 
-    source = _source_page_candidate(fact, query)
+    source = _source_page_candidate(fact, query, exclude_pages, exclude_urls)
     if source:
-        raw, out, page, score = source
-        return ResolvedImage(Path(raw), Path(out), page, fact.source_url, "Source page", score)
+        raw, out, page, image_url, score = source
+        return ResolvedImage(Path(raw), Path(out), page, image_url, "Source page", score)
 
     queries = [query, fact.title, f"{fact.title} {fact.category}", f"{fact.subcategory} {fact.title}"]
     all_candidates: list[tuple[int, str, str, str]] = []
@@ -184,11 +207,13 @@ def resolve_fact_image(fact: Fact, image_query: str = "") -> ResolvedImage | Non
             continue
         seen.add(q)
         all_candidates.extend(_commons_candidates(q, fact))
-    best = _resolve_commons_candidate(sorted(all_candidates, key=lambda x: x[0], reverse=True), fact)
+    best = _resolve_commons_candidate(
+        sorted(all_candidates, key=lambda x: x[0], reverse=True), fact, exclude_pages, exclude_urls)
     if best:
         return best
 
     exa = _exa_candidates(query, fact)
+    exa_fallback = None
     for score, title, page_url, _ in exa:
         # Fetch the Wikimedia page and discover og:image, keeping Exa as discovery only.
         try:
@@ -198,10 +223,20 @@ def resolve_fact_image(fact: Fact, image_query: str = "") -> ResolvedImage | Non
             if not og:
                 continue
             image_url = html.unescape(og.group(1)).strip()
+            if page_url in exclude_pages or image_url in exclude_urls:
+                if exa_fallback is None:
+                    exa_fallback = (score, page_url, image_url)
+                continue
             raw = GENERATED_DIR / f"{fact.fact_id}.raw"
             out = GENERATED_DIR / f"{fact.fact_id}.jpg"
             if _download(image_url, raw):
                 return ResolvedImage(raw, out, page_url, image_url, "Wikimedia Commons via Exa", score)
         except Exception:
             continue
+    if exa_fallback is not None:
+        score, page_url, image_url = exa_fallback
+        raw = GENERATED_DIR / f"{fact.fact_id}.raw"
+        out = GENERATED_DIR / f"{fact.fact_id}.jpg"
+        if _download(image_url, raw):
+            return ResolvedImage(raw, out, page_url, image_url, "Wikimedia Commons via Exa", score)
     return None

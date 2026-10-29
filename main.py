@@ -35,6 +35,7 @@ from state_store import (
     mark_fact_failed,
     mark_fact_published,
     save_state,
+    used_image_keys,
 )
 from telegram_client import send_message, send_photo, send_rich_message
 
@@ -201,11 +202,19 @@ def cached_image_path(state: dict, fact: Fact) -> tuple[Path | None, dict]:
 
 
 def prepare_image(state: dict, fact: Fact, image_query: str = "") -> tuple[Path | None, dict]:
+    # Images already shown with other facts are off-limits: same-topic facts
+    # otherwise keep winning the same source-article og:image / top Commons
+    # photo. (Karn flagged 5+ repeats of one image, 2026-10-29.)
+    used_pages, used_urls = used_image_keys(state, exclude_fact_id=fact.fact_id)
     cached_path, cached_meta = cached_image_path(state, fact)
     if cached_path:
-        return cached_path, cached_meta
+        cached_page = str(cached_meta.get("source_page") or "").strip()
+        cached_url = str(cached_meta.get("source_url") or "").strip()
+        if cached_page not in used_pages and cached_url not in used_urls:
+            return cached_path, cached_meta
+        logger.info("Cached image for %s was already used by another fact; resolving a fresh one", fact.fact_id)
     try:
-        resolved = resolve_fact_image(fact, image_query=image_query)
+        resolved = resolve_fact_image(fact, image_query=image_query, exclude_pages=used_pages, exclude_urls=used_urls)
         if not resolved:
             return None, {}
         image = prepare_fact_image(fact, resolved)
