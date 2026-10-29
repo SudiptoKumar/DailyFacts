@@ -122,6 +122,12 @@ def _commons_candidates(query: str, fact: Fact) -> list[tuple[int, str, str, str
     out = []
     for page in pages.values():
         info = (page.get("imageinfo") or [{}])[0]
+        # Commons also hosts whole scanned books/papers (PDF/DjVu). Their
+        # "image" is a rendered page of text — never a usable photo, however
+        # keyword-rich the book description is. Only real image files count.
+        mime = str(info.get("mime") or "").casefold()
+        if mime and not mime.startswith("image/"):
+            continue
         meta = info.get("extmetadata") or {}
         desc = str((meta.get("ImageDescription") or {}).get("value") or "")
         title = str(page.get("title") or "")
@@ -215,6 +221,8 @@ def resolve_fact_image(
     exa = _exa_candidates(query, fact)
     exa_fallback = None
     for score, title, page_url, _ in exa:
+        if page_url.casefold().endswith((".pdf", ".djvu")):
+            continue  # scanned book/paper, same exclusion as the Commons pool
         # Fetch the Wikimedia page and discover og:image, keeping Exa as discovery only.
         try:
             response = requests.get(page_url, timeout=SETTINGS.request_timeout, headers={"User-Agent": "DailyFactsBot/2.14"})
