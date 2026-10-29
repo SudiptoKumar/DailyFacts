@@ -53,13 +53,22 @@ def test_rich_html_structure_and_escaping_once() -> None:
     assert "#Ocean #Marine" in rich
 
 
-def test_prepare_image_outputs_fixed_frame() -> None:
+def test_prepare_image_keeps_original_ratio_at_fixed_width() -> None:
     with TemporaryDirectory() as tmp:
+        # Portrait source: width becomes 1200, height follows the ratio —
+        # the photo is NOT cropped to the 1200x675 frame.
         source = Path(tmp) / "source.jpg"
         output = Path(tmp) / "out.jpg"
         Image.new("RGB", (800, 1000), (40, 80, 140)).save(source, format="JPEG", quality=90)
         _prepare_image(source, output)
         with Image.open(output) as img:
+            assert img.size == (1200, 1500), img.size
+        # Landscape source: same rule.
+        source2 = Path(tmp) / "source2.jpg"
+        output2 = Path(tmp) / "out2.jpg"
+        Image.new("RGB", (1600, 900), (30, 120, 70)).save(source2, format="JPEG", quality=90)
+        _prepare_image(source2, output2)
+        with Image.open(output2) as img:
             assert img.size == (1200, 675), img.size
 
 
@@ -87,7 +96,7 @@ def test_fallback_card_handles_long_fact() -> None:
 
 def run_all() -> None:
     test_rich_html_structure_and_escaping_once()
-    test_prepare_image_outputs_fixed_frame()
+    test_prepare_image_keeps_original_ratio_at_fixed_width()
     test_fallback_card_is_fixed_frame()
     test_fallback_card_handles_long_fact()
     print("rich regression tests: PASS")
