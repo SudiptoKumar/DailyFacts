@@ -8508,6 +8508,25 @@
           "published_count": 10,
           "started_at": "2026-10-29T07:46:14.265173+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-29-S11",
+            "FACT-2026-10-29-S12",
+            "FACT-2026-10-29-S13",
+            "FACT-2026-10-29-S14",
+            "FACT-2026-10-29-S15",
+            "FACT-2026-10-29-S16",
+            "FACT-2026-10-29-S17",
+            "FACT-2026-10-29-S18",
+            "FACT-2026-10-29-S19",
+            "FACT-2026-10-29-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-29T17:22:51.732691+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-29T17:21:44.552560+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -8619,6 +8638,116 @@
           "message_id": 756,
           "published_at": "2026-10-29T07:47:38.888172+00:00",
           "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S11": {
+          "batch": 2,
+          "claim_key": "bcc8d16ffb8b729b60171ad2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 757,
+          "published_at": "2026-10-29T17:22:10.996179+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S12": {
+          "batch": 2,
+          "claim_key": "7c70d694badb8c519a074652",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Scripture_natural_history-_containing_a_description_of_quadrupeds,_birds,_reptiles,_amphibia,_fishes,_insects,_molluscous_animals,_corals,_plants,_trees,_precious_stones,_and_metals,_mentioned_in_the_(14727652316).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 758,
+          "published_at": "2026-10-29T17:22:19.342882+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S13": {
+          "batch": 2,
+          "claim_key": "464676f7c5745ad7af690fd9",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Indus_Script_Falsifiability_Sheet_v3_(Michael_L._Grasa,_2025).png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 759,
+          "published_at": "2026-10-29T17:22:23.730893+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S14": {
+          "batch": 2,
+          "claim_key": "9c6d3637c037573e0feaee7c",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 760,
+          "published_at": "2026-10-29T17:22:26.708026+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S15": {
+          "batch": 2,
+          "claim_key": "f9dd9d715b82896180e82a4b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 761,
+          "published_at": "2026-10-29T17:22:32.512298+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S16": {
+          "batch": 2,
+          "claim_key": "cd12f5d4672f6b5752238a6a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 762,
+          "published_at": "2026-10-29T17:22:38.547041+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S17": {
+          "batch": 2,
+          "claim_key": "bd767096937323d1c4e04530",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 763,
+          "published_at": "2026-10-29T17:22:41.128534+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S18": {
+          "batch": 2,
+          "claim_key": "703e7d089c6f24a81c470d8b",
+          "image_credit": "Source page",
+          "image_page": "https://guides.loc.gov/folktales-oral-storytelling/cultural-community",
+          "image_source": "Wikimedia Commons",
+          "message_id": 764,
+          "published_at": "2026-10-29T17:22:45.582191+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S19": {
+          "batch": 2,
+          "claim_key": "f3e42cc3cf1e826824567837",
+          "image_credit": "Source page",
+          "image_page": "https://oceanexplorer.noaa.gov/news/mysterious-holes-seafloor/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 765,
+          "published_at": "2026-10-29T17:22:48.477760+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-29-S20": {
+          "batch": 2,
+          "claim_key": "28db599103d93ca66ced3896",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 766,
+          "published_at": "2026-10-29T17:22:51.717373+00:00",
+          "send_mode": "card_rich",
           "status": "published"
         }
       }
@@ -12734,6 +12863,42 @@
       "score": 39,
       "source_page": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
       "source_url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html"
+    },
+    "FACT-2026-10-29-S12": {
+      "cached_at": "2026-10-29T17:22:16.893044+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-29-S12.jpg",
+      "query": "close-up of coral polyps building a reef",
+      "score": 25,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Scripture_natural_history-_containing_a_description_of_quadrupeds,_birds,_reptiles,_amphibia,_fishes,_insects,_molluscous_animals,_corals,_plants,_trees,_precious_stones,_and_metals,_mentioned_in_the_(14727652316).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Scripture_natural_history-_containing_a_description_of_quadrupeds%2C_birds%2C_reptiles%2C_amphibia%2C_fishes%2C_insects%2C_molluscous_animals%2C_corals%2C_plants%2C_trees%2C_precious_stones%2C_and_metals%2C_mentioned_in_the_%2814727652316%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-29-S13": {
+      "cached_at": "2026-10-29T17:22:21.959721+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-29-S13.jpg",
+      "query": "Harappan stone seals with Indus script symbols",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Indus_Script_Falsifiability_Sheet_v3_(Michael_L._Grasa,_2025).png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Indus_Script_Falsifiability_Sheet_v3_%28Michael_L._Grasa%2C_2025%29.png/1280px-Indus_Script_Falsifiability_Sheet_v3_%28Michael_L._Grasa%2C_2025%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-29-S18": {
+      "cached_at": "2026-10-29T17:22:43.153495+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-29-S18.jpg",
+      "query": "Asian American storytelling gathering, traditional folk performance, cultural heritage",
+      "score": 20,
+      "source_page": "https://guides.loc.gov/folktales-oral-storytelling/cultural-community",
+      "source_url": "https://guides.loc.gov/folktales-oral-storytelling/cultural-community"
+    },
+    "FACT-2026-10-29-S19": {
+      "cached_at": "2026-10-29T17:22:46.074629+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-29-S19.jpg",
+      "query": "The origin of deep-seafloor holes remains uncertain Deep-sea discoveries",
+      "score": 37,
+      "source_page": "https://oceanexplorer.noaa.gov/news/mysterious-holes-seafloor/",
+      "source_url": "https://oceanexplorer.noaa.gov/news/mysterious-holes-seafloor/"
     }
   },
   "published_claims": {
@@ -13149,6 +13314,10 @@
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S13"
     },
+    "28db599103d93ca66ced3896": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S20"
+    },
     "2b395274207c882ffd590bf70e936ae908bc1b9c": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S06"
@@ -13396,6 +13565,10 @@
     "459c5c1c9a08fe8a254a40f2": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S05"
+    },
+    "464676f7c5745ad7af690fd9": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S13"
     },
     "466df1a4072380f6e6f30a59": {
       "date": "2026-10-13",
@@ -13897,6 +14070,10 @@
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S18"
     },
+    "703e7d089c6f24a81c470d8b": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S18"
+    },
     "704726d8d1fdee5169a0cc5c": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S12"
@@ -14024,6 +14201,10 @@
     "7c243b6c0b54de8b3cc42660": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S11"
+    },
+    "7c70d694badb8c519a074652": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S12"
     },
     "7d3458da2e6f79e7c8baec47": {
       "date": "2026-10-23",
@@ -14340,6 +14521,10 @@
     "9c591e2ae5422e5d60e8ea56d433063fdbc09304": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S04"
+    },
+    "9c6d3637c037573e0feaee7c": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S14"
     },
     "9d287aa24e05e857d7167940": {
       "date": "2026-10-10",
@@ -14705,6 +14890,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S10"
     },
+    "bcc8d16ffb8b729b60171ad2": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S11"
+    },
     "bd1891d8f5c655bdde8105d0": {
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S09"
@@ -14712,6 +14901,10 @@
     "bd5b4da8b61c738703bcec63": {
       "date": "2026-10-20",
       "fact_id": "FACT-2026-10-20-S06"
+    },
+    "bd767096937323d1c4e04530": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S17"
     },
     "bd925c62a72397ecfd1cf06a": {
       "date": "2026-10-16",
@@ -14848,6 +15041,10 @@
     "cbf49b67a7fc9535734ee9fa": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S16"
+    },
+    "cd12f5d4672f6b5752238a6a": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S16"
     },
     "cdca2feaf64c9bb3293bf66b": {
       "date": "2026-10-23",
@@ -15173,6 +15370,10 @@
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S05"
     },
+    "f3e42cc3cf1e826824567837": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S19"
+    },
     "f43e620a1854f07f966a3b5b": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S15"
@@ -15240,6 +15441,10 @@
     "f92270f804e01df519afd8f6b9d01c950819f9d2": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S07"
+    },
+    "f9dd9d715b82896180e82a4b": {
+      "date": "2026-10-29",
+      "fact_id": "FACT-2026-10-29-S15"
     },
     "f9f8dc7bace7bcc8dbf39b14": {
       "date": "2026-10-29",
@@ -16370,6 +16575,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-29",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-29T17:22:51.732704+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
