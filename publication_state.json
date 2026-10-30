@@ -8751,6 +8751,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-30": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-30-S01",
+            "FACT-2026-10-30-S02",
+            "FACT-2026-10-30-S03",
+            "FACT-2026-10-30-S04",
+            "FACT-2026-10-30-S05",
+            "FACT-2026-10-30-S06",
+            "FACT-2026-10-30-S07",
+            "FACT-2026-10-30-S08",
+            "FACT-2026-10-30-S09",
+            "FACT-2026-10-30-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-30T07:53:24.576321+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-30T07:52:34.583040+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-30-S01": {
+          "batch": 1,
+          "claim_key": "7e02d022703ac41cf161bafc",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:NASA%27s_SDO_Observes_Largest_Sunspot_of_the_Solar_Cycle_(15430820129).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 782,
+          "published_at": "2026-10-30T07:52:40.719986+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S02": {
+          "batch": 1,
+          "claim_key": "116399879916fe7b4533434e",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:S65-63264_Network_of_stratocumulus_clouds_SW_of_the_Canary_Islands_on_Earth.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 783,
+          "published_at": "2026-10-30T07:52:49.618859+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S03": {
+          "batch": 1,
+          "claim_key": "809cf0434f1b4ec8b4a1d9f5",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 784,
+          "published_at": "2026-10-30T07:52:54.618127+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S04": {
+          "batch": 1,
+          "claim_key": "625481f71917435422e6cd22",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 785,
+          "published_at": "2026-10-30T07:52:56.591435+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S05": {
+          "batch": 1,
+          "claim_key": "21ddf2aad53317a531d4c7a1",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 786,
+          "published_at": "2026-10-30T07:52:58.562572+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S06": {
+          "batch": 1,
+          "claim_key": "befdb77844c6d3e1d1a1cade",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 787,
+          "published_at": "2026-10-30T07:53:00.578184+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S07": {
+          "batch": 1,
+          "claim_key": "6c234a36c3d4e7091e31199f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 788,
+          "published_at": "2026-10-30T07:53:08.658918+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S08": {
+          "batch": 1,
+          "claim_key": "59f01444a88d81b5403fe64c",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Magna_Mine_A-C_System_made_large-scale_air_conditioning_feasible.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 789,
+          "published_at": "2026-10-30T07:53:16.503318+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S09": {
+          "batch": 1,
+          "claim_key": "5ef1b320f56d3561213804cf",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 790,
+          "published_at": "2026-10-30T07:53:22.230280+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S10": {
+          "batch": 1,
+          "claim_key": "7e40e82e129c264a4fa89a47",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 791,
+          "published_at": "2026-10-30T07:53:24.559867+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -12899,6 +13034,33 @@
       "score": 37,
       "source_page": "https://oceanexplorer.noaa.gov/news/mysterious-holes-seafloor/",
       "source_url": "https://oceanexplorer.noaa.gov/news/mysterious-holes-seafloor/"
+    },
+    "FACT-2026-10-30-S01": {
+      "cached_at": "2026-10-30T07:52:38.246469+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-30-S01.jpg",
+      "query": "Sun",
+      "score": 32,
+      "source_page": "https://commons.wikimedia.org/wiki/File:NASA%27s_SDO_Observes_Largest_Sunspot_of_the_Solar_Cycle_(15430820129).jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/NASA%27s_SDO_Observes_Largest_Sunspot_of_the_Solar_Cycle_%2815430820129%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-10-30-S02": {
+      "cached_at": "2026-10-30T07:52:48.701887+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-30-S02.jpg",
+      "query": "Troposphere location Earth Atmosphere",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:S65-63264_Network_of_stratocumulus_clouds_SW_of_the_Canary_Islands_on_Earth.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/S65-63264_Network_of_stratocumulus_clouds_SW_of_the_Canary_Islands_on_Earth.jpg/1280px-S65-63264_Network_of_stratocumulus_clouds_SW_of_the_Canary_Islands_on_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-30-S08": {
+      "cached_at": "2026-10-30T07:53:15.024722+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-30-S08.jpg",
+      "query": "Willis Carrier 1902 air‑conditioning system",
+      "score": 27,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Magna_Mine_A-C_System_made_large-scale_air_conditioning_feasible.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Magna_Mine_A-C_System_made_large-scale_air_conditioning_feasible.jpg/1280px-Magna_Mine_A-C_System_made_large-scale_air_conditioning_feasible.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -13053,6 +13215,10 @@
     "1094318c6fdff451b6846423": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S06"
+    },
+    "116399879916fe7b4533434e": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S02"
     },
     "118ed21de6e2981888e5e06c": {
       "date": "2026-10-23",
@@ -13229,6 +13395,10 @@
     "215dd2adaa465c125fdfe308": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S17"
+    },
+    "21ddf2aad53317a531d4c7a1": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S05"
     },
     "21ecec0c1c99aef001303152": {
       "date": "2026-10-04",
@@ -13794,6 +13964,10 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S12"
     },
+    "59f01444a88d81b5403fe64c": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S08"
+    },
     "5a2b75132d17d0e23adfc0fe": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S02"
@@ -13870,6 +14044,10 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S02"
     },
+    "5ef1b320f56d3561213804cf": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S09"
+    },
     "5f20a33234fc09fbcfa871e4": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S02"
@@ -13925,6 +14103,10 @@
     "6221087c2ed903cf39e01cc6505843e0205e4067": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S05"
+    },
+    "625481f71917435422e6cd22": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S04"
     },
     "6268b65badbd35dedb71167b": {
       "date": "2026-10-21",
@@ -14033,6 +14215,10 @@
     "6b6ccf3567dc140bade8e4985d5b3211a96e1ad0": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S09"
+    },
+    "6c234a36c3d4e7091e31199f": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S07"
     },
     "6c35273ab6da38653dc7bf56": {
       "date": "2026-10-09",
@@ -14218,6 +14404,14 @@
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S02"
     },
+    "7e02d022703ac41cf161bafc": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S01"
+    },
+    "7e40e82e129c264a4fa89a47": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S10"
+    },
     "8031501e26a99ef49154a49c": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S01"
@@ -14225,6 +14419,10 @@
     "8080cd2dfb461ce7e505dd1c": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S19"
+    },
+    "809cf0434f1b4ec8b4a1d9f5": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S03"
     },
     "80cb8ae7a09240c8afb0d29b": {
       "date": "2026-10-09",
@@ -14925,6 +15123,10 @@
     "be9a2b0ea3b87f0ab0d97da4": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S18"
+    },
+    "befdb77844c6d3e1d1a1cade": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S06"
     },
     "bfe30ba1b1d3f2f9bd0c3de9": {
       "date": "2026-10-12",
@@ -16591,6 +16793,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-30",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-30T07:53:24.576336+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
