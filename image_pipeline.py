@@ -13,7 +13,11 @@ MAX_BYTES = 9_500_000
 # Every published photo leaves at a fixed width of 1200 px with its original
 # aspect ratio kept (nothing cropped), stamped. The generated quote card
 # keeps the fixed 1200x675 (16:9) frame.
-FRAME = (1200, 675)
+FRAME = (1200, 1200)
+# Quote-card heights (Karn, 2026-10-30): the card is never shorter than
+# square — 1:1 minimum — and grows taller with the fact: 1200 (1:1),
+# 1500 (4:5), 1800 (2:3). Width is always 1200.
+CARD_HEIGHTS = (1200, 1500, 1800)
 # The network's house template (Vocabulary/Sports cards): warm paper, ink,
 # one red accent, hairline frame, Playfair display type.
 PAPER = (252, 251, 248)
@@ -161,18 +165,32 @@ def _wrap(draw: ImageDraw.ImageDraw, s: str, font, max_w: int) -> list[str]:
     return lines
 
 
+def _card_height(quote: str) -> int:
+    """Content-fit card height: the wrapped line count at a 48px reference
+    size picks the tier — <=4 lines stay 1:1, 5-7 lines go 4:5, longer
+    facts go 2:3. The card is never shorter than square (Karn's rule)."""
+    probe = ImageDraw.Draw(Image.new("RGB", (8, 8)))
+    lines = len(_wrap(probe, quote, _font("serif", 48, 700), 1200 - 140 - 84))
+    if lines <= 4:
+        return CARD_HEIGHTS[0]
+    if lines <= 7:
+        return CARD_HEIGHTS[1]
+    return CARD_HEIGHTS[2]
+
+
 def generate_fallback_card(fact, content, output: Path) -> Path:
     """Quote card for facts with no photo, in the network's house template
     (paper, ink, Playfair, red accent, hairline frame): the channel header
     with the DF logo, then the fact itself in big serif type with a red
     quote mark and rule, and a handle + source footer — nothing else. The
     post is the card alone, with no extra text around it."""
-    W, H = FRAME
+    W = FRAME[0]
     quote = str(getattr(content, "fact", "") or getattr(fact, "fact", "") or "").strip()
     category = str(getattr(fact, "category", "") or "Facts").strip()
     domain = str(getattr(fact, "source_domain", "") or "").strip()
+    H = _card_height(quote)
 
-    img = Image.new("RGB", FRAME, PAPER)
+    img = Image.new("RGB", (W, H), PAPER)
     draw = ImageDraw.Draw(img)
 
     # Hairline frame.
@@ -209,7 +227,9 @@ def generate_fallback_card(fact, content, output: Path) -> Path:
     # the open zone between the quote mark and the footer. Nothing else is
     # printed — the category is in the header, the source in the footer,
     # and any extra line would only repeat the fact.
-    text_x, text_w, text_max_h = 140, W - 140 - 84, 216
+    text_x, text_w = 140, W - 140 - 84
+    zone_top, zone_bottom = 235, H - 118
+    text_max_h = zone_bottom - zone_top
     size, lines = 28, []
     for candidate in range(58, 27, -2):
         font = _font("serif", candidate, 700)
@@ -227,7 +247,7 @@ def generate_fallback_card(fact, content, output: Path) -> Path:
     font = _font("serif", size, 700)
     line_h = size * 1.24
     text_h = len(lines) * line_h
-    text_top = 250 + max(0, (315 - text_h) / 2)
+    text_top = zone_top + max(0, (text_max_h - text_h) / 2)
     y = text_top
     for line in lines:
         draw.text((text_x, y), line, font=font, fill=INK)
