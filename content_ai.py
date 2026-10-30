@@ -7,6 +7,7 @@ from dataclasses import dataclass
 
 import requests
 
+import cerebras_keys
 from config import SETTINGS
 from dataset import Fact
 
@@ -92,9 +93,14 @@ def enrich_fact(fact: Fact) -> EnrichedContent:
         ],
         "response_format": {"type": "json_object"},
     }
-    headers = {"Authorization": f"Bearer {SETTINGS.cerebras_api_key}", "Content-Type": "application/json"}
     try:
-        response = requests.post(url, headers=headers, json=payload, timeout=SETTINGS.request_timeout)
+        while True:
+            # Headers rebuilt per try so a key failover is picked up at once.
+            headers = {"Authorization": f"Bearer {SETTINGS.cerebras_api_key}", "Content-Type": "application/json"}
+            response = requests.post(url, headers=headers, json=payload, timeout=SETTINGS.request_timeout)
+            if cerebras_keys.is_quota_status(response.status_code) and cerebras_keys.failover(response.status_code):
+                continue
+            break
         if response.status_code == 429:
             raise RuntimeError("Cerebras rate limit (429), using deterministic fallback")
         response.raise_for_status()
