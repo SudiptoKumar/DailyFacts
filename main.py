@@ -573,7 +573,7 @@ def self_test() -> None:
 
     # Photo-shape regression from the production pipeline: every photo is
     # resized to width 1200 with its original ratio kept (no crop) and
-    # stamped; the no-photo quote card is the fixed 1200x675 frame.
+    # stamped; the no-photo quote card is the content-fit card frame (1:1 minimum).
     from image_pipeline import _prepare_image, generate_fallback_card
     with TemporaryDirectory() as temp:
         src = Path(temp) / "source.jpg"
@@ -585,9 +585,9 @@ def self_test() -> None:
         card_out = Path(temp) / "card.jpg"
         generate_fallback_card(sample, content, card_out)
         with Image.open(card_out) as check:
-            assert check.size == (1200, 675)
+            assert check.size[0] == 1200 and check.size[1] in (1200, 1500, 1800)
 
-    logger.info("SELF-TEST PASS | records=%d | scheduler cursor regression | duplicate-safe allocation | caption | width-1200 original-ratio photos + fixed-frame quote card", len(facts))
+    logger.info("SELF-TEST PASS | records=%d | scheduler cursor regression | duplicate-safe allocation | caption | width-1200 original-ratio photos + content-fit quote card (1:1 minimum)", len(facts))
 
 
 def main() -> None:

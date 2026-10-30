@@ -72,13 +72,13 @@ def test_prepare_image_keeps_original_ratio_at_fixed_width() -> None:
             assert img.size == (1200, 675), img.size
 
 
-def test_fallback_card_is_fixed_frame() -> None:
+def test_fallback_card_short_fact_is_square() -> None:
     with TemporaryDirectory() as tmp:
         output = Path(tmp) / "card.jpg"
         content = EnrichedContent("Test title", "A verified test fact.", ["One", "Two"], "test")
         generate_fallback_card(_fact(), content, output)
         with Image.open(output) as img:
-            assert img.size == (1200, 675), img.size
+            assert img.size == (1200, 1200), img.size
 
 
 def test_fallback_card_handles_long_fact() -> None:
@@ -91,13 +91,13 @@ def test_fallback_card_handles_long_fact() -> None:
         content = EnrichedContent("Western and Central Europe", long_fact, ["History", "Europe"], "test")
         generate_fallback_card(_fact("Ancient Civilizations"), content, output)
         with Image.open(output) as img:
-            assert img.size == (1200, 675), img.size
+            assert img.size == (1200, 1800), img.size
 
 
 def run_all() -> None:
     test_rich_html_structure_and_escaping_once()
     test_prepare_image_keeps_original_ratio_at_fixed_width()
-    test_fallback_card_is_fixed_frame()
+    test_fallback_card_short_fact_is_square()
     test_fallback_card_handles_long_fact()
     print("rich regression tests: PASS")
 
