@@ -8772,6 +8772,25 @@
           "published_count": 10,
           "started_at": "2026-10-30T07:52:34.583040+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-30-S11",
+            "FACT-2026-10-30-S12",
+            "FACT-2026-10-30-S13",
+            "FACT-2026-10-30-S14",
+            "FACT-2026-10-30-S15",
+            "FACT-2026-10-30-S16",
+            "FACT-2026-10-30-S17",
+            "FACT-2026-10-30-S18",
+            "FACT-2026-10-30-S19",
+            "FACT-2026-10-30-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-30T16:59:36.885720+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-30T16:58:34.250186+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -8882,6 +8901,116 @@
           "image_source": "Generated card",
           "message_id": 791,
           "published_at": "2026-10-30T07:53:24.559867+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S11": {
+          "batch": 2,
+          "claim_key": "b819edba5a5f7ac529fdcddb",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Yosemite_Valley_(Sierra_Nevada_Mountains,_eastern_California,_USA)_1.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 802,
+          "published_at": "2026-10-30T16:58:46.526813+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S12": {
+          "batch": 2,
+          "claim_key": "09a797d02314eac82f28f738",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 803,
+          "published_at": "2026-10-30T16:58:55.878293+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S13": {
+          "batch": 2,
+          "claim_key": "ea5e01690117d1c1048ab0b6",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Plume_from_Sinabung,_Sumatra,_Indonesia_(morning_overpass)_(MODIS_2018-02-21).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 804,
+          "published_at": "2026-10-30T16:59:06.293486+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S14": {
+          "batch": 2,
+          "claim_key": "0c5a790f496e6a5219ffca84",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Explore_K%C4%ABlauea,_But_Avoid_Places_Where_You_Could_Die,_K%C4%ABlauea_Visitor_Center,_Hawai%CA%BBi_Volcanoes_National_Park,_Hawaii_(4529208096).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 805,
+          "published_at": "2026-10-30T16:59:15.594440+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S15": {
+          "batch": 2,
+          "claim_key": "6afed29aff440a7e6c49edb5",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Coral_oreja_de_elefante_(Amplexidiscus_fenestrafer),_Nosy_Kalakajoro,_Madagascar,_2025-09-14,_DD_90.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 806,
+          "published_at": "2026-10-30T16:59:21.372553+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S16": {
+          "batch": 2,
+          "claim_key": "2dda0db256c2b27d84871717",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 807,
+          "published_at": "2026-10-30T16:59:24.483735+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S17": {
+          "batch": 2,
+          "claim_key": "3bd311813c53a46bbc084637",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 808,
+          "published_at": "2026-10-30T16:59:27.352094+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S18": {
+          "batch": 2,
+          "claim_key": "b4268b23eb8d9e05e368b4f1",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 809,
+          "published_at": "2026-10-30T16:59:30.015636+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S19": {
+          "batch": 2,
+          "claim_key": "9fee1a8f012f91d0600e221d",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 810,
+          "published_at": "2026-10-30T16:59:34.478156+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-30-S20": {
+          "batch": 2,
+          "claim_key": "c8c5d8eb8158305d5584e61a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 811,
+          "published_at": "2026-10-30T16:59:36.868383+00:00",
           "send_mode": "card_rich",
           "status": "published"
         }
@@ -13061,6 +13190,42 @@
       "score": 27,
       "source_page": "https://commons.wikimedia.org/wiki/File:Magna_Mine_A-C_System_made_large-scale_air_conditioning_feasible.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Magna_Mine_A-C_System_made_large-scale_air_conditioning_feasible.jpg/1280px-Magna_Mine_A-C_System_made_large-scale_air_conditioning_feasible.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-30-S11": {
+      "cached_at": "2026-10-30T16:58:37.772937+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-30-S11.jpg",
+      "query": "Yosemite Valley U-shaped glacial valley",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Yosemite_Valley_(Sierra_Nevada_Mountains,_eastern_California,_USA)_1.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Yosemite_Valley_%28Sierra_Nevada_Mountains%2C_eastern_California%2C_USA%29_1.jpg/1280px-Yosemite_Valley_%28Sierra_Nevada_Mountains%2C_eastern_California%2C_USA%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-30-S13": {
+      "cached_at": "2026-10-30T16:59:03.867343+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-30-S13.jpg",
+      "query": "volcanic eruption ash cloud spreading over landscape",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Plume_from_Sinabung,_Sumatra,_Indonesia_(morning_overpass)_(MODIS_2018-02-21).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Plume_from_Sinabung%2C_Sumatra%2C_Indonesia_%28morning_overpass%29_%28MODIS_2018-02-21%29.jpg/1280px-Plume_from_Sinabung%2C_Sumatra%2C_Indonesia_%28morning_overpass%29_%28MODIS_2018-02-21%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-30-S14": {
+      "cached_at": "2026-10-30T16:59:13.707967+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-30-S14.jpg",
+      "query": "United States volcanic eruptions landscape",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Explore_K%C4%ABlauea,_But_Avoid_Places_Where_You_Could_Die,_K%C4%ABlauea_Visitor_Center,_Hawai%CA%BBi_Volcanoes_National_Park,_Hawaii_(4529208096).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Explore_K%C4%ABlauea%2C_But_Avoid_Places_Where_You_Could_Die%2C_K%C4%ABlauea_Visitor_Center%2C_Hawai%CA%BBi_Volcanoes_National_Park%2C_Hawaii_%284529208096%29.jpg/1280px-Explore_K%C4%ABlauea%2C_But_Avoid_Places_Where_You_Could_Die%2C_K%C4%ABlauea_Visitor_Center%2C_Hawai%CA%BBi_Volcanoes_National_Park%2C_Hawaii_%284529208096%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-30-S15": {
+      "cached_at": "2026-10-30T16:59:18.646355+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-30-S15.jpg",
+      "query": "coral polyps forming large reef-building colonies, flowing fan structures, and solitary coral organisms",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Coral_oreja_de_elefante_(Amplexidiscus_fenestrafer),_Nosy_Kalakajoro,_Madagascar,_2025-09-14,_DD_90.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Coral_oreja_de_elefante_%28Amplexidiscus_fenestrafer%29%2C_Nosy_Kalakajoro%2C_Madagascar%2C_2025-09-14%2C_DD_90.jpg/1280px-Coral_oreja_de_elefante_%28Amplexidiscus_fenestrafer%29%2C_Nosy_Kalakajoro%2C_Madagascar%2C_2025-09-14%2C_DD_90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -13132,6 +13297,10 @@
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S12"
     },
+    "09a797d02314eac82f28f738": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S12"
+    },
     "09cbaca23b94d554b9728dc8": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S03"
@@ -13155,6 +13324,10 @@
     "0c041c02b1ceb4f15c6058b5": {
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S04"
+    },
+    "0c5a790f496e6a5219ffca84": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S14"
     },
     "0c755ea5b3b5e26293e30244": {
       "date": "2026-10-23",
@@ -13512,6 +13685,10 @@
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S11"
     },
+    "2dda0db256c2b27d84871717": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S16"
+    },
     "2ef0c4560d088f9bed27038b": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S15"
@@ -13651,6 +13828,10 @@
     "3bc8582fc8950e1eeb778864": {
       "date": "2026-10-27",
       "fact_id": "FACT-2026-10-27-S02"
+    },
+    "3bd311813c53a46bbc084637": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S17"
     },
     "3cbbeae8bd2e5f1d54c151ed": {
       "date": "2026-10-16",
@@ -14203,6 +14384,10 @@
     "6a405a4e22fa7d68ffa63b95": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S19"
+    },
+    "6afed29aff440a7e6c49edb5": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S15"
     },
     "6b3e0e90a224ac0fe7eb1e326f25429560f0fed7": {
       "date": "2026-09-25",
@@ -14772,6 +14957,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S04"
     },
+    "9fee1a8f012f91d0600e221d": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S19"
+    },
     "9ffde6605ed629c74ab30818": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S02"
@@ -14996,6 +15185,10 @@
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S12"
     },
+    "b4268b23eb8d9e05e368b4f1": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S18"
+    },
     "b4330f6be232684bd64a59b8": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S03"
@@ -15035,6 +15228,10 @@
     "b73191a40bcec4c8e8d46485": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S03"
+    },
+    "b819edba5a5f7ac529fdcddb": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S11"
     },
     "b8273e43e091549ac4aa38187697d1e3d65df7b2": {
       "date": "2026-09-30",
@@ -15207,6 +15404,10 @@
     "c8965b7436102da3345fa413": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S04"
+    },
+    "c8c5d8eb8158305d5584e61a": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S20"
     },
     "c8ffe3814781cdf1b42c291f": {
       "date": "2026-10-19",
@@ -15495,6 +15696,10 @@
     "ea0c34776f8a453fbf0d15c8": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S06"
+    },
+    "ea5e01690117d1c1048ab0b6": {
+      "date": "2026-10-30",
+      "fact_id": "FACT-2026-10-30-S13"
     },
     "ea63d4dda82a9d73489eeecf": {
       "date": "2026-10-21",
@@ -16809,6 +17014,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-30",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-30T16:59:36.885768+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
