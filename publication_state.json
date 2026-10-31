@@ -9015,6 +9015,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-10-31": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-31-S01",
+            "FACT-2026-10-31-S02",
+            "FACT-2026-10-31-S03",
+            "FACT-2026-10-31-S04",
+            "FACT-2026-10-31-S05",
+            "FACT-2026-10-31-S06",
+            "FACT-2026-10-31-S07",
+            "FACT-2026-10-31-S08",
+            "FACT-2026-10-31-S09",
+            "FACT-2026-10-31-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-31T07:42:53.630608+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-31T07:42:03.974303+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-10-31-S01": {
+          "batch": 1,
+          "claim_key": "572af9dbe8688a778fc80d55",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Hotspots_in_Fountains_on_the_Sun%27s_Surface_Help_Explain_Coronal_Heating_Mystery_(5330405421).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 812,
+          "published_at": "2026-10-31T07:42:11.878624+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S02": {
+          "batch": 1,
+          "claim_key": "e5827d21202e72a4eb0c86b4",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:PIA18613-MarsMAVEN-Atmosphere-3UV-Views-20141014.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 813,
+          "published_at": "2026-10-31T07:42:19.468426+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S03": {
+          "batch": 1,
+          "claim_key": "88bc45566762f4e052f063d3",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 814,
+          "published_at": "2026-10-31T07:42:29.443544+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S04": {
+          "batch": 1,
+          "claim_key": "da18d90caae860c21d3dac27",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 815,
+          "published_at": "2026-10-31T07:42:32.034477+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S05": {
+          "batch": 1,
+          "claim_key": "df0dc7ce10347495a233ad09",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 816,
+          "published_at": "2026-10-31T07:42:34.889058+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S06": {
+          "batch": 1,
+          "claim_key": "37f5e04489df9eb39efda43f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 817,
+          "published_at": "2026-10-31T07:42:37.783595+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S07": {
+          "batch": 1,
+          "claim_key": "91f70e589cfd7fe056873ee7",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 818,
+          "published_at": "2026-10-31T07:42:41.123663+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S08": {
+          "batch": 1,
+          "claim_key": "e4fd1b9d7b8d4bda6b9c5f77",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 819,
+          "published_at": "2026-10-31T07:42:43.924493+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S09": {
+          "batch": 1,
+          "claim_key": "4d71d87f519ad761defc2638",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 820,
+          "published_at": "2026-10-31T07:42:49.136757+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S10": {
+          "batch": 1,
+          "claim_key": "dfa039b896985ef52e2ecf11",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 821,
+          "published_at": "2026-10-31T07:42:53.620949+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -13226,6 +13361,24 @@
       "score": 19,
       "source_page": "https://commons.wikimedia.org/wiki/File:Coral_oreja_de_elefante_(Amplexidiscus_fenestrafer),_Nosy_Kalakajoro,_Madagascar,_2025-09-14,_DD_90.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Coral_oreja_de_elefante_%28Amplexidiscus_fenestrafer%29%2C_Nosy_Kalakajoro%2C_Madagascar%2C_2025-09-14%2C_DD_90.jpg/1280px-Coral_oreja_de_elefante_%28Amplexidiscus_fenestrafer%29%2C_Nosy_Kalakajoro%2C_Madagascar%2C_2025-09-14%2C_DD_90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-31-S01": {
+      "cached_at": "2026-10-31T07:42:10.194115+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-31-S01.jpg",
+      "query": "photosphere of the Sun",
+      "score": 37,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hotspots_in_Fountains_on_the_Sun%27s_Surface_Help_Explain_Coronal_Heating_Mystery_(5330405421).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Hotspots_in_Fountains_on_the_Sun%27s_Surface_Help_Explain_Coronal_Heating_Mystery_%285330405421%29.jpg/1280px-Hotspots_in_Fountains_on_the_Sun%27s_Surface_Help_Explain_Coronal_Heating_Mystery_%285330405421%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-31-S02": {
+      "cached_at": "2026-10-31T07:42:16.775360+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-31-S02.jpg",
+      "query": "Mars landscape with a thin, hazy sky, red dust, and visible carbon dioxide molecules",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:PIA18613-MarsMAVEN-Atmosphere-3UV-Views-20141014.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/PIA18613-MarsMAVEN-Atmosphere-3UV-Views-20141014.jpg/1280px-PIA18613-MarsMAVEN-Atmosphere-3UV-Views-20141014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -13789,6 +13942,10 @@
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S13"
     },
+    "37f5e04489df9eb39efda43f": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S06"
+    },
     "390499f9bc1834fea0b2796b": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S01"
@@ -13997,6 +14154,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S09"
     },
+    "4d71d87f519ad761defc2638": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S09"
+    },
     "4d74d33b735ea7630cb4df23": {
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S20"
@@ -14116,6 +14277,10 @@
     "56cd87dd106a435a7ca44547": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S08"
+    },
+    "572af9dbe8688a778fc80d55": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S01"
     },
     "576694782fcc56aeefc0b9a1": {
       "date": "2026-10-03",
@@ -14677,6 +14842,10 @@
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S05"
     },
+    "88bc45566762f4e052f063d3": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S03"
+    },
     "8942d4322d8e52a9871fd5a4": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S12"
@@ -14772,6 +14941,10 @@
     "91ab81985d4a9019ec22fbe1": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S14"
+    },
+    "91f70e589cfd7fe056873ee7": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S07"
     },
     "936d521f0c081a24f4b3df97": {
       "date": "2026-10-26",
@@ -15557,6 +15730,10 @@
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S10"
     },
+    "da18d90caae860c21d3dac27": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S04"
+    },
     "da81c75cc23b670273895cb1": {
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S20"
@@ -15605,9 +15782,17 @@
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S05"
     },
+    "df0dc7ce10347495a233ad09": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S05"
+    },
     "df31b4a5d69478227a1d188e": {
       "date": "2026-10-27",
       "fact_id": "FACT-2026-10-27-S17"
+    },
+    "dfa039b896985ef52e2ecf11": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S10"
     },
     "dffc0a2fa0ff7dc826e406a8": {
       "date": "2026-10-13",
@@ -15668,6 +15853,14 @@
     "e4e664146fdde4ad52929440ebb90a6a83c60eb8": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S01"
+    },
+    "e4fd1b9d7b8d4bda6b9c5f77": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S08"
+    },
+    "e5827d21202e72a4eb0c86b4": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S02"
     },
     "e6305ffb498e8b9419f371ef": {
       "date": "2026-10-13",
@@ -17030,6 +17223,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-10-31",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-31T07:42:53.630620+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
