@@ -9036,6 +9036,25 @@
           "published_count": 10,
           "started_at": "2026-10-31T07:42:03.974303+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-10-31-S11",
+            "FACT-2026-10-31-S12",
+            "FACT-2026-10-31-S13",
+            "FACT-2026-10-31-S14",
+            "FACT-2026-10-31-S15",
+            "FACT-2026-10-31-S16",
+            "FACT-2026-10-31-S17",
+            "FACT-2026-10-31-S18",
+            "FACT-2026-10-31-S19",
+            "FACT-2026-10-31-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-10-31T16:00:31.065350+00:00",
+          "published_count": 10,
+          "started_at": "2026-10-31T15:59:23.155794+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -9146,6 +9165,116 @@
           "image_source": "Generated card",
           "message_id": 821,
           "published_at": "2026-10-31T07:42:53.620949+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S11": {
+          "batch": 2,
+          "claim_key": "4b30b5d3069d9cd2bd2306e9",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:West_Yellowstone_(MT,_USA),_Boundary_Street,_Grenze_zum_Yellowstone_National_Park_--_2022_--_162951.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 822,
+          "published_at": "2026-10-31T15:59:30.233783+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S12": {
+          "batch": 2,
+          "claim_key": "743ddc0aa9ace8c42c647492",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_national_parks_portfolio_(1921)_(14766448244).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 823,
+          "published_at": "2026-10-31T15:59:38.326934+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S13": {
+          "batch": 2,
+          "claim_key": "a34c9b95da80b24e49b78d58",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 824,
+          "published_at": "2026-10-31T15:59:44.213253+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S14": {
+          "batch": 2,
+          "claim_key": "0ded6c1a8c9d74dd018ed1da",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 825,
+          "published_at": "2026-10-31T15:59:56.562108+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S15": {
+          "batch": 2,
+          "claim_key": "870d694f86fc1bfe2c61c20b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 826,
+          "published_at": "2026-10-31T15:59:59.314238+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S16": {
+          "batch": 2,
+          "claim_key": "ef44ac243cab1fbd6a4dc3ff",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Borracho_mono_(Ophioblennius_steindachneri),_Cabo_San_Lucas,_Baja_California,_M%C3%A9xico,_2024-12-18,_DD_80.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 827,
+          "published_at": "2026-10-31T16:00:07.138233+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S17": {
+          "batch": 2,
+          "claim_key": "7e43f4ffb6720aec5d21f177",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Extended_caption-_The_island_in_the_mouth_of_junction_of_the_Euphrates_and_Tigris._The_depot_of_the_Anglo-Persian_Oil_Company._Oil_fuel_was_of_utmost_necessity_for_the_Mesopotamian_river_traffic_in_the_advance_Art.IWMART1835.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 828,
+          "published_at": "2026-10-31T16:00:13.226787+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S18": {
+          "batch": 2,
+          "claim_key": "6dd753d7eed1142ac5cc68c5",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 829,
+          "published_at": "2026-10-31T16:00:17.998132+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S19": {
+          "batch": 2,
+          "claim_key": "75bdd4f3394040d46adcfcba",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 830,
+          "published_at": "2026-10-31T16:00:22.491034+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-10-31-S20": {
+          "batch": 2,
+          "claim_key": "50b1a9a2dcd45d74a2743488",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 831,
+          "published_at": "2026-10-31T16:00:31.055493+00:00",
           "send_mode": "card_rich",
           "status": "published"
         }
@@ -13379,6 +13508,51 @@
       "score": 22,
       "source_page": "https://commons.wikimedia.org/wiki/File:PIA18613-MarsMAVEN-Atmosphere-3UV-Views-20141014.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/PIA18613-MarsMAVEN-Atmosphere-3UV-Views-20141014.jpg/1280px-PIA18613-MarsMAVEN-Atmosphere-3UV-Views-20141014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-31-S11": {
+      "cached_at": "2026-10-31T15:59:27.230541+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-31-S11.jpg",
+      "query": "Yellowstone National Park 1872",
+      "score": 36,
+      "source_page": "https://commons.wikimedia.org/wiki/File:West_Yellowstone_(MT,_USA),_Boundary_Street,_Grenze_zum_Yellowstone_National_Park_--_2022_--_162951.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/West_Yellowstone_%28MT%2C_USA%29%2C_Boundary_Street%2C_Grenze_zum_Yellowstone_National_Park_--_2022_--_162951.jpg/1280px-West_Yellowstone_%28MT%2C_USA%29%2C_Boundary_Street%2C_Grenze_zum_Yellowstone_National_Park_--_2022_--_162951.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-31-S12": {
+      "cached_at": "2026-10-31T15:59:35.298607+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-31-S12.jpg",
+      "query": "Bridalveil Fall hanging waterfall Yosemite National Park",
+      "score": 26,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_national_parks_portfolio_(1921)_(14766448244).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/The_national_parks_portfolio_%281921%29_%2814766448244%29.jpg/1280px-The_national_parks_portfolio_%281921%29_%2814766448244%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-31-S16": {
+      "cached_at": "2026-10-31T16:00:05.293002+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-31-S16.jpg",
+      "query": "close-up of sessile coral colonies with symbiotic algae on a reef",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Borracho_mono_(Ophioblennius_steindachneri),_Cabo_San_Lucas,_Baja_California,_M%C3%A9xico,_2024-12-18,_DD_80.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Borracho_mono_%28Ophioblennius_steindachneri%29%2C_Cabo_San_Lucas%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-18%2C_DD_80.jpg/1280px-Borracho_mono_%28Ophioblennius_steindachneri%29%2C_Cabo_San_Lucas%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-18%2C_DD_80.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-31-S17": {
+      "cached_at": "2026-10-31T16:00:11.065969+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-31-S17.jpg",
+      "query": "Royal themes in Mesopotamian art Art",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Extended_caption-_The_island_in_the_mouth_of_junction_of_the_Euphrates_and_Tigris._The_depot_of_the_Anglo-Persian_Oil_Company._Oil_fuel_was_of_utmost_necessity_for_the_Mesopotamian_river_traffic_in_the_advance_Art.IWMART1835.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Extended_caption-_The_island_in_the_mouth_of_junction_of_the_Euphrates_and_Tigris._The_depot_of_the_Anglo-Persian_Oil_Company._Oil_fuel_was_of_utmost_necessity_for_the_Mesopotamian_river_traffic_in_the_advance_Art.IWMART1835.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-10-31-S19": {
+      "cached_at": "2026-10-31T16:00:19.892393+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-10-31-S19.jpg",
+      "query": "Venusian greenhouse effect Venus Atmosphere",
+      "score": 17,
+      "source_page": "https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/",
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/06/ImageWall6_1600x1200-83_copy_3.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
     }
   },
   "published_claims": {
@@ -13509,6 +13683,10 @@
     "0dd34dd3ee4af520507dafd3": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S04"
+    },
+    "0ded6c1a8c9d74dd018ed1da": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S14"
     },
     "0eda06abc710872585b671e0": {
       "date": "2026-10-05",
@@ -14134,6 +14312,10 @@
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S17"
     },
+    "4b30b5d3069d9cd2bd2306e9": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S11"
+    },
     "4b3ee59d144fc11044716385": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S05"
@@ -14209,6 +14391,10 @@
     "507ef8518c47c274846c7b3d": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S11"
+    },
+    "50b1a9a2dcd45d74a2743488": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S20"
     },
     "50b4d9c604bd0ea99cb8592f": {
       "date": "2026-10-24",
@@ -14586,6 +14772,10 @@
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S11"
     },
+    "6dd753d7eed1142ac5cc68c5": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S18"
+    },
     "6e07ae9c930143486dc907c5": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S08"
@@ -14650,6 +14840,10 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S20"
     },
+    "743ddc0aa9ace8c42c647492": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S12"
+    },
     "744c877b1901f215bffc5fd8": {
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S13"
@@ -14677,6 +14871,10 @@
     "75b5b6cac0843e2056899ddc": {
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S13"
+    },
+    "75bdd4f3394040d46adcfcba": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S19"
     },
     "76c279d6c4e25f0fd547a47e": {
       "date": "2026-10-03",
@@ -14762,6 +14960,10 @@
       "date": "2026-10-30",
       "fact_id": "FACT-2026-10-30-S10"
     },
+    "7e43f4ffb6720aec5d21f177": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S17"
+    },
     "8031501e26a99ef49154a49c": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S01"
@@ -14825,6 +15027,10 @@
     "8611c8a0fda25b7c5337c94f": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S05"
+    },
+    "870d694f86fc1bfe2c61c20b": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S15"
     },
     "874fb5cdede217352f17e655": {
       "date": "2026-10-11",
@@ -15169,6 +15375,10 @@
     "a2dd726ecb655eba8ecee47e": {
       "date": "2026-10-20",
       "fact_id": "FACT-2026-10-20-S01"
+    },
+    "a34c9b95da80b24e49b78d58": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S13"
     },
     "a365f8b913cd38e92a4013dc": {
       "date": "2026-10-10",
@@ -15949,6 +16159,10 @@
     "eea5c82b45319b5c65f1a582": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S16"
+    },
+    "ef44ac243cab1fbd6a4dc3ff": {
+      "date": "2026-10-31",
+      "fact_id": "FACT-2026-10-31-S16"
     },
     "ef70a144190d3ec1c0ecb1f7": {
       "date": "2026-10-07",
@@ -17239,6 +17453,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-10-31",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-10-31T16:00:31.065365+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
