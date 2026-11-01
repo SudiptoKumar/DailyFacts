@@ -9300,6 +9300,25 @@
           "published_count": 10,
           "started_at": "2026-11-01T08:21:57.597314+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-01-S11",
+            "FACT-2026-11-01-S12",
+            "FACT-2026-11-01-S13",
+            "FACT-2026-11-01-S14",
+            "FACT-2026-11-01-S15",
+            "FACT-2026-11-01-S16",
+            "FACT-2026-11-01-S17",
+            "FACT-2026-11-01-S18",
+            "FACT-2026-11-01-S19",
+            "FACT-2026-11-01-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-01T17:04:59.985818+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-01T17:03:30.733954+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -9411,6 +9430,116 @@
           "message_id": 841,
           "published_at": "2026-11-01T08:22:55.755533+00:00",
           "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S11": {
+          "batch": 2,
+          "claim_key": "da7e7d2c511d409fd0cc56c9",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Bluewhale877.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 842,
+          "published_at": "2026-11-01T17:03:42.180694+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S12": {
+          "batch": 2,
+          "claim_key": "440eee0c0ffc21fad6958a12",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_pelagic_marine_food_web_and_bacterioplankton.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 843,
+          "published_at": "2026-11-01T17:03:50.441797+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S13": {
+          "batch": 2,
+          "claim_key": "b5e02f6dd389595a72fa63b1",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Barcode_on_food_products_in_Israel_15.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 844,
+          "published_at": "2026-11-01T17:03:57.498032+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S14": {
+          "batch": 2,
+          "claim_key": "edf4cd6f280fce5329a85cfc",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:American_inventions_and_inventors_(1900)_(14781541652).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 845,
+          "published_at": "2026-11-01T17:04:02.497972+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S15": {
+          "batch": 2,
+          "claim_key": "8112ce6fd6f7e613eeadc38f",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/OWID/Gdp_per_capita_worldbank",
+          "image_source": "Wikimedia Commons",
+          "message_id": 846,
+          "published_at": "2026-11-01T17:04:27.013996+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S16": {
+          "batch": 2,
+          "claim_key": "5d5239a26bd2b0481f43724d",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Les_metamorphoses_d%27Ovide_-_en_latin_et_en_fran%C3%A7ois_(1767)_(14776974595).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 847,
+          "published_at": "2026-11-01T17:04:37.772923+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S17": {
+          "batch": 2,
+          "claim_key": "8c8d56b18ac2a0f7400b9c68",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/Category:St._Elmo%27s_Fire",
+          "image_source": "Wikimedia Commons",
+          "message_id": 848,
+          "published_at": "2026-11-01T17:04:44.182466+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S18": {
+          "batch": 2,
+          "claim_key": "4c6c59c5d0c512972a44df51",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Comparative_evolution_of_Cuneiform,_Egyptian_and_Chinese_characters.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 849,
+          "published_at": "2026-11-01T17:04:48.424147+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S19": {
+          "batch": 2,
+          "claim_key": "aedd38c929963c3211977c74",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 850,
+          "published_at": "2026-11-01T17:04:55.614375+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S20": {
+          "batch": 2,
+          "claim_key": "72cec72e73ae9c79d6f5f220",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Sample_ledger_with_dollar_sign_in_John_Collins,_An_Introduction_to_Merchants-Accompts,_1686.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 851,
+          "published_at": "2026-11-01T17:04:59.969390+00:00",
+          "send_mode": "rich_photo",
           "status": "published"
         }
       }
@@ -13706,6 +13835,87 @@
       "score": 24,
       "source_page": "https://science.nasa.gov/universe/black-holes/",
       "source_url": "https://science.nasa.gov/wp-content/uploads/2023/06/blackhole-binary-mainsequence-jpg.webp"
+    },
+    "FACT-2026-11-01-S11": {
+      "cached_at": "2026-11-01T17:03:37.857031+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-01-S11.jpg",
+      "query": "blue whale swimming in the ocean",
+      "score": 13,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bluewhale877.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Bluewhale877.jpg/1280px-Bluewhale877.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-01-S12": {
+      "cached_at": "2026-11-01T17:03:48.507060+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-01-S12.jpg",
+      "query": "students building a food web in Craters National Park",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_pelagic_marine_food_web_and_bacterioplankton.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/The_pelagic_marine_food_web_and_bacterioplankton.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-11-01-S13": {
+      "cached_at": "2026-11-01T17:03:55.854788+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-01-S13.jpg",
+      "query": "close-up of various packaged food date labels such as 'use before', 'sell by', and 'expires on'",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Barcode_on_food_products_in_Israel_15.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Barcode_on_food_products_in_Israel_15.jpg/1280px-Barcode_on_food_products_in_Israel_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-01-S14": {
+      "cached_at": "2026-11-01T17:04:00.322715+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-01-S14.jpg",
+      "query": "Inventions and Innovations Library of Congress",
+      "score": 11,
+      "source_page": "https://commons.wikimedia.org/wiki/File:American_inventions_and_inventors_(1900)_(14781541652).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/American_inventions_and_inventors_%281900%29_%2814781541652%29.jpg/1280px-American_inventions_and_inventors_%281900%29_%2814781541652%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-01-S15": {
+      "cached_at": "2026-11-01T17:04:24.207274+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-01-S15.jpg",
+      "query": "World Bank country profiles data visualization",
+      "score": 15,
+      "source_page": "https://commons.wikimedia.org/wiki/OWID/Gdp_per_capita_worldbank",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Gdp_per_capita_worldbank%2C_World%2C_2024_%28cropped%29.svg/1280px-Gdp_per_capita_worldbank%2C_World%2C_2024_%28cropped%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-01-S16": {
+      "cached_at": "2026-11-01T17:04:35.579266+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-01-S16.jpg",
+      "query": "ancient manuscript of Ovid's Metamorphoses",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Les_metamorphoses_d%27Ovide_-_en_latin_et_en_fran%C3%A7ois_(1767)_(14776974595).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Les_metamorphoses_d%27Ovide_-_en_latin_et_en_fran%C3%A7ois_%281767%29_%2814776974595%29.jpg/960px-Les_metamorphoses_d%27Ovide_-_en_latin_et_en_fran%C3%A7ois_%281767%29_%2814776974595%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-01-S17": {
+      "cached_at": "2026-11-01T17:04:42.081325+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-01-S17.jpg",
+      "query": "St. Elmo’s Fire atmospheric discharge over ocean",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/Category:St._Elmo%27s_Fire",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Elmo%27s_fire-2.jpg/960px-Elmo%27s_fire-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-01-S18": {
+      "cached_at": "2026-11-01T17:04:46.952947+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-01-S18.jpg",
+      "query": "ancient writing systems Mesopotamia Egypt China Indus Valley Mesoamerica",
+      "score": 13,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Comparative_evolution_of_Cuneiform,_Egyptian_and_Chinese_characters.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Comparative_evolution_of_Cuneiform%2C_Egyptian%2C_and_Chinese_characters.svg/960px-Comparative_evolution_of_Cuneiform%2C_Egyptian%2C_and_Chinese_characters.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-01-S20": {
+      "cached_at": "2026-11-01T17:04:58.467903+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-01-S20.jpg",
+      "query": "Account keeper Household History",
+      "score": 12,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sample_ledger_with_dollar_sign_in_John_Collins,_An_Introduction_to_Merchants-Accompts,_1686.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Sample_ledger_with_dollar_sign_in_John_Collins%2C_An_Introduction_to_Merchants-Accompts%2C_1686.png/1280px-Sample_ledger_with_dollar_sign_in_John_Collins%2C_An_Introduction_to_Merchants-Accompts%2C_1686.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -14385,6 +14595,10 @@
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S04"
     },
+    "440eee0c0ffc21fad6958a12": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S12"
+    },
     "44315c9b88acf590e68264ff": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S19"
@@ -14484,6 +14698,10 @@
     "4bea7eb4a627dd957391d63b": {
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S14"
+    },
+    "4c6c59c5d0c512972a44df51": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S18"
     },
     "4c9e1e0d3c36de3de74c5a4b": {
       "date": "2026-10-28",
@@ -14712,6 +14930,10 @@
     "5d0f0472482a57db414462d9": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S08"
+    },
+    "5d5239a26bd2b0481f43724d": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S16"
     },
     "5d5f3ce1d1aa7412c12046b0": {
       "date": "2026-10-21",
@@ -14989,6 +15211,10 @@
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S13"
     },
+    "72cec72e73ae9c79d6f5f220": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S20"
+    },
     "7317ae76432e497b8eac3773": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S09"
@@ -15153,6 +15379,10 @@
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S08"
     },
+    "8112ce6fd6f7e613eeadc38f": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S15"
+    },
     "812a3ec3d862a445c26ccd11b0f3ebae31ade9d6": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S03"
@@ -15288,6 +15518,10 @@
     "8c690b9a7ae4618301640b8e": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S19"
+    },
+    "8c8d56b18ac2a0f7400b9c68": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S17"
     },
     "8dfb4aab01be9f3c0d8a185f": {
       "date": "2026-10-07",
@@ -15693,6 +15927,10 @@
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S10"
     },
+    "aedd38c929963c3211977c74": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S19"
+    },
     "af0ebc1512ff0a4079433029c8ed6cd184b778a5": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S11"
@@ -15776,6 +16014,10 @@
     "b593586509c0b1e502a5e5c5": {
       "date": "2026-11-01",
       "fact_id": "FACT-2026-11-01-S05"
+    },
+    "b5e02f6dd389595a72fa63b1": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S13"
     },
     "b5e1a8ffd9811de1f28c75c0": {
       "date": "2026-10-01",
@@ -16125,6 +16367,10 @@
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S04"
     },
+    "da7e7d2c511d409fd0cc56c9": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S11"
+    },
     "da81c75cc23b670273895cb1": {
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S20"
@@ -16336,6 +16582,10 @@
     "ed63baee4a3edfe135a29827": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S19"
+    },
+    "edf4cd6f280fce5329a85cfc": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S14"
     },
     "edff06d7e0c2fd85d6a44236": {
       "date": "2026-10-20",
@@ -17678,6 +17928,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-01",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-01T17:04:59.985835+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
