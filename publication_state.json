@@ -9279,6 +9279,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-01": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-01-S01",
+            "FACT-2026-11-01-S02",
+            "FACT-2026-11-01-S03",
+            "FACT-2026-11-01-S04",
+            "FACT-2026-11-01-S05",
+            "FACT-2026-11-01-S06",
+            "FACT-2026-11-01-S07",
+            "FACT-2026-11-01-S08",
+            "FACT-2026-11-01-S09",
+            "FACT-2026-11-01-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-01T08:22:55.769906+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-01T08:21:57.597314+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-01-S01": {
+          "batch": 1,
+          "claim_key": "6f23b6bc41c8ee843dec2260",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 832,
+          "published_at": "2026-11-01T08:22:27.426096+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S02": {
+          "batch": 1,
+          "claim_key": "749ca7d75bb82d1a3fb79136",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Small_objects_in_the_Solar_System_ESA25188647.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 833,
+          "published_at": "2026-11-01T08:22:32.474104+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S03": {
+          "batch": 1,
+          "claim_key": "73ee76dc33ed07a9c9931762",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 834,
+          "published_at": "2026-11-01T08:22:38.856552+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S04": {
+          "batch": 1,
+          "claim_key": "944c9724adca857760ab7a67",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 835,
+          "published_at": "2026-11-01T08:22:41.290510+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S05": {
+          "batch": 1,
+          "claim_key": "b593586509c0b1e502a5e5c5",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 836,
+          "published_at": "2026-11-01T08:22:43.612605+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S06": {
+          "batch": 1,
+          "claim_key": "f61ab12c0dddf5418fe54ae3",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 837,
+          "published_at": "2026-11-01T08:22:46.199744+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S07": {
+          "batch": 1,
+          "claim_key": "0c2b4769d4dc4448b7e836a6",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 838,
+          "published_at": "2026-11-01T08:22:49.232375+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S08": {
+          "batch": 1,
+          "claim_key": "e177ccfacf5eb3d048bf390f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 839,
+          "published_at": "2026-11-01T08:22:51.280802+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S09": {
+          "batch": 1,
+          "claim_key": "db0920206b51549c339ce086",
+          "image_credit": "Source page",
+          "image_page": "https://science.nasa.gov/universe/black-holes/",
+          "image_source": "Wikimedia Commons",
+          "message_id": 840,
+          "published_at": "2026-11-01T08:22:53.179954+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-01-S10": {
+          "batch": 1,
+          "claim_key": "5d77158b671e57a295e844db",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 841,
+          "published_at": "2026-11-01T08:22:55.755533+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -13553,6 +13688,24 @@
       "score": 17,
       "source_page": "https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/",
       "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/06/ImageWall6_1600x1200-83_copy_3.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
+    },
+    "FACT-2026-11-01-S02": {
+      "cached_at": "2026-11-01T08:22:31.143207+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-01-S02.jpg",
+      "query": "solar system illustration",
+      "score": 26,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Small_objects_in_the_Solar_System_ESA25188647.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Small_objects_in_the_Solar_System_ESA25188647.jpg/1280px-Small_objects_in_the_Solar_System_ESA25188647.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-01-S09": {
+      "cached_at": "2026-11-01T08:22:51.832343+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-01-S09.jpg",
+      "query": "Black holes are mysterious cosmic objects Black Holes",
+      "score": 24,
+      "source_page": "https://science.nasa.gov/universe/black-holes/",
+      "source_url": "https://science.nasa.gov/wp-content/uploads/2023/06/blackhole-binary-mainsequence-jpg.webp"
     }
   },
   "published_claims": {
@@ -13651,6 +13804,10 @@
     "0c041c02b1ceb4f15c6058b5": {
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S04"
+    },
+    "0c2b4769d4dc4448b7e836a6": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S07"
     },
     "0c5a790f496e6a5219ffca84": {
       "date": "2026-10-30",
@@ -14560,6 +14717,10 @@
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S12"
     },
+    "5d77158b671e57a295e844db": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S10"
+    },
     "5d9bd765428e1fcbce312cd0": {
       "date": "2026-10-27",
       "fact_id": "FACT-2026-10-27-S10"
@@ -14792,6 +14953,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S17"
     },
+    "6f23b6bc41c8ee843dec2260": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S01"
+    },
     "6f451553e2e316b21576335a": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S18"
@@ -14836,6 +15001,10 @@
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S06"
     },
+    "73ee76dc33ed07a9c9931762": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S03"
+    },
     "73fd3ee859ea851c74a5209a": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S20"
@@ -14851,6 +15020,10 @@
     "747002fc7e07648a21643bbd": {
       "date": "2026-10-27",
       "fact_id": "FACT-2026-10-27-S13"
+    },
+    "749ca7d75bb82d1a3fb79136": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S02"
     },
     "74d37231207c0629ad8d3dc2": {
       "date": "2026-10-26",
@@ -15183,6 +15356,10 @@
     "943f7a8af3ee896363eb0a90": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S13"
+    },
+    "944c9724adca857760ab7a67": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S04"
     },
     "9453257820f68c4d5541aee9": {
       "date": "2026-10-22",
@@ -15596,6 +15773,10 @@
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S15"
     },
+    "b593586509c0b1e502a5e5c5": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S05"
+    },
     "b5e1a8ffd9811de1f28c75c0": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S07"
@@ -15948,6 +16129,10 @@
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S20"
     },
+    "db0920206b51549c339ce086": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S09"
+    },
     "db22cd60d3d63e81722f4194": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S19"
@@ -16015,6 +16200,10 @@
     "e137dbd0cc493fc765fb4a36": {
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S03"
+    },
+    "e177ccfacf5eb3d048bf390f": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S08"
     },
     "e17b3289d654fb4198e23436": {
       "date": "2026-10-06",
@@ -16219,6 +16408,10 @@
     "f5d7e3684b608a99af8fadef": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S19"
+    },
+    "f61ab12c0dddf5418fe54ae3": {
+      "date": "2026-11-01",
+      "fact_id": "FACT-2026-11-01-S06"
     },
     "f6ee4f10b487a29ae3f14672": {
       "date": "2026-10-03",
@@ -17469,6 +17662,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-01",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-01T08:22:55.769922+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
