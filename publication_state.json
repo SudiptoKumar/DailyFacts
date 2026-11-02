@@ -9543,6 +9543,130 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-02": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-02-S01",
+            "FACT-2026-11-02-S02",
+            "FACT-2026-11-02-S03",
+            "FACT-2026-11-02-S04",
+            "FACT-2026-11-02-S05",
+            "FACT-2026-11-02-S06",
+            "FACT-2026-11-02-S07",
+            "FACT-2026-11-02-S08",
+            "FACT-2026-11-02-S09",
+            "FACT-2026-11-02-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-02T08:36:47.926853+00:00",
+          "published_count": 9,
+          "started_at": "2026-11-02T08:35:33.302662+00:00",
+          "status": "retryable"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-02-S01": {
+          "batch": 1,
+          "claim_key": "ca15d9a5af38337707ceb7b5",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:A_new_eruption_of_the_Kilauea_volcano_in_Hawaii_(Copernicus_2025-01-23).png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 852,
+          "published_at": "2026-11-02T08:35:55.161449+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-02-S02": {
+          "batch": 1,
+          "claim_key": "e473dbf8ac4b93fd0af173ec",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Milky_Way_from_Simeon,_Virginia.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 853,
+          "published_at": "2026-11-02T08:36:02.076483+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-02-S03": {
+          "batch": 1,
+          "claim_key": "ea0b398ebf97af8c39a65bbb",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Human-brain.SVG",
+          "image_source": "Wikimedia Commons",
+          "message_id": 854,
+          "published_at": "2026-11-02T08:36:11.750174+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-02-S04": {
+          "batch": 1,
+          "claim_key": "5d52c9579649aa982e722f91",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Brain_regions_in_memory_formation_updated.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 855,
+          "published_at": "2026-11-02T08:36:23.062489+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-02-S05": {
+          "batch": 1,
+          "claim_key": "925e044bcb9aee8f0daf5a1f",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Aldabra_Giant_Tortoise_Geochelone_gigantea.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 856,
+          "published_at": "2026-11-02T08:36:29.931525+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-02-S06": {
+          "batch": 1,
+          "claim_key": "0fcc7c8d64ad16ec14604dae",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Landforms_of_California_-_with_English_text.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 857,
+          "published_at": "2026-11-02T08:36:36.193695+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-02-S07": {
+          "batch": 1,
+          "claim_key": "70e79e7d80195557aa7a0ecc",
+          "image_credit": "Source page",
+          "image_page": "https://www.archives.gov/legislative/resources/education/foreign-policy-1920-2020",
+          "image_source": "Wikimedia Commons",
+          "message_id": 858,
+          "published_at": "2026-11-02T08:36:38.694281+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-02-S09": {
+          "batch": 1,
+          "claim_key": "1010e7f445dd67b0154776e7",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Dissecting_Supermassive_Black_Holes.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 859,
+          "published_at": "2026-11-02T08:36:43.444473+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-02-S10": {
+          "batch": 1,
+          "claim_key": "0058fc60ef5840a7d840fe4e",
+          "image_credit": "Wikimedia Commons via Exa",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Ancient_Middle_East_Civilizations_Outline_Map_(Anat)_(EN)_(PATH)_(V2)_(REV0).svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 860,
+          "published_at": "2026-11-02T08:36:47.909385+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -13916,12 +14040,97 @@
       "score": 12,
       "source_page": "https://commons.wikimedia.org/wiki/File:Sample_ledger_with_dollar_sign_in_John_Collins,_An_Introduction_to_Merchants-Accompts,_1686.png",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Sample_ledger_with_dollar_sign_in_John_Collins%2C_An_Introduction_to_Merchants-Accompts%2C_1686.png/1280px-Sample_ledger_with_dollar_sign_in_John_Collins%2C_An_Introduction_to_Merchants-Accompts%2C_1686.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-02-S01": {
+      "cached_at": "2026-11-02T08:35:52.591285+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-02-S01.jpg",
+      "query": "volcano monitoring and eruption",
+      "score": 11,
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_new_eruption_of_the_Kilauea_volcano_in_Hawaii_(Copernicus_2025-01-23).png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/A_new_eruption_of_the_Kilauea_volcano_in_Hawaii_%28Copernicus_2025-01-23%29.png/1280px-A_new_eruption_of_the_Kilauea_volcano_in_Hawaii_%28Copernicus_2025-01-23%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-02-S02": {
+      "cached_at": "2026-11-02T08:36:00.421593+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-02-S02.jpg",
+      "query": "Solar system orbiting the center of the Milky Way",
+      "score": 24,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Milky_Way_from_Simeon,_Virginia.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Milky_Way_from_Simeon%2C_Virginia.png/1280px-Milky_Way_from_Simeon%2C_Virginia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-02-S03": {
+      "cached_at": "2026-11-02T08:36:10.255296+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-02-S03.jpg",
+      "query": "human brain illustration showing intelligence, sensory processing, movement control",
+      "score": 9,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Human-brain.SVG",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Human-brain.SVG/1280px-Human-brain.SVG.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-02-S04": {
+      "cached_at": "2026-11-02T08:36:21.261967+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-02-S04.jpg",
+      "query": "brain encoding memory process",
+      "score": 8,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Brain_regions_in_memory_formation_updated.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Brain_regions_in_memory_formation_updated.jpg/1280px-Brain_regions_in_memory_formation_updated.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-02-S05": {
+      "cached_at": "2026-11-02T08:36:28.274093+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-02-S05.jpg",
+      "query": "Aldabra tortoise in the Reptile Discovery Center",
+      "score": 13,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Aldabra_Giant_Tortoise_Geochelone_gigantea.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Aldabra_Giant_Tortoise_Geochelone_gigantea.jpg/1280px-Aldabra_Giant_Tortoise_Geochelone_gigantea.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-02-S06": {
+      "cached_at": "2026-11-02T08:36:33.516746+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-02-S06.jpg",
+      "query": "Major landform types Physical Geography",
+      "score": 15,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Landforms_of_California_-_with_English_text.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Landforms_of_California_-_with_English_text.png/1280px-Landforms_of_California_-_with_English_text.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-02-S07": {
+      "cached_at": "2026-11-02T08:36:37.485516+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-02-S07.jpg",
+      "query": "students analyzing primary source documents and timeline of foreign affairs and domestic events",
+      "score": 30,
+      "source_page": "https://www.archives.gov/legislative/resources/education/foreign-policy-1920-2020",
+      "source_url": "https://www.archives.gov/sites/all/themes/nara/images/naralogo-og.png"
+    },
+    "FACT-2026-11-02-S09": {
+      "cached_at": "2026-11-02T08:36:42.000057+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-02-S09.jpg",
+      "query": "Black holes are concentrations of matter Black Holes",
+      "score": 24,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dissecting_Supermassive_Black_Holes.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Dissecting_Supermassive_Black_Holes.png/1280px-Dissecting_Supermassive_Black_Holes.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-02-S10": {
+      "cached_at": "2026-11-02T08:36:46.156263+00:00",
+      "credit": "Wikimedia Commons via Exa",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-02-S10.jpg",
+      "query": "Origins of civilization Ancient Near East",
+      "score": 8,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ancient_Middle_East_Civilizations_Outline_Map_(Anat)_(EN)_(PATH)_(V2)_(REV0).svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ancient_Middle_East_Civilizations_Outline_Map_%28Anat%29_%28EN%29_%28PATH%29_%28V2%29_%28REV0%29.svg/1280px-Ancient_Middle_East_Civilizations_Outline_Map_%28Anat%29_%28EN%29_%28PATH%29_%28V2%29_%28REV0%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
     }
   },
   "published_claims": {
     "0034ae5b541e891ea879955e": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S09"
+    },
+    "0058fc60ef5840a7d840fe4e": {
+      "date": "2026-11-02",
+      "fact_id": "FACT-2026-11-02-S10"
     },
     "0091987aec61956975bf9406": {
       "date": "2026-10-01",
@@ -14079,9 +14288,17 @@
       "date": "2026-10-20",
       "fact_id": "FACT-2026-10-20-S12"
     },
+    "0fcc7c8d64ad16ec14604dae": {
+      "date": "2026-11-02",
+      "fact_id": "FACT-2026-11-02-S06"
+    },
     "1003d76cb68bcbe9329140a1": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S10"
+    },
+    "1010e7f445dd67b0154776e7": {
+      "date": "2026-11-02",
+      "fact_id": "FACT-2026-11-02-S09"
     },
     "1094318c6fdff451b6846423": {
       "date": "2026-10-19",
@@ -14935,6 +15152,10 @@
       "date": "2026-11-01",
       "fact_id": "FACT-2026-11-01-S16"
     },
+    "5d52c9579649aa982e722f91": {
+      "date": "2026-11-02",
+      "fact_id": "FACT-2026-11-02-S04"
+    },
     "5d5f3ce1d1aa7412c12046b0": {
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S12"
@@ -15194,6 +15415,10 @@
     "709b7e1ee90a5c275948a12e": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S13"
+    },
+    "70e79e7d80195557aa7a0ecc": {
+      "date": "2026-11-02",
+      "fact_id": "FACT-2026-11-02-S07"
     },
     "7120ce141878b2a2d9eb70ef": {
       "date": "2026-10-27",
@@ -15558,6 +15783,10 @@
     "91f70e589cfd7fe056873ee7": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S07"
+    },
+    "925e044bcb9aee8f0daf5a1f": {
+      "date": "2026-11-02",
+      "fact_id": "FACT-2026-11-02-S05"
     },
     "936d521f0c081a24f4b3df97": {
       "date": "2026-10-26",
@@ -16227,6 +16456,10 @@
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S12"
     },
+    "ca15d9a5af38337707ceb7b5": {
+      "date": "2026-11-02",
+      "fact_id": "FACT-2026-11-02-S01"
+    },
     "ca1b86e3aa616cc598e06825": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S18"
@@ -16483,6 +16716,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S13"
     },
+    "e473dbf8ac4b93fd0af173ec": {
+      "date": "2026-11-02",
+      "fact_id": "FACT-2026-11-02-S02"
+    },
     "e4a2e1c1ffc7bce976fa4a84b7a21a0ef527fec9": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S05"
@@ -16530,6 +16767,10 @@
     "e98bb8163d72dea99fb38ff1": {
       "date": "2026-10-27",
       "fact_id": "FACT-2026-10-27-S05"
+    },
+    "ea0b398ebf97af8c39a65bbb": {
+      "date": "2026-11-02",
+      "fact_id": "FACT-2026-11-02-S03"
     },
     "ea0c34776f8a453fbf0d15c8": {
       "date": "2026-10-08",
@@ -17946,6 +18187,22 @@
         20
       ],
       "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-02",
+      "dry_run": false,
+      "processed": 9,
+      "published_now": 9,
+      "recorded_at": "2026-11-02T08:36:47.926870+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
+      ],
+      "status": "retryable"
     }
   ],
   "schema_version": 4
