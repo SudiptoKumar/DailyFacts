@@ -18231,6 +18231,18 @@
         10
       ],
       "status": "retryable"
+    },
+    {
+      "allocated": 0,
+      "batch": 2,
+      "date": "2026-11-04",
+      "dry_run": false,
+      "processed": 0,
+      "published_now": 0,
+      "recorded_at": "2026-11-03T18:19:10.157244+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "status": "waiting_for_batch1"
     }
   ],
   "schema_version": 4
