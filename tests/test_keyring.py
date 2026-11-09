@@ -93,10 +93,77 @@ def test_both_keys_dead_uses_fallback() -> None:
     assert transport.cerebras_auth == [KEY1, KEY2], transport.cerebras_auth
 
 
+class _FakeTime:
+    def __init__(self):
+        self.sleeps = []
+
+    def sleep(self, seconds):
+        self.sleeps.append(seconds)
+
+
+def _run_with_fake_time(script):
+    fake_time = _FakeTime()
+    original_time = cerebras_keys.time
+    cerebras_keys.time = fake_time
+    try:
+        result, transport = _run(script)
+    finally:
+        cerebras_keys.time = original_time
+    return result, transport, fake_time
+
+
+def _set_alert_config(enabled: bool) -> None:
+    object.__setattr__(SETTINGS, "newsroom_bot_token", "dummy-token" if enabled else "")
+    object.__setattr__(SETTINGS, "alert_chat_id", "12345" if enabled else "")
+
+
+def test_429_retries_same_key_then_succeeds() -> None:
+    cerebras_keys._reset_state()
+    result, transport, fake_time = _run_with_fake_time({KEY1: [429, 429, 200], KEY2: [200]})
+    assert result.title == "AI Title", result
+    assert transport.cerebras_auth == [KEY1, KEY1, KEY1], transport.cerebras_auth
+    assert fake_time.sleeps == [20, 40], fake_time.sleeps
+    assert SETTINGS.cerebras_api_key == KEY1
+    assert transport.alerts == [], transport.alerts
+
+
+def test_429_persistent_switches_with_throttle_alert() -> None:
+    cerebras_keys._reset_state()
+    _set_alert_config(True)
+    try:
+        result, transport, fake_time = _run_with_fake_time({KEY1: [429], KEY2: [200]})
+    finally:
+        _set_alert_config(False)
+    assert result.title == "AI Title", result
+    assert transport.cerebras_auth == [KEY1, KEY1, KEY1, KEY1, KEY2], transport.cerebras_auth
+    assert fake_time.sleeps == [20, 40, 60], fake_time.sleeps
+    assert SETTINGS.cerebras_api_key == KEY2
+    assert len(transport.alerts) == 1, transport.alerts
+    assert "rate-limited" in transport.alerts[0] and "key 1" in transport.alerts[0], transport.alerts
+    assert "finished" not in transport.alerts[0], transport.alerts
+
+
+def test_429_all_keys_rate_limited_alert() -> None:
+    cerebras_keys._reset_state()
+    _set_alert_config(True)
+    try:
+        result, transport, fake_time = _run_with_fake_time({KEY1: [429], KEY2: [429]})
+    finally:
+        _set_alert_config(False)
+    assert result.title == "Test title", result
+    assert len(transport.alerts) == 2, transport.alerts
+    assert "rate-limited" in transport.alerts[0] and "Switched to key 2" in transport.alerts[0], transport.alerts
+    assert "ALL Cerebras keys are rate-limited" in transport.alerts[1], transport.alerts
+    assert "are finished" not in transport.alerts[1], transport.alerts
+
+
 def run_all() -> None:
     test_failover_to_second_key()
     test_non_quota_error_uses_fallback_without_rotating()
     test_both_keys_dead_uses_fallback()
+    test_429_retries_same_key_then_succeeds()
+    test_429_persistent_switches_with_throttle_alert()
+    test_429_all_keys_rate_limited_alert()
     cerebras_keys._reset_state()
     print("keyring failover tests: PASS")
 
