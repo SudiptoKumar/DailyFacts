@@ -9560,7 +9560,7 @@
             "FACT-2026-11-02-S10"
           ],
           "failed_count": 0,
-          "finished_at": "2026-11-09T08:50:02.443321+00:00",
+          "finished_at": "2026-11-10T08:56:01.745086+00:00",
           "published_count": 9,
           "started_at": "2026-11-02T08:35:33.302662+00:00",
           "status": "retryable"
@@ -18411,6 +18411,22 @@
       "requested": 10,
       "scheduled_cron": "0 11 * * *",
       "status": "waiting_for_batch1"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-02",
+      "dry_run": false,
+      "processed": 0,
+      "published_now": 0,
+      "recorded_at": "2026-11-10T08:56:01.745105+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
+      ],
+      "status": "retryable"
     }
   ],
   "schema_version": 4
