@@ -14,10 +14,19 @@ MAX_BYTES = 9_500_000
 # aspect ratio kept (nothing cropped), stamped. The generated quote card
 # keeps the fixed 1200x675 (16:9) frame.
 FRAME = (1200, 1200)
-# Quote-card heights (Karn, 2026-10-30): the card is never shorter than
-# square — 1:1 minimum — and grows taller with the fact: 1200 (1:1),
-# 1500 (4:5), 1800 (2:3). Width is always 1200.
-CARD_HEIGHTS = (1200, 1500, 1800)
+# Quote-card heights: the card grows with the fact — 800 (3:2) for short
+# facts, then 1200 (1:1), 1500 (4:5), 1800 (2:3). Width is always 1200.
+# The 800 tier (Karn, 2026-11-12) uses the compact geometry below; the
+# taller tiers keep the original layout.
+CARD_HEIGHTS = (800, 1200, 1500, 1800)
+# Compact (800) tier geometry, from Karn's approved 1200x800 sample:
+# tighter border and header, the fact centered in the middle zone.
+COMPACT_TEXT_W = 1200 - 80 - 80
+COMPACT_TEXT_TOP = 262
+COMPACT_TEXT_MAX_H = (800 - 144 - 48) - COMPACT_TEXT_TOP
+# A fact only earns the compact tier if it fits that zone at 56px or
+# larger — below that it belongs in a taller tier at a readable size.
+COMPACT_MIN_FONT = 56
 # The quote card's specimen-label template (Karn's final design,
 # 2026-11-12): cream paper, ink structure, one red accent, DM Serif
 # Display fact type with Archivo label type.
@@ -198,17 +207,32 @@ def _tracked_strip(text: str, font, fill, tracking: int) -> Image.Image:
     return strip.crop(bbox) if bbox else strip
 
 
+def _fits_compact(quote: str) -> bool:
+    """True when the fact fits the compact (800) tier's text zone at a
+    readable size — the same auto-fit the renderer runs, against the
+    compact zone, with COMPACT_MIN_FONT as the floor."""
+    probe = ImageDraw.Draw(Image.new("RGB", (8, 8)))
+    for candidate in range(88, COMPACT_MIN_FONT - 1, -2):
+        lines = _wrap(probe, quote, _font("display", candidate), COMPACT_TEXT_W)
+        if len(lines) * candidate * 1.24 <= COMPACT_TEXT_MAX_H:
+            return True
+    return False
+
+
 def _card_height(quote: str) -> int:
-    """Content-fit card height: the wrapped line count at a 48px reference
-    size picks the tier — <=4 lines stay 1:1, 5-7 lines go 4:5, longer
-    facts go 2:3. The card is never shorter than square (Karn's rule)."""
+    """Content-fit card height: short facts take the compact 800 tier
+    when they fit it at a readable size; otherwise the wrapped line
+    count at a 48px reference size picks the tier — <=4 lines stay 1:1,
+    5-7 lines go 4:5, longer facts go 2:3."""
+    if _fits_compact(quote):
+        return CARD_HEIGHTS[0]
     probe = ImageDraw.Draw(Image.new("RGB", (8, 8)))
     lines = len(_wrap(probe, quote, _font("display", 48), 1200 - 92 - 92))
     if lines <= 4:
-        return CARD_HEIGHTS[0]
-    if lines <= 7:
         return CARD_HEIGHTS[1]
-    return CARD_HEIGHTS[2]
+    if lines <= 7:
+        return CARD_HEIGHTS[2]
+    return CARD_HEIGHTS[3]
 
 
 def generate_fallback_card(fact, content, output: Path) -> Path:
@@ -224,15 +248,22 @@ def generate_fallback_card(fact, content, output: Path) -> Path:
     domain = str(getattr(fact, "source_domain", "") or "").strip()
     H = _card_height(quote)
 
+    # Per-tier geometry: the compact (800) tier tightens every spacing
+    # (Karn's approved sample); taller tiers keep the original layout.
+    compact = H == CARD_HEIGHTS[0]
+    inset = 36 if compact else 44
+    badge_x, badge_y, logo_h = (72, 56, 54) if compact else (84, 72, 60)
+    badge_pad = 12 if compact else 14
+    mx = 80 if compact else 92
+
     img = Image.new("RGB", (W, H), PAPER)
     draw = ImageDraw.Draw(img)
 
     # Dashed label border.
-    _dashed_rectangle(draw, (44, 44, W - 44, H - 44), INK)
+    _dashed_rectangle(draw, (inset, inset, W - inset, H - inset), INK)
 
     # Header: the DF logo in a white badge; the channel name centered on
     # the badge's midline by its measured pixel box.
-    badge_x, badge_y, logo_h = 84, 72, 60
     logo = None
     logo_path = Path(__file__).resolve().parent / "assets" / "df_logo.png"
     try:
@@ -240,34 +271,34 @@ def generate_fallback_card(fact, content, output: Path) -> Path:
         logo = logo.resize((round(logo.width * logo_h / logo.height), logo_h), Image.Resampling.LANCZOS)
     except Exception:
         logo = None
-    badge_w = (logo.width if logo is not None else 97) + 28
-    badge_h = logo_h + 28
+    badge_w = (logo.width if logo is not None else (86 if compact else 97)) + badge_pad * 2
+    badge_h = logo_h + badge_pad * 2
     badge = Image.new("RGBA", (badge_w, badge_h), (0, 0, 0, 0))
     bd = ImageDraw.Draw(badge)
-    bd.rounded_rectangle((1, 1, badge_w - 2, badge_h - 2), radius=20, fill=(255, 255, 255), outline=INK, width=3)
+    bd.rounded_rectangle((1, 1, badge_w - 2, badge_h - 2), radius=18 if compact else 20, fill=(255, 255, 255), outline=INK, width=3)
     if logo is not None:
-        badge.alpha_composite(logo, (14, 14))
+        badge.alpha_composite(logo, (badge_pad, badge_pad))
     else:
-        df = _font("archivo_black", 34)
+        df = _font("archivo_black", 30 if compact else 34)
         db = bd.textbbox((0, 0), "DF", font=df)
         bd.text(((badge_w - (db[2] - db[0])) / 2 - db[0], (badge_h - (db[3] - db[1])) / 2 - db[1]), "DF", font=df, fill=RED)
     base = img.convert("RGBA")
     base.alpha_composite(badge, (badge_x, badge_y))
-    name = _tracked_strip("DAILY FACTS", _font("archivo_black", 46), INK, 9)
-    base.alpha_composite(name, (badge_x + badge_w + 42, badge_y + badge_h // 2 - name.height // 2))
+    name = _tracked_strip("DAILY FACTS", _font("archivo_black", 42 if compact else 46), INK, 9)
+    base.alpha_composite(name, (badge_x + badge_w + (38 if compact else 42), badge_y + badge_h // 2 - name.height // 2))
     img = base.convert("RGB")
     draw = ImageDraw.Draw(img)
 
     # Header rule, then the category alone in red.
-    draw.line((92, 200, W - 92, 200), fill=INK, width=3)
-    _draw_tracked(draw, 92, 238, category, _font("archivo", 32), RED, 5)
+    draw.line((mx, 168 if compact else 200, W - mx, 168 if compact else 200), fill=INK, width=3)
+    _draw_tracked(draw, mx, 196 if compact else 238, category, _font("archivo", 30 if compact else 32), RED, 5)
 
     # Fact text: auto-fit the largest DM Serif size that fits the open
     # zone between the category line and the footer. Nothing else is
     # printed — the category sits above, the source in the footer, and
     # any extra line would only repeat the fact.
-    rule_y = H - 214
-    text_x, text_w, text_top = 92, W - 92 - 92, 292
+    rule_y = H - 144 if compact else H - 214
+    text_x, text_w, text_top = mx, W - mx - mx, COMPACT_TEXT_TOP if compact else 292
     text_max_h = (rule_y - 48) - text_top
     size, lines = 28, []
     for candidate in range(88, 27, -2):
@@ -285,16 +316,19 @@ def generate_fallback_card(fact, content, output: Path) -> Path:
         size = 28
     font = _font("display", size)
     y = text_top
+    if compact:
+        # The compact tier centers the fact in its middle zone (sample).
+        y += (text_max_h - len(lines) * size * 1.24) / 2
     for line in lines:
         draw.text((text_x, y), line, font=font, fill=TEXT_INK)
         y += size * 1.24
 
     # Footer: ink rule, source left and handle right on one baseline.
-    draw.line((92, rule_y, W - 92, rule_y), fill=INK, width=3)
-    baseline = rule_y + 74
-    hf = _font("archivo_black", 38)
-    draw.text((W - 92 - draw.textlength(HANDLE, font=hf), baseline - hf.getmetrics()[0]), HANDLE, font=hf, fill=INK)
+    draw.line((mx, rule_y, W - mx, rule_y), fill=INK, width=3)
+    baseline = rule_y + (62 if compact else 74)
+    hf = _font("archivo_black", 34 if compact else 38)
+    draw.text((W - mx - draw.textlength(HANDLE, font=hf), baseline - hf.getmetrics()[0]), HANDLE, font=hf, fill=INK)
     if domain:
-        sf = _font("archivo_medium", 30)
-        draw.text((92, baseline - sf.getmetrics()[0]), f"Source: {domain}", font=sf, fill=MUTED)
+        sf = _font("archivo_medium", 28 if compact else 30)
+        draw.text((mx, baseline - sf.getmetrics()[0]), f"Source: {domain}", font=sf, fill=MUTED)
     return _save_jpeg(img, Path(output))
