@@ -160,15 +160,27 @@ def batch_receipt_valid(state: dict, date_key: str, batch: int) -> bool:
     return status in {"completed", "partial", "empty"}
 
 
-def finalize_batch(state: dict, date_key: str, batch: int, allocated_fact_ids: list[str]) -> str:
+def finalize_batch(
+    state: dict,
+    date_key: str,
+    batch: int,
+    allocated_fact_ids: list[str],
+    *,
+    already_published_ids: set[str] | None = None,
+) -> str:
     record = _date_record(state, date_key)
     fact_map = record["facts"]
     published = 0
     failed = 0
+    settled = 0
     for fact_id in allocated_fact_ids:
         status = (fact_map.get(fact_id) or {}).get("status")
         if status == "published":
             published += 1
+        elif already_published_ids and fact_id in already_published_ids:
+            # Skipped before publishing: the claim was already published on
+            # another date, so this fact can never be published from here.
+            settled += 1
         elif status == "failed":
             failed += 1
     if not allocated_fact_ids:
@@ -176,6 +188,10 @@ def finalize_batch(state: dict, date_key: str, batch: int, allocated_fact_ids: l
     elif failed:
         status = "retryable"
     elif published == len(allocated_fact_ids):
+        status = "completed"
+    elif settled and published + settled == len(allocated_fact_ids):
+        # Nothing in the batch remains publishable; leaving it "retryable"
+        # would park the scheduler cursor on this date forever.
         status = "completed"
     else:
         status = "retryable"
