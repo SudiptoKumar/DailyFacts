@@ -9667,6 +9667,130 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-03": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-03-S01",
+            "FACT-2026-11-03-S02",
+            "FACT-2026-11-03-S03",
+            "FACT-2026-11-03-S04",
+            "FACT-2026-11-03-S05",
+            "FACT-2026-11-03-S06",
+            "FACT-2026-11-03-S07",
+            "FACT-2026-11-03-S08",
+            "FACT-2026-11-03-S09",
+            "FACT-2026-11-03-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-12T07:45:33.804994+00:00",
+          "published_count": 9,
+          "started_at": "2026-11-12T07:43:46.358035+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-03-S01": {
+          "batch": 1,
+          "claim_key": "d33997e1296ee510d4572550",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 861,
+          "published_at": "2026-11-12T07:43:57.791520+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S03": {
+          "batch": 1,
+          "claim_key": "b98a2521ebb16066f3d7bf59",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:EmbryonicBrain-pl.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 862,
+          "published_at": "2026-11-12T07:44:02.966363+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S04": {
+          "batch": 1,
+          "claim_key": "5f773bd62fa1e46fc1346daa",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 863,
+          "published_at": "2026-11-12T07:44:09.492645+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S05": {
+          "batch": 1,
+          "claim_key": "c04723a19ecff6f78a50198f",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Parque_Zool%C3%B3gico_de_S%C3%A3o_Paulo_-_Sao_Paulo_Zoo_-_Elefante_Asi%C3%A1tico_-_Asian_Elephant_(11539785674).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 864,
+          "published_at": "2026-11-12T07:44:16.059452+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S06": {
+          "batch": 1,
+          "claim_key": "841b4c0e518c594975e06fa8",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 865,
+          "published_at": "2026-11-12T07:44:19.287336+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S07": {
+          "batch": 1,
+          "claim_key": "1c2dbf55fd96355c6b5243fd",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 866,
+          "published_at": "2026-11-12T07:44:24.234054+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S08": {
+          "batch": 1,
+          "claim_key": "399c939e6c9f5ec90407aa09",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 867,
+          "published_at": "2026-11-12T07:44:26.740420+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S09": {
+          "batch": 1,
+          "claim_key": "65e262959a7e72a19bfa43f7",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 868,
+          "published_at": "2026-11-12T07:44:49.319384+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S10": {
+          "batch": 1,
+          "claim_key": "53904a8ef604b53eaef8edba",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 869,
+          "published_at": "2026-11-12T07:45:33.790105+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -14121,6 +14245,24 @@
       "score": 8,
       "source_page": "https://commons.wikimedia.org/wiki/File:Ancient_Middle_East_Civilizations_Outline_Map_(Anat)_(EN)_(PATH)_(V2)_(REV0).svg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ancient_Middle_East_Civilizations_Outline_Map_%28Anat%29_%28EN%29_%28PATH%29_%28V2%29_%28REV0%29.svg/1280px-Ancient_Middle_East_Civilizations_Outline_Map_%28Anat%29_%28EN%29_%28PATH%29_%28V2%29_%28REV0%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    "FACT-2026-11-03-S03": {
+      "cached_at": "2026-11-12T07:44:01.029213+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-03-S03.jpg",
+      "query": "brain forebrain midbrain hindbrain diagram",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:EmbryonicBrain-pl.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/EmbryonicBrain-pl.svg/1280px-EmbryonicBrain-pl.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-03-S05": {
+      "cached_at": "2026-11-12T07:44:13.261677+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-03-S05.jpg",
+      "query": "Asian elephant",
+      "score": 25,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Parque_Zool%C3%B3gico_de_S%C3%A3o_Paulo_-_Sao_Paulo_Zoo_-_Elefante_Asi%C3%A1tico_-_Asian_Elephant_(11539785674).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Parque_Zool%C3%B3gico_de_S%C3%A3o_Paulo_-_Sao_Paulo_Zoo_-_Elefante_Asi%C3%A1tico_-_Asian_Elephant_%2811539785674%29.jpg/1280px-Parque_Zool%C3%B3gico_de_S%C3%A3o_Paulo_-_Sao_Paulo_Zoo_-_Elefante_Asi%C3%A1tico_-_Asian_Elephant_%2811539785674%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -14444,6 +14586,10 @@
       "date": "2026-10-20",
       "fact_id": "FACT-2026-10-20-S10"
     },
+    "1c2dbf55fd96355c6b5243fd": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S07"
+    },
     "1db78455e3cd9d419709866541a1a1a284909a8e": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S03"
@@ -14723,6 +14869,10 @@
     "3967ef62909e2ae0893d4ccf": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S05"
+    },
+    "399c939e6c9f5ec90407aa09": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S08"
     },
     "39bbd6fafd90f9a9185eb922": {
       "date": "2026-10-16",
@@ -15024,6 +15174,10 @@
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S15"
     },
+    "53904a8ef604b53eaef8edba": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S10"
+    },
     "53b1be5ef2b7ed7247710a5b": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S08"
@@ -15192,6 +15346,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S09"
     },
+    "5f773bd62fa1e46fc1346daa": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S04"
+    },
     "5f88f54a392b305988c6d0bb": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S20"
@@ -15291,6 +15449,10 @@
     "6597b1091eb18ae988383c0a": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S12"
+    },
+    "65e262959a7e72a19bfa43f7": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S09"
     },
     "663c71649a7e42aea725daf7": {
       "date": "2026-10-15",
@@ -15643,6 +15805,10 @@
     "83ba6f46726322ea4bb8cfed": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S13"
+    },
+    "841b4c0e518c594975e06fa8": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S06"
     },
     "84d63cad32e6ad369e7d5c43": {
       "date": "2026-10-16",
@@ -16292,6 +16458,10 @@
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S03"
     },
+    "b98a2521ebb16066f3d7bf59": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S03"
+    },
     "b9c4683a2ff80b8c96b7e708": {
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S10"
@@ -16363,6 +16533,10 @@
     "bfe30ba1b1d3f2f9bd0c3de9": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S06"
+    },
+    "c04723a19ecff6f78a50198f": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S05"
     },
     "c111f2b61a7294203a6891fa": {
       "date": "2026-10-26",
@@ -16539,6 +16713,10 @@
     "d2877cb9e2500ee5351d3b03": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S12"
+    },
+    "d33997e1296ee510d4572550": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S01"
     },
     "d3c0c3671ef74e033cdccf59": {
       "date": "2026-10-07",
@@ -18467,6 +18645,22 @@
       "requested": 10,
       "scheduled_cron": "0 11 * * *",
       "status": "waiting_for_batch1"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-03",
+      "dry_run": false,
+      "processed": 9,
+      "published_now": 9,
+      "recorded_at": "2026-11-12T07:45:33.805038+00:00",
+      "requested": 10,
+      "scheduled_cron": "",
+      "slots": [
+        1,
+        10
+      ],
+      "status": "completed"
     }
   ],
   "schema_version": 4
