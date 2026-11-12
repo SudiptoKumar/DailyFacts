@@ -9920,6 +9920,130 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-04": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-04-S01",
+            "FACT-2026-11-04-S02",
+            "FACT-2026-11-04-S03",
+            "FACT-2026-11-04-S04",
+            "FACT-2026-11-04-S05",
+            "FACT-2026-11-04-S06",
+            "FACT-2026-11-04-S07",
+            "FACT-2026-11-04-S08",
+            "FACT-2026-11-04-S09",
+            "FACT-2026-11-04-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-12T09:00:19.718328+00:00",
+          "published_count": 9,
+          "started_at": "2026-11-12T08:57:23.298160+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-04-S01": {
+          "batch": 1,
+          "claim_key": "3cb31887148bae19ca9b22b9",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Map_showing_Kamchatka_Trench_area_magnitude_8.8_earthquake_(11-24_AM,_30_July_2025)_11_and_its_aftershocks_along_the_Kamchatka_Trench.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 880,
+          "published_at": "2026-11-12T08:57:36.594109+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S02": {
+          "batch": 1,
+          "claim_key": "0f5e02e0f829dcc92e27755b",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Hubble_Finds_a_Star_Eating_a_Planet_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 881,
+          "published_at": "2026-11-12T08:57:41.414143+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S03": {
+          "batch": 1,
+          "claim_key": "91b2b0d70f9c10d133d780d8",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:A_text-book_of_human_physiology_(1906)_(14770191352).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 882,
+          "published_at": "2026-11-12T08:58:06.800114+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S04": {
+          "batch": 1,
+          "claim_key": "18dca1277ab82096ea568abf",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 883,
+          "published_at": "2026-11-12T08:58:11.593405+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S05": {
+          "batch": 1,
+          "claim_key": "b7840dfb05fb34407e1aa384",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Asian_Elephant_at_Zoo.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 884,
+          "published_at": "2026-11-12T08:58:56.101765+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S06": {
+          "batch": 1,
+          "claim_key": "42394e88f081e99da4d38dff",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Flowers_valley_of_Kaas_Plateu,Satara,India.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 885,
+          "published_at": "2026-11-12T09:00:01.924930+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S07": {
+          "batch": 1,
+          "claim_key": "d3faa21b1063662b2a68ad7d",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 886,
+          "published_at": "2026-11-12T09:00:07.547016+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S09": {
+          "batch": 1,
+          "claim_key": "c0ff9d756a0900e0eea140cf",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Star_crossing_the_event_horizon_of_a_supermassive_black_hole.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 887,
+          "published_at": "2026-11-12T09:00:13.202926+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S10": {
+          "batch": 1,
+          "claim_key": "29d3de10257a808a918a46b8",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 888,
+          "published_at": "2026-11-12T09:00:19.703601+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -14410,6 +14534,60 @@
       "score": 23,
       "source_page": "https://commons.wikimedia.org/wiki/File:Mexican_and_Central_American_antiquities,_calendar_systems,_and_history;_(1904)_(14594529910).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Mexican_and_Central_American_antiquities%2C_calendar_systems%2C_and_history%3B_%281904%29_%2814594529910%29.jpg/1280px-Mexican_and_Central_American_antiquities%2C_calendar_systems%2C_and_history%3B_%281904%29_%2814594529910%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-04-S01": {
+      "cached_at": "2026-11-12T08:57:34.997411+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-04-S01.jpg",
+      "query": "earthquake near tectonic plate boundaries",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Map_showing_Kamchatka_Trench_area_magnitude_8.8_earthquake_(11-24_AM,_30_July_2025)_11_and_its_aftershocks_along_the_Kamchatka_Trench.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Map_showing_Kamchatka_Trench_area_magnitude_8.8_earthquake_%2811-24_AM%2C_30_July_2025%29_11_and_its_aftershocks_along_the_Kamchatka_Trench.jpg/1280px-Map_showing_Kamchatka_Trench_area_magnitude_8.8_earthquake_%2811-24_AM%2C_30_July_2025%29_11_and_its_aftershocks_along_the_Kamchatka_Trench.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-04-S02": {
+      "cached_at": "2026-11-12T08:57:39.741574+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-04-S02.jpg",
+      "query": "Venus planet hot surface",
+      "score": 24,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hubble_Finds_a_Star_Eating_a_Planet_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Hubble_Finds_a_Star_Eating_a_Planet_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg/1280px-Hubble_Finds_a_Star_Eating_a_Planet_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-04-S03": {
+      "cached_at": "2026-11-12T08:58:05.102168+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-04-S03.jpg",
+      "query": "illustration of the hindbrain showing the upper spinal cord, brain stem, and cerebellum",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_text-book_of_human_physiology_(1906)_(14770191352).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_text-book_of_human_physiology_%281906%29_%2814770191352%29.jpg/1280px-A_text-book_of_human_physiology_%281906%29_%2814770191352%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-04-S05": {
+      "cached_at": "2026-11-12T08:58:54.335914+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-04-S05.jpg",
+      "query": "Asian elephant at Elephant Trails",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Asian_Elephant_at_Zoo.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Asian_Elephant_at_Zoo.jpg/1280px-Asian_Elephant_at_Zoo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-04-S06": {
+      "cached_at": "2026-11-12T09:00:00.162866+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-04-S06.jpg",
+      "query": "tectonic plates uplifting mountains, geological illustration",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Flowers_valley_of_Kaas_Plateu,Satara,India.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Flowers_valley_of_Kaas_Plateu%2CSatara%2CIndia.jpg/1280px-Flowers_valley_of_Kaas_Plateu%2CSatara%2CIndia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-04-S09": {
+      "cached_at": "2026-11-12T09:00:11.373301+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-04-S09.jpg",
+      "query": "event horizon of a black hole",
+      "score": 33,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Star_crossing_the_event_horizon_of_a_supermassive_black_hole.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Star_crossing_the_event_horizon_of_a_supermassive_black_hole.jpg/1280px-Star_crossing_the_event_horizon_of_a_supermassive_black_hole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -14569,6 +14747,10 @@
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S01"
     },
+    "0f5e02e0f829dcc92e27755b": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S02"
+    },
     "0f9a07815d2f5f527261981f": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S18"
@@ -14696,6 +14878,10 @@
     "189e33c80d4d53716b54f200": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S18"
+    },
+    "18dca1277ab82096ea568abf": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S04"
     },
     "193ad80236457e97293ccf91": {
       "date": "2026-10-08",
@@ -14872,6 +15058,10 @@
     "28db599103d93ca66ced3896": {
       "date": "2026-10-29",
       "fact_id": "FACT-2026-10-29-S20"
+    },
+    "29d3de10257a808a918a46b8": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S10"
     },
     "2b395274207c882ffd590bf70e936ae908bc1b9c": {
       "date": "2026-09-25",
@@ -15057,6 +15247,10 @@
       "date": "2026-10-30",
       "fact_id": "FACT-2026-10-30-S17"
     },
+    "3cb31887148bae19ca9b22b9": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S01"
+    },
     "3cbbeae8bd2e5f1d54c151ed": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S18"
@@ -15100,6 +15294,10 @@
     "419bc6436e431c52597acac01aef3cde3289721d": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S03"
+    },
+    "42394e88f081e99da4d38dff": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S06"
     },
     "432a461bc5008f5789b7e770": {
       "date": "2026-10-24",
@@ -16109,6 +16307,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S14"
     },
+    "91b2b0d70f9c10d133d780d8": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S03"
+    },
     "91f70e589cfd7fe056873ee7": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S07"
@@ -16601,6 +16803,10 @@
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S03"
     },
+    "b7840dfb05fb34407e1aa384": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S05"
+    },
     "b819edba5a5f7ac529fdcddb": {
       "date": "2026-10-30",
       "fact_id": "FACT-2026-10-30-S11"
@@ -16708,6 +16914,10 @@
     "c04723a19ecff6f78a50198f": {
       "date": "2026-11-03",
       "fact_id": "FACT-2026-11-03-S05"
+    },
+    "c0ff9d756a0900e0eea140cf": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S09"
     },
     "c111f2b61a7294203a6891fa": {
       "date": "2026-10-26",
@@ -16892,6 +17102,10 @@
     "d3c0c3671ef74e033cdccf59": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S09"
+    },
+    "d3faa21b1063662b2a68ad7d": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S07"
     },
     "d4387173a29f02831ecc0003": {
       "date": "2026-10-26",
@@ -18862,6 +19076,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-04",
+      "dry_run": false,
+      "processed": 9,
+      "published_now": 9,
+      "recorded_at": "2026-11-12T09:00:19.718380+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
