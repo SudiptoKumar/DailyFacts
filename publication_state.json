@@ -9941,6 +9941,25 @@
           "published_count": 9,
           "started_at": "2026-11-12T08:57:23.298160+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-04-S11",
+            "FACT-2026-11-04-S12",
+            "FACT-2026-11-04-S13",
+            "FACT-2026-11-04-S14",
+            "FACT-2026-11-04-S15",
+            "FACT-2026-11-04-S16",
+            "FACT-2026-11-04-S17",
+            "FACT-2026-11-04-S18",
+            "FACT-2026-11-04-S19",
+            "FACT-2026-11-04-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-12T18:47:33.100640+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-12T18:45:28.097397+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -10041,6 +10060,116 @@
           "message_id": 888,
           "published_at": "2026-11-12T09:00:19.703601+00:00",
           "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S11": {
+          "batch": 2,
+          "claim_key": "5f4c431ae871f00c5173d3a7",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Iziko_Blue_Whale_Close_up.JPG",
+          "image_source": "Wikimedia Commons",
+          "message_id": 890,
+          "published_at": "2026-11-12T18:45:34.684296+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S12": {
+          "batch": 2,
+          "claim_key": "be67290b79123070f71404f4",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 891,
+          "published_at": "2026-11-12T18:45:41.594961+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S13": {
+          "batch": 2,
+          "claim_key": "2f367047c5cf18734e432d05",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 892,
+          "published_at": "2026-11-12T18:45:48.970484+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S14": {
+          "batch": 2,
+          "claim_key": "dc1f11c3bbbb7ede9ca0bc97",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 893,
+          "published_at": "2026-11-12T18:45:56.213296+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S15": {
+          "batch": 2,
+          "claim_key": "5e5290dede15b8e229f5e14d",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 894,
+          "published_at": "2026-11-12T18:45:59.071739+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S16": {
+          "batch": 2,
+          "claim_key": "70ce65f5cef711dea95c8747",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Grecian_and_Roman_mythology_(1876)_(14585183269).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 895,
+          "published_at": "2026-11-12T18:46:06.537580+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S17": {
+          "batch": 2,
+          "claim_key": "a448cba95f5533b4da33ea7b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 896,
+          "published_at": "2026-11-12T18:46:29.253544+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S18": {
+          "batch": 2,
+          "claim_key": "c8f88e28ad9dd17fe28c4190",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 897,
+          "published_at": "2026-11-12T18:46:41.274322+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S19": {
+          "batch": 2,
+          "claim_key": "b8ef883f6c7f477bf395f080",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 898,
+          "published_at": "2026-11-12T18:46:45.547674+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-04-S20": {
+          "batch": 2,
+          "claim_key": "dfbfcb395f267dcc1fb22353",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Turret_Age_(1893)_of_Newcastle-upon-Tyne_in_the_Dry_Dock_St._Johns_Newfoundland_in_1899_(1902)_(14793900823).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 899,
+          "published_at": "2026-11-12T18:47:33.083112+00:00",
+          "send_mode": "rich_photo",
           "status": "published"
         }
       }
@@ -14588,6 +14717,33 @@
       "score": 33,
       "source_page": "https://commons.wikimedia.org/wiki/File:Star_crossing_the_event_horizon_of_a_supermassive_black_hole.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Star_crossing_the_event_horizon_of_a_supermassive_black_hole.jpg/1280px-Star_crossing_the_event_horizon_of_a_supermassive_black_hole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-04-S11": {
+      "cached_at": "2026-11-12T18:45:32.489402+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-04-S11.jpg",
+      "query": "adult blue whale swimming in ocean, showing its full length",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Iziko_Blue_Whale_Close_up.JPG",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Iziko_Blue_Whale_Close_up.JPG/1280px-Iziko_Blue_Whale_Close_up.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-04-S16": {
+      "cached_at": "2026-11-12T18:46:04.664778+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-04-S16.jpg",
+      "query": "Medusa snake-haired stone gaze",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Grecian_and_Roman_mythology_(1876)_(14585183269).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Grecian_and_Roman_mythology_%281876%29_%2814585183269%29.jpg/1280px-Grecian_and_Roman_mythology_%281876%29_%2814585183269%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-04-S20": {
+      "cached_at": "2026-11-12T18:47:31.223059+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-04-S20.jpg",
+      "query": "Anne Cary Randolph 1805",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Turret_Age_(1893)_of_Newcastle-upon-Tyne_in_the_Dry_Dock_St._Johns_Newfoundland_in_1899_(1902)_(14793900823).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Turret_Age_%281893%29_of_Newcastle-upon-Tyne_in_the_Dry_Dock_St._Johns_Newfoundland_in_1899_%281902%29_%2814793900823%29.jpg/1280px-Turret_Age_%281893%29_of_Newcastle-upon-Tyne_in_the_Dry_Dock_St._Johns_Newfoundland_in_1899_%281902%29_%2814793900823%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -15094,6 +15250,10 @@
     "2ef0c4560d088f9bed27038b": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S15"
+    },
+    "2f367047c5cf18734e432d05": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S13"
     },
     "2f4247311c30bf8214e2747a0171712fd84582a2": {
       "date": "2026-09-30",
@@ -15687,6 +15847,10 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S02"
     },
+    "5e5290dede15b8e229f5e14d": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S15"
+    },
     "5ef1b320f56d3561213804cf": {
       "date": "2026-10-30",
       "fact_id": "FACT-2026-10-30-S09"
@@ -15698,6 +15862,10 @@
     "5f4154a8fa06852f67fba7fc": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S09"
+    },
+    "5f4c431ae871f00c5173d3a7": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S11"
     },
     "5f773bd62fa1e46fc1346daa": {
       "date": "2026-11-03",
@@ -15934,6 +16102,10 @@
     "709b7e1ee90a5c275948a12e": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S13"
+    },
+    "70ce65f5cef711dea95c8747": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S16"
     },
     "70e79e7d80195557aa7a0ecc": {
       "date": "2026-11-02",
@@ -16563,6 +16735,10 @@
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S13"
     },
+    "a448cba95f5533b4da33ea7b": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S17"
+    },
     "a48166b56492eb5c1e9086ba": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S20"
@@ -16815,6 +16991,10 @@
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S04"
     },
+    "b8ef883f6c7f477bf395f080": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S19"
+    },
     "b8f2fe81aa4ed01bbdfb379b": {
       "date": "2026-10-29",
       "fact_id": "FACT-2026-10-29-S05"
@@ -16894,6 +17074,10 @@
     "be3d30836943236c452ed83c": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S12"
+    },
+    "be67290b79123070f71404f4": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S12"
     },
     "be79833d01d00a3689395284": {
       "date": "2026-10-12",
@@ -16998,6 +17182,10 @@
     "c8c5d8eb8158305d5584e61a": {
       "date": "2026-10-30",
       "fact_id": "FACT-2026-10-30-S20"
+    },
+    "c8f88e28ad9dd17fe28c4190": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S18"
     },
     "c8ffe3814781cdf1b42c291f": {
       "date": "2026-10-19",
@@ -17207,6 +17395,10 @@
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S07"
     },
+    "dc1f11c3bbbb7ede9ca0bc97": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S14"
+    },
     "dc8e2da99746318279cf919a": {
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S14"
@@ -17242,6 +17434,10 @@
     "dfa039b896985ef52e2ecf11": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S10"
+    },
+    "dfbfcb395f267dcc1fb22353": {
+      "date": "2026-11-04",
+      "fact_id": "FACT-2026-11-04-S20"
     },
     "dffc0a2fa0ff7dc826e406a8": {
       "date": "2026-10-13",
@@ -19092,6 +19288,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-04",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-12T18:47:33.100662+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
