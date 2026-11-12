@@ -411,6 +411,12 @@ def run(
     pending = _pending_from_allocated(
         allocated, state, run_date, target, ignore_publication_state=force_republish
     )
+    pending_ids = {f.fact_id for f in pending}
+    already_published_ids = {
+        f.fact_id
+        for f in allocated
+        if f.fact_id not in pending_ids and is_claim_published_anywhere(state, f.claim_key)
+    }
     start_slot, end_slot = batch_slot_range(batch)
     logger.info(
         "Date=%s | batch=%d | slots=%d-%d | raw=%d | allocated_unique=%d | pending=%d | target=%d | scheduled_cron=%s",
@@ -445,7 +451,20 @@ def run(
     if dry_run or not persist_state:
         return "dry_run" if dry_run else "test_republish"
 
-    status = finalize_batch(state, run_date.isoformat(), batch, allocated_fact_ids=allocated_ids)
+    status = finalize_batch(
+        state,
+        run_date.isoformat(),
+        batch,
+        allocated_fact_ids=allocated_ids,
+        already_published_ids=already_published_ids,
+    )
+    if status == "completed" and already_published_ids:
+        logger.warning(
+            "BATCH EXHAUSTED | date=%s | batch=%d | already-published claims settled=%d | advancing cursor",
+            run_date,
+            batch,
+            len(already_published_ids),
+        )
     _record_run(
         state,
         {
