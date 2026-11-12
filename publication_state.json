@@ -9688,6 +9688,25 @@
           "published_count": 9,
           "started_at": "2026-11-12T07:43:46.358035+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-03-S11",
+            "FACT-2026-11-03-S12",
+            "FACT-2026-11-03-S13",
+            "FACT-2026-11-03-S14",
+            "FACT-2026-11-03-S15",
+            "FACT-2026-11-03-S16",
+            "FACT-2026-11-03-S17",
+            "FACT-2026-11-03-S18",
+            "FACT-2026-11-03-S19",
+            "FACT-2026-11-03-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-12T07:48:44.217145+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-12T07:46:56.912240+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -9787,6 +9806,116 @@
           "image_source": "Generated card",
           "message_id": 869,
           "published_at": "2026-11-12T07:45:33.790105+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S11": {
+          "batch": 2,
+          "claim_key": "db5ee2a08eaf3a67b96d5b56",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 870,
+          "published_at": "2026-11-12T07:47:02.692217+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S12": {
+          "batch": 2,
+          "claim_key": "d780d2304171a66a78d7c533",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Role_of_micronekton_in_pelagic_food_webs.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 871,
+          "published_at": "2026-11-12T07:47:08.078090+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S13": {
+          "batch": 2,
+          "claim_key": "dcab9a7a1bd3ba8f4fd5865f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 872,
+          "published_at": "2026-11-12T07:47:13.685825+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S14": {
+          "batch": 2,
+          "claim_key": "3b110f2c4439d0a4966f0a7a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 873,
+          "published_at": "2026-11-12T07:47:16.759330+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S15": {
+          "batch": 2,
+          "claim_key": "a564fea3d86d5e47a449006f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 874,
+          "published_at": "2026-11-12T07:47:19.455642+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S16": {
+          "batch": 2,
+          "claim_key": "6d397ed4fe3e7c8e8709a4dd",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 875,
+          "published_at": "2026-11-12T07:47:42.625217+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S17": {
+          "batch": 2,
+          "claim_key": "18744290ebb2385f4968b8d6",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 876,
+          "published_at": "2026-11-12T07:47:45.192369+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S18": {
+          "batch": 2,
+          "claim_key": "f524cd0ae2f5f2aa2c669e51",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Mexican_and_Central_American_antiquities,_calendar_systems,_and_history;_(1904)_(14594529910).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 877,
+          "published_at": "2026-11-12T07:48:33.216487+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S19": {
+          "batch": 2,
+          "claim_key": "893d1629c868d1fb63e9a0ea",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 878,
+          "published_at": "2026-11-12T07:48:39.177528+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-03-S20": {
+          "batch": 2,
+          "claim_key": "99f941f7604379bd50a49436",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 879,
+          "published_at": "2026-11-12T07:48:44.203604+00:00",
           "send_mode": "card_rich",
           "status": "published"
         }
@@ -14263,6 +14392,24 @@
       "score": 25,
       "source_page": "https://commons.wikimedia.org/wiki/File:Parque_Zool%C3%B3gico_de_S%C3%A3o_Paulo_-_Sao_Paulo_Zoo_-_Elefante_Asi%C3%A1tico_-_Asian_Elephant_(11539785674).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Parque_Zool%C3%B3gico_de_S%C3%A3o_Paulo_-_Sao_Paulo_Zoo_-_Elefante_Asi%C3%A1tico_-_Asian_Elephant_%2811539785674%29.jpg/1280px-Parque_Zool%C3%B3gico_de_S%C3%A3o_Paulo_-_Sao_Paulo_Zoo_-_Elefante_Asi%C3%A1tico_-_Asian_Elephant_%2811539785674%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-03-S12": {
+      "cached_at": "2026-11-12T07:47:06.495069+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-03-S12.jpg",
+      "query": "diagram of a food web showing energy flow",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Role_of_micronekton_in_pelagic_food_webs.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Role_of_micronekton_in_pelagic_food_webs.png/1280px-Role_of_micronekton_in_pelagic_food_webs.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-03-S18": {
+      "cached_at": "2026-11-12T07:48:31.000612+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-03-S18.jpg",
+      "query": "Maya writing on ceramics, stone, wood, shell, textiles, animal hides, and screen-fold codex books",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mexican_and_Central_American_antiquities,_calendar_systems,_and_history;_(1904)_(14594529910).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Mexican_and_Central_American_antiquities%2C_calendar_systems%2C_and_history%3B_%281904%29_%2814594529910%29.jpg/1280px-Mexican_and_Central_American_antiquities%2C_calendar_systems%2C_and_history%3B_%281904%29_%2814594529910%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -14537,6 +14684,10 @@
     "184e22bbbeb229d614e0756a": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S03"
+    },
+    "18744290ebb2385f4968b8d6": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S17"
     },
     "18945d00284d84bff0054248": {
       "date": "2026-10-15",
@@ -14893,6 +15044,10 @@
     "3ac1597cda36c766e7a1dcdc": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S19"
+    },
+    "3b110f2c4439d0a4966f0a7a": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S14"
     },
     "3bc8582fc8950e1eeb778864": {
       "date": "2026-10-27",
@@ -15538,6 +15693,10 @@
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S11"
     },
+    "6d397ed4fe3e7c8e8709a4dd": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S16"
+    },
     "6dd753d7eed1142ac5cc68c5": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S18"
@@ -15846,6 +16005,10 @@
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S03"
     },
+    "893d1629c868d1fb63e9a0ea": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S19"
+    },
     "8942d4322d8e52a9871fd5a4": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S12"
@@ -16058,6 +16221,10 @@
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S16"
     },
+    "99f941f7604379bd50a49436": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S20"
+    },
     "9a1b2279ad35ebe58ffe3081": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S01"
@@ -16197,6 +16364,10 @@
     "a48166b56492eb5c1e9086ba": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S20"
+    },
+    "a564fea3d86d5e47a449006f": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S15"
     },
     "a568f02a9ab1031f3585deb1": {
       "date": "2026-10-23",
@@ -16758,6 +16929,10 @@
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S11"
     },
+    "d780d2304171a66a78d7c533": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S12"
+    },
     "d81055cb44a331a68770dd6c": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S20"
@@ -16802,6 +16977,10 @@
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S14"
     },
+    "db5ee2a08eaf3a67b96d5b56": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S11"
+    },
     "dbaba2da3cd1244d41c653ea": {
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S17"
@@ -16817,6 +16996,10 @@
     "dc8e2da99746318279cf919a": {
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S14"
+    },
+    "dcab9a7a1bd3ba8f4fd5865f": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S13"
     },
     "dd727170097d68a4b106e60b": {
       "date": "2026-10-16",
@@ -17061,6 +17244,10 @@
     "f507849580c28ac6fb85da7a": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S04"
+    },
+    "f524cd0ae2f5f2aa2c669e51": {
+      "date": "2026-11-03",
+      "fact_id": "FACT-2026-11-03-S18"
     },
     "f571685b549e4f0b61c741d9": {
       "date": "2026-10-17",
@@ -18659,6 +18846,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-03",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-12T07:48:44.217158+00:00",
+      "requested": 10,
+      "scheduled_cron": "",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
