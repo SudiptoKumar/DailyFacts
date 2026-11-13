@@ -10194,6 +10194,25 @@
           "published_count": 9,
           "started_at": "2026-11-13T08:53:21.263854+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-05-S11",
+            "FACT-2026-11-05-S12",
+            "FACT-2026-11-05-S13",
+            "FACT-2026-11-05-S14",
+            "FACT-2026-11-05-S15",
+            "FACT-2026-11-05-S16",
+            "FACT-2026-11-05-S17",
+            "FACT-2026-11-05-S18",
+            "FACT-2026-11-05-S19",
+            "FACT-2026-11-05-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-13T18:28:43.208039+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-13T18:26:55.215132+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -10293,6 +10312,116 @@
           "image_source": "Generated card",
           "message_id": 908,
           "published_at": "2026-11-13T08:56:29.623613+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S11": {
+          "batch": 2,
+          "claim_key": "e741b09ea433e61d6eaf9edf",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 909,
+          "published_at": "2026-11-13T18:27:00.552902+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S12": {
+          "batch": 2,
+          "claim_key": "30b314c5076a1681b310cb46",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 910,
+          "published_at": "2026-11-13T18:27:06.472624+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S13": {
+          "batch": 2,
+          "claim_key": "4f4021bab27fad8b045124de",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 911,
+          "published_at": "2026-11-13T18:27:13.599383+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S14": {
+          "batch": 2,
+          "claim_key": "b4abaec1e851640c2135dd80",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Incandescent_Electric_Lighting_-_Frontispiece.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 912,
+          "published_at": "2026-11-13T18:27:17.770689+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S15": {
+          "batch": 2,
+          "claim_key": "43fcca2e0cb166c4458f2723",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 913,
+          "published_at": "2026-11-13T18:27:20.669577+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S16": {
+          "batch": 2,
+          "claim_key": "8a7597b6ead21a8e70f53bf2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 914,
+          "published_at": "2026-11-13T18:27:25.987458+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S17": {
+          "batch": 2,
+          "claim_key": "9416a68c8aa042221194dcb5",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 915,
+          "published_at": "2026-11-13T18:27:48.832799+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S18": {
+          "batch": 2,
+          "claim_key": "3ad96e2fd5b4c102258e6e43",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 916,
+          "published_at": "2026-11-13T18:27:51.434763+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S19": {
+          "batch": 2,
+          "claim_key": "b34b8c731cc9bda72262cf7a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 917,
+          "published_at": "2026-11-13T18:28:37.000231+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S20": {
+          "batch": 2,
+          "claim_key": "8fa7c728f81f44846fe64f78",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 918,
+          "published_at": "2026-11-13T18:28:43.194376+00:00",
           "send_mode": "card_rich",
           "status": "published"
         }
@@ -14886,6 +15015,15 @@
       "score": 28,
       "source_page": "https://commons.wikimedia.org/wiki/File:1880EDISON1881LampsSOCKETSrwLIPACKowner.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/1880EDISON1881LampsSOCKETSrwLIPACKowner.jpg/1280px-1880EDISON1881LampsSOCKETSrwLIPACKowner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-05-S14": {
+      "cached_at": "2026-11-13T18:27:15.932396+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-05-S14.jpg",
+      "query": "Thomas Edison standing beside his 1879 incandescent lamp prototype",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Incandescent_Electric_Lighting_-_Frontispiece.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Incandescent_Electric_Lighting_-_Frontispiece.png/1280px-Incandescent_Electric_Lighting_-_Frontispiece.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -15417,6 +15555,10 @@
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S04"
     },
+    "30b314c5076a1681b310cb46": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S12"
+    },
     "30f8e939db6f7b69ee89362b": {
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S15"
@@ -15541,6 +15683,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S19"
     },
+    "3ad96e2fd5b4c102258e6e43": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S18"
+    },
     "3b110f2c4439d0a4966f0a7a": {
       "date": "2026-11-03",
       "fact_id": "FACT-2026-11-03-S14"
@@ -15620,6 +15766,10 @@
     "43ee474d2189efd75f02dd5a": {
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S04"
+    },
+    "43fcca2e0cb166c4458f2723": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S15"
     },
     "440eee0c0ffc21fad6958a12": {
       "date": "2026-11-01",
@@ -15768,6 +15918,10 @@
     "4eee628e24d1a7e9a1686180": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S08"
+    },
+    "4f4021bab27fad8b045124de": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S13"
     },
     "4f5321292798a15756ecb270": {
       "date": "2026-10-19",
@@ -16581,6 +16735,10 @@
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S11"
     },
+    "8a7597b6ead21a8e70f53bf2": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S16"
+    },
     "8a9ec3256943fc14cd8007a5": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S01"
@@ -16620,6 +16778,10 @@
     "8fa3fabfede552bd00aeaab5": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S05"
+    },
+    "8fa7c728f81f44846fe64f78": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S20"
     },
     "8ffcc55ff4143ffdc4a3de47": {
       "date": "2026-10-11",
@@ -16672,6 +16834,10 @@
     "94081642b2503bfef1737fb2": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S18"
+    },
+    "9416a68c8aa042221194dcb5": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S17"
     },
     "941b541652b13026dc9f7250b12fc455864910a5": {
       "date": "2026-09-24",
@@ -17081,6 +17247,10 @@
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S11"
     },
+    "b34b8c731cc9bda72262cf7a": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S19"
+    },
     "b4082df2fcaaf6ad26ae8de5": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S04"
@@ -17116,6 +17286,10 @@
     "b4a0d390735d0e6d0f18b3df": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S09"
+    },
+    "b4abaec1e851640c2135dd80": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S14"
     },
     "b56abc75db45e5af3b5e1047": {
       "date": "2026-10-21",
@@ -17692,6 +17866,10 @@
     "e6cf5f9eb9a87ea5092c47e3": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S14"
+    },
+    "e741b09ea433e61d6eaf9edf": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S11"
     },
     "e7459b337148e8fa592e4c70": {
       "date": "2026-10-19",
@@ -19498,6 +19676,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-05",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-13T18:28:43.208054+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
