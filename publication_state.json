@@ -10173,6 +10173,130 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-05": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-05-S01",
+            "FACT-2026-11-05-S02",
+            "FACT-2026-11-05-S03",
+            "FACT-2026-11-05-S04",
+            "FACT-2026-11-05-S05",
+            "FACT-2026-11-05-S06",
+            "FACT-2026-11-05-S07",
+            "FACT-2026-11-05-S08",
+            "FACT-2026-11-05-S09",
+            "FACT-2026-11-05-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-13T08:56:29.638346+00:00",
+          "published_count": 9,
+          "started_at": "2026-11-13T08:53:21.263854+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-05-S01": {
+          "batch": 1,
+          "claim_key": "b6f73d35aa5606ccab7b44ed",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 900,
+          "published_at": "2026-11-13T08:53:40.045773+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S03": {
+          "batch": 1,
+          "claim_key": "74a1ad13015f561ec47ab7c0",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 901,
+          "published_at": "2026-11-13T08:54:07.546405+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S04": {
+          "batch": 1,
+          "claim_key": "f371873a73d19c4a414a8afc",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 902,
+          "published_at": "2026-11-13T08:54:15.301961+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S05": {
+          "batch": 1,
+          "claim_key": "f7cf9432548a548be1fae2ba",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 903,
+          "published_at": "2026-11-13T08:54:19.399355+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S06": {
+          "batch": 1,
+          "claim_key": "986c545295a910d5387d71a2",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_botany_of_Iceland_(1912)_(20219010889).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 904,
+          "published_at": "2026-11-13T08:55:06.721945+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S07": {
+          "batch": 1,
+          "claim_key": "551e3486f1ddbf5bd510bec2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 905,
+          "published_at": "2026-11-13T08:56:13.590127+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S08": {
+          "batch": 1,
+          "claim_key": "458c071d99bb714dd49434b9",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:1880EDISON1881LampsSOCKETSrwLIPACKowner.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 906,
+          "published_at": "2026-11-13T08:56:21.823180+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S09": {
+          "batch": 1,
+          "claim_key": "adda0a6acb464515d32e2bf5",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 907,
+          "published_at": "2026-11-13T08:56:26.651354+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-05-S10": {
+          "batch": 1,
+          "claim_key": "3716c500ba40a4a4be94e58c",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 908,
+          "published_at": "2026-11-13T08:56:29.623613+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -14744,6 +14868,24 @@
       "score": 17,
       "source_page": "https://commons.wikimedia.org/wiki/File:Turret_Age_(1893)_of_Newcastle-upon-Tyne_in_the_Dry_Dock_St._Johns_Newfoundland_in_1899_(1902)_(14793900823).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Turret_Age_%281893%29_of_Newcastle-upon-Tyne_in_the_Dry_Dock_St._Johns_Newfoundland_in_1899_%281902%29_%2814793900823%29.jpg/1280px-Turret_Age_%281893%29_of_Newcastle-upon-Tyne_in_the_Dry_Dock_St._Johns_Newfoundland_in_1899_%281902%29_%2814793900823%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-05-S06": {
+      "cached_at": "2026-11-13T08:55:03.759202+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-05-S06.jpg",
+      "query": "water and wind erosion forming valleys and canyons",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_botany_of_Iceland_(1912)_(20219010889).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/The_botany_of_Iceland_%281912%29_%2820219010889%29.jpg/1280px-The_botany_of_Iceland_%281912%29_%2820219010889%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-05-S08": {
+      "cached_at": "2026-11-13T08:56:19.516669+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-05-S08.jpg",
+      "query": "Edison carbonized cotton thread filament light bulb October 1879",
+      "score": 28,
+      "source_page": "https://commons.wikimedia.org/wiki/File:1880EDISON1881LampsSOCKETSrwLIPACKowner.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/1880EDISON1881LampsSOCKETSrwLIPACKowner.jpg/1280px-1880EDISON1881LampsSOCKETSrwLIPACKowner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -15339,6 +15481,10 @@
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S04"
     },
+    "3716c500ba40a4a4be94e58c": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S10"
+    },
     "376f8dc43f31640ebf1f5097": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S02"
@@ -15498,6 +15644,10 @@
     "4582fea66af15bf4554379ec": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S02"
+    },
+    "458c071d99bb714dd49434b9": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S08"
     },
     "459c5c1c9a08fe8a254a40f2": {
       "date": "2026-10-01",
@@ -15706,6 +15856,10 @@
     "54d758cb1d8cad2e82913ff5": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S09"
+    },
+    "551e3486f1ddbf5bd510bec2": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S07"
     },
     "55aa7f29ee2b72ee1959f056": {
       "date": "2026-10-10",
@@ -16167,6 +16321,10 @@
       "date": "2026-11-01",
       "fact_id": "FACT-2026-11-01-S02"
     },
+    "74a1ad13015f561ec47ab7c0": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S03"
+    },
     "74d37231207c0629ad8d3dc2": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S20"
@@ -16567,6 +16725,10 @@
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S14"
     },
+    "986c545295a910d5387d71a2": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S06"
+    },
     "98835fab790aa4efa8c72307": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S01"
@@ -16855,6 +17017,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S19"
     },
+    "adda0a6acb464515d32e2bf5": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S09"
+    },
     "ae82f1e7fe27ed976a1c02e1": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S11"
@@ -16966,6 +17132,10 @@
     "b5e1a8ffd9811de1f28c75c0": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S07"
+    },
+    "b6f73d35aa5606ccab7b44ed": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S01"
     },
     "b71c4ebb3dafe48a264d1177": {
       "date": "2026-10-14",
@@ -17623,6 +17793,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S18"
     },
+    "f371873a73d19c4a414a8afc": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S04"
+    },
     "f379a44544e04e6aec794a56": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S15"
@@ -17690,6 +17864,10 @@
     "f74c3e89fdaf920ee3344b01": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S16"
+    },
+    "f7cf9432548a548be1fae2ba": {
+      "date": "2026-11-05",
+      "fact_id": "FACT-2026-11-05-S05"
     },
     "f804a67248da3e64b3021016": {
       "date": "2026-10-01",
@@ -19304,6 +19482,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-05",
+      "dry_run": false,
+      "processed": 9,
+      "published_now": 9,
+      "recorded_at": "2026-11-13T08:56:29.638394+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
