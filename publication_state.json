@@ -10447,6 +10447,25 @@
           "published_count": 10,
           "started_at": "2026-11-14T08:17:30.704154+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-06-S11",
+            "FACT-2026-11-06-S12",
+            "FACT-2026-11-06-S13",
+            "FACT-2026-11-06-S14",
+            "FACT-2026-11-06-S15",
+            "FACT-2026-11-06-S16",
+            "FACT-2026-11-06-S17",
+            "FACT-2026-11-06-S18",
+            "FACT-2026-11-06-S19",
+            "FACT-2026-11-06-S20"
+          ],
+          "failed_count": 10,
+          "finished_at": "2026-11-14T17:00:39.863026+00:00",
+          "published_count": 0,
+          "started_at": "2026-11-14T16:54:21.666440+00:00",
+          "status": "retryable"
         }
       },
       "facts": {
@@ -10559,6 +10578,66 @@
           "published_at": "2026-11-14T08:20:34.065917+00:00",
           "send_mode": "card_rich",
           "status": "published"
+        },
+        "FACT-2026-11-06-S11": {
+          "batch": 2,
+          "failed_at": "2026-11-14T16:54:58.863898+00:00",
+          "last_error": "Bad Gateway",
+          "status": "failed"
+        },
+        "FACT-2026-11-06-S12": {
+          "batch": 2,
+          "failed_at": "2026-11-14T16:55:36.747664+00:00",
+          "last_error": "Bad Gateway",
+          "status": "failed"
+        },
+        "FACT-2026-11-06-S13": {
+          "batch": 2,
+          "failed_at": "2026-11-14T16:56:14.681450+00:00",
+          "last_error": "Bad Gateway",
+          "status": "failed"
+        },
+        "FACT-2026-11-06-S14": {
+          "batch": 2,
+          "failed_at": "2026-11-14T16:56:52.916676+00:00",
+          "last_error": "Bad Gateway",
+          "status": "failed"
+        },
+        "FACT-2026-11-06-S15": {
+          "batch": 2,
+          "failed_at": "2026-11-14T16:57:30.664592+00:00",
+          "last_error": "Bad Gateway",
+          "status": "failed"
+        },
+        "FACT-2026-11-06-S16": {
+          "batch": 2,
+          "failed_at": "2026-11-14T16:58:08.041739+00:00",
+          "last_error": "Bad Gateway",
+          "status": "failed"
+        },
+        "FACT-2026-11-06-S17": {
+          "batch": 2,
+          "failed_at": "2026-11-14T16:58:43.367289+00:00",
+          "last_error": "Bad Gateway",
+          "status": "failed"
+        },
+        "FACT-2026-11-06-S18": {
+          "batch": 2,
+          "failed_at": "2026-11-14T16:59:22.286558+00:00",
+          "last_error": "Bad Gateway",
+          "status": "failed"
+        },
+        "FACT-2026-11-06-S19": {
+          "batch": 2,
+          "failed_at": "2026-11-14T17:00:00.905941+00:00",
+          "last_error": "Bad Gateway",
+          "status": "failed"
+        },
+        "FACT-2026-11-06-S20": {
+          "batch": 2,
+          "failed_at": "2026-11-14T17:00:39.847294+00:00",
+          "last_error": "Bad Gateway",
+          "status": "failed"
         }
       }
     }
@@ -15168,6 +15247,33 @@
       "score": 33,
       "source_page": "https://commons.wikimedia.org/wiki/File:Dissecting_Supermassive_Black_Holes-_Pinpointing_the_Flows_(01EZAHV580KZMM0JP611DXG68Z).png",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Dissecting_Supermassive_Black_Holes-_Pinpointing_the_Flows_%2801EZAHV580KZMM0JP611DXG68Z%29.png/1280px-Dissecting_Supermassive_Black_Holes-_Pinpointing_the_Flows_%2801EZAHV580KZMM0JP611DXG68Z%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-06-S14": {
+      "cached_at": "2026-11-14T16:56:19.595069+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-06-S14.jpg",
+      "query": "thin filament inside a glass vacuum bulb, early incandescent lamp",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Collection_of_United_States_patents_granted_to_Thomas_A._Edison,_1869-1884_(1869)_(14776823133).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Collection_of_United_States_patents_granted_to_Thomas_A._Edison%2C_1869-1884_%281869%29_%2814776823133%29.jpg/1280px-Collection_of_United_States_patents_granted_to_Thomas_A._Edison%2C_1869-1884_%281869%29_%2814776823133%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-06-S15": {
+      "cached_at": "2026-11-14T16:56:58.070635+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-06-S15.jpg",
+      "query": "World Bank Country Profiles dataset national-level granularity map",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Australia-major-coking-coal-supplier.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Australia-major-coking-coal-supplier.svg/1280px-Australia-major-coking-coal-supplier.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-06-S18": {
+      "cached_at": "2026-11-14T16:58:49.174629+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-06-S18.jpg",
+      "query": "Maya vase with six figures and glyphs showing a ruler seated on a throne greeting visitors",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cylinder_vase_depicting_a_ruler_with_mirror,_Mexico,_central_lowlands,_Late_Classic_Maya,_8th_century_AD,_earthenware_and_pigment_-_De_Young_Museum_-_DSC00658.JPG",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Cylinder_vase_depicting_a_ruler_with_mirror%2C_Mexico%2C_central_lowlands%2C_Late_Classic_Maya%2C_8th_century_AD%2C_earthenware_and_pigment_-_De_Young_Museum_-_DSC00658.JPG/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -19894,6 +20000,22 @@
         10
       ],
       "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-06",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 0,
+      "recorded_at": "2026-11-14T17:00:39.863039+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
+      ],
+      "status": "retryable"
     }
   ],
   "schema_version": 4
