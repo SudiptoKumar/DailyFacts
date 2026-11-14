@@ -10426,6 +10426,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-06": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-06-S01",
+            "FACT-2026-11-06-S02",
+            "FACT-2026-11-06-S03",
+            "FACT-2026-11-06-S04",
+            "FACT-2026-11-06-S05",
+            "FACT-2026-11-06-S06",
+            "FACT-2026-11-06-S07",
+            "FACT-2026-11-06-S08",
+            "FACT-2026-11-06-S09",
+            "FACT-2026-11-06-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-14T08:20:34.078513+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-14T08:17:30.704154+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-06-S01": {
+          "batch": 1,
+          "claim_key": "5c65c66158003fbb34e17847",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 919,
+          "published_at": "2026-11-14T08:17:42.198382+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-06-S02": {
+          "batch": 1,
+          "claim_key": "6e0cfb1ad2022cc6bb12a130",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 920,
+          "published_at": "2026-11-14T08:17:49.567626+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-06-S03": {
+          "batch": 1,
+          "claim_key": "fc02996fa608f5900e397a03",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 921,
+          "published_at": "2026-11-14T08:18:55.342881+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-06-S04": {
+          "batch": 1,
+          "claim_key": "832e1662097fa31b38a42e22",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 922,
+          "published_at": "2026-11-14T08:19:00.968477+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-06-S05": {
+          "batch": 1,
+          "claim_key": "4276775d40449b6b5402bcb9",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 923,
+          "published_at": "2026-11-14T08:19:06.540016+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-06-S06": {
+          "batch": 1,
+          "claim_key": "0a5a575d881351e619c1d7c8",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 924,
+          "published_at": "2026-11-14T08:19:10.726426+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-06-S07": {
+          "batch": 1,
+          "claim_key": "f685dc33f81ec89dfdce3dc9",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 925,
+          "published_at": "2026-11-14T08:19:15.348741+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-06-S08": {
+          "batch": 1,
+          "claim_key": "7c4001489c25a3e7cea961d3",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 926,
+          "published_at": "2026-11-14T08:19:17.997140+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-06-S09": {
+          "batch": 1,
+          "claim_key": "7922a4d0b429527607f2d11d",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Dissecting_Supermassive_Black_Holes-_Pinpointing_the_Flows_(01EZAHV580KZMM0JP611DXG68Z).png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 927,
+          "published_at": "2026-11-14T08:20:28.026674+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-06-S10": {
+          "batch": 1,
+          "claim_key": "cb958eb9a3dbd0f290ed80e5",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 928,
+          "published_at": "2026-11-14T08:20:34.065917+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -15024,6 +15159,15 @@
       "score": 17,
       "source_page": "https://commons.wikimedia.org/wiki/File:Incandescent_Electric_Lighting_-_Frontispiece.png",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Incandescent_Electric_Lighting_-_Frontispiece.png/1280px-Incandescent_Electric_Lighting_-_Frontispiece.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-06-S09": {
+      "cached_at": "2026-11-14T08:20:26.123376+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-06-S09.jpg",
+      "query": "illustration of a black hole surrounded by darkness, no light emitted",
+      "score": 33,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dissecting_Supermassive_Black_Holes-_Pinpointing_the_Flows_(01EZAHV580KZMM0JP611DXG68Z).png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Dissecting_Supermassive_Black_Holes-_Pinpointing_the_Flows_%2801EZAHV580KZMM0JP611DXG68Z%29.png/1280px-Dissecting_Supermassive_Black_Holes-_Pinpointing_the_Flows_%2801EZAHV580KZMM0JP611DXG68Z%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -15106,6 +15250,10 @@
     "09cbaca23b94d554b9728dc8": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S03"
+    },
+    "0a5a575d881351e619c1d7c8": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S06"
     },
     "0b1d1c8bfecc5875e034aaff": {
       "date": "2026-10-10",
@@ -15751,6 +15899,10 @@
       "date": "2026-11-04",
       "fact_id": "FACT-2026-11-04-S06"
     },
+    "4276775d40449b6b5402bcb9": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S05"
+    },
     "432a461bc5008f5789b7e770": {
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S01"
@@ -16115,6 +16267,10 @@
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S03"
     },
+    "5c65c66158003fbb34e17847": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S01"
+    },
     "5d0c1664eacfd787a91cb02f": {
       "date": "2026-10-20",
       "fact_id": "FACT-2026-10-20-S19"
@@ -16383,6 +16539,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S10"
     },
+    "6e0cfb1ad2022cc6bb12a130": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S02"
+    },
     "6e7453b76a5aa9a33fa8c708": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S18"
@@ -16519,6 +16679,10 @@
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S16"
     },
+    "7922a4d0b429527607f2d11d": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S09"
+    },
     "79589c7462440105b067762263fe3fdf7c05cbed": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S04"
@@ -16562,6 +16726,10 @@
     "7c243b6c0b54de8b3cc42660": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S11"
+    },
+    "7c4001489c25a3e7cea961d3": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S08"
     },
     "7c70d694badb8c519a074652": {
       "date": "2026-10-29",
@@ -16642,6 +16810,10 @@
     "831d5716c4a219cba6e267e5": {
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S16"
+    },
+    "832e1662097fa31b38a42e22": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S04"
     },
     "83ba6f46726322ea4bb8cfed": {
       "date": "2026-10-12",
@@ -17567,6 +17739,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S02"
     },
+    "cb958eb9a3dbd0f290ed80e5": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S10"
+    },
     "cbf49b67a7fc9535734ee9fa": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S16"
@@ -18031,6 +18207,10 @@
       "date": "2026-11-01",
       "fact_id": "FACT-2026-11-01-S06"
     },
+    "f685dc33f81ec89dfdce3dc9": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S07"
+    },
     "f6ee4f10b487a29ae3f14672": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S14"
@@ -18094,6 +18274,10 @@
     "fb3ec2598eee1d93bbdc04cb": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S13"
+    },
+    "fc02996fa608f5900e397a03": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S03"
     },
     "fc8f121cfd56696cf5454ffbf3f965a1b200689d": {
       "date": "2026-09-24",
@@ -19692,6 +19876,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-06",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-14T08:20:34.078527+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
