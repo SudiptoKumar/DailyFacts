@@ -10461,11 +10461,11 @@
             "FACT-2026-11-06-S19",
             "FACT-2026-11-06-S20"
           ],
-          "failed_count": 10,
-          "finished_at": "2026-11-14T17:00:39.863026+00:00",
-          "published_count": 0,
+          "failed_count": 0,
+          "finished_at": "2026-11-15T17:39:19.948904+00:00",
+          "published_count": 10,
           "started_at": "2026-11-14T16:54:21.666440+00:00",
-          "status": "retryable"
+          "status": "completed"
         }
       },
       "facts": {
@@ -10581,63 +10581,113 @@
         },
         "FACT-2026-11-06-S11": {
           "batch": 2,
-          "failed_at": "2026-11-14T16:54:58.863898+00:00",
-          "last_error": "Bad Gateway",
-          "status": "failed"
+          "claim_key": "3ba83ea8a082cde30aea6d38",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 939,
+          "published_at": "2026-11-15T17:37:45.009462+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
         },
         "FACT-2026-11-06-S12": {
           "batch": 2,
-          "failed_at": "2026-11-14T16:55:36.747664+00:00",
-          "last_error": "Bad Gateway",
-          "status": "failed"
+          "claim_key": "14ac6559cad52d8020e4991d",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 940,
+          "published_at": "2026-11-15T17:37:48.807820+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
         },
         "FACT-2026-11-06-S13": {
           "batch": 2,
-          "failed_at": "2026-11-14T16:56:14.681450+00:00",
-          "last_error": "Bad Gateway",
-          "status": "failed"
+          "claim_key": "a3cab3619c50c0341b2d6744",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 941,
+          "published_at": "2026-11-15T17:37:53.010843+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
         },
         "FACT-2026-11-06-S14": {
           "batch": 2,
-          "failed_at": "2026-11-14T16:56:52.916676+00:00",
-          "last_error": "Bad Gateway",
-          "status": "failed"
+          "claim_key": "0e3af8db3dd2b3eb95f5906b",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Collection_of_United_States_patents_granted_to_Thomas_A._Edison,_1869-1884_(1869)_(14776823133).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 942,
+          "published_at": "2026-11-15T17:37:56.576704+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
         },
         "FACT-2026-11-06-S15": {
           "batch": 2,
-          "failed_at": "2026-11-14T16:57:30.664592+00:00",
-          "last_error": "Bad Gateway",
-          "status": "failed"
+          "claim_key": "b5b9f0f9c9153193aa003b92",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Australia-major-coking-coal-supplier.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 943,
+          "published_at": "2026-11-15T17:37:58.216138+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
         },
         "FACT-2026-11-06-S16": {
           "batch": 2,
-          "failed_at": "2026-11-14T16:58:08.041739+00:00",
-          "last_error": "Bad Gateway",
-          "status": "failed"
+          "claim_key": "8cce70b8411ecefc3b95f4a1",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 944,
+          "published_at": "2026-11-15T17:38:23.289171+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
         },
         "FACT-2026-11-06-S17": {
           "batch": 2,
-          "failed_at": "2026-11-14T16:58:43.367289+00:00",
-          "last_error": "Bad Gateway",
-          "status": "failed"
+          "claim_key": "cea48e42dd92066e460b5010",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 945,
+          "published_at": "2026-11-15T17:38:27.133368+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
         },
         "FACT-2026-11-06-S18": {
           "batch": 2,
-          "failed_at": "2026-11-14T16:59:22.286558+00:00",
-          "last_error": "Bad Gateway",
-          "status": "failed"
+          "claim_key": "7799a089c905362810504880",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Cylinder_vase_depicting_a_ruler_with_mirror,_Mexico,_central_lowlands,_Late_Classic_Maya,_8th_century_AD,_earthenware_and_pigment_-_De_Young_Museum_-_DSC00658.JPG",
+          "image_source": "Wikimedia Commons",
+          "message_id": 946,
+          "published_at": "2026-11-15T17:39:09.272715+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
         },
         "FACT-2026-11-06-S19": {
           "batch": 2,
-          "failed_at": "2026-11-14T17:00:00.905941+00:00",
-          "last_error": "Bad Gateway",
-          "status": "failed"
+          "claim_key": "e68be41a426e608397f6e33b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 947,
+          "published_at": "2026-11-15T17:39:14.770963+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
         },
         "FACT-2026-11-06-S20": {
           "batch": 2,
-          "failed_at": "2026-11-14T17:00:39.847294+00:00",
-          "last_error": "Bad Gateway",
-          "status": "failed"
+          "claim_key": "7e48400111f58fa6929f939f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 948,
+          "published_at": "2026-11-15T17:39:19.934715+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
         }
       }
     },
@@ -15583,6 +15633,10 @@
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S14"
     },
+    "0e3af8db3dd2b3eb95f5906b": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S14"
+    },
     "0eda06abc710872585b671e0": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S01"
@@ -15682,6 +15736,10 @@
     "1417e1fd02c454222276c15d": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S01"
+    },
+    "14ac6559cad52d8020e4991d": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S12"
     },
     "14c207597251560df66a9fb6": {
       "date": "2026-10-14",
@@ -16110,6 +16168,10 @@
     "3b110f2c4439d0a4966f0a7a": {
       "date": "2026-11-03",
       "fact_id": "FACT-2026-11-03-S14"
+    },
+    "3ba83ea8a082cde30aea6d38": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S11"
     },
     "3bc8582fc8950e1eeb778864": {
       "date": "2026-10-27",
@@ -16967,6 +17029,10 @@
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S11"
     },
+    "7799a089c905362810504880": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S18"
+    },
     "7826a95a2ebc2d2cce931eb4": {
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S12"
@@ -17054,6 +17120,10 @@
     "7e43f4ffb6720aec5d21f177": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S17"
+    },
+    "7e48400111f58fa6929f939f": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S20"
     },
     "8031501e26a99ef49154a49c": {
       "date": "2026-10-26",
@@ -17234,6 +17304,10 @@
     "8c8d56b18ac2a0f7400b9c68": {
       "date": "2026-11-01",
       "fact_id": "FACT-2026-11-01-S17"
+    },
+    "8cce70b8411ecefc3b95f4a1": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S16"
     },
     "8dfb4aab01be9f3c0d8a185f": {
       "date": "2026-10-07",
@@ -17535,6 +17609,10 @@
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S13"
     },
+    "a3cab3619c50c0341b2d6744": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S13"
+    },
     "a448cba95f5533b4da33ea7b": {
       "date": "2026-11-04",
       "fact_id": "FACT-2026-11-04-S17"
@@ -17770,6 +17848,10 @@
     "b593586509c0b1e502a5e5c5": {
       "date": "2026-11-01",
       "fact_id": "FACT-2026-11-01-S05"
+    },
+    "b5b9f0f9c9153193aa003b92": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S15"
     },
     "b5e02f6dd389595a72fa63b1": {
       "date": "2026-11-01",
@@ -18059,6 +18141,10 @@
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S17"
     },
+    "cea48e42dd92066e460b5010": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S17"
+    },
     "cee0760ad9ff49f62c67a4c0": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S16"
@@ -18342,6 +18428,10 @@
     "e6305ffb498e8b9419f371ef": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S07"
+    },
+    "e68be41a426e608397f6e33b": {
+      "date": "2026-11-06",
+      "fact_id": "FACT-2026-11-06-S19"
     },
     "e6cf5f9eb9a87ea5092c47e3": {
       "date": "2026-10-04",
@@ -20232,6 +20322,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-06",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-15T17:39:19.948917+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
