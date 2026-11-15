@@ -10640,6 +10640,141 @@
           "status": "failed"
         }
       }
+    },
+    "2026-11-07": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-07-S01",
+            "FACT-2026-11-07-S02",
+            "FACT-2026-11-07-S03",
+            "FACT-2026-11-07-S04",
+            "FACT-2026-11-07-S05",
+            "FACT-2026-11-07-S06",
+            "FACT-2026-11-07-S07",
+            "FACT-2026-11-07-S08",
+            "FACT-2026-11-07-S09",
+            "FACT-2026-11-07-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-15T08:39:01.355021+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-15T08:36:12.906940+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-07-S01": {
+          "batch": 1,
+          "claim_key": "56f5a3c17101f59f5314f137",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Fires_Char_the_Siberian_Arctic_(153087_-_oli_20240710_lrg).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 929,
+          "published_at": "2026-11-15T08:36:43.892510+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S02": {
+          "batch": 1,
+          "claim_key": "6359397d377b24e2562ac253",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Moons_of_solar_system_numbered.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 930,
+          "published_at": "2026-11-15T08:37:29.633537+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S03": {
+          "batch": 1,
+          "claim_key": "633b7d98df2e0ee3d07b37e4",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 931,
+          "published_at": "2026-11-15T08:37:34.770710+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S04": {
+          "batch": 1,
+          "claim_key": "660600f3c55e452a2f67626f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 932,
+          "published_at": "2026-11-15T08:38:39.784302+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S05": {
+          "batch": 1,
+          "claim_key": "8882909b5cdaca213697e8a7",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 933,
+          "published_at": "2026-11-15T08:38:46.969918+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S06": {
+          "batch": 1,
+          "claim_key": "416db9e9d2a427e42152866b",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_(Arizona,_USA),_Luftaufnahme_--_2012_--_5942.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 934,
+          "published_at": "2026-11-15T08:38:51.026784+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S07": {
+          "batch": 1,
+          "claim_key": "d8dc9bedb14ccd70e0de411b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 935,
+          "published_at": "2026-11-15T08:38:53.793904+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S08": {
+          "batch": 1,
+          "claim_key": "4e892958d0bd4626ffd2432b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 936,
+          "published_at": "2026-11-15T08:38:56.208938+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S09": {
+          "batch": 1,
+          "claim_key": "fca812698db83f188e9062c8",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 937,
+          "published_at": "2026-11-15T08:38:58.544907+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S10": {
+          "batch": 1,
+          "claim_key": "356a0d09a673ca10f6412660",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 938,
+          "published_at": "2026-11-15T08:39:01.338219+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -15274,6 +15409,33 @@
       "score": 20,
       "source_page": "https://commons.wikimedia.org/wiki/File:Cylinder_vase_depicting_a_ruler_with_mirror,_Mexico,_central_lowlands,_Late_Classic_Maya,_8th_century_AD,_earthenware_and_pigment_-_De_Young_Museum_-_DSC00658.JPG",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Cylinder_vase_depicting_a_ruler_with_mirror%2C_Mexico%2C_central_lowlands%2C_Late_Classic_Maya%2C_8th_century_AD%2C_earthenware_and_pigment_-_De_Young_Museum_-_DSC00658.JPG/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-07-S01": {
+      "cached_at": "2026-11-15T08:36:41.955867+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-07-S01.jpg",
+      "query": "USGS Wildland Fire Science Program researching wildfire causes and impacts",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fires_Char_the_Siberian_Arctic_(153087_-_oli_20240710_lrg).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Fires_Char_the_Siberian_Arctic_%28153087_-_oli_20240710_lrg%29.jpg/1280px-Fires_Char_the_Siberian_Arctic_%28153087_-_oli_20240710_lrg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-07-S02": {
+      "cached_at": "2026-11-15T08:37:27.895581+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-07-S02.jpg",
+      "query": "illustration of multiple moons orbiting planets in the solar system",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Moons_of_solar_system_numbered.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Moons_of_solar_system_numbered.svg/1280px-Moons_of_solar_system_numbered.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-07-S06": {
+      "cached_at": "2026-11-15T08:38:49.382416+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-07-S06.jpg",
+      "query": "Grand Canyon Colorado River erosion",
+      "score": 26,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_(Arizona,_USA),_Luftaufnahme_--_2012_--_5942.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Grand_Canyon_%28Arizona%2C_USA%29%2C_Luftaufnahme_--_2012_--_5942.jpg/1280px-Grand_Canyon_%28Arizona%2C_USA%29%2C_Luftaufnahme_--_2012_--_5942.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -15865,6 +16027,10 @@
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S20"
     },
+    "356a0d09a673ca10f6412660": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S10"
+    },
     "35d8ef29a94701c635b0efb3aeb51be40c9533d5": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S09"
@@ -15996,6 +16162,10 @@
     "402fd69636d182f28fad1872d27c7667a0088123": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S10"
+    },
+    "416db9e9d2a427e42152866b": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S06"
     },
     "419bc6436e431c52597acac01aef3cde3289721d": {
       "date": "2026-09-30",
@@ -16161,6 +16331,10 @@
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S03"
     },
+    "4e892958d0bd4626ffd2432b": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S08"
+    },
     "4e8ded038aa041683e1d1f433c46b69e8ae44e02": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S11"
@@ -16288,6 +16462,10 @@
     "56cd87dd106a435a7ca44547": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S08"
+    },
+    "56f5a3c17101f59f5314f137": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S01"
     },
     "572af9dbe8688a778fc80d55": {
       "date": "2026-10-31",
@@ -16497,6 +16675,14 @@
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S05"
     },
+    "633b7d98df2e0ee3d07b37e4": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S03"
+    },
+    "6359397d377b24e2562ac253": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S02"
+    },
     "637440c498d30408ee7f23fd": {
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S15"
@@ -16544,6 +16730,10 @@
     "65e262959a7e72a19bfa43f7": {
       "date": "2026-11-03",
       "fact_id": "FACT-2026-11-03-S09"
+    },
+    "660600f3c55e452a2f67626f": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S04"
     },
     "663c71649a7e42aea725daf7": {
       "date": "2026-10-15",
@@ -16960,6 +17150,10 @@
     "8847078b76f41c2bdaa07143": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S05"
+    },
+    "8882909b5cdaca213697e8a7": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S05"
     },
     "88bc45566762f4e052f063d3": {
       "date": "2026-10-31",
@@ -17969,6 +18163,10 @@
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S11"
     },
+    "d8dc9bedb14ccd70e0de411b": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S07"
+    },
     "d925da74fc085153180551d6": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S10"
@@ -18388,6 +18586,10 @@
     "fc8f121cfd56696cf5454ffbf3f965a1b200689d": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S07"
+    },
+    "fca812698db83f188e9062c8": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S09"
     },
     "fd41a7c8a1996842e83fb3b5": {
       "date": "2026-10-26",
@@ -20016,6 +20218,22 @@
         20
       ],
       "status": "retryable"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-07",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-15T08:39:01.355041+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
+      ],
+      "status": "completed"
     }
   ],
   "schema_version": 4
