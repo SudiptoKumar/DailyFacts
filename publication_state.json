@@ -10711,6 +10711,25 @@
           "published_count": 10,
           "started_at": "2026-11-15T08:36:12.906940+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-07-S11",
+            "FACT-2026-11-07-S12",
+            "FACT-2026-11-07-S13",
+            "FACT-2026-11-07-S14",
+            "FACT-2026-11-07-S15",
+            "FACT-2026-11-07-S16",
+            "FACT-2026-11-07-S17",
+            "FACT-2026-11-07-S18",
+            "FACT-2026-11-07-S19",
+            "FACT-2026-11-07-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-16T20:54:35.821872+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-16T20:52:58.681652+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -10821,6 +10840,116 @@
           "image_source": "Generated card",
           "message_id": 938,
           "published_at": "2026-11-15T08:39:01.338219+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S11": {
+          "batch": 2,
+          "claim_key": "5e53725f79e6279c0b7603e9",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_100_species_with_longest_life-spans_recorded_and_verified.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 959,
+          "published_at": "2026-11-16T20:53:04.194696+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S12": {
+          "batch": 2,
+          "claim_key": "f3a2ac166b708c3bf187003e",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 960,
+          "published_at": "2026-11-16T20:53:07.941470+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S13": {
+          "batch": 2,
+          "claim_key": "964088c7a1413b93039de0fb",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 961,
+          "published_at": "2026-11-16T20:53:14.719075+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S14": {
+          "batch": 2,
+          "claim_key": "c98b18f3fb893f8a829958fa",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 962,
+          "published_at": "2026-11-16T20:53:16.426465+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S15": {
+          "batch": 2,
+          "claim_key": "cd2bef8e4462fef33ab2634d",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 963,
+          "published_at": "2026-11-16T20:53:18.659676+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S16": {
+          "batch": 2,
+          "claim_key": "fdcb76b11d87fa2f9ca62175",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 964,
+          "published_at": "2026-11-16T20:53:40.787956+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S17": {
+          "batch": 2,
+          "claim_key": "6b008f318c6ee0c18ac618e2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 965,
+          "published_at": "2026-11-16T20:53:42.758893+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S18": {
+          "batch": 2,
+          "claim_key": "b6a2a07bf975dd6d3a457867",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 966,
+          "published_at": "2026-11-16T20:54:27.302740+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S19": {
+          "batch": 2,
+          "claim_key": "a42ecb27454d2d6b41ddaa50",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 967,
+          "published_at": "2026-11-16T20:54:32.565011+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-07-S20": {
+          "batch": 2,
+          "claim_key": "c1037d93442ae5353f26a959",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 968,
+          "published_at": "2026-11-16T20:54:35.807915+00:00",
           "send_mode": "card_rich",
           "status": "published"
         }
@@ -15622,6 +15751,15 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_(Arizona,_USA),_Luftaufnahme_--_2012_--_5942.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Grand_Canyon_%28Arizona%2C_USA%29%2C_Luftaufnahme_--_2012_--_5942.jpg/1280px-Grand_Canyon_%28Arizona%2C_USA%29%2C_Luftaufnahme_--_2012_--_5942.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
+    "FACT-2026-11-07-S11": {
+      "cached_at": "2026-11-16T20:53:03.022834+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-07-S11.jpg",
+      "query": "bootlace worm Lineus longissimus 55 metres",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_100_species_with_longest_life-spans_recorded_and_verified.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/The_100_species_with_longest_life-spans_recorded_and_verified.svg/1280px-The_100_species_with_longest_life-spans_recorded_and_verified.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
     "FACT-2026-11-08-S01": {
       "cached_at": "2026-11-16T08:46:04.829883+00:00",
       "credit": "Wikimedia Commons",
@@ -16840,6 +16978,10 @@
       "date": "2026-11-04",
       "fact_id": "FACT-2026-11-04-S15"
     },
+    "5e53725f79e6279c0b7603e9": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S11"
+    },
     "5ef1b320f56d3561213804cf": {
       "date": "2026-10-30",
       "fact_id": "FACT-2026-10-30-S09"
@@ -17027,6 +17169,10 @@
     "6afed29aff440a7e6c49edb5": {
       "date": "2026-10-30",
       "fact_id": "FACT-2026-10-30-S15"
+    },
+    "6b008f318c6ee0c18ac618e2": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S17"
     },
     "6b3e0e90a224ac0fe7eb1e326f25429560f0fed7": {
       "date": "2026-09-25",
@@ -17600,6 +17746,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S08"
     },
+    "964088c7a1413b93039de0fb": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S13"
+    },
     "96a922055830469ebe525a8e": {
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S07"
@@ -17799,6 +17949,10 @@
     "a3cab3619c50c0341b2d6744": {
       "date": "2026-11-06",
       "fact_id": "FACT-2026-11-06-S13"
+    },
+    "a42ecb27454d2d6b41ddaa50": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S19"
     },
     "a448cba95f5533b4da33ea7b": {
       "date": "2026-11-04",
@@ -18048,6 +18202,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S07"
     },
+    "b6a2a07bf975dd6d3a457867": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S18"
+    },
     "b6f73d35aa5606ccab7b44ed": {
       "date": "2026-11-05",
       "fact_id": "FACT-2026-11-05-S01"
@@ -18196,6 +18354,10 @@
       "date": "2026-11-04",
       "fact_id": "FACT-2026-11-04-S09"
     },
+    "c1037d93442ae5353f26a959": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S20"
+    },
     "c111f2b61a7294203a6891fa": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S14"
@@ -18296,6 +18458,10 @@
       "date": "2026-10-20",
       "fact_id": "FACT-2026-10-20-S15"
     },
+    "c98b18f3fb893f8a829958fa": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S14"
+    },
     "ca05dbd2d28c80a60b97b579": {
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S12"
@@ -18335,6 +18501,10 @@
     "cd12f5d4672f6b5752238a6a": {
       "date": "2026-10-29",
       "fact_id": "FACT-2026-10-29-S16"
+    },
+    "cd2bef8e4462fef33ab2634d": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S15"
     },
     "cdca2feaf64c9bb3293bf66b": {
       "date": "2026-10-23",
@@ -18760,6 +18930,10 @@
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S19"
     },
+    "f3a2ac166b708c3bf187003e": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S12"
+    },
     "f3e0cb799f944158b0d4e7ed": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S05"
@@ -18895,6 +19069,10 @@
     "fd41a7c8a1996842e83fb3b5": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S11"
+    },
+    "fdcb76b11d87fa2f9ca62175": {
+      "date": "2026-11-07",
+      "fact_id": "FACT-2026-11-07-S16"
     },
     "fe11dbc2878a22ba2f00f41f": {
       "date": "2026-10-20",
@@ -20565,6 +20743,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-07",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-16T20:54:35.821886+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
