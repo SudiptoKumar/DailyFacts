@@ -10825,6 +10825,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-08": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-08-S01",
+            "FACT-2026-11-08-S02",
+            "FACT-2026-11-08-S03",
+            "FACT-2026-11-08-S04",
+            "FACT-2026-11-08-S05",
+            "FACT-2026-11-08-S06",
+            "FACT-2026-11-08-S07",
+            "FACT-2026-11-08-S08",
+            "FACT-2026-11-08-S09",
+            "FACT-2026-11-08-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-16T08:48:14.316809+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-16T08:45:35.730699+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-08-S01": {
+          "batch": 1,
+          "claim_key": "c41fcfb38669954d94dcd6cc",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:New_Mexico_Battles_Wildfires_(154454).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 949,
+          "published_at": "2026-11-16T08:46:06.631684+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S02": {
+          "batch": 1,
+          "claim_key": "c1e81017f2d25cadce83245b",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Small_bodies_of_the_Solar_System.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 950,
+          "published_at": "2026-11-16T08:46:50.754909+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S03": {
+          "batch": 1,
+          "claim_key": "1b868ae6f30fac405fa0e730",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 951,
+          "published_at": "2026-11-16T08:46:53.642436+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S04": {
+          "batch": 1,
+          "claim_key": "b7f9ed7a0e87f33f76ca72a1",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 952,
+          "published_at": "2026-11-16T08:46:55.261264+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S05": {
+          "batch": 1,
+          "claim_key": "6f48b72962b84fb2514f796a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 953,
+          "published_at": "2026-11-16T08:46:57.063357+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S06": {
+          "batch": 1,
+          "claim_key": "9e8c7a60103f9dab72915e63",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 954,
+          "published_at": "2026-11-16T08:48:00.565955+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S07": {
+          "batch": 1,
+          "claim_key": "cf48b2402b8120bbcc4365bc",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 955,
+          "published_at": "2026-11-16T08:48:04.802784+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S08": {
+          "batch": 1,
+          "claim_key": "f598245c49bb3eda0d8cb13e",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Izz%C3%B3l%C3%A1mp%C3%A1k.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 956,
+          "published_at": "2026-11-16T08:48:09.120615+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S09": {
+          "batch": 1,
+          "claim_key": "00a7927e328a9f053b2e54f9",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Artist%27s_impression_of_a_black_hole_and_accretion_disk_(Black-Hole-5K).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 957,
+          "published_at": "2026-11-16T08:48:12.339553+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S10": {
+          "batch": 1,
+          "claim_key": "ba1ac1f21c9e3237e3012a81",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 958,
+          "published_at": "2026-11-16T08:48:14.303691+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -15486,6 +15621,42 @@
       "score": 26,
       "source_page": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_(Arizona,_USA),_Luftaufnahme_--_2012_--_5942.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Grand_Canyon_%28Arizona%2C_USA%29%2C_Luftaufnahme_--_2012_--_5942.jpg/1280px-Grand_Canyon_%28Arizona%2C_USA%29%2C_Luftaufnahme_--_2012_--_5942.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-08-S01": {
+      "cached_at": "2026-11-16T08:46:04.829883+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-08-S01.jpg",
+      "query": "USGS fire scientists analyzing wildfire data and tools",
+      "score": 28,
+      "source_page": "https://commons.wikimedia.org/wiki/File:New_Mexico_Battles_Wildfires_(154454).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/New_Mexico_Battles_Wildfires_%28154454%29.jpg/1280px-New_Mexico_Battles_Wildfires_%28154454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-08-S02": {
+      "cached_at": "2026-11-16T08:46:49.404252+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-08-S02.jpg",
+      "query": "asteroid with a moon orbiting it",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Small_bodies_of_the_Solar_System.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Small_bodies_of_the_Solar_System.jpg/1280px-Small_bodies_of_the_Solar_System.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-08-S08": {
+      "cached_at": "2026-11-16T08:48:07.636946+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-08-S08.jpg",
+      "query": "William Sawyer and Albon Man U.S. incandescent lamp patent, Joseph Swan light bulb England",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Izz%C3%B3l%C3%A1mp%C3%A1k.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Izz%C3%B3l%C3%A1mp%C3%A1k.jpg/1280px-Izz%C3%B3l%C3%A1mp%C3%A1k.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-08-S09": {
+      "cached_at": "2026-11-16T08:48:10.895537+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-08-S09.jpg",
+      "query": "artist's impression of a black hole",
+      "score": 24,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Artist%27s_impression_of_a_black_hole_and_accretion_disk_(Black-Hole-5K).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Artist%27s_impression_of_a_black_hole_and_accretion_disk_%28Black-Hole-5K%29.jpg/1280px-Artist%27s_impression_of_a_black_hole_and_accretion_disk_%28Black-Hole-5K%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -15500,6 +15671,10 @@
     "0091987aec61956975bf9406": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S19"
+    },
+    "00a7927e328a9f053b2e54f9": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S09"
     },
     "01563b4d97d00fc0b5a81828": {
       "date": "2026-10-15",
@@ -15824,6 +15999,10 @@
     "1b79456b5666c84111b54cd7": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S13"
+    },
+    "1b868ae6f30fac405fa0e730": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S03"
     },
     "1bfcf8f8ee1bd3e9f09b766d": {
       "date": "2026-10-03",
@@ -16917,6 +17096,10 @@
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S18"
     },
+    "6f48b72962b84fb2514f796a": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S05"
+    },
     "703e7d089c6f24a81c470d8b": {
       "date": "2026-10-29",
       "fact_id": "FACT-2026-10-29-S18"
@@ -17541,6 +17724,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S10"
     },
+    "9e8c7a60103f9dab72915e63": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S06"
+    },
     "9ef94695195f5c01930b6398": {
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S17"
@@ -17881,6 +18068,10 @@
       "date": "2026-11-04",
       "fact_id": "FACT-2026-11-04-S05"
     },
+    "b7f9ed7a0e87f33f76ca72a1": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S04"
+    },
     "b819edba5a5f7ac529fdcddb": {
       "date": "2026-10-30",
       "fact_id": "FACT-2026-10-30-S11"
@@ -17920,6 +18111,10 @@
     "b9c4683a2ff80b8c96b7e708": {
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S10"
+    },
+    "ba1ac1f21c9e3237e3012a81": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S10"
     },
     "ba2585a146868586fc1991a8": {
       "date": "2026-10-08",
@@ -18005,6 +18200,10 @@
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S14"
     },
+    "c1e81017f2d25cadce83245b": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S02"
+    },
     "c224dfd343717d294eac5387": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S15"
@@ -18032,6 +18231,10 @@
     "c3b7476a38730e231714cd20ca8b09957ef631ad": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S05"
+    },
+    "c41fcfb38669954d94dcd6cc": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S01"
     },
     "c43f798c8cc60d19c6af4bb2": {
       "date": "2026-10-20",
@@ -18148,6 +18351,10 @@
     "cee0760ad9ff49f62c67a4c0": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S16"
+    },
+    "cf48b2402b8120bbcc4365bc": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S07"
     },
     "cf68a0ed5ede55c050bd2f95": {
       "date": "2026-10-08",
@@ -18588,6 +18795,10 @@
     "f57ad6c195e444c7a364839d": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S17"
+    },
+    "f598245c49bb3eda0d8cb13e": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S08"
     },
     "f5d7d9f0564d43fa106c6ddf": {
       "date": "2026-10-20",
@@ -20338,6 +20549,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-08",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-16T08:48:14.316826+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
