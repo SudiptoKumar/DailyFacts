@@ -11089,6 +11089,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-09": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-09-S01",
+            "FACT-2026-11-09-S02",
+            "FACT-2026-11-09-S03",
+            "FACT-2026-11-09-S04",
+            "FACT-2026-11-09-S05",
+            "FACT-2026-11-09-S06",
+            "FACT-2026-11-09-S07",
+            "FACT-2026-11-09-S08",
+            "FACT-2026-11-09-S09",
+            "FACT-2026-11-09-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-17T09:56:19.508605+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-17T09:53:05.243294+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-09-S01": {
+          "batch": 1,
+          "claim_key": "baddd4c483a1b49148fe5fef",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 969,
+          "published_at": "2026-11-17T09:53:29.368471+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S02": {
+          "batch": 1,
+          "claim_key": "1f7623c4e437c35920e91021",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_close-up_of_the_rings_around_Chariklo_(eso1410b).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 970,
+          "published_at": "2026-11-17T09:53:58.267171+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S03": {
+          "batch": 1,
+          "claim_key": "66c8efbc01ad3078243459ab",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 971,
+          "published_at": "2026-11-17T09:54:04.292740+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S04": {
+          "batch": 1,
+          "claim_key": "c0b5ca382acc6be98f3f48b3",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 972,
+          "published_at": "2026-11-17T09:54:09.273391+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S05": {
+          "batch": 1,
+          "claim_key": "5182fe3dacb8bd4e4b3b17b9",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:THE_SHY_RED_PANDA.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 973,
+          "published_at": "2026-11-17T09:54:56.026982+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S06": {
+          "batch": 1,
+          "claim_key": "3dfb5c02f0a02c312d0a5c65",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 974,
+          "published_at": "2026-11-17T09:54:58.159251+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S07": {
+          "batch": 1,
+          "claim_key": "ccce54acdf5164a4f28524c0",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 975,
+          "published_at": "2026-11-17T09:56:04.221200+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S08": {
+          "batch": 1,
+          "claim_key": "cf251e97f3cd4c2f92ae1c35",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 976,
+          "published_at": "2026-11-17T09:56:12.134162+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S09": {
+          "batch": 1,
+          "claim_key": "bf1b64cd585f18e0a6b7d38b",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Webb_Reveals_Rapid-Fire_Light_Show_From_Milky_Way%E2%80%99s_Central_Black_Hole.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 977,
+          "published_at": "2026-11-17T09:56:16.910810+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S10": {
+          "batch": 1,
+          "claim_key": "c43f054c3e80e49024309143",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 978,
+          "published_at": "2026-11-17T09:56:19.496728+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -15795,6 +15930,33 @@
       "score": 24,
       "source_page": "https://commons.wikimedia.org/wiki/File:Artist%27s_impression_of_a_black_hole_and_accretion_disk_(Black-Hole-5K).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Artist%27s_impression_of_a_black_hole_and_accretion_disk_%28Black-Hole-5K%29.jpg/1280px-Artist%27s_impression_of_a_black_hole_and_accretion_disk_%28Black-Hole-5K%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-09-S02": {
+      "cached_at": "2026-11-17T09:53:54.171744+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-09-S02.jpg",
+      "query": "rings around Jupiter, Saturn, Uranus, Neptune and an asteroid",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_close-up_of_the_rings_around_Chariklo_(eso1410b).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Artist%E2%80%99s_impression_close-up_of_the_rings_around_Chariklo_%28eso1410b%29.jpg/1280px-Artist%E2%80%99s_impression_close-up_of_the_rings_around_Chariklo_%28eso1410b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-09-S05": {
+      "cached_at": "2026-11-17T09:54:52.689668+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-09-S05.jpg",
+      "query": "giant panda",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:THE_SHY_RED_PANDA.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/THE_SHY_RED_PANDA.jpg/1280px-THE_SHY_RED_PANDA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-09-S09": {
+      "cached_at": "2026-11-17T09:56:15.593625+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-09-S09.jpg",
+      "query": "accretion disk surrounding a black hole emitting multi-wavelength light",
+      "score": 37,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Webb_Reveals_Rapid-Fire_Light_Show_From_Milky_Way%E2%80%99s_Central_Black_Hole.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Webb_Reveals_Rapid-Fire_Light_Show_From_Milky_Way%E2%80%99s_Central_Black_Hole.png/1280px-Webb_Reveals_Rapid-Fire_Light_Show_From_Milky_Way%E2%80%99s_Central_Black_Hole.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -16166,6 +16328,10 @@
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S12"
     },
+    "1f7623c4e437c35920e91021": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S02"
+    },
     "1f99925935007dff55086d3d": {
       "date": "2026-10-29",
       "fact_id": "FACT-2026-10-29-S01"
@@ -16530,6 +16696,10 @@
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S04"
     },
+    "3dfb5c02f0a02c312d0a5c65": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S06"
+    },
     "3ea64bc1643373a254f4c998": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S18"
@@ -16773,6 +16943,10 @@
     "50f4c515ce6c93d9c93d341b": {
       "date": "2026-10-20",
       "fact_id": "FACT-2026-10-20-S03"
+    },
+    "5182fe3dacb8bd4e4b3b17b9": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S05"
     },
     "51b1f6afbad00cd6bafcc60a": {
       "date": "2026-10-24",
@@ -17125,6 +17299,10 @@
     "66a392383b5f4c9bc22c5ed4": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S18"
+    },
+    "66c8efbc01ad3078243459ab": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S03"
     },
     "67b5657a948cae0688797243": {
       "date": "2026-10-24",
@@ -18286,6 +18464,10 @@
       "date": "2026-10-20",
       "fact_id": "FACT-2026-10-20-S14"
     },
+    "baddd4c483a1b49148fe5fef": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S01"
+    },
     "bafb52efa86803b51885b268": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S10"
@@ -18342,6 +18524,10 @@
       "date": "2026-10-30",
       "fact_id": "FACT-2026-10-30-S06"
     },
+    "bf1b64cd585f18e0a6b7d38b": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S09"
+    },
     "bfe30ba1b1d3f2f9bd0c3de9": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S06"
@@ -18349,6 +18535,10 @@
     "c04723a19ecff6f78a50198f": {
       "date": "2026-11-03",
       "fact_id": "FACT-2026-11-03-S05"
+    },
+    "c0b5ca382acc6be98f3f48b3": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S04"
     },
     "c0ff9d756a0900e0eea140cf": {
       "date": "2026-11-04",
@@ -18397,6 +18587,10 @@
     "c41fcfb38669954d94dcd6cc": {
       "date": "2026-11-08",
       "fact_id": "FACT-2026-11-08-S01"
+    },
+    "c43f054c3e80e49024309143": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S10"
     },
     "c43f798c8cc60d19c6af4bb2": {
       "date": "2026-10-20",
@@ -18498,6 +18692,10 @@
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S16"
     },
+    "ccce54acdf5164a4f28524c0": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S07"
+    },
     "cd12f5d4672f6b5752238a6a": {
       "date": "2026-10-29",
       "fact_id": "FACT-2026-10-29-S16"
@@ -18521,6 +18719,10 @@
     "cee0760ad9ff49f62c67a4c0": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S16"
+    },
+    "cf251e97f3cd4c2f92ae1c35": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S08"
     },
     "cf48b2402b8120bbcc4365bc": {
       "date": "2026-11-08",
@@ -20759,6 +20961,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-09",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-17T09:56:19.508625+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
