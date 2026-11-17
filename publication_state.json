@@ -10975,6 +10975,25 @@
           "published_count": 10,
           "started_at": "2026-11-16T08:45:35.730699+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-08-S11",
+            "FACT-2026-11-08-S12",
+            "FACT-2026-11-08-S13",
+            "FACT-2026-11-08-S14",
+            "FACT-2026-11-08-S15",
+            "FACT-2026-11-08-S16",
+            "FACT-2026-11-08-S17",
+            "FACT-2026-11-08-S18",
+            "FACT-2026-11-08-S19",
+            "FACT-2026-11-08-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-17T19:44:47.918992+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-17T19:42:02.265973+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -11085,6 +11104,116 @@
           "image_source": "Generated card",
           "message_id": 958,
           "published_at": "2026-11-16T08:48:14.303691+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S11": {
+          "batch": 2,
+          "claim_key": "2b277d652d5c4c8e776247e5",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 979,
+          "published_at": "2026-11-17T19:42:28.158300+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S12": {
+          "batch": 2,
+          "claim_key": "79cecc12004180a2d75cc909",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 980,
+          "published_at": "2026-11-17T19:43:13.445885+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S13": {
+          "batch": 2,
+          "claim_key": "748f45047680e486730ba441",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 981,
+          "published_at": "2026-11-17T19:43:19.592569+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S14": {
+          "batch": 2,
+          "claim_key": "c147c8d590a7cc1a06bc5d6e",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 982,
+          "published_at": "2026-11-17T19:43:25.028222+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S15": {
+          "batch": 2,
+          "claim_key": "b95d2b4a3fd622005ee3c5b4",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Database_of_Vascular_Plants_of_Canada_(VASCAN)_-_PMC3819130.djvu",
+          "image_source": "Wikimedia Commons",
+          "message_id": 983,
+          "published_at": "2026-11-17T19:44:31.103795+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S16": {
+          "batch": 2,
+          "claim_key": "cf79f068107a50a26f0c0827",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 984,
+          "published_at": "2026-11-17T19:44:37.398615+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S17": {
+          "batch": 2,
+          "claim_key": "d876af3f736119549c611a19",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Severe_Thunderstorms_Trigger_a_Meteotsunami_(42171379071).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 985,
+          "published_at": "2026-11-17T19:44:41.499656+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S18": {
+          "batch": 2,
+          "claim_key": "10060b506a488a9bb5c874ac",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 986,
+          "published_at": "2026-11-17T19:44:43.655180+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S19": {
+          "batch": 2,
+          "claim_key": "894c1b5a36ea46dd565820ba",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 987,
+          "published_at": "2026-11-17T19:44:45.754169+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-08-S20": {
+          "batch": 2,
+          "claim_key": "925c5f694b4cb3035cf69dda",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 988,
+          "published_at": "2026-11-17T19:44:47.907043+00:00",
           "send_mode": "card_rich",
           "status": "published"
         }
@@ -15931,6 +16060,24 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Artist%27s_impression_of_a_black_hole_and_accretion_disk_(Black-Hole-5K).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Artist%27s_impression_of_a_black_hole_and_accretion_disk_%28Black-Hole-5K%29.jpg/1280px-Artist%27s_impression_of_a_black_hole_and_accretion_disk_%28Black-Hole-5K%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
+    "FACT-2026-11-08-S15": {
+      "cached_at": "2026-11-17T19:44:29.570236+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-08-S15.jpg",
+      "query": "World Bank Country Profiles dataset public classification",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Database_of_Vascular_Plants_of_Canada_(VASCAN)_-_PMC3819130.djvu",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Database_of_Vascular_Plants_of_Canada_%28VASCAN%29_-_PMC3819130.djvu/page1-1280px-Database_of_Vascular_Plants_of_Canada_%28VASCAN%29_-_PMC3819130.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-08-S17": {
+      "cached_at": "2026-11-17T19:44:40.060387+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-08-S17.jpg",
+      "query": "meteotsunami air pressure disturbance squall line",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Severe_Thunderstorms_Trigger_a_Meteotsunami_(42171379071).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Severe_Thunderstorms_Trigger_a_Meteotsunami_%2842171379071%29.jpg/1280px-Severe_Thunderstorms_Trigger_a_Meteotsunami_%2842171379071%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
     "FACT-2026-11-09-S02": {
       "cached_at": "2026-11-17T09:53:54.171744+00:00",
       "credit": "Wikimedia Commons",
@@ -16147,6 +16294,10 @@
     "1003d76cb68bcbe9329140a1": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S10"
+    },
+    "10060b506a488a9bb5c874ac": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S18"
     },
     "1010e7f445dd67b0154776e7": {
       "date": "2026-11-02",
@@ -16455,6 +16606,10 @@
     "29d3de10257a808a918a46b8": {
       "date": "2026-11-04",
       "fact_id": "FACT-2026-11-04-S10"
+    },
+    "2b277d652d5c4c8e776247e5": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S11"
     },
     "2b395274207c882ffd590bf70e936ae908bc1b9c": {
       "date": "2026-09-25",
@@ -17496,6 +17651,10 @@
       "date": "2026-10-27",
       "fact_id": "FACT-2026-10-27-S13"
     },
+    "748f45047680e486730ba441": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S13"
+    },
     "749ca7d75bb82d1a3fb79136": {
       "date": "2026-11-01",
       "fact_id": "FACT-2026-11-01-S02"
@@ -17555,6 +17714,10 @@
     "79589c7462440105b067762263fe3fdf7c05cbed": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S04"
+    },
+    "79cecc12004180a2d75cc909": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S12"
     },
     "7a3c36825a44a26888c281b9": {
       "date": "2026-10-18",
@@ -17744,6 +17907,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S12"
     },
+    "894c1b5a36ea46dd565820ba": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S19"
+    },
     "895047df98f7027e84f95738": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S08"
@@ -17859,6 +18026,10 @@
     "91f70e589cfd7fe056873ee7": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S07"
+    },
+    "925c5f694b4cb3035cf69dda": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S20"
     },
     "925e044bcb9aee8f0daf5a1f": {
       "date": "2026-11-02",
@@ -18432,6 +18603,10 @@
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S10"
     },
+    "b95d2b4a3fd622005ee3c5b4": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S15"
+    },
     "b96e617954784ffbdbfa84cb": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S03"
@@ -18551,6 +18726,10 @@
     "c111f2b61a7294203a6891fa": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S14"
+    },
+    "c147c8d590a7cc1a06bc5d6e": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S14"
     },
     "c1e81017f2d25cadce83245b": {
       "date": "2026-11-08",
@@ -18736,6 +18915,10 @@
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S08"
     },
+    "cf79f068107a50a26f0c0827": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S16"
+    },
     "cf8fb4f4a72371f5c501b5c0": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S15"
@@ -18823,6 +19006,10 @@
     "d81055cb44a331a68770dd6c": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S20"
+    },
+    "d876af3f736119549c611a19": {
+      "date": "2026-11-08",
+      "fact_id": "FACT-2026-11-08-S17"
     },
     "d8cf6594aee1686429262c79": {
       "date": "2026-10-22",
@@ -20977,6 +21164,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-08",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-17T19:44:47.919008+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
