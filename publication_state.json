@@ -11353,6 +11353,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-10": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-10-S01",
+            "FACT-2026-11-10-S02",
+            "FACT-2026-11-10-S03",
+            "FACT-2026-11-10-S04",
+            "FACT-2026-11-10-S05",
+            "FACT-2026-11-10-S06",
+            "FACT-2026-11-10-S07",
+            "FACT-2026-11-10-S08",
+            "FACT-2026-11-10-S09",
+            "FACT-2026-11-10-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-18T09:30:37.668783+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-18T09:27:36.271933+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-10-S01": {
+          "batch": 1,
+          "claim_key": "097c7e21ac0f0c32b524f4a2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 989,
+          "published_at": "2026-11-18T09:27:46.494864+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S02": {
+          "batch": 1,
+          "claim_key": "56fe3869a109641c992ed60f",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Robotic_Refueling_Mission_(6377207355).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 990,
+          "published_at": "2026-11-18T09:28:12.005835+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S03": {
+          "batch": 1,
+          "claim_key": "3ed43e9ebd8012820edfb4d9",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 991,
+          "published_at": "2026-11-18T09:28:19.988547+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S04": {
+          "batch": 1,
+          "claim_key": "8db95c3f6bfcba047bbd2835",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 992,
+          "published_at": "2026-11-18T09:28:24.809656+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S05": {
+          "batch": 1,
+          "claim_key": "8311e77343d4409df1a9722b",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Exhibits_on_the_ground_floor_of_Himalayan_Tibet_Museum_in_Darjeeling_22.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 993,
+          "published_at": "2026-11-18T09:29:10.710011+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S06": {
+          "batch": 1,
+          "claim_key": "05edae8cf685e5bbaef8f884",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:A_Majestic_Wonder_of_Nature_-_Mount_Everest.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 994,
+          "published_at": "2026-11-18T09:29:15.791348+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S07": {
+          "batch": 1,
+          "claim_key": "dd5b5e7f456fcdc523fb14f1",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 995,
+          "published_at": "2026-11-18T09:29:20.483490+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S08": {
+          "batch": 1,
+          "claim_key": "6b489d5c7359f5e6a7428863",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 996,
+          "published_at": "2026-11-18T09:30:25.004644+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S09": {
+          "batch": 1,
+          "claim_key": "ded139d8d61ab6fbe90959b3",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:NGC_4151-_An_Active_Black_Hole_in_the_%22Eye_of_Sauron%22_(2011-n4151_-_n4151).tiff",
+          "image_source": "Wikimedia Commons",
+          "message_id": 997,
+          "published_at": "2026-11-18T09:30:32.712542+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S10": {
+          "batch": 1,
+          "claim_key": "af275943c41fd044b7a7e90a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 998,
+          "published_at": "2026-11-18T09:30:37.658090+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -16104,6 +16239,42 @@
       "score": 37,
       "source_page": "https://commons.wikimedia.org/wiki/File:Webb_Reveals_Rapid-Fire_Light_Show_From_Milky_Way%E2%80%99s_Central_Black_Hole.png",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Webb_Reveals_Rapid-Fire_Light_Show_From_Milky_Way%E2%80%99s_Central_Black_Hole.png/1280px-Webb_Reveals_Rapid-Fire_Light_Show_From_Milky_Way%E2%80%99s_Central_Black_Hole.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-10-S02": {
+      "cached_at": "2026-11-18T09:28:10.199526+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-10-S02.jpg",
+      "query": "robotic spacecraft exploring beyond Earth orbit",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Robotic_Refueling_Mission_(6377207355).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Robotic_Refueling_Mission_%286377207355%29.jpg/1280px-Robotic_Refueling_Mission_%286377207355%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-10-S05": {
+      "cached_at": "2026-11-18T09:29:09.202221+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-10-S05.jpg",
+      "query": "giant panda exhibit on Asia Trail",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Exhibits_on_the_ground_floor_of_Himalayan_Tibet_Museum_in_Darjeeling_22.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Exhibits_on_the_ground_floor_of_Himalayan_Tibet_Museum_in_Darjeeling_22.jpg/1280px-Exhibits_on_the_ground_floor_of_Himalayan_Tibet_Museum_in_Darjeeling_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-10-S06": {
+      "cached_at": "2026-11-18T09:29:13.894687+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-10-S06.jpg",
+      "query": "Mount Everest summit view",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_Majestic_Wonder_of_Nature_-_Mount_Everest.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/A_Majestic_Wonder_of_Nature_-_Mount_Everest.jpg/1280px-A_Majestic_Wonder_of_Nature_-_Mount_Everest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-10-S09": {
+      "cached_at": "2026-11-18T09:30:27.599159+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-10-S09.jpg",
+      "query": "accretion disk around black hole emitting X-rays",
+      "score": 31,
+      "source_page": "https://commons.wikimedia.org/wiki/File:NGC_4151-_An_Active_Black_Hole_in_the_%22Eye_of_Sauron%22_(2011-n4151_-_n4151).tiff",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/NGC_4151-_An_Active_Black_Hole_in_the_%22Eye_of_Sauron%22_%282011-n4151_-_n4151%29.tiff/lossy-page1-1280px-NGC_4151-_An_Active_Black_Hole_in_the_%22Eye_of_Sauron%22_%282011-n4151_-_n4151%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -16151,6 +16322,10 @@
       "date": "2026-10-20",
       "fact_id": "FACT-2026-10-20-S05"
     },
+    "05edae8cf685e5bbaef8f884": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S06"
+    },
     "05f70515de10236d66ab271f": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S15"
@@ -16178,6 +16353,10 @@
     "097a83369c53feea156f613c": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S02"
+    },
+    "097c7e21ac0f0c32b524f4a2": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S01"
     },
     "099193a166e1d23fd00bd880": {
       "date": "2026-10-17",
@@ -16859,6 +17038,10 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S18"
     },
+    "3ed43e9ebd8012820edfb4d9": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S03"
+    },
     "3fa7e3b4e858bc6331ead768": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S15"
@@ -17174,6 +17357,10 @@
     "56f5a3c17101f59f5314f137": {
       "date": "2026-11-07",
       "fact_id": "FACT-2026-11-07-S01"
+    },
+    "56fe3869a109641c992ed60f": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S02"
     },
     "572af9dbe8688a778fc80d55": {
       "date": "2026-10-31",
@@ -17515,6 +17702,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S04"
     },
+    "6b489d5c7359f5e6a7428863": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S08"
+    },
     "6b6ccf3567dc140bade8e4985d5b3211a96e1ad0": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S09"
@@ -17843,6 +18034,10 @@
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S06"
     },
+    "8311e77343d4409df1a9722b": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S05"
+    },
     "831d5716c4a219cba6e267e5": {
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S16"
@@ -17982,6 +18177,10 @@
     "8cce70b8411ecefc3b95f4a1": {
       "date": "2026-11-06",
       "fact_id": "FACT-2026-11-06-S16"
+    },
+    "8db95c3f6bfcba047bbd2835": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S04"
     },
     "8dfb4aab01be9f3c0d8a185f": {
       "date": "2026-10-07",
@@ -18450,6 +18649,10 @@
     "af0ebc1512ff0a4079433029c8ed6cd184b778a5": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S11"
+    },
+    "af275943c41fd044b7a7e90a": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S10"
     },
     "afeffbd69fc9f7737a9fcc54": {
       "date": "2026-10-24",
@@ -19083,6 +19286,10 @@
       "date": "2026-11-03",
       "fact_id": "FACT-2026-11-03-S13"
     },
+    "dd5b5e7f456fcdc523fb14f1": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S07"
+    },
     "dd727170097d68a4b106e60b": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S05"
@@ -19098,6 +19305,10 @@
     "de849e2aa5513ee8ac952f8fe7ce555095544fb5": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S05"
+    },
+    "ded139d8d61ab6fbe90959b3": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S09"
     },
     "df0dc7ce10347495a233ad09": {
       "date": "2026-10-31",
@@ -21180,6 +21391,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-10",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-18T09:30:37.668799+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
