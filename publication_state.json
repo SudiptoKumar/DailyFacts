@@ -11239,6 +11239,25 @@
           "published_count": 10,
           "started_at": "2026-11-17T09:53:05.243294+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-09-S11",
+            "FACT-2026-11-09-S12",
+            "FACT-2026-11-09-S13",
+            "FACT-2026-11-09-S14",
+            "FACT-2026-11-09-S15",
+            "FACT-2026-11-09-S16",
+            "FACT-2026-11-09-S17",
+            "FACT-2026-11-09-S18",
+            "FACT-2026-11-09-S19",
+            "FACT-2026-11-09-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-18T19:19:28.270825+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-18T19:17:41.288091+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -11349,6 +11368,116 @@
           "image_source": "Generated card",
           "message_id": 978,
           "published_at": "2026-11-17T09:56:19.496728+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S11": {
+          "batch": 2,
+          "claim_key": "a91d3784bbe2c2a35d1143db",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 999,
+          "published_at": "2026-11-18T19:17:48.555930+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S12": {
+          "batch": 2,
+          "claim_key": "006d43bdc6f81ee8a52addd1",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1000,
+          "published_at": "2026-11-18T19:17:52.623656+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S13": {
+          "batch": 2,
+          "claim_key": "51f0f36e7724c9cef60bc1e2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1001,
+          "published_at": "2026-11-18T19:17:55.976852+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S14": {
+          "batch": 2,
+          "claim_key": "2a4b45833b4c849c8f20df78",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1002,
+          "published_at": "2026-11-18T19:17:57.963165+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S15": {
+          "batch": 2,
+          "claim_key": "2f10ea4de5a05c24c6d26815",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1003,
+          "published_at": "2026-11-18T19:18:00.183411+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S16": {
+          "batch": 2,
+          "claim_key": "21009dc860193bbdbaa23c0f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1004,
+          "published_at": "2026-11-18T19:18:24.883590+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S17": {
+          "batch": 2,
+          "claim_key": "55c184b0175608b7d901955a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1005,
+          "published_at": "2026-11-18T19:18:28.684939+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S18": {
+          "batch": 2,
+          "claim_key": "701e49992a43feb90015d0a7",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1006,
+          "published_at": "2026-11-18T19:19:13.469911+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S19": {
+          "batch": 2,
+          "claim_key": "dff691ccc345d66bbe806419",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1007,
+          "published_at": "2026-11-18T19:19:21.028110+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-09-S20": {
+          "batch": 2,
+          "claim_key": "a630e42ed38032eaf886a4e1",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1008,
+          "published_at": "2026-11-18T19:19:28.254376+00:00",
           "send_mode": "card_rich",
           "status": "published"
         }
@@ -16286,6 +16415,10 @@
       "date": "2026-11-02",
       "fact_id": "FACT-2026-11-02-S10"
     },
+    "006d43bdc6f81ee8a52addd1": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S12"
+    },
     "0091987aec61956975bf9406": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S19"
@@ -16678,6 +16811,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S07"
     },
+    "21009dc860193bbdbaa23c0f": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S16"
+    },
     "2129de9b79254b05899e78c4f14a72126afffa45": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S08"
@@ -16786,6 +16923,10 @@
       "date": "2026-11-04",
       "fact_id": "FACT-2026-11-04-S10"
     },
+    "2a4b45833b4c849c8f20df78": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S14"
+    },
     "2b277d652d5c4c8e776247e5": {
       "date": "2026-11-08",
       "fact_id": "FACT-2026-11-08-S11"
@@ -16821,6 +16962,10 @@
     "2ef0c4560d088f9bed27038b": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S15"
+    },
+    "2f10ea4de5a05c24c6d26815": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S15"
     },
     "2f367047c5cf18734e432d05": {
       "date": "2026-11-04",
@@ -17298,6 +17443,10 @@
       "date": "2026-10-29",
       "fact_id": "FACT-2026-10-29-S03"
     },
+    "51f0f36e7724c9cef60bc1e2": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S13"
+    },
     "5255734bea5e5cec63022989": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S06"
@@ -17341,6 +17490,10 @@
     "55aa7f29ee2b72ee1959f056": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S09"
+    },
+    "55c184b0175608b7d901955a": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S17"
     },
     "56314bdf31308ff9cf271f75": {
       "date": "2026-10-26",
@@ -17769,6 +17922,10 @@
     "6f48b72962b84fb2514f796a": {
       "date": "2026-11-08",
       "fact_id": "FACT-2026-11-08-S05"
+    },
+    "701e49992a43feb90015d0a7": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S18"
     },
     "703e7d089c6f24a81c470d8b": {
       "date": "2026-10-29",
@@ -18518,6 +18675,10 @@
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S05"
     },
+    "a630e42ed38032eaf886a4e1": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S20"
+    },
     "a654b53d305407f6884e417e": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S07"
@@ -18569,6 +18730,10 @@
     "a8a7e367c63143d9c88582ee": {
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S03"
+    },
+    "a91d3784bbe2c2a35d1143db": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S11"
     },
     "a93cb292bb3c6b1458a948d4": {
       "date": "2026-10-27",
@@ -19325,6 +19490,10 @@
     "dfbfcb395f267dcc1fb22353": {
       "date": "2026-11-04",
       "fact_id": "FACT-2026-11-04-S20"
+    },
+    "dff691ccc345d66bbe806419": {
+      "date": "2026-11-09",
+      "fact_id": "FACT-2026-11-09-S19"
     },
     "dffc0a2fa0ff7dc826e406a8": {
       "date": "2026-10-13",
@@ -21407,6 +21576,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-09",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-18T19:19:28.270837+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
