@@ -11503,6 +11503,25 @@
           "published_count": 10,
           "started_at": "2026-11-18T09:27:36.271933+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-10-S11",
+            "FACT-2026-11-10-S12",
+            "FACT-2026-11-10-S13",
+            "FACT-2026-11-10-S14",
+            "FACT-2026-11-10-S15",
+            "FACT-2026-11-10-S16",
+            "FACT-2026-11-10-S17",
+            "FACT-2026-11-10-S18",
+            "FACT-2026-11-10-S19",
+            "FACT-2026-11-10-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-19T19:27:40.429639+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-19T19:26:01.582327+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -11614,6 +11633,116 @@
           "message_id": 998,
           "published_at": "2026-11-18T09:30:37.658090+00:00",
           "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S11": {
+          "batch": 2,
+          "claim_key": "ee4dc5e7e1a3df1c18858c50",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1019,
+          "published_at": "2026-11-19T19:26:06.197478+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S12": {
+          "batch": 2,
+          "claim_key": "6b3946746f728afbc9294a5e",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1020,
+          "published_at": "2026-11-19T19:26:11.181555+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S13": {
+          "batch": 2,
+          "claim_key": "d2f2a786a10825be8a3589bd",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1021,
+          "published_at": "2026-11-19T19:26:18.484991+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S14": {
+          "batch": 2,
+          "claim_key": "73c8119b281e4754833b77a2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1022,
+          "published_at": "2026-11-19T19:26:20.478587+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S15": {
+          "batch": 2,
+          "claim_key": "516809bd0d919c999e5daba0",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1023,
+          "published_at": "2026-11-19T19:26:23.311800+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S16": {
+          "batch": 2,
+          "claim_key": "7246ceb34180792634331e86",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1024,
+          "published_at": "2026-11-19T19:26:45.286523+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S17": {
+          "batch": 2,
+          "claim_key": "e86bd62b3c244b1259fbe47a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1025,
+          "published_at": "2026-11-19T19:26:48.020930+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S18": {
+          "batch": 2,
+          "claim_key": "08fd9ded508888f6c509fa37",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1026,
+          "published_at": "2026-11-19T19:27:32.187509+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S19": {
+          "batch": 2,
+          "claim_key": "39334c3a147b9b3941583d59",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1027,
+          "published_at": "2026-11-19T19:27:36.908490+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-10-S20": {
+          "batch": 2,
+          "claim_key": "d4458095e25638899b340aa3",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:US_Navy_031229-N-9693M-004_U.S._Naval_Academy_(U.S.N.A.)_Cheerleader_Midshipmen_4th_Class_Jaime_Bradley,_from_The_Woodlands,_Texas,_is_flipped_upside_down_during_the_EV1.Net_Rodeo_Pep_Rally_in_Reliant_Arena.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1028,
+          "published_at": "2026-11-19T19:27:40.407952+00:00",
+          "send_mode": "rich_photo",
           "status": "published"
         }
       }
@@ -16540,6 +16669,15 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:NGC_4151-_An_Active_Black_Hole_in_the_%22Eye_of_Sauron%22_(2011-n4151_-_n4151).tiff",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/NGC_4151-_An_Active_Black_Hole_in_the_%22Eye_of_Sauron%22_%282011-n4151_-_n4151%29.tiff/lossy-page1-1280px-NGC_4151-_An_Active_Black_Hole_in_the_%22Eye_of_Sauron%22_%282011-n4151_-_n4151%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
+    "FACT-2026-11-10-S20": {
+      "cached_at": "2026-11-19T19:27:38.840514+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-10-S20.jpg",
+      "query": "Thomas Jefferson Papers account pages upside down",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:US_Navy_031229-N-9693M-004_U.S._Naval_Academy_(U.S.N.A.)_Cheerleader_Midshipmen_4th_Class_Jaime_Bradley,_from_The_Woodlands,_Texas,_is_flipped_upside_down_during_the_EV1.Net_Rodeo_Pep_Rally_in_Reliant_Arena.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/US_Navy_031229-N-9693M-004_U.S._Naval_Academy_%28U.S.N.A.%29_Cheerleader_Midshipmen_4th_Class_Jaime_Bradley%2C_from_The_Woodlands%2C_Texas%2C_is_flipped_upside_down_during_the_EV1.Net_Rodeo_Pep_Rally_in_Reliant_Arena.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
     "FACT-2026-11-11-S02": {
       "cached_at": "2026-11-19T09:38:32.130572+00:00",
       "credit": "Wikimedia Commons",
@@ -16662,6 +16800,10 @@
     "0864066b3bb93a6da0e9c28a": {
       "date": "2026-10-29",
       "fact_id": "FACT-2026-10-29-S07"
+    },
+    "08fd9ded508888f6c509fa37": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S18"
     },
     "0967945b5ea0ec4a9fddbd98": {
       "date": "2026-10-07",
@@ -17279,6 +17421,10 @@
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S12"
     },
+    "39334c3a147b9b3941583d59": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S19"
+    },
     "395f97e47902205a5a91c7c6": {
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S16"
@@ -17622,6 +17768,10 @@
     "514faa9bb36284906f6b79d8": {
       "date": "2026-11-11",
       "fact_id": "FACT-2026-11-11-S04"
+    },
+    "516809bd0d919c999e5daba0": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S15"
     },
     "5182fe3dacb8bd4e4b3b17b9": {
       "date": "2026-11-09",
@@ -18047,6 +18197,10 @@
       "date": "2026-11-07",
       "fact_id": "FACT-2026-11-07-S17"
     },
+    "6b3946746f728afbc9294a5e": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S12"
+    },
     "6b3e0e90a224ac0fe7eb1e326f25429560f0fed7": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S11"
@@ -18159,6 +18313,10 @@
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S10"
     },
+    "7246ceb34180792634331e86": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S16"
+    },
     "724c3082f8a0ef2aa33dd852": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S13"
@@ -18182,6 +18340,10 @@
     "7384cf6c46ecb933768efad6": {
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S06"
+    },
+    "73c8119b281e4754833b77a2": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S14"
     },
     "73ee76dc33ed07a9c9931762": {
       "date": "2026-11-01",
@@ -19527,6 +19689,10 @@
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S12"
     },
+    "d2f2a786a10825be8a3589bd": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S13"
+    },
     "d33997e1296ee510d4572550": {
       "date": "2026-11-03",
       "fact_id": "FACT-2026-11-03-S01"
@@ -19542,6 +19708,10 @@
     "d4387173a29f02831ecc0003": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S09"
+    },
+    "d4458095e25638899b340aa3": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S20"
     },
     "d4622c95c5220797cc436554": {
       "date": "2026-10-19",
@@ -19815,6 +19985,10 @@
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S04"
     },
+    "e86bd62b3c244b1259fbe47a": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S17"
+    },
     "e98bb8163d72dea99fb38ff1": {
       "date": "2026-10-27",
       "fact_id": "FACT-2026-10-27-S05"
@@ -19886,6 +20060,10 @@
     "ee09cff7127813da430d6910": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S06"
+    },
+    "ee4dc5e7e1a3df1c18858c50": {
+      "date": "2026-11-10",
+      "fact_id": "FACT-2026-11-10-S11"
     },
     "eea5c82b45319b5c65f1a582": {
       "date": "2026-10-01",
@@ -21828,6 +22006,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-10",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-19T19:27:40.429655+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
