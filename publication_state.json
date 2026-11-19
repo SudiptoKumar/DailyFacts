@@ -11617,6 +11617,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-11": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-11-S01",
+            "FACT-2026-11-11-S02",
+            "FACT-2026-11-11-S03",
+            "FACT-2026-11-11-S04",
+            "FACT-2026-11-11-S05",
+            "FACT-2026-11-11-S06",
+            "FACT-2026-11-11-S07",
+            "FACT-2026-11-11-S08",
+            "FACT-2026-11-11-S09",
+            "FACT-2026-11-11-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-19T09:41:15.933373+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-19T09:38:15.445963+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-11-S01": {
+          "batch": 1,
+          "claim_key": "3814351c810171bc8daff60d",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1009,
+          "published_at": "2026-11-19T09:38:27.125534+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S02": {
+          "batch": 1,
+          "claim_key": "db880f8ba4bae4c30478e29e",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:ESA%27s_Science_Fleet_of_Solar_System_Explorers_(September_2025).png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1010,
+          "published_at": "2026-11-19T09:38:33.657579+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S03": {
+          "batch": 1,
+          "claim_key": "f59e46a0b48fbfffb1292770",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1011,
+          "published_at": "2026-11-19T09:38:59.074902+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S04": {
+          "batch": 1,
+          "claim_key": "514faa9bb36284906f6b79d8",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1012,
+          "published_at": "2026-11-19T09:39:44.056228+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S05": {
+          "batch": 1,
+          "claim_key": "5f5ba5f01a71303f7d744944",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Kori_bustard_walking_in_grass_-_DPLA_-_2fb99868220708bdc526966b56d0dab8.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1013,
+          "published_at": "2026-11-19T09:39:50.068590+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S06": {
+          "batch": 1,
+          "claim_key": "ca7792f962d36852207a069b",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Mount_Everest_(Chomolungma,_Goddess_Mother_of_the_World)_(1155).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1014,
+          "published_at": "2026-11-19T09:40:55.120412+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S07": {
+          "batch": 1,
+          "claim_key": "0792a5b8c0bf282b27080a33",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1015,
+          "published_at": "2026-11-19T09:41:02.335483+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S08": {
+          "batch": 1,
+          "claim_key": "730a2edc74f931c1dc6857e1",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Main_entrance_to_Pearl_Street_station,_May_2012.JPG",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1016,
+          "published_at": "2026-11-19T09:41:08.186682+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S09": {
+          "batch": 1,
+          "claim_key": "4c8294a4d040020389309fbd",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Sitting_under_a_Supermassive_Black_Hole_(iotw2612a).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1017,
+          "published_at": "2026-11-19T09:41:12.491752+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S10": {
+          "batch": 1,
+          "claim_key": "e62d533363420d764c83c574",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1018,
+          "published_at": "2026-11-19T09:41:15.920144+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -16404,6 +16539,51 @@
       "score": 31,
       "source_page": "https://commons.wikimedia.org/wiki/File:NGC_4151-_An_Active_Black_Hole_in_the_%22Eye_of_Sauron%22_(2011-n4151_-_n4151).tiff",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/NGC_4151-_An_Active_Black_Hole_in_the_%22Eye_of_Sauron%22_%282011-n4151_-_n4151%29.tiff/lossy-page1-1280px-NGC_4151-_An_Active_Black_Hole_in_the_%22Eye_of_Sauron%22_%282011-n4151_-_n4151%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-11-S02": {
+      "cached_at": "2026-11-19T09:38:32.130572+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-11-S02.jpg",
+      "query": "Solar system with planets orbiting the Sun",
+      "score": 32,
+      "source_page": "https://commons.wikimedia.org/wiki/File:ESA%27s_Science_Fleet_of_Solar_System_Explorers_(September_2025).png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/ESA%27s_Science_Fleet_of_Solar_System_Explorers_%28September_2025%29.png/1280px-ESA%27s_Science_Fleet_of_Solar_System_Explorers_%28September_2025%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-11-S05": {
+      "cached_at": "2026-11-19T09:39:48.409361+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-11-S05.jpg",
+      "query": "Kori bustard",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kori_bustard_walking_in_grass_-_DPLA_-_2fb99868220708bdc526966b56d0dab8.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Kori_bustard_walking_in_grass_-_DPLA_-_2fb99868220708bdc526966b56d0dab8.jpg/1280px-Kori_bustard_walking_in_grass_-_DPLA_-_2fb99868220708bdc526966b56d0dab8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-11-S06": {
+      "cached_at": "2026-11-19T09:40:53.370972+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-11-S06.jpg",
+      "query": "Mount Everest Himalaya range",
+      "score": 27,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Everest_(Chomolungma,_Goddess_Mother_of_the_World)_(1155).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Mount_Everest_%28Chomolungma%2C_Goddess_Mother_of_the_World%29_%281155%29.jpg/1280px-Mount_Everest_%28Chomolungma%2C_Goddess_Mother_of_the_World%29_%281155%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-11-S08": {
+      "cached_at": "2026-11-19T09:41:06.514316+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-11-S08.jpg",
+      "query": "Pearl Street Station early power plant lower Manhattan",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Main_entrance_to_Pearl_Street_station,_May_2012.JPG",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Main_entrance_to_Pearl_Street_station%2C_May_2012.JPG/1280px-Main_entrance_to_Pearl_Street_station%2C_May_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-11-S09": {
+      "cached_at": "2026-11-19T09:41:10.794547+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-11-S09.jpg",
+      "query": "supermassive black hole with stars orbiting",
+      "score": 39,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sitting_under_a_Supermassive_Black_Hole_(iotw2612a).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Sitting_under_a_Supermassive_Black_Hole_%28iotw2612a%29.jpg/1280px-Sitting_under_a_Supermassive_Black_Hole_%28iotw2612a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -16466,6 +16646,10 @@
     "066b5b4e172168932633cbf8": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S06"
+    },
+    "0792a5b8c0bf282b27080a33": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S07"
     },
     "080a318d12b213613858ffe2": {
       "date": "2026-10-21",
@@ -17083,6 +17267,10 @@
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S06"
     },
+    "3814351c810171bc8daff60d": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S01"
+    },
     "390499f9bc1834fea0b2796b": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S01"
@@ -17343,6 +17531,10 @@
       "date": "2026-11-01",
       "fact_id": "FACT-2026-11-01-S18"
     },
+    "4c8294a4d040020389309fbd": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S09"
+    },
     "4c9e1e0d3c36de3de74c5a4b": {
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S13"
@@ -17426,6 +17618,10 @@
     "50f4c515ce6c93d9c93d341b": {
       "date": "2026-10-20",
       "fact_id": "FACT-2026-10-20-S03"
+    },
+    "514faa9bb36284906f6b79d8": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S04"
     },
     "5182fe3dacb8bd4e4b3b17b9": {
       "date": "2026-11-09",
@@ -17666,6 +17862,10 @@
     "5f4c431ae871f00c5173d3a7": {
       "date": "2026-11-04",
       "fact_id": "FACT-2026-11-04-S11"
+    },
+    "5f5ba5f01a71303f7d744944": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S05"
     },
     "5f773bd62fa1e46fc1346daa": {
       "date": "2026-11-03",
@@ -17966,6 +18166,10 @@
     "72cec72e73ae9c79d6f5f220": {
       "date": "2026-11-01",
       "fact_id": "FACT-2026-11-01-S20"
+    },
+    "730a2edc74f931c1dc6857e1": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S08"
     },
     "7317ae76432e497b8eac3773": {
       "date": "2026-10-19",
@@ -19215,6 +19419,10 @@
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S18"
     },
+    "ca7792f962d36852207a069b": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S06"
+    },
     "caadccc48f3d64d045d07e3e": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S09"
@@ -19427,6 +19635,10 @@
       "date": "2026-11-03",
       "fact_id": "FACT-2026-11-03-S11"
     },
+    "db880f8ba4bae4c30478e29e": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S02"
+    },
     "dbaba2da3cd1244d41c653ea": {
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S17"
@@ -19570,6 +19782,10 @@
     "e5827d21202e72a4eb0c86b4": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S02"
+    },
+    "e62d533363420d764c83c574": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S10"
     },
     "e6305ffb498e8b9419f371ef": {
       "date": "2026-10-13",
@@ -19742,6 +19958,10 @@
     "f598245c49bb3eda0d8cb13e": {
       "date": "2026-11-08",
       "fact_id": "FACT-2026-11-08-S08"
+    },
+    "f59e46a0b48fbfffb1292770": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S03"
     },
     "f5d7d9f0564d43fa106c6ddf": {
       "date": "2026-10-20",
@@ -21592,6 +21812,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-11",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-19T09:41:15.933391+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
