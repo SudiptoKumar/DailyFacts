@@ -11767,6 +11767,25 @@
           "published_count": 10,
           "started_at": "2026-11-19T09:38:15.445963+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-11-S11",
+            "FACT-2026-11-11-S12",
+            "FACT-2026-11-11-S13",
+            "FACT-2026-11-11-S14",
+            "FACT-2026-11-11-S15",
+            "FACT-2026-11-11-S16",
+            "FACT-2026-11-11-S17",
+            "FACT-2026-11-11-S18",
+            "FACT-2026-11-11-S19",
+            "FACT-2026-11-11-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-20T19:03:28.304477+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-20T19:00:21.753519+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -11877,6 +11896,116 @@
           "image_source": "Generated card",
           "message_id": 1018,
           "published_at": "2026-11-19T09:41:15.920144+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S11": {
+          "batch": 2,
+          "claim_key": "277ec91e6b5f0306a1f968c7",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Autumn_along_the_Paran%C3%A1_River_(MODIS_2021-05-06).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1039,
+          "published_at": "2026-11-20T19:00:30.611623+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S12": {
+          "batch": 2,
+          "claim_key": "52ef6c853e784285a5ccb5e9",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1040,
+          "published_at": "2026-11-20T19:00:54.775267+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S13": {
+          "batch": 2,
+          "claim_key": "942affa8a8c5970c709b9456",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1041,
+          "published_at": "2026-11-20T19:00:59.678174+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S14": {
+          "batch": 2,
+          "claim_key": "328fe9f78e38ed94df908d7e",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1042,
+          "published_at": "2026-11-20T19:01:46.828054+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S15": {
+          "batch": 2,
+          "claim_key": "5456aa1c08afb2271380cf0c",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Global_Carbon_Dioxide_2020-2021_for_Hyperwalls_(SVS4983_-_CO2Volumetric_9600x3240_30fps_01740).png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1043,
+          "published_at": "2026-11-20T19:01:55.021218+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S16": {
+          "batch": 2,
+          "claim_key": "e0dba48c15255f575568a0e8",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Jean-L%C3%A9on_G%C3%A9r%C3%B4me,_Pygmalion_and_Galatea,_ca._1890.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1044,
+          "published_at": "2026-11-20T19:02:00.414306+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S17": {
+          "batch": 2,
+          "claim_key": "8cb4e0aeac99f6aab3b09c23",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1045,
+          "published_at": "2026-11-20T19:02:04.682278+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S18": {
+          "batch": 2,
+          "claim_key": "32e079356adc3824ba2b9d16",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Mexican_and_Central_American_antiquities,_calendar_systems,_and_history;_(1904)_(14594926748).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1046,
+          "published_at": "2026-11-20T19:02:12.515794+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S19": {
+          "batch": 2,
+          "claim_key": "2a9f9943b07bcb5e594ee8c6",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1047,
+          "published_at": "2026-11-20T19:02:18.963204+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-11-S20": {
+          "batch": 2,
+          "claim_key": "270daf777f2b69ac7b4615ba",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1048,
+          "published_at": "2026-11-20T19:03:28.287987+00:00",
           "send_mode": "card_rich",
           "status": "published"
         }
@@ -16858,6 +16987,42 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Sitting_under_a_Supermassive_Black_Hole_(iotw2612a).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Sitting_under_a_Supermassive_Black_Hole_%28iotw2612a%29.jpg/1280px-Sitting_under_a_Supermassive_Black_Hole_%28iotw2612a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
+    "FACT-2026-11-11-S11": {
+      "cached_at": "2026-11-20T19:00:28.666713+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-11-S11.jpg",
+      "query": "Nile River and Amazon River comparison",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Autumn_along_the_Paran%C3%A1_River_(MODIS_2021-05-06).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Autumn_along_the_Paran%C3%A1_River_%28MODIS_2021-05-06%29.jpg/1280px-Autumn_along_the_Paran%C3%A1_River_%28MODIS_2021-05-06%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-11-S15": {
+      "cached_at": "2026-11-20T19:01:53.592518+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-11-S15.jpg",
+      "query": "world map showing Earth's size, shape, and human impacts",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Global_Carbon_Dioxide_2020-2021_for_Hyperwalls_(SVS4983_-_CO2Volumetric_9600x3240_30fps_01740).png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Global_Carbon_Dioxide_2020-2021_for_Hyperwalls_%28SVS4983_-_CO2Volumetric_9600x3240_30fps_01740%29.png/1280px-Global_Carbon_Dioxide_2020-2021_for_Hyperwalls_%28SVS4983_-_CO2Volumetric_9600x3240_30fps_01740%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-11-S16": {
+      "cached_at": "2026-11-20T19:01:58.335987+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-11-S16.jpg",
+      "query": "Auguste Rodin sculpture Pygmalion and Galatea, showing Aphrodite granting life to the stone figure Galatea",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jean-L%C3%A9on_G%C3%A9r%C3%B4me,_Pygmalion_and_Galatea,_ca._1890.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Jean-L%C3%A9on_G%C3%A9r%C3%B4me%2C_Pygmalion_and_Galatea%2C_ca._1890.jpg/1280px-Jean-L%C3%A9on_G%C3%A9r%C3%B4me%2C_Pygmalion_and_Galatea%2C_ca._1890.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-11-S18": {
+      "cached_at": "2026-11-20T19:02:10.261908+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-11-S18.jpg",
+      "query": "Maya glyphs carved on stone tablet depicting historical records and tribute accounts",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mexican_and_Central_American_antiquities,_calendar_systems,_and_history;_(1904)_(14594926748).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Mexican_and_Central_American_antiquities%2C_calendar_systems%2C_and_history%3B_%281904%29_%2814594926748%29.jpg/1280px-Mexican_and_Central_American_antiquities%2C_calendar_systems%2C_and_history%3B_%281904%29_%2814594926748%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
     "FACT-2026-11-12-S02": {
       "cached_at": "2026-11-20T09:23:35.413241+00:00",
       "credit": "Wikimedia Commons",
@@ -17379,6 +17544,10 @@
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S05"
     },
+    "270daf777f2b69ac7b4615ba": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S20"
+    },
     "272d00299837d67e349f2b26364f166eaf0e10fb": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S08"
@@ -17386,6 +17555,10 @@
     "276b2e6416be26814b109151": {
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S07"
+    },
+    "277ec91e6b5f0306a1f968c7": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S11"
     },
     "27d5908525d5431bc0e1e337": {
       "date": "2026-11-12",
@@ -17422,6 +17595,10 @@
     "2a4b45833b4c849c8f20df78": {
       "date": "2026-11-09",
       "fact_id": "FACT-2026-11-09-S14"
+    },
+    "2a9f9943b07bcb5e594ee8c6": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S19"
     },
     "2b277d652d5c4c8e776247e5": {
       "date": "2026-11-08",
@@ -17503,9 +17680,17 @@
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S10"
     },
+    "328fe9f78e38ed94df908d7e": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S14"
+    },
     "32c360961253b816fe0bdf14": {
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S02"
+    },
+    "32e079356adc3824ba2b9d16": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S18"
     },
     "334da577c7783bd78b64c78ea938e1957e26fb14": {
       "date": "2026-09-25",
@@ -17975,6 +18160,10 @@
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S15"
     },
+    "52ef6c853e784285a5ccb5e9": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S12"
+    },
     "5344132609b0a528bc40c03b": {
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S08"
@@ -17998,6 +18187,10 @@
     "5420146feb6016eebfcd4258": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S17"
+    },
+    "5456aa1c08afb2271380cf0c": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S15"
     },
     "54d758cb1d8cad2e82913ff5": {
       "date": "2026-10-09",
@@ -18879,6 +19072,10 @@
       "date": "2026-11-01",
       "fact_id": "FACT-2026-11-01-S17"
     },
+    "8cb4e0aeac99f6aab3b09c23": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S17"
+    },
     "8cce70b8411ecefc3b95f4a1": {
       "date": "2026-11-06",
       "fact_id": "FACT-2026-11-06-S16"
@@ -18970,6 +19167,10 @@
     "941b541652b13026dc9f7250b12fc455864910a5": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S01"
+    },
+    "942affa8a8c5970c709b9456": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S13"
     },
     "943f7a8af3ee896363eb0a90": {
       "date": "2026-10-16",
@@ -20082,6 +20283,10 @@
     "e06496a16ef652fca0d78031": {
       "date": "2026-11-12",
       "fact_id": "FACT-2026-11-12-S09"
+    },
+    "e0dba48c15255f575568a0e8": {
+      "date": "2026-11-11",
+      "fact_id": "FACT-2026-11-11-S16"
     },
     "e0f07f9622c095bab0065ded": {
       "date": "2026-10-21",
@@ -22240,6 +22445,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-11",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-20T19:03:28.304493+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
