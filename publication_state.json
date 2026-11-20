@@ -11881,6 +11881,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-12": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-12-S01",
+            "FACT-2026-11-12-S02",
+            "FACT-2026-11-12-S03",
+            "FACT-2026-11-12-S04",
+            "FACT-2026-11-12-S05",
+            "FACT-2026-11-12-S06",
+            "FACT-2026-11-12-S07",
+            "FACT-2026-11-12-S08",
+            "FACT-2026-11-12-S09",
+            "FACT-2026-11-12-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-20T09:25:49.562327+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-20T09:22:53.280551+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-12-S01": {
+          "batch": 1,
+          "claim_key": "9de7a443ca79e56981b5315a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1029,
+          "published_at": "2026-11-20T09:23:10.302408+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S02": {
+          "batch": 1,
+          "claim_key": "9fc6e2bf7e2572a3a9235e63",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Solar_System_scaled_to_a_football_field.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1030,
+          "published_at": "2026-11-20T09:23:36.982572+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S03": {
+          "batch": 1,
+          "claim_key": "b5f79128d2d34c94e7689251",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1031,
+          "published_at": "2026-11-20T09:23:40.478445+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S04": {
+          "batch": 1,
+          "claim_key": "114643e083b0c0d07e233143",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1032,
+          "published_at": "2026-11-20T09:24:25.713156+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S05": {
+          "batch": 1,
+          "claim_key": "a3ff08ecfcc7965ecb061b2a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1033,
+          "published_at": "2026-11-20T09:24:29.903702+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S06": {
+          "batch": 1,
+          "claim_key": "76975def62b83fdf91ae61cc",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1034,
+          "published_at": "2026-11-20T09:24:33.226023+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S07": {
+          "batch": 1,
+          "claim_key": "7013e4af3dd1368dc08700f8",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1035,
+          "published_at": "2026-11-20T09:25:37.901242+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S08": {
+          "batch": 1,
+          "claim_key": "27d5908525d5431bc0e1e337",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_street_railway_review_(1891)_(14738667526).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1036,
+          "published_at": "2026-11-20T09:25:42.072973+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S09": {
+          "batch": 1,
+          "claim_key": "e06496a16ef652fca0d78031",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Peering_Into_The_Heart_of_Darkness_-_The_supermassive_black_hole_at_the_center_of_the_Milky_Way_galaxy._(4844234636).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1037,
+          "published_at": "2026-11-20T09:25:45.768678+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S10": {
+          "batch": 1,
+          "claim_key": "3b1f5a00643adaa2263efb5d",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1038,
+          "published_at": "2026-11-20T09:25:49.541179+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -16722,6 +16857,33 @@
       "score": 39,
       "source_page": "https://commons.wikimedia.org/wiki/File:Sitting_under_a_Supermassive_Black_Hole_(iotw2612a).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Sitting_under_a_Supermassive_Black_Hole_%28iotw2612a%29.jpg/1280px-Sitting_under_a_Supermassive_Black_Hole_%28iotw2612a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-12-S02": {
+      "cached_at": "2026-11-20T09:23:35.413241+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-12-S02.jpg",
+      "query": "Earth from space showing signs of life",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Solar_System_scaled_to_a_football_field.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Solar_System_scaled_to_a_football_field.png/1280px-Solar_System_scaled_to_a_football_field.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-12-S08": {
+      "cached_at": "2026-11-20T09:25:40.639167+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-12-S08.jpg",
+      "query": "Thomas Edison with the first electric meter, early electricity meter device",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_street_railway_review_(1891)_(14738667526).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/The_street_railway_review_%281891%29_%2814738667526%29.jpg/1280px-The_street_railway_review_%281891%29_%2814738667526%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-12-S09": {
+      "cached_at": "2026-11-20T09:25:44.270604+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-12-S09.jpg",
+      "query": "center of the Milky Way supermassive black hole",
+      "score": 40,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Peering_Into_The_Heart_of_Darkness_-_The_supermassive_black_hole_at_the_center_of_the_Milky_Way_galaxy._(4844234636).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Peering_Into_The_Heart_of_Darkness_-_The_supermassive_black_hole_at_the_center_of_the_Milky_Way_galaxy._%284844234636%29.jpg/1280px-Peering_Into_The_Heart_of_Darkness_-_The_supermassive_black_hole_at_the_center_of_the_Milky_Way_galaxy._%284844234636%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -16944,6 +17106,10 @@
     "1094318c6fdff451b6846423": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S06"
+    },
+    "114643e083b0c0d07e233143": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S04"
     },
     "116399879916fe7b4533434e": {
       "date": "2026-10-30",
@@ -17221,6 +17387,10 @@
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S07"
     },
+    "27d5908525d5431bc0e1e337": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S08"
+    },
     "2835d441a6ec61a948aa7518": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S06"
@@ -17464,6 +17634,10 @@
     "3b110f2c4439d0a4966f0a7a": {
       "date": "2026-11-03",
       "fact_id": "FACT-2026-11-03-S14"
+    },
+    "3b1f5a00643adaa2263efb5d": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S10"
     },
     "3ba83ea8a082cde30aea6d38": {
       "date": "2026-11-06",
@@ -18277,6 +18451,10 @@
       "date": "2026-11-08",
       "fact_id": "FACT-2026-11-08-S05"
     },
+    "7013e4af3dd1368dc08700f8": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S07"
+    },
     "701e49992a43feb90015d0a7": {
       "date": "2026-11-09",
       "fact_id": "FACT-2026-11-09-S18"
@@ -18400,6 +18578,10 @@
     "75bdd4f3394040d46adcfcba": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S19"
+    },
+    "76975def62b83fdf91ae61cc": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S06"
     },
     "76c279d6c4e25f0fd547a47e": {
       "date": "2026-10-03",
@@ -18929,6 +19111,10 @@
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S17"
     },
+    "9de7a443ca79e56981b5315a": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S01"
+    },
     "9e368ccc713fa5d23a70cd7a": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S05"
@@ -18964,6 +19150,10 @@
     "9faf089ac1953eef85cf29b9": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S04"
+    },
+    "9fc6e2bf7e2572a3a9235e63": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S02"
     },
     "9fee1a8f012f91d0600e221d": {
       "date": "2026-10-30",
@@ -19020,6 +19210,10 @@
     "a3cab3619c50c0341b2d6744": {
       "date": "2026-11-06",
       "fact_id": "FACT-2026-11-06-S13"
+    },
+    "a3ff08ecfcc7965ecb061b2a": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S05"
     },
     "a42ecb27454d2d6b41ddaa50": {
       "date": "2026-11-07",
@@ -19284,6 +19478,10 @@
     "b5e1a8ffd9811de1f28c75c0": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S07"
+    },
+    "b5f79128d2d34c94e7689251": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S03"
     },
     "b6a2a07bf975dd6d3a457867": {
       "date": "2026-11-07",
@@ -19880,6 +20078,10 @@
     "dffc0a2fa0ff7dc826e406a8": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S09"
+    },
+    "e06496a16ef652fca0d78031": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S09"
     },
     "e0f07f9622c095bab0065ded": {
       "date": "2026-10-21",
@@ -22022,6 +22224,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-12",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-20T09:25:49.562350+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
