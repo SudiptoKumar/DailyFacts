@@ -12031,6 +12031,25 @@
           "published_count": 10,
           "started_at": "2026-11-20T09:22:53.280551+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-12-S11",
+            "FACT-2026-11-12-S12",
+            "FACT-2026-11-12-S13",
+            "FACT-2026-11-12-S14",
+            "FACT-2026-11-12-S15",
+            "FACT-2026-11-12-S16",
+            "FACT-2026-11-12-S17",
+            "FACT-2026-11-12-S18",
+            "FACT-2026-11-12-S19",
+            "FACT-2026-11-12-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-21T17:56:41.052902+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-21T17:54:58.756193+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -12141,6 +12160,116 @@
           "image_source": "Generated card",
           "message_id": 1038,
           "published_at": "2026-11-20T09:25:49.541179+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S11": {
+          "batch": 2,
+          "claim_key": "c28ae4aa8e672b6e878cf96d",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1059,
+          "published_at": "2026-11-21T17:55:04.744846+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S12": {
+          "batch": 2,
+          "claim_key": "f7630601e9d17486286f9190",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1060,
+          "published_at": "2026-11-21T17:55:10.047059+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S13": {
+          "batch": 2,
+          "claim_key": "4173dcd6c6574dfb71b27a87",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1061,
+          "published_at": "2026-11-21T17:55:15.818106+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S14": {
+          "batch": 2,
+          "claim_key": "d8a234209812a34276b594e8",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1062,
+          "published_at": "2026-11-21T17:55:18.840361+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S15": {
+          "batch": 2,
+          "claim_key": "d4ae13c59c130a980aefaa44",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1063,
+          "published_at": "2026-11-21T17:55:22.932875+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S16": {
+          "batch": 2,
+          "claim_key": "8544c4ab4607ac295b507080",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1064,
+          "published_at": "2026-11-21T17:55:25.472957+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S17": {
+          "batch": 2,
+          "claim_key": "6bf14090f3b1227850ac4943",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1065,
+          "published_at": "2026-11-21T17:55:47.630810+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S18": {
+          "batch": 2,
+          "claim_key": "3cc4cb39c8b5dc3a12ad7db2",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Maya_Codex-Style_Vessel_with_two_scenes_1_Kimbell.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1066,
+          "published_at": "2026-11-21T17:56:32.257493+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S19": {
+          "batch": 2,
+          "claim_key": "d8e627ff5dd2ea04e205ba21",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1067,
+          "published_at": "2026-11-21T17:56:37.707056+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-12-S20": {
+          "batch": 2,
+          "claim_key": "a5f4cddb44d5f4892993a135",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1068,
+          "published_at": "2026-11-21T17:56:41.033977+00:00",
           "send_mode": "card_rich",
           "status": "published"
         }
@@ -17185,6 +17314,15 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Peering_Into_The_Heart_of_Darkness_-_The_supermassive_black_hole_at_the_center_of_the_Milky_Way_galaxy._(4844234636).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Peering_Into_The_Heart_of_Darkness_-_The_supermassive_black_hole_at_the_center_of_the_Milky_Way_galaxy._%284844234636%29.jpg/1280px-Peering_Into_The_Heart_of_Darkness_-_The_supermassive_black_hole_at_the_center_of_the_Milky_Way_galaxy._%284844234636%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
+    "FACT-2026-11-12-S18": {
+      "cached_at": "2026-11-21T17:56:30.525666+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-12-S18.jpg",
+      "query": "Maya vessel showing a human scribe and the god Itzam",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maya_Codex-Style_Vessel_with_two_scenes_1_Kimbell.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Maya_Codex-Style_Vessel_with_two_scenes_1_Kimbell.jpg/1280px-Maya_Codex-Style_Vessel_with_two_scenes_1_Kimbell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
     "FACT-2026-11-13-S02": {
       "cached_at": "2026-11-21T08:58:10.808508+00:00",
       "credit": "Wikimedia Commons",
@@ -18030,6 +18168,10 @@
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S20"
     },
+    "3cc4cb39c8b5dc3a12ad7db2": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S18"
+    },
     "3d03684da41493abd2aa8c56": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S15"
@@ -18073,6 +18215,10 @@
     "416db9e9d2a427e42152866b": {
       "date": "2026-11-07",
       "fact_id": "FACT-2026-11-07-S06"
+    },
+    "4173dcd6c6574dfb71b27a87": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S13"
     },
     "419bc6436e431c52597acac01aef3cde3289721d": {
       "date": "2026-09-30",
@@ -18774,6 +18920,10 @@
       "date": "2026-11-13",
       "fact_id": "FACT-2026-11-13-S07"
     },
+    "6bf14090f3b1227850ac4943": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S17"
+    },
     "6c234a36c3d4e7091e31199f": {
       "date": "2026-10-30",
       "fact_id": "FACT-2026-10-30-S07"
@@ -19145,6 +19295,10 @@
     "84d63cad32e6ad369e7d5c43": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S02"
+    },
+    "8544c4ab4607ac295b507080": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S16"
     },
     "855e585137b43648f7992101": {
       "date": "2026-10-11",
@@ -19630,6 +19784,10 @@
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S05"
     },
+    "a5f4cddb44d5f4892993a135": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S20"
+    },
     "a630e42ed38032eaf886a4e1": {
       "date": "2026-11-09",
       "fact_id": "FACT-2026-11-09-S20"
@@ -20074,6 +20232,10 @@
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S07"
     },
+    "c28ae4aa8e672b6e878cf96d": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S11"
+    },
     "c32df8a90295687f28baf51c": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S03"
@@ -20314,6 +20476,10 @@
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S16"
     },
+    "d4ae13c59c130a980aefaa44": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S15"
+    },
     "d4b8a35a6447b62053dbd8aa": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S20"
@@ -20350,6 +20516,10 @@
       "date": "2026-11-08",
       "fact_id": "FACT-2026-11-08-S17"
     },
+    "d8a234209812a34276b594e8": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S14"
+    },
     "d8cf6594aee1686429262c79": {
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S11"
@@ -20357,6 +20527,10 @@
     "d8dc9bedb14ccd70e0de411b": {
       "date": "2026-11-07",
       "fact_id": "FACT-2026-11-07-S07"
+    },
+    "d8e627ff5dd2ea04e205ba21": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S19"
     },
     "d925da74fc085153180551d6": {
       "date": "2026-10-11",
@@ -20777,6 +20951,10 @@
     "f74c3e89fdaf920ee3344b01": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S16"
+    },
+    "f7630601e9d17486286f9190": {
+      "date": "2026-11-12",
+      "fact_id": "FACT-2026-11-12-S12"
     },
     "f7cf9432548a548be1fae2ba": {
       "date": "2026-11-05",
@@ -22679,6 +22857,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-12",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-21T17:56:41.052917+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
