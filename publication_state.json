@@ -12145,6 +12145,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-13": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-13-S01",
+            "FACT-2026-11-13-S02",
+            "FACT-2026-11-13-S03",
+            "FACT-2026-11-13-S04",
+            "FACT-2026-11-13-S05",
+            "FACT-2026-11-13-S06",
+            "FACT-2026-11-13-S07",
+            "FACT-2026-11-13-S08",
+            "FACT-2026-11-13-S09",
+            "FACT-2026-11-13-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-21T09:00:20.255016+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-21T08:57:23.428700+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-13-S01": {
+          "batch": 1,
+          "claim_key": "105da25c458929602ac91941",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1049,
+          "published_at": "2026-11-21T08:57:48.104221+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S02": {
+          "batch": 1,
+          "claim_key": "5feebbf2ddfbc6980e074540",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1050,
+          "published_at": "2026-11-21T08:58:11.962978+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S03": {
+          "batch": 1,
+          "claim_key": "2869c31009a36fc490ac2612",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1051,
+          "published_at": "2026-11-21T08:58:16.409440+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S04": {
+          "batch": 1,
+          "claim_key": "ea3da9c6547dc2095d98a6de",
+          "image_credit": "Source page",
+          "image_page": "https://openstax.org/books/psychology-2e/pages/8-1-how-memory-functions",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1052,
+          "published_at": "2026-11-21T08:58:58.467607+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S05": {
+          "batch": 1,
+          "claim_key": "009327c94830367390d26f95",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Natural_History_with_Anecdotes_(Miles_1895)_-_Lion_illustration.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1053,
+          "published_at": "2026-11-21T09:00:04.000049+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S06": {
+          "batch": 1,
+          "claim_key": "f6e208ef3f0477ca5e97ea7d",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1054,
+          "published_at": "2026-11-21T09:00:08.851287+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S07": {
+          "batch": 1,
+          "claim_key": "6b902edbba5fbd970a4e0789",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1055,
+          "published_at": "2026-11-21T09:00:13.625369+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S08": {
+          "batch": 1,
+          "claim_key": "2be8d54d2f5491725304713a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1056,
+          "published_at": "2026-11-21T09:00:15.778699+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S09": {
+          "batch": 1,
+          "claim_key": "a0cf267be8889931c7b0dc6d",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1057,
+          "published_at": "2026-11-21T09:00:17.663212+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S10": {
+          "batch": 1,
+          "claim_key": "16e3a344643ef95c8a2e835c",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1058,
+          "published_at": "2026-11-21T09:00:20.237866+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -17049,6 +17184,33 @@
       "score": 40,
       "source_page": "https://commons.wikimedia.org/wiki/File:Peering_Into_The_Heart_of_Darkness_-_The_supermassive_black_hole_at_the_center_of_the_Milky_Way_galaxy._(4844234636).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Peering_Into_The_Heart_of_Darkness_-_The_supermassive_black_hole_at_the_center_of_the_Milky_Way_galaxy._%284844234636%29.jpg/1280px-Peering_Into_The_Heart_of_Darkness_-_The_supermassive_black_hole_at_the_center_of_the_Milky_Way_galaxy._%284844234636%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-13-S02": {
+      "cached_at": "2026-11-21T08:58:10.808508+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-13-S02.jpg",
+      "query": "Voyager 1 and Voyager 2 spacecraft exiting the solar system",
+      "score": 25,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-13-S04": {
+      "cached_at": "2026-11-21T08:58:57.130906+00:00",
+      "credit": "Source page",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-13-S04.jpg",
+      "query": "diagram of sensory memory, short-term memory, and long-term memory",
+      "score": 18,
+      "source_page": "https://openstax.org/books/psychology-2e/pages/8-1-how-memory-functions",
+      "source_url": "https://assets.openstax.org/oscms-prodcms/media/original_images/psychology2e.jpeg"
+    },
+    "FACT-2026-11-13-S05": {
+      "cached_at": "2026-11-21T09:00:02.463735+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-13-S05.jpg",
+      "query": "lion Panthera leo",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Natural_History_with_Anecdotes_(Miles_1895)_-_Lion_illustration.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Natural_History_with_Anecdotes_%28Miles_1895%29_-_Lion_illustration.jpg/1280px-Natural_History_with_Anecdotes_%28Miles_1895%29_-_Lion_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -17067,6 +17229,10 @@
     "0091987aec61956975bf9406": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S19"
+    },
+    "009327c94830367390d26f95": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S05"
     },
     "00a7927e328a9f053b2e54f9": {
       "date": "2026-11-08",
@@ -17268,6 +17434,10 @@
       "date": "2026-11-02",
       "fact_id": "FACT-2026-11-02-S09"
     },
+    "105da25c458929602ac91941": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S01"
+    },
     "1094318c6fdff451b6846423": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S06"
@@ -17363,6 +17533,10 @@
     "16e258df5370726d5e2f1cfd": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S09"
+    },
+    "16e3a344643ef95c8a2e835c": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S10"
     },
     "1726d67cfe9f025272a874cd": {
       "date": "2026-10-13",
@@ -17568,6 +17742,10 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S06"
     },
+    "2869c31009a36fc490ac2612": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S03"
+    },
     "289249aa656a8629f36ed9c1": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S15"
@@ -17607,6 +17785,10 @@
     "2b395274207c882ffd590bf70e936ae908bc1b9c": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S06"
+    },
+    "2be8d54d2f5491725304713a": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S08"
     },
     "2c1b24019ad920b219bf81a019007511497bab5c": {
       "date": "2026-09-28",
@@ -18400,6 +18582,10 @@
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S03"
     },
+    "5feebbf2ddfbc6980e074540": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S02"
+    },
     "601e33ad7c7c96788865db7d": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S12"
@@ -18583,6 +18769,10 @@
     "6b6ccf3567dc140bade8e4985d5b3211a96e1ad0": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S09"
+    },
+    "6b902edbba5fbd970a4e0789": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S07"
     },
     "6c234a36c3d4e7091e31199f": {
       "date": "2026-10-30",
@@ -19371,6 +19561,10 @@
     "a06a9aa3821407bc0e6c8e1b": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S13"
+    },
+    "a0cf267be8889931c7b0dc6d": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S09"
     },
     "a0d03d1515aaeb56d6aca780": {
       "date": "2026-10-25",
@@ -20408,6 +20602,10 @@
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S06"
     },
+    "ea3da9c6547dc2095d98a6de": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S04"
+    },
     "ea5e01690117d1c1048ab0b6": {
       "date": "2026-10-30",
       "fact_id": "FACT-2026-10-30-S13"
@@ -20563,6 +20761,10 @@
     "f685dc33f81ec89dfdce3dc9": {
       "date": "2026-11-06",
       "fact_id": "FACT-2026-11-06-S07"
+    },
+    "f6e208ef3f0477ca5e97ea7d": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S06"
     },
     "f6ee4f10b487a29ae3f14672": {
       "date": "2026-10-03",
@@ -22461,6 +22663,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-13",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-21T09:00:20.255029+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
