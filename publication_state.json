@@ -12295,6 +12295,25 @@
           "published_count": 10,
           "started_at": "2026-11-21T08:57:23.428700+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-13-S11",
+            "FACT-2026-11-13-S12",
+            "FACT-2026-11-13-S13",
+            "FACT-2026-11-13-S14",
+            "FACT-2026-11-13-S15",
+            "FACT-2026-11-13-S16",
+            "FACT-2026-11-13-S17",
+            "FACT-2026-11-13-S18",
+            "FACT-2026-11-13-S19",
+            "FACT-2026-11-13-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-22T18:23:28.355278+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-22T18:21:45.593920+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -12405,6 +12424,116 @@
           "image_source": "Generated card",
           "message_id": 1058,
           "published_at": "2026-11-21T09:00:20.237866+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S11": {
+          "batch": 2,
+          "claim_key": "d45af7bc35bc7c7228e6f460",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1079,
+          "published_at": "2026-11-22T18:21:50.642553+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S12": {
+          "batch": 2,
+          "claim_key": "c580e1cdfd48f3e0b9fa5623",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1080,
+          "published_at": "2026-11-22T18:21:54.549122+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S13": {
+          "batch": 2,
+          "claim_key": "6c541658520ec33f66db0064",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:1916_German_East_Africa_15-Rupee_Gold_Coin,_Also_Known_as_the_Tabora_Sovereign.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1081,
+          "published_at": "2026-11-22T18:21:57.736066+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S14": {
+          "batch": 2,
+          "claim_key": "b71c7d2755fa6e3b3e067559",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1082,
+          "published_at": "2026-11-22T18:21:59.559909+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S15": {
+          "batch": 2,
+          "claim_key": "752efb1b4451f08d2b47fad3",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1083,
+          "published_at": "2026-11-22T18:22:05.911297+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S16": {
+          "batch": 2,
+          "claim_key": "5a43d679752512c3f0491282",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1084,
+          "published_at": "2026-11-22T18:22:31.252127+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S17": {
+          "batch": 2,
+          "claim_key": "7757707bd1af410f80b1b1e1",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1085,
+          "published_at": "2026-11-22T18:22:34.229709+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S18": {
+          "batch": 2,
+          "claim_key": "cedffb1e8e1ee9f93574101f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1086,
+          "published_at": "2026-11-22T18:23:18.828281+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S19": {
+          "batch": 2,
+          "claim_key": "e6196f5ec6bb17410fa05620",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1087,
+          "published_at": "2026-11-22T18:23:24.747584+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-13-S20": {
+          "batch": 2,
+          "claim_key": "742afb22f9feba4c4851e2f1",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1088,
+          "published_at": "2026-11-22T18:23:28.335255+00:00",
           "send_mode": "card_rich",
           "status": "published"
         }
@@ -17485,6 +17614,15 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Natural_History_with_Anecdotes_(Miles_1895)_-_Lion_illustration.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Natural_History_with_Anecdotes_%28Miles_1895%29_-_Lion_illustration.jpg/1280px-Natural_History_with_Anecdotes_%28Miles_1895%29_-_Lion_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
+    "FACT-2026-11-13-S13": {
+      "cached_at": "2026-11-22T18:21:56.355540+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-13-S13.jpg",
+      "query": "Colonial era coins collection",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:1916_German_East_Africa_15-Rupee_Gold_Coin,_Also_Known_as_the_Tabora_Sovereign.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/1916_German_East_Africa_15-Rupee_Gold_Coin%2C_Also_Known_as_the_Tabora_Sovereign.jpg/1280px-1916_German_East_Africa_15-Rupee_Gold_Coin%2C_Also_Known_as_the_Tabora_Sovereign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
     "FACT-2026-11-14-S01": {
       "cached_at": "2026-11-22T09:00:24.165547+00:00",
       "credit": "Wikimedia Commons",
@@ -18791,6 +18929,10 @@
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S02"
     },
+    "5a43d679752512c3f0491282": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S16"
+    },
     "5a938265dd9d66952a6f7a61": {
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S13"
@@ -19131,6 +19273,10 @@
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S14"
     },
+    "6c541658520ec33f66db0064": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S13"
+    },
     "6c7f6bbde34407421605b319": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S07"
@@ -19263,6 +19409,10 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S20"
     },
+    "742afb22f9feba4c4851e2f1": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S20"
+    },
     "743ddc0aa9ace8c42c647492": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S12"
@@ -19291,6 +19441,10 @@
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S20"
     },
+    "752efb1b4451f08d2b47fad3": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S15"
+    },
     "75394f3be541c139eabaf0a6": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S15"
@@ -19318,6 +19472,10 @@
     "76c279d6c4e25f0fd547a47e": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S10"
+    },
+    "7757707bd1af410f80b1b1e1": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S17"
     },
     "77934c45dffead12a378f18c": {
       "date": "2026-10-05",
@@ -20255,6 +20413,10 @@
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S14"
     },
+    "b71c7d2755fa6e3b3e067559": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S14"
+    },
     "b7247d0f70c93596823aad17": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S01"
@@ -20483,6 +20645,10 @@
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S10"
     },
+    "c580e1cdfd48f3e0b9fa5623": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S12"
+    },
     "c5f4a7946939a079171ceb83": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S05"
@@ -20595,6 +20761,10 @@
       "date": "2026-11-06",
       "fact_id": "FACT-2026-11-06-S17"
     },
+    "cedffb1e8e1ee9f93574101f": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S18"
+    },
     "cee0760ad9ff49f62c67a4c0": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S16"
@@ -20674,6 +20844,10 @@
     "d4458095e25638899b340aa3": {
       "date": "2026-11-10",
       "fact_id": "FACT-2026-11-10-S20"
+    },
+    "d45af7bc35bc7c7228e6f460": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S11"
     },
     "d4622c95c5220797cc436554": {
       "date": "2026-10-19",
@@ -20934,6 +21108,10 @@
     "e5827d21202e72a4eb0c86b4": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S02"
+    },
+    "e6196f5ec6bb17410fa05620": {
+      "date": "2026-11-13",
+      "fact_id": "FACT-2026-11-13-S19"
     },
     "e62d533363420d764c83c574": {
       "date": "2026-11-11",
@@ -23100,6 +23278,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-13",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-22T18:23:28.355296+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
