@@ -12409,6 +12409,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-14": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-14-S01",
+            "FACT-2026-11-14-S02",
+            "FACT-2026-11-14-S03",
+            "FACT-2026-11-14-S04",
+            "FACT-2026-11-14-S05",
+            "FACT-2026-11-14-S06",
+            "FACT-2026-11-14-S07",
+            "FACT-2026-11-14-S08",
+            "FACT-2026-11-14-S09",
+            "FACT-2026-11-14-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-22T09:03:16.212799+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-22T09:00:10.665794+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-14-S01": {
+          "batch": 1,
+          "claim_key": "5d15d99caf487609fcffcc17",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Westside_Road_Flood,_Mount_Rainier_NP_-_1988_(3b49844a-03f3-4421-8c00-6b8ac6a06054).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1069,
+          "published_at": "2026-11-22T09:00:25.904263+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S02": {
+          "batch": 1,
+          "claim_key": "a85084e39ead75e24343e058",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Pioneer_10_-_11,_reconstructed_full-scale_mock-up_-_DPLA_-_0ee5410618161a495925d68f2fc5e1fb_(page_13).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1070,
+          "published_at": "2026-11-22T09:00:31.229458+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S03": {
+          "batch": 1,
+          "claim_key": "0cf491b4cffdbec3feb95452",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1071,
+          "published_at": "2026-11-22T09:00:55.968918+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S04": {
+          "batch": 1,
+          "claim_key": "3e00b76f2bf559cff3800199",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1072,
+          "published_at": "2026-11-22T09:00:58.398647+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S05": {
+          "batch": 1,
+          "claim_key": "2ff501c5705824275a6ed277",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1073,
+          "published_at": "2026-11-22T09:01:45.616688+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S06": {
+          "batch": 1,
+          "claim_key": "f4915efecbe3f8b30b4a55a9",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Pumice_from_the_13_August_2021_explosive_eruption_of_Fukutoku-Okanoba_Volcano_(Bonin_Islands,_western_Pacific_Ocean)_1.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1074,
+          "published_at": "2026-11-22T09:01:53.683072+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S07": {
+          "batch": 1,
+          "claim_key": "130aa5beb5ae53e710933d1f",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1075,
+          "published_at": "2026-11-22T09:02:59.747828+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S08": {
+          "batch": 1,
+          "claim_key": "845d1d9e26370a9858199624",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1076,
+          "published_at": "2026-11-22T09:03:06.183274+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S09": {
+          "batch": 1,
+          "claim_key": "5717b2051d4456fbf2f0ddfa",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Gravitational_Wave_Kicks_Monster_Black_Hole_Out_of_Galactic_Core_(33568284956).png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1077,
+          "published_at": "2026-11-22T09:03:12.135902+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S10": {
+          "batch": 1,
+          "claim_key": "30e3a7b17ddbb9af67f605ca",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1078,
+          "published_at": "2026-11-22T09:03:16.195439+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -17349,6 +17484,42 @@
       "score": 22,
       "source_page": "https://commons.wikimedia.org/wiki/File:Natural_History_with_Anecdotes_(Miles_1895)_-_Lion_illustration.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Natural_History_with_Anecdotes_%28Miles_1895%29_-_Lion_illustration.jpg/1280px-Natural_History_with_Anecdotes_%28Miles_1895%29_-_Lion_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-14-S01": {
+      "cached_at": "2026-11-22T09:00:24.165547+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-14-S01.jpg",
+      "query": "debris flow rushing down a slope, destroying structures and vegetation",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Westside_Road_Flood,_Mount_Rainier_NP_-_1988_(3b49844a-03f3-4421-8c00-6b8ac6a06054).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Westside_Road_Flood%2C_Mount_Rainier_NP_-_1988_%283b49844a-03f3-4421-8c00-6b8ac6a06054%29.jpg/1280px-Westside_Road_Flood%2C_Mount_Rainier_NP_-_1988_%283b49844a-03f3-4421-8c00-6b8ac6a06054%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-14-S02": {
+      "cached_at": "2026-11-22T09:00:29.682771+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-14-S02.jpg",
+      "query": "Pioneer 10, Pioneer 11, and New Horizons spacecraft traveling toward interstellar space",
+      "score": 28,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pioneer_10_-_11,_reconstructed_full-scale_mock-up_-_DPLA_-_0ee5410618161a495925d68f2fc5e1fb_(page_13).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Pioneer_10_-_11%2C_reconstructed_full-scale_mock-up_-_DPLA_-_0ee5410618161a495925d68f2fc5e1fb_%28page_13%29.jpg/1280px-Pioneer_10_-_11%2C_reconstructed_full-scale_mock-up_-_DPLA_-_0ee5410618161a495925d68f2fc5e1fb_%28page_13%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-14-S06": {
+      "cached_at": "2026-11-22T09:01:51.772726+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-14-S06.jpg",
+      "query": "Mariana Trench in the South Pacific Ocean",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pumice_from_the_13_August_2021_explosive_eruption_of_Fukutoku-Okanoba_Volcano_(Bonin_Islands,_western_Pacific_Ocean)_1.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Pumice_from_the_13_August_2021_explosive_eruption_of_Fukutoku-Okanoba_Volcano_%28Bonin_Islands%2C_western_Pacific_Ocean%29_1.jpg/1280px-Pumice_from_the_13_August_2021_explosive_eruption_of_Fukutoku-Okanoba_Volcano_%28Bonin_Islands%2C_western_Pacific_Ocean%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-14-S09": {
+      "cached_at": "2026-11-22T09:03:10.373282+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-14-S09.jpg",
+      "query": "illustration of a black hole generating gravitational waves",
+      "score": 44,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gravitational_Wave_Kicks_Monster_Black_Hole_Out_of_Galactic_Core_(33568284956).png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Gravitational_Wave_Kicks_Monster_Black_Hole_Out_of_Galactic_Core_%2833568284956%29.png/1280px-Gravitational_Wave_Kicks_Monster_Black_Hole_Out_of_Galactic_Core_%2833568284956%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -17516,6 +17687,10 @@
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S06"
     },
+    "0cf491b4cffdbec3feb95452": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S03"
+    },
     "0dd34dd3ee4af520507dafd3": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S04"
@@ -17623,6 +17798,10 @@
     "12eceee6a59fca61272d27ac": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S07"
+    },
+    "130aa5beb5ae53e710933d1f": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S07"
     },
     "13364c8fe2bd85b921067f9e": {
       "date": "2026-10-05",
@@ -17976,6 +18155,10 @@
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S06"
     },
+    "2ff501c5705824275a6ed277": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S05"
+    },
     "30b0900017f674ead29ff767": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S18"
@@ -17987,6 +18170,10 @@
     "30b314c5076a1681b310cb46": {
       "date": "2026-11-05",
       "fact_id": "FACT-2026-11-05-S12"
+    },
+    "30e3a7b17ddbb9af67f605ca": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S10"
     },
     "30f8e939db6f7b69ee89362b": {
       "date": "2026-10-24",
@@ -18195,6 +18382,10 @@
     "3dfb5c02f0a02c312d0a5c65": {
       "date": "2026-11-09",
       "fact_id": "FACT-2026-11-09-S06"
+    },
+    "3e00b76f2bf559cff3800199": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S04"
     },
     "3ea64bc1643373a254f4c998": {
       "date": "2026-10-07",
@@ -18556,6 +18747,10 @@
       "date": "2026-11-10",
       "fact_id": "FACT-2026-11-10-S02"
     },
+    "5717b2051d4456fbf2f0ddfa": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S09"
+    },
     "572af9dbe8688a778fc80d55": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S01"
@@ -18651,6 +18846,10 @@
     "5d0f0472482a57db414462d9": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S08"
+    },
+    "5d15d99caf487609fcffcc17": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S01"
     },
     "5d5239a26bd2b0481f43724d": {
       "date": "2026-11-01",
@@ -19292,6 +19491,10 @@
       "date": "2026-11-03",
       "fact_id": "FACT-2026-11-03-S06"
     },
+    "845d1d9e26370a9858199624": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S08"
+    },
     "84d63cad32e6ad369e7d5c43": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S02"
@@ -19835,6 +20038,10 @@
     "a7c82601f2067950d9251573": {
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S02"
+    },
+    "a85084e39ead75e24343e058": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S02"
     },
     "a862eaa01e82534d41d6425d": {
       "date": "2026-10-13",
@@ -20891,6 +21098,10 @@
     "f44101f8d9cf809c5d4c5e552bff7bfa44c22499": {
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S04"
+    },
+    "f4915efecbe3f8b30b4a55a9": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S06"
     },
     "f4c2e095705eadc0a502a8c7": {
       "date": "2026-10-27",
@@ -22873,6 +23084,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-14",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-22T09:03:16.212812+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
