@@ -12559,6 +12559,25 @@
           "published_count": 10,
           "started_at": "2026-11-22T09:00:10.665794+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-14-S11",
+            "FACT-2026-11-14-S12",
+            "FACT-2026-11-14-S13",
+            "FACT-2026-11-14-S14",
+            "FACT-2026-11-14-S15",
+            "FACT-2026-11-14-S16",
+            "FACT-2026-11-14-S17",
+            "FACT-2026-11-14-S18",
+            "FACT-2026-11-14-S19",
+            "FACT-2026-11-14-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-23T22:31:27.945917+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-23T22:29:42.444828+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -12670,6 +12689,116 @@
           "message_id": 1078,
           "published_at": "2026-11-22T09:03:16.195439+00:00",
           "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S11": {
+          "batch": 2,
+          "claim_key": "c6e8303887a3f18428f22207",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1099,
+          "published_at": "2026-11-23T22:29:47.453532+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S12": {
+          "batch": 2,
+          "claim_key": "e375714af7a488390268d2ad",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1100,
+          "published_at": "2026-11-23T22:29:53.030799+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S13": {
+          "batch": 2,
+          "claim_key": "265f7059a84281c126c5512b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1101,
+          "published_at": "2026-11-23T22:29:56.315406+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S14": {
+          "batch": 2,
+          "claim_key": "db131c5ac73a8fe0622b471a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1102,
+          "published_at": "2026-11-23T22:29:58.349601+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S15": {
+          "batch": 2,
+          "claim_key": "9a858c73ac9c0e3c8bde3e15",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:MuslimWorldDemographics2022.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1103,
+          "published_at": "2026-11-23T22:30:05.287284+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S16": {
+          "batch": 2,
+          "claim_key": "ce5d68efa493938bdb4d4e6c",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1104,
+          "published_at": "2026-11-23T22:30:10.839496+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S17": {
+          "batch": 2,
+          "claim_key": "e9c5512229899c1be20ae4e0",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1105,
+          "published_at": "2026-11-23T22:30:34.539466+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S18": {
+          "batch": 2,
+          "claim_key": "1aa31f5eb7cb26ec726cd4f1",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1106,
+          "published_at": "2026-11-23T22:30:36.722273+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S19": {
+          "batch": 2,
+          "claim_key": "212cebff4aa610740561f488",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1107,
+          "published_at": "2026-11-23T22:31:22.414588+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-14-S20": {
+          "batch": 2,
+          "claim_key": "3bd328a9dfc70b6afa353c27",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Horses_of_the_Household_Cavalry_Mounted_Division_Exercising_on_the_Beaches_of_North_Norfolk_MOD_45156138.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1108,
+          "published_at": "2026-11-23T22:31:27.924291+00:00",
+          "send_mode": "rich_photo",
           "status": "published"
         }
       }
@@ -17794,6 +17923,24 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Gravitational_Wave_Kicks_Monster_Black_Hole_Out_of_Galactic_Core_(33568284956).png",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Gravitational_Wave_Kicks_Monster_Black_Hole_Out_of_Galactic_Core_%2833568284956%29.png/1280px-Gravitational_Wave_Kicks_Monster_Black_Hole_Out_of_Galactic_Core_%2833568284956%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
+    "FACT-2026-11-14-S15": {
+      "cached_at": "2026-11-23T22:30:03.971716+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-14-S15.jpg",
+      "query": "world map displaying Earth's resources, population centers, and earthquake activity",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:MuslimWorldDemographics2022.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/MuslimWorldDemographics2022.png/1280px-MuslimWorldDemographics2022.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-14-S20": {
+      "cached_at": "2026-11-23T22:31:26.555757+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-14-S20.jpg",
+      "query": "Anne Cary Randolph apprenticeship plantation mistress",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Horses_of_the_Household_Cavalry_Mounted_Division_Exercising_on_the_Beaches_of_North_Norfolk_MOD_45156138.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Horses_of_the_Household_Cavalry_Mounted_Division_Exercising_on_the_Beaches_of_North_Norfolk_MOD_45156138.jpg/1280px-Horses_of_the_Household_Cavalry_Mounted_Division_Exercising_on_the_Beaches_of_North_Norfolk_MOD_45156138.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
     "FACT-2026-11-15-S02": {
       "cached_at": "2026-11-23T09:58:41.767414+00:00",
       "credit": "Wikimedia Commons",
@@ -18212,6 +18359,10 @@
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S19"
     },
+    "1aa31f5eb7cb26ec726cd4f1": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S18"
+    },
     "1abaa63bf328a56aa3567c23": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S14"
@@ -18280,6 +18431,10 @@
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S08"
     },
+    "212cebff4aa610740561f488": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S19"
+    },
     "2139bba3c132eddab9f8bb66": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S11"
@@ -18335,6 +18490,10 @@
     "256f5c0df8e3e55c2be45497": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S17"
+    },
+    "265f7059a84281c126c5512b": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S13"
     },
     "26c405502b541b4b208caa88": {
       "date": "2026-10-10",
@@ -18659,6 +18818,10 @@
     "3bd311813c53a46bbc084637": {
       "date": "2026-10-30",
       "fact_id": "FACT-2026-10-30-S17"
+    },
+    "3bd328a9dfc70b6afa353c27": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S20"
     },
     "3cb31887148bae19ca9b22b9": {
       "date": "2026-11-04",
@@ -20168,6 +20331,10 @@
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S01"
     },
+    "9a858c73ac9c0e3c8bde3e15": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S15"
+    },
     "9ab4695aaf5cbe7baf90041b": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S13"
@@ -20872,6 +21039,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S06"
     },
+    "c6e8303887a3f18428f22207": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S11"
+    },
     "c7cb4372051bbd337bbe59172707f878dcfe1bae": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S13"
@@ -20959,6 +21130,10 @@
     "ce2762198340941de11b3970": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S17"
+    },
+    "ce5d68efa493938bdb4d4e6c": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S16"
     },
     "cea48e42dd92066e460b5010": {
       "date": "2026-11-06",
@@ -21140,6 +21315,10 @@
       "date": "2026-11-01",
       "fact_id": "FACT-2026-11-01-S09"
     },
+    "db131c5ac73a8fe0622b471a": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S14"
+    },
     "db22cd60d3d63e81722f4194": {
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S19"
@@ -21280,6 +21459,10 @@
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S06"
     },
+    "e375714af7a488390268d2ad": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S12"
+    },
     "e3fb228b451cb72beb3feaa4": {
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S13"
@@ -21355,6 +21538,10 @@
     "e98bb8163d72dea99fb38ff1": {
       "date": "2026-10-27",
       "fact_id": "FACT-2026-10-27-S05"
+    },
+    "e9c5512229899c1be20ae4e0": {
+      "date": "2026-11-14",
+      "fact_id": "FACT-2026-11-14-S17"
     },
     "ea0b398ebf97af8c39a65bbb": {
       "date": "2026-11-02",
@@ -23521,6 +23708,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-14",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-23T22:31:27.945947+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
