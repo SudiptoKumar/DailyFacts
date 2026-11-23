@@ -12673,6 +12673,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-15": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-15-S01",
+            "FACT-2026-11-15-S02",
+            "FACT-2026-11-15-S03",
+            "FACT-2026-11-15-S04",
+            "FACT-2026-11-15-S05",
+            "FACT-2026-11-15-S06",
+            "FACT-2026-11-15-S07",
+            "FACT-2026-11-15-S08",
+            "FACT-2026-11-15-S09",
+            "FACT-2026-11-15-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-23T10:01:16.594024+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-23T09:58:02.110915+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-15-S01": {
+          "batch": 1,
+          "claim_key": "57ff8516d2fb495a2373065a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1089,
+          "published_at": "2026-11-23T09:58:37.207280+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S02": {
+          "batch": 1,
+          "claim_key": "9331b3ae373496b53711781b",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Hubble%27s_Decade-Long_Views_of_the_Outer_Solar_System_Planets_(2024-010).png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1090,
+          "published_at": "2026-11-23T09:58:43.404248+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S03": {
+          "batch": 1,
+          "claim_key": "4559fae96799580e35744fe9",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Diseases_of_children,_for_nurses,_including_infant_feeding,_therapeutic_measures_employed_in_childhood,_treatment_for_emergencies,_prophylaxis,_hygiene,_and_nursing_(1921)_(14778606691).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1091,
+          "published_at": "2026-11-23T09:59:31.396410+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S04": {
+          "batch": 1,
+          "claim_key": "f390f10f5a74dd96c26f3e33",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1092,
+          "published_at": "2026-11-23T09:59:41.180684+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S05": {
+          "batch": 1,
+          "claim_key": "58151eade1feeedf5c65827e",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1093,
+          "published_at": "2026-11-23T09:59:47.351912+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S06": {
+          "batch": 1,
+          "claim_key": "a5ba69b46470593e411749aa",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:330-ps-9873--428-gx-usn-10446612_15357890721_o.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1094,
+          "published_at": "2026-11-23T10:00:53.831588+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S07": {
+          "batch": 1,
+          "claim_key": "f069b24f88baaf7f8341de85",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1095,
+          "published_at": "2026-11-23T10:00:59.235309+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S08": {
+          "batch": 1,
+          "claim_key": "01e65233979772f03ee82801",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1096,
+          "published_at": "2026-11-23T10:01:05.611668+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S09": {
+          "batch": 1,
+          "claim_key": "27dfdfd689261add8fe2c101",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Hubble_discovers_first_of_star_cluster%E2%80%99s_missing_black_holes_ESA523919.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1097,
+          "published_at": "2026-11-23T10:01:12.233454+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S10": {
+          "batch": 1,
+          "claim_key": "4f0fcaf4a357e730bd596bb8",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1098,
+          "published_at": "2026-11-23T10:01:16.571852+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -17658,6 +17793,42 @@
       "score": 44,
       "source_page": "https://commons.wikimedia.org/wiki/File:Gravitational_Wave_Kicks_Monster_Black_Hole_Out_of_Galactic_Core_(33568284956).png",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Gravitational_Wave_Kicks_Monster_Black_Hole_Out_of_Galactic_Core_%2833568284956%29.png/1280px-Gravitational_Wave_Kicks_Monster_Black_Hole_Out_of_Galactic_Core_%2833568284956%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-15-S02": {
+      "cached_at": "2026-11-23T09:58:41.767414+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-15-S02.jpg",
+      "query": "Solar system overview with Sun, planets, dwarf planets, moons, asteroids, and comets",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hubble%27s_Decade-Long_Views_of_the_Outer_Solar_System_Planets_(2024-010).png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Hubble%27s_Decade-Long_Views_of_the_Outer_Solar_System_Planets_%282024-010%29.png/1280px-Hubble%27s_Decade-Long_Views_of_the_Outer_Solar_System_Planets_%282024-010%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-15-S03": {
+      "cached_at": "2026-11-23T09:59:29.575406+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-15-S03.jpg",
+      "query": "illustration of cerebral cortex covering cerebrum and cerebellum",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Diseases_of_children,_for_nurses,_including_infant_feeding,_therapeutic_measures_employed_in_childhood,_treatment_for_emergencies,_prophylaxis,_hygiene,_and_nursing_(1921)_(14778606691).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Diseases_of_children%2C_for_nurses%2C_including_infant_feeding%2C_therapeutic_measures_employed_in_childhood%2C_treatment_for_emergencies%2C_prophylaxis%2C_hygiene%2C_and_nursing_%281921%29_%2814778606691%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-15-S06": {
+      "cached_at": "2026-11-23T10:00:51.933553+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-15-S06.jpg",
+      "query": "Mariana Trench",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:330-ps-9873--428-gx-usn-10446612_15357890721_o.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/330-ps-9873--428-gx-usn-10446612_15357890721_o.jpg/1280px-330-ps-9873--428-gx-usn-10446612_15357890721_o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-15-S09": {
+      "cached_at": "2026-11-23T10:01:10.065488+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-15-S09.jpg",
+      "query": "LIGO interferometer detecting gravitational wave ripples",
+      "score": 33,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hubble_discovers_first_of_star_cluster%E2%80%99s_missing_black_holes_ESA523919.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Hubble_discovers_first_of_star_cluster%E2%80%99s_missing_black_holes_ESA523919.jpg/1280px-Hubble_discovers_first_of_star_cluster%E2%80%99s_missing_black_holes_ESA523919.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -17688,6 +17859,10 @@
     "01563b4d97d00fc0b5a81828": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S14"
+    },
+    "01e65233979772f03ee82801": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S08"
     },
     "027ebc34021c265c457c6206": {
       "date": "2026-10-15",
@@ -18193,6 +18368,10 @@
       "date": "2026-11-12",
       "fact_id": "FACT-2026-11-12-S08"
     },
+    "27dfdfd689261add8fe2c101": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S09"
+    },
     "2835d441a6ec61a948aa7518": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S06"
@@ -18601,6 +18780,10 @@
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S02"
     },
+    "4559fae96799580e35744fe9": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S03"
+    },
     "4582fea66af15bf4554379ec": {
       "date": "2026-10-18",
       "fact_id": "FACT-2026-10-18-S02"
@@ -18736,6 +18919,10 @@
     "4eee628e24d1a7e9a1686180": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S08"
+    },
+    "4f0fcaf4a357e730bd596bb8": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S10"
     },
     "4f4021bab27fad8b045124de": {
       "date": "2026-11-05",
@@ -18904,6 +19091,14 @@
     "57f57bdb7991bd770af0c75a": {
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S09"
+    },
+    "57ff8516d2fb495a2373065a": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S01"
+    },
+    "58151eade1feeedf5c65827e": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S05"
     },
     "58b6495dd4f5bfafc8b6c9a4": {
       "date": "2026-10-08",
@@ -19841,6 +20036,10 @@
       "date": "2026-11-02",
       "fact_id": "FACT-2026-11-02-S05"
     },
+    "9331b3ae373496b53711781b": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S02"
+    },
     "936d521f0c081a24f4b3df97": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S04"
@@ -20144,6 +20343,10 @@
     "a568f02a9ab1031f3585deb1": {
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S05"
+    },
+    "a5ba69b46470593e411749aa": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S06"
     },
     "a5f4cddb44d5f4892993a135": {
       "date": "2026-11-12",
@@ -21245,6 +21448,10 @@
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S18"
     },
+    "f069b24f88baaf7f8341de85": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S07"
+    },
     "f371873a73d19c4a414a8afc": {
       "date": "2026-11-05",
       "fact_id": "FACT-2026-11-05-S04"
@@ -21252,6 +21459,10 @@
     "f379a44544e04e6aec794a56": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S15"
+    },
+    "f390f10f5a74dd96c26f3e33": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S04"
     },
     "f398e493cf95eb6ee977f391": {
       "date": "2026-10-17",
@@ -23294,6 +23505,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-15",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-23T10:01:16.594066+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
