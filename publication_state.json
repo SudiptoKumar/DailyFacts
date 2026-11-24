@@ -12937,6 +12937,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-16": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-16-S01",
+            "FACT-2026-11-16-S02",
+            "FACT-2026-11-16-S03",
+            "FACT-2026-11-16-S04",
+            "FACT-2026-11-16-S05",
+            "FACT-2026-11-16-S06",
+            "FACT-2026-11-16-S07",
+            "FACT-2026-11-16-S08",
+            "FACT-2026-11-16-S09",
+            "FACT-2026-11-16-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-24T11:49:52.021149+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-24T11:46:48.947175+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-16-S01": {
+          "batch": 1,
+          "claim_key": "724ef98ce4f3db8138ae0f90",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Mass_wasting_in_coastal_Alaska_(1969)_(19952553643).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1109,
+          "published_at": "2026-11-24T11:47:02.300365+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S02": {
+          "batch": 1,
+          "claim_key": "718c15e48afa1f51d40e0978",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:The_Milky_Way_arch_in_the_steppes_of_Kazakhstan.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1110,
+          "published_at": "2026-11-24T11:47:08.723031+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S03": {
+          "batch": 1,
+          "claim_key": "4a160542e7cbe35ba7b17526",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1111,
+          "published_at": "2026-11-24T11:47:35.357262+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S04": {
+          "batch": 1,
+          "claim_key": "5a7f572997bf1252374dd909",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Long_Short-Term_Memory_cell,_1997_version.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1112,
+          "published_at": "2026-11-24T11:48:22.454777+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S05": {
+          "batch": 1,
+          "claim_key": "b41ccb5fc08020c00eca247b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1113,
+          "published_at": "2026-11-24T11:48:27.399570+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S06": {
+          "batch": 1,
+          "claim_key": "769d22e07cc03a846699e59b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1114,
+          "published_at": "2026-11-24T11:48:32.896006+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S07": {
+          "batch": 1,
+          "claim_key": "9c2b9276a4161978572955a3",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1115,
+          "published_at": "2026-11-24T11:48:35.950942+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S08": {
+          "batch": 1,
+          "claim_key": "1601034d338ace5e19e1cb38",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1116,
+          "published_at": "2026-11-24T11:49:41.562905+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S09": {
+          "batch": 1,
+          "claim_key": "6aa5d37b19aebd1936f2b38d",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:NGC_6240-_Black_Holes_Go_%22Mano_A_Mano%22_(2009-ngc6240_-).tiff",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1117,
+          "published_at": "2026-11-24T11:49:48.211400+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S10": {
+          "batch": 1,
+          "claim_key": "2bb89f777e25e2ea76e4e23b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1118,
+          "published_at": "2026-11-24T11:49:51.997109+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -17976,6 +18111,42 @@
       "score": 33,
       "source_page": "https://commons.wikimedia.org/wiki/File:Hubble_discovers_first_of_star_cluster%E2%80%99s_missing_black_holes_ESA523919.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Hubble_discovers_first_of_star_cluster%E2%80%99s_missing_black_holes_ESA523919.jpg/1280px-Hubble_discovers_first_of_star_cluster%E2%80%99s_missing_black_holes_ESA523919.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-16-S01": {
+      "cached_at": "2026-11-24T11:47:00.322139+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-16-S01.jpg",
+      "query": "debris flow moving down a mountain slope during heavy rain",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mass_wasting_in_coastal_Alaska_(1969)_(19952553643).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Mass_wasting_in_coastal_Alaska_%281969%29_%2819952553643%29.jpg/1280px-Mass_wasting_in_coastal_Alaska_%281969%29_%2819952553643%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-16-S02": {
+      "cached_at": "2026-11-24T11:47:06.647751+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-16-S02.jpg",
+      "query": "Milky Way galaxy with solar system position",
+      "score": 25,
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Milky_Way_arch_in_the_steppes_of_Kazakhstan.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/The_Milky_Way_arch_in_the_steppes_of_Kazakhstan.jpg/1280px-The_Milky_Way_arch_in_the_steppes_of_Kazakhstan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-16-S04": {
+      "cached_at": "2026-11-24T11:48:20.959659+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-16-S04.jpg",
+      "query": "illustration of short-term memory process",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Long_Short-Term_Memory_cell,_1997_version.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Long_Short-Term_Memory_cell%2C_1997_version.png/1280px-Long_Short-Term_Memory_cell%2C_1997_version.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-16-S09": {
+      "cached_at": "2026-11-24T11:49:46.688790+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-16-S09.jpg",
+      "query": "black hole bending light from distant stars",
+      "score": 38,
+      "source_page": "https://commons.wikimedia.org/wiki/File:NGC_6240-_Black_Holes_Go_%22Mano_A_Mano%22_(2009-ngc6240_-).tiff",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/NGC_6240-_Black_Holes_Go_%22Mano_A_Mano%22_%282009-ngc6240_-%29.tiff/lossy-page1-1280px-NGC_6240-_Black_Holes_Go_%22Mano_A_Mano%22_%282009-ngc6240_-%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -18303,6 +18474,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S07"
     },
+    "1601034d338ace5e19e1cb38": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S08"
+    },
     "16273decdb751be27899fb1fc6dfd963dac7a096": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S07"
@@ -18578,6 +18753,10 @@
     "2b395274207c882ffd590bf70e936ae908bc1b9c": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S06"
+    },
+    "2bb89f777e25e2ea76e4e23b": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S10"
     },
     "2be8d54d2f5491725304713a": {
       "date": "2026-11-13",
@@ -19007,6 +19186,10 @@
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S10"
     },
+    "4a160542e7cbe35ba7b17526": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S03"
+    },
     "4a34aa0ebdfc12eea029b4c1": {
       "date": "2026-10-01",
       "fact_id": "FACT-2026-10-01-S14"
@@ -19290,6 +19473,10 @@
     "5a43d679752512c3f0491282": {
       "date": "2026-11-13",
       "fact_id": "FACT-2026-11-13-S16"
+    },
+    "5a7f572997bf1252374dd909": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S04"
     },
     "5a938265dd9d66952a6f7a61": {
       "date": "2026-10-13",
@@ -19587,6 +19774,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S19"
     },
+    "6aa5d37b19aebd1936f2b38d": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S09"
+    },
     "6afed29aff440a7e6c49edb5": {
       "date": "2026-10-30",
       "fact_id": "FACT-2026-10-30-S15"
@@ -19719,6 +19910,10 @@
       "date": "2026-10-27",
       "fact_id": "FACT-2026-10-27-S18"
     },
+    "718c15e48afa1f51d40e0978": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S02"
+    },
     "7191c869043d3c8f1d4a71d0": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S07"
@@ -19734,6 +19929,10 @@
     "724c3082f8a0ef2aa33dd852": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S13"
+    },
+    "724ef98ce4f3db8138ae0f90": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S01"
     },
     "72cec72e73ae9c79d6f5f220": {
       "date": "2026-11-01",
@@ -19826,6 +20025,10 @@
     "76975def62b83fdf91ae61cc": {
       "date": "2026-11-12",
       "fact_id": "FACT-2026-11-12-S06"
+    },
+    "769d22e07cc03a846699e59b": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S06"
     },
     "76c279d6c4e25f0fd547a47e": {
       "date": "2026-10-03",
@@ -20359,6 +20562,10 @@
       "date": "2026-09-26",
       "fact_id": "FACT-2026-09-26-S07"
     },
+    "9c2b9276a4161978572955a3": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S07"
+    },
     "9c591e2ae5422e5d60e8ea56d433063fdbc09304": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S04"
@@ -20714,6 +20921,10 @@
     "b41c573420eb98197b8d9036": {
       "date": "2026-10-29",
       "fact_id": "FACT-2026-10-29-S04"
+    },
+    "b41ccb5fc08020c00eca247b": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S05"
     },
     "b4240052cef889970abdc3f7d04aa494339b12dd": {
       "date": "2026-09-24",
@@ -23724,6 +23935,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-16",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-24T11:49:52.021180+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
