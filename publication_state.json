@@ -12823,6 +12823,25 @@
           "published_count": 10,
           "started_at": "2026-11-23T09:58:02.110915+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-15-S11",
+            "FACT-2026-11-15-S12",
+            "FACT-2026-11-15-S13",
+            "FACT-2026-11-15-S14",
+            "FACT-2026-11-15-S15",
+            "FACT-2026-11-15-S16",
+            "FACT-2026-11-15-S17",
+            "FACT-2026-11-15-S18",
+            "FACT-2026-11-15-S19",
+            "FACT-2026-11-15-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-24T21:06:31.395503+00:00",
+          "published_count": 9,
+          "started_at": "2026-11-24T21:02:59.836226+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -12933,6 +12952,105 @@
           "image_source": "Generated card",
           "message_id": 1098,
           "published_at": "2026-11-23T10:01:16.571852+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S11": {
+          "batch": 2,
+          "claim_key": "b5d65e009e37ff803422541a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1119,
+          "published_at": "2026-11-24T21:05:05.932924+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S12": {
+          "batch": 2,
+          "claim_key": "98a656517e51bbeed80635b1",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1120,
+          "published_at": "2026-11-24T21:05:10.698306+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S13": {
+          "batch": 2,
+          "claim_key": "e16cdc61f6810a043ad6475e",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1121,
+          "published_at": "2026-11-24T21:05:14.441786+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S14": {
+          "batch": 2,
+          "claim_key": "64850d24c375c54a0fdc4c94",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1122,
+          "published_at": "2026-11-24T21:05:16.288419+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S15": {
+          "batch": 2,
+          "claim_key": "cead473f5282d455da3b80d0",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1123,
+          "published_at": "2026-11-24T21:05:20.352270+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S16": {
+          "batch": 2,
+          "claim_key": "dbe9a53f4412db57ee70536c",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1124,
+          "published_at": "2026-11-24T21:05:22.354522+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S18": {
+          "batch": 2,
+          "claim_key": "fecefb3574aa89f745d9fae3",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1125,
+          "published_at": "2026-11-24T21:05:44.397840+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S19": {
+          "batch": 2,
+          "claim_key": "28a35d546cb5006eb1e8be88",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1126,
+          "published_at": "2026-11-24T21:05:46.285348+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-15-S20": {
+          "batch": 2,
+          "claim_key": "a4b15edba54ec5819b50b5bb",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1127,
+          "published_at": "2026-11-24T21:06:31.378571+00:00",
           "send_mode": "card_rich",
           "status": "published"
         }
@@ -18722,6 +18840,10 @@
       "date": "2026-10-13",
       "fact_id": "FACT-2026-10-13-S04"
     },
+    "28a35d546cb5006eb1e8be88": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S19"
+    },
     "28d62f915568a81bf5be4bdd": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S11"
@@ -19702,6 +19824,10 @@
       "date": "2026-10-21",
       "fact_id": "FACT-2026-10-21-S09"
     },
+    "64850d24c375c54a0fdc4c94": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S14"
+    },
     "64d2a14312037da726a7f53b": {
       "date": "2026-10-19",
       "fact_id": "FACT-2026-10-19-S02"
@@ -20502,6 +20628,10 @@
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S01"
     },
+    "98a656517e51bbeed80635b1": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S12"
+    },
     "98c3cf70249e879c9220001df50fad8e4aad8115": {
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S09"
@@ -20709,6 +20839,10 @@
     "a48166b56492eb5c1e9086ba": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S20"
+    },
+    "a4b15edba54ec5819b50b5bb": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S20"
     },
     "a564fea3d86d5e47a449006f": {
       "date": "2026-11-03",
@@ -20969,6 +21103,10 @@
     "b5b9f0f9c9153193aa003b92": {
       "date": "2026-11-06",
       "fact_id": "FACT-2026-11-06-S15"
+    },
+    "b5d65e009e37ff803422541a": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S11"
     },
     "b5e02f6dd389595a72fa63b1": {
       "date": "2026-11-01",
@@ -21350,6 +21488,10 @@
       "date": "2026-11-06",
       "fact_id": "FACT-2026-11-06-S17"
     },
+    "cead473f5282d455da3b80d0": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S15"
+    },
     "cedffb1e8e1ee9f93574101f": {
       "date": "2026-11-13",
       "fact_id": "FACT-2026-11-13-S18"
@@ -21554,6 +21696,10 @@
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S17"
     },
+    "dbe9a53f4412db57ee70536c": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S16"
+    },
     "dbfe44de701018e5975ae02a": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S12"
@@ -21637,6 +21783,10 @@
     "e137dbd0cc493fc765fb4a36": {
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S03"
+    },
+    "e16cdc61f6810a043ad6475e": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S13"
     },
     "e177ccfacf5eb3d048bf390f": {
       "date": "2026-11-01",
@@ -22037,6 +22187,10 @@
     "fe9b985c8048a3d724429df5": {
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S09"
+    },
+    "fecefb3574aa89f745d9fae3": {
+      "date": "2026-11-15",
+      "fact_id": "FACT-2026-11-15-S18"
     },
     "fed0ca59eade6f831847f2fa2f97c2802cafa39f": {
       "date": "2026-09-25",
@@ -23951,6 +24105,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-15",
+      "dry_run": false,
+      "processed": 9,
+      "published_now": 9,
+      "recorded_at": "2026-11-24T21:06:31.395553+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
