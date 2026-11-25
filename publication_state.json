@@ -13190,6 +13190,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-17": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-17-S01",
+            "FACT-2026-11-17-S02",
+            "FACT-2026-11-17-S03",
+            "FACT-2026-11-17-S04",
+            "FACT-2026-11-17-S05",
+            "FACT-2026-11-17-S06",
+            "FACT-2026-11-17-S07",
+            "FACT-2026-11-17-S08",
+            "FACT-2026-11-17-S09",
+            "FACT-2026-11-17-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-25T10:43:55.397716+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-25T10:40:35.768312+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-17-S01": {
+          "batch": 1,
+          "claim_key": "e6979a09c17a389d0dc6c6e1",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1128,
+          "published_at": "2026-11-25T10:41:23.160207+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S02": {
+          "batch": 1,
+          "claim_key": "b1d7edba07046e5ed5e03a14",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Bright_Stars_of_Milky_Way_on_the_Dark_blue_Sky_of_Astronomy.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1129,
+          "published_at": "2026-11-25T10:41:29.407422+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S03": {
+          "batch": 1,
+          "claim_key": "5c4e3367318ef46af9e59a30",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Building_a_simple_brain_model_-_Flickr_-_brewbooks.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1130,
+          "published_at": "2026-11-25T10:42:16.620809+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S04": {
+          "batch": 1,
+          "claim_key": "38406e0c38e37ea1dd48bdce",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1131,
+          "published_at": "2026-11-25T10:42:23.699072+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S05": {
+          "batch": 1,
+          "claim_key": "e5001c5e10b3d9309545b704",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1132,
+          "published_at": "2026-11-25T10:42:29.079020+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S06": {
+          "batch": 1,
+          "claim_key": "86665c3a8b470ce2fbe4f11a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1133,
+          "published_at": "2026-11-25T10:42:31.850644+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S07": {
+          "batch": 1,
+          "claim_key": "7456c5b37837acc8c8a6325c",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1134,
+          "published_at": "2026-11-25T10:42:34.622666+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S08": {
+          "batch": 1,
+          "claim_key": "55c6563060b0664e9cb62ce7",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Geissler_Tube_-_DPLA_-_20ea2c255920fec72864358deaf10b45.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1135,
+          "published_at": "2026-11-25T10:43:42.200610+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S09": {
+          "batch": 1,
+          "claim_key": "e1f043e73257844a7ca92f3a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1136,
+          "published_at": "2026-11-25T10:43:47.281438+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S10": {
+          "batch": 1,
+          "claim_key": "2ce0502007ba7b378d1ea3f1",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Moche_-_Portrait_Vessel_-_Walters_482827.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1137,
+          "published_at": "2026-11-25T10:43:55.382013+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -18265,6 +18400,42 @@
       "score": 38,
       "source_page": "https://commons.wikimedia.org/wiki/File:NGC_6240-_Black_Holes_Go_%22Mano_A_Mano%22_(2009-ngc6240_-).tiff",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/NGC_6240-_Black_Holes_Go_%22Mano_A_Mano%22_%282009-ngc6240_-%29.tiff/lossy-page1-1280px-NGC_6240-_Black_Holes_Go_%22Mano_A_Mano%22_%282009-ngc6240_-%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-17-S02": {
+      "cached_at": "2026-11-25T10:41:27.476493+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-17-S02.jpg",
+      "query": "Orion Arm Milky Way galaxy",
+      "score": 35,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bright_Stars_of_Milky_Way_on_the_Dark_blue_Sky_of_Astronomy.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Bright_Stars_of_Milky_Way_on_the_Dark_blue_Sky_of_Astronomy.jpg/1280px-Bright_Stars_of_Milky_Way_on_the_Dark_blue_Sky_of_Astronomy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-17-S03": {
+      "cached_at": "2026-11-25T10:42:14.728007+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-17-S03.jpg",
+      "query": "human brain cortical folds gyri sulci",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Building_a_simple_brain_model_-_Flickr_-_brewbooks.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Building_a_simple_brain_model_-_Flickr_-_brewbooks.jpg/1280px-Building_a_simple_brain_model_-_Flickr_-_brewbooks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-17-S08": {
+      "cached_at": "2026-11-25T10:43:40.063341+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-17-S08.jpg",
+      "query": "Geissler tube glass tube with electric discharge",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Geissler_Tube_-_DPLA_-_20ea2c255920fec72864358deaf10b45.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Geissler_Tube_-_DPLA_-_20ea2c255920fec72864358deaf10b45.jpg/1280px-Geissler_Tube_-_DPLA_-_20ea2c255920fec72864358deaf10b45.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-17-S10": {
+      "cached_at": "2026-11-25T10:43:52.066508+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-17-S10.jpg",
+      "query": "incised Maya vessel with glyphs showing copal and cacao mixing",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Moche_-_Portrait_Vessel_-_Walters_482827.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Moche_-_Portrait_Vessel_-_Walters_482827.jpg/1280px-Moche_-_Portrait_Vessel_-_Walters_482827.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -18892,6 +19063,10 @@
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S02"
     },
+    "2ce0502007ba7b378d1ea3f1": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S10"
+    },
     "2ce976ad0cfc34a220fbf568": {
       "date": "2026-10-12",
       "fact_id": "FACT-2026-10-12-S05"
@@ -19051,6 +19226,10 @@
     "3814351c810171bc8daff60d": {
       "date": "2026-11-11",
       "fact_id": "FACT-2026-11-11-S01"
+    },
+    "38406e0c38e37ea1dd48bdce": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S04"
     },
     "390499f9bc1834fea0b2796b": {
       "date": "2026-10-15",
@@ -19520,6 +19699,10 @@
       "date": "2026-11-09",
       "fact_id": "FACT-2026-11-09-S17"
     },
+    "55c6563060b0664e9cb62ce7": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S08"
+    },
     "56314bdf31308ff9cf271f75": {
       "date": "2026-10-26",
       "fact_id": "FACT-2026-10-26-S02"
@@ -19643,6 +19826,10 @@
     "5c3a3590dc5b398d430deb03b367dbd40521b256": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S03"
+    },
+    "5c4e3367318ef46af9e59a30": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S03"
     },
     "5c65c66158003fbb34e17847": {
       "date": "2026-11-06",
@@ -20104,6 +20291,10 @@
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S13"
     },
+    "7456c5b37837acc8c8a6325c": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S07"
+    },
     "747002fc7e07648a21643bbd": {
       "date": "2026-10-27",
       "fact_id": "FACT-2026-10-27-S13"
@@ -20355,6 +20546,10 @@
     "8611c8a0fda25b7c5337c94f": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S05"
+    },
+    "86665c3a8b470ce2fbe4f11a": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S06"
     },
     "870d694f86fc1bfe2c61c20b": {
       "date": "2026-10-31",
@@ -21031,6 +21226,10 @@
     "b19a49db204476ba5dde6b93": {
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S16"
+    },
+    "b1d7edba07046e5ed5e03a14": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S02"
     },
     "b1fc91f73629e9753abd10ae": {
       "date": "2026-10-02",
@@ -21800,6 +21999,10 @@
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S07"
     },
+    "e1f043e73257844a7ca92f3a": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S09"
+    },
     "e21f080226ef9180ff9eb79c": {
       "date": "2026-10-09",
       "fact_id": "FACT-2026-10-09-S03"
@@ -21852,6 +22055,10 @@
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S08"
     },
+    "e5001c5e10b3d9309545b704": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S05"
+    },
     "e5827d21202e72a4eb0c86b4": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S02"
@@ -21871,6 +22078,10 @@
     "e68be41a426e608397f6e33b": {
       "date": "2026-11-06",
       "fact_id": "FACT-2026-11-06-S19"
+    },
+    "e6979a09c17a389d0dc6c6e1": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S01"
     },
     "e6cf5f9eb9a87ea5092c47e3": {
       "date": "2026-10-04",
@@ -24121,6 +24332,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-17",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-25T10:43:55.397748+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
