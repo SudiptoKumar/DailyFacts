@@ -13076,6 +13076,25 @@
           "published_count": 10,
           "started_at": "2026-11-24T11:46:48.947175+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-16-S11",
+            "FACT-2026-11-16-S12",
+            "FACT-2026-11-16-S13",
+            "FACT-2026-11-16-S14",
+            "FACT-2026-11-16-S15",
+            "FACT-2026-11-16-S16",
+            "FACT-2026-11-16-S17",
+            "FACT-2026-11-16-S18",
+            "FACT-2026-11-16-S19",
+            "FACT-2026-11-16-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-25T20:27:53.461127+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-25T20:25:15.664662+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -13186,6 +13205,116 @@
           "image_source": "Generated card",
           "message_id": 1118,
           "published_at": "2026-11-24T11:49:51.997109+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S11": {
+          "batch": 2,
+          "claim_key": "fb3b2eaf789f1ecbffbb0318",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1138,
+          "published_at": "2026-11-25T20:25:19.969448+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S12": {
+          "batch": 2,
+          "claim_key": "f1cfb056fe4930e995d26736",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1139,
+          "published_at": "2026-11-25T20:25:43.641969+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S13": {
+          "batch": 2,
+          "claim_key": "919b7bdd89844c92e7d534af",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1140,
+          "published_at": "2026-11-25T20:26:28.661796+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S14": {
+          "batch": 2,
+          "claim_key": "f691c9bf3b29a379cddd897b",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1141,
+          "published_at": "2026-11-25T20:26:33.935315+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S15": {
+          "batch": 2,
+          "claim_key": "e9a9bede6b98df8a5a306683",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Why_Solar_Orbiter_is_angling_towards_the_Sun%27s_poles_ESA509796.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1142,
+          "published_at": "2026-11-25T20:26:38.461124+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S16": {
+          "batch": 2,
+          "claim_key": "504d87bc9c51f6c59edf88b6",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1143,
+          "published_at": "2026-11-25T20:26:40.346767+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S17": {
+          "batch": 2,
+          "claim_key": "b50c136f0216259e2496a259",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1144,
+          "published_at": "2026-11-25T20:27:44.460142+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S18": {
+          "batch": 2,
+          "claim_key": "1ab50b16bd41996d0ab4da5c",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1145,
+          "published_at": "2026-11-25T20:27:48.660946+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S19": {
+          "batch": 2,
+          "claim_key": "3c2e84c4f385de8ee0c6a401",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1146,
+          "published_at": "2026-11-25T20:27:51.721528+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-16-S20": {
+          "batch": 2,
+          "claim_key": "8a37e212b2790766bce404bf",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1147,
+          "published_at": "2026-11-25T20:27:53.445664+00:00",
           "send_mode": "card_rich",
           "status": "published"
         }
@@ -18401,6 +18530,15 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:NGC_6240-_Black_Holes_Go_%22Mano_A_Mano%22_(2009-ngc6240_-).tiff",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/NGC_6240-_Black_Holes_Go_%22Mano_A_Mano%22_%282009-ngc6240_-%29.tiff/lossy-page1-1280px-NGC_6240-_Black_Holes_Go_%22Mano_A_Mano%22_%282009-ngc6240_-%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
+    "FACT-2026-11-16-S15": {
+      "cached_at": "2026-11-25T20:26:37.057836+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-16-S15.jpg",
+      "query": "world map displaying volcanoes, earthquakes, impact craters, and plate tectonics",
+      "score": 21,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Why_Solar_Orbiter_is_angling_towards_the_Sun%27s_poles_ESA509796.png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Why_Solar_Orbiter_is_angling_towards_the_Sun%27s_poles_ESA509796.png/1280px-Why_Solar_Orbiter_is_angling_towards_the_Sun%27s_poles_ESA509796.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
     "FACT-2026-11-17-S02": {
       "cached_at": "2026-11-25T10:41:27.476493+00:00",
       "credit": "Wikimedia Commons",
@@ -18826,6 +18964,10 @@
     "1aa31f5eb7cb26ec726cd4f1": {
       "date": "2026-11-14",
       "fact_id": "FACT-2026-11-14-S18"
+    },
+    "1ab50b16bd41996d0ab4da5c": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S18"
     },
     "1abaa63bf328a56aa3567c23": {
       "date": "2026-10-06",
@@ -19303,6 +19445,10 @@
       "date": "2026-11-14",
       "fact_id": "FACT-2026-11-14-S20"
     },
+    "3c2e84c4f385de8ee0c6a401": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S19"
+    },
     "3cb31887148bae19ca9b22b9": {
       "date": "2026-11-04",
       "fact_id": "FACT-2026-11-04-S01"
@@ -19594,6 +19740,10 @@
     "502cda165084b5a5c6e50ab0": {
       "date": "2026-10-27",
       "fact_id": "FACT-2026-10-27-S15"
+    },
+    "504d87bc9c51f6c59edf88b6": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S16"
     },
     "507b86d7fbe7488ba70bdadc": {
       "date": "2026-10-09",
@@ -20627,6 +20777,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S12"
     },
+    "8a37e212b2790766bce404bf": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S20"
+    },
     "8a4bbd4e50563ab8dc3bdb77": {
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S11"
@@ -20702,6 +20856,10 @@
     "913f0e0805b3544bf826ac8d2268d9496b796b54": {
       "date": "2026-09-28",
       "fact_id": "FACT-2026-09-28-S04"
+    },
+    "919b7bdd89844c92e7d534af": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S13"
     },
     "91ab81985d4a9019ec22fbe1": {
       "date": "2026-10-11",
@@ -21290,6 +21448,10 @@
     "b4abaec1e851640c2135dd80": {
       "date": "2026-11-05",
       "fact_id": "FACT-2026-11-05-S14"
+    },
+    "b50c136f0216259e2496a259": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S17"
     },
     "b56abc75db45e5af3b5e1047": {
       "date": "2026-10-21",
@@ -22111,6 +22273,10 @@
       "date": "2026-10-27",
       "fact_id": "FACT-2026-10-27-S05"
     },
+    "e9a9bede6b98df8a5a306683": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S15"
+    },
     "e9c5512229899c1be20ae4e0": {
       "date": "2026-11-14",
       "fact_id": "FACT-2026-11-14-S17"
@@ -22211,6 +22377,10 @@
       "date": "2026-11-15",
       "fact_id": "FACT-2026-11-15-S07"
     },
+    "f1cfb056fe4930e995d26736": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S12"
+    },
     "f371873a73d19c4a414a8afc": {
       "date": "2026-11-05",
       "fact_id": "FACT-2026-11-05-S04"
@@ -22295,6 +22465,10 @@
       "date": "2026-11-06",
       "fact_id": "FACT-2026-11-06-S07"
     },
+    "f691c9bf3b29a379cddd897b": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S14"
+    },
     "f6e208ef3f0477ca5e97ea7d": {
       "date": "2026-11-13",
       "fact_id": "FACT-2026-11-13-S06"
@@ -22362,6 +22536,10 @@
     "fb1313620116a8e8fa725cc7": {
       "date": "2026-10-10",
       "fact_id": "FACT-2026-10-10-S16"
+    },
+    "fb3b2eaf789f1ecbffbb0318": {
+      "date": "2026-11-16",
+      "fact_id": "FACT-2026-11-16-S11"
     },
     "fb3ec2598eee1d93bbdc04cb": {
       "date": "2026-10-04",
@@ -24348,6 +24526,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-16",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-25T20:27:53.461145+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
