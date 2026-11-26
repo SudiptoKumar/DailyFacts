@@ -13340,6 +13340,25 @@
           "published_count": 10,
           "started_at": "2026-11-25T10:40:35.768312+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-17-S11",
+            "FACT-2026-11-17-S12",
+            "FACT-2026-11-17-S13",
+            "FACT-2026-11-17-S14",
+            "FACT-2026-11-17-S15",
+            "FACT-2026-11-17-S16",
+            "FACT-2026-11-17-S17",
+            "FACT-2026-11-17-S18",
+            "FACT-2026-11-17-S19",
+            "FACT-2026-11-17-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-26T20:04:57.875578+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-26T20:02:16.831250+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -13450,6 +13469,116 @@
           "image_source": "Wikimedia Commons",
           "message_id": 1137,
           "published_at": "2026-11-25T10:43:55.382013+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S11": {
+          "batch": 2,
+          "claim_key": "b088f788cf6286c5c7a3a38c",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1158,
+          "published_at": "2026-11-26T20:02:21.837207+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S12": {
+          "batch": 2,
+          "claim_key": "b2b0140cefb23f9806b45180",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1159,
+          "published_at": "2026-11-26T20:02:26.149107+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S13": {
+          "batch": 2,
+          "claim_key": "6dcc9d6e1930f87031bed3e5",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1160,
+          "published_at": "2026-11-26T20:02:30.173813+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S14": {
+          "batch": 2,
+          "claim_key": "8641c59a83d5ebbcc93d5392",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1161,
+          "published_at": "2026-11-26T20:02:32.245263+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S15": {
+          "batch": 2,
+          "claim_key": "bfa29323928d2718a651f919",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1162,
+          "published_at": "2026-11-26T20:02:59.159744+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S16": {
+          "batch": 2,
+          "claim_key": "191836a271873fd2d4d68772",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1163,
+          "published_at": "2026-11-26T20:03:43.175838+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S17": {
+          "batch": 2,
+          "claim_key": "9ed62eed497c1dfa7c5ef7d7",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Coast_watch_(1979)_(20658930955).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1164,
+          "published_at": "2026-11-26T20:03:48.331330+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S18": {
+          "batch": 2,
+          "claim_key": "2d60e39b6b0d827c12a58366",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1165,
+          "published_at": "2026-11-26T20:03:51.169151+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S19": {
+          "batch": 2,
+          "claim_key": "5c91acec9ae90c679d1b7b43",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1166,
+          "published_at": "2026-11-26T20:03:53.147567+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-17-S20": {
+          "batch": 2,
+          "claim_key": "d0af18cf880187ce2d15b0b0",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Mechanics_of_the_household;_a_course_of_study_devoted_to_domestic_machinery_and_household_mechanical_appliances_(1918)_(14799395263).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1167,
+          "published_at": "2026-11-26T20:04:57.852130+00:00",
           "send_mode": "rich_photo",
           "status": "published"
         }
@@ -18710,6 +18839,24 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Moche_-_Portrait_Vessel_-_Walters_482827.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Moche_-_Portrait_Vessel_-_Walters_482827.jpg/1280px-Moche_-_Portrait_Vessel_-_Walters_482827.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
+    "FACT-2026-11-17-S17": {
+      "cached_at": "2026-11-26T20:03:46.716086+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-17-S17.jpg",
+      "query": "tornado forming over ocean water, waterspout",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Coast_watch_(1979)_(20658930955).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Coast_watch_%281979%29_%2820658930955%29.jpg/1280px-Coast_watch_%281979%29_%2820658930955%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-17-S20": {
+      "cached_at": "2026-11-26T20:04:56.294597+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-17-S20.jpg",
+      "query": "Monticello kitchen interior 18th century",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mechanics_of_the_household;_a_course_of_study_devoted_to_domestic_machinery_and_household_mechanical_appliances_(1918)_(14799395263).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Mechanics_of_the_household%3B_a_course_of_study_devoted_to_domestic_machinery_and_household_mechanical_appliances_%281918%29_%2814799395263%29.jpg/1280px-Mechanics_of_the_household%3B_a_course_of_study_devoted_to_domestic_machinery_and_household_mechanical_appliances_%281918%29_%2814799395263%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
     "FACT-2026-11-18-S02": {
       "cached_at": "2026-11-26T10:11:46.034922+00:00",
       "credit": "Wikimedia Commons",
@@ -19115,6 +19262,10 @@
       "date": "2026-11-04",
       "fact_id": "FACT-2026-11-04-S04"
     },
+    "191836a271873fd2d4d68772": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S16"
+    },
     "193ad80236457e97293ccf91": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S05"
@@ -19394,6 +19545,10 @@
     "2d12d822bf7139a334843a3da35a83e05cf51a32": {
       "date": "2026-09-24",
       "fact_id": "FACT-2026-09-24-S02"
+    },
+    "2d60e39b6b0d827c12a58366": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S18"
     },
     "2d8ab5687a421e510ca5e94d": {
       "date": "2026-10-12",
@@ -20163,6 +20318,10 @@
       "date": "2026-11-06",
       "fact_id": "FACT-2026-11-06-S01"
     },
+    "5c91acec9ae90c679d1b7b43": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S19"
+    },
     "5d0c1664eacfd787a91cb02f": {
       "date": "2026-10-20",
       "fact_id": "FACT-2026-10-20-S19"
@@ -20490,6 +20649,10 @@
     "6d397ed4fe3e7c8e8709a4dd": {
       "date": "2026-11-03",
       "fact_id": "FACT-2026-11-03-S16"
+    },
+    "6dcc9d6e1930f87031bed3e5": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S13"
     },
     "6dd753d7eed1142ac5cc68c5": {
       "date": "2026-10-31",
@@ -20886,6 +21049,10 @@
     "8611c8a0fda25b7c5337c94f": {
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S05"
+    },
+    "8641c59a83d5ebbcc93d5392": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S14"
     },
     "86665c3a8b470ce2fbe4f11a": {
       "date": "2026-11-17",
@@ -21287,6 +21454,10 @@
       "date": "2026-11-08",
       "fact_id": "FACT-2026-11-08-S06"
     },
+    "9ed62eed497c1dfa7c5ef7d7": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S17"
+    },
     "9ef94695195f5c01930b6398": {
       "date": "2026-10-24",
       "fact_id": "FACT-2026-10-24-S17"
@@ -21563,6 +21734,10 @@
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S20"
     },
+    "b088f788cf6286c5c7a3a38c": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S11"
+    },
     "b18f12d26a390c388c46ae33": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S02"
@@ -21590,6 +21765,10 @@
     "b29650890a9503c405cc346e": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S11"
+    },
+    "b2b0140cefb23f9806b45180": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S12"
     },
     "b34b8c731cc9bda72262cf7a": {
       "date": "2026-11-05",
@@ -21826,6 +22005,10 @@
     "bf1b64cd585f18e0a6b7d38b": {
       "date": "2026-11-09",
       "fact_id": "FACT-2026-11-09-S09"
+    },
+    "bfa29323928d2718a651f919": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S15"
     },
     "bfe30ba1b1d3f2f9bd0c3de9": {
       "date": "2026-10-12",
@@ -22094,6 +22277,10 @@
     "d0725b87b3f9d4504c74201f": {
       "date": "2026-10-25",
       "fact_id": "FACT-2026-10-25-S05"
+    },
+    "d0af18cf880187ce2d15b0b0": {
+      "date": "2026-11-17",
+      "fact_id": "FACT-2026-11-17-S20"
     },
     "d0b4917e6a250059ac5b77ec": {
       "date": "2026-10-09",
@@ -24760,6 +24947,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-17",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-26T20:04:57.875592+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
