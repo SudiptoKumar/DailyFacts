@@ -13454,6 +13454,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-18": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-18-S01",
+            "FACT-2026-11-18-S02",
+            "FACT-2026-11-18-S03",
+            "FACT-2026-11-18-S04",
+            "FACT-2026-11-18-S05",
+            "FACT-2026-11-18-S06",
+            "FACT-2026-11-18-S07",
+            "FACT-2026-11-18-S08",
+            "FACT-2026-11-18-S09",
+            "FACT-2026-11-18-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-26T10:13:17.668436+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-26T10:10:33.327639+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-18-S01": {
+          "batch": 1,
+          "claim_key": "c3ac196a28e9d48d7fe79826",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1148,
+          "published_at": "2026-11-26T10:11:03.056726+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S02": {
+          "batch": 1,
+          "claim_key": "049a783d15ac5f2af2d5d903",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Hubble_Spots_an_Icy_World_Far_Beyond_Pluto_(artist%27s_impression).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1149,
+          "published_at": "2026-11-26T10:11:47.494726+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S03": {
+          "batch": 1,
+          "claim_key": "2be13b3f09419eba877dbda9",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1150,
+          "published_at": "2026-11-26T10:11:51.356175+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S04": {
+          "batch": 1,
+          "claim_key": "089a96fafa66b95c5cb5b1ab",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1151,
+          "published_at": "2026-11-26T10:11:53.458562+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S05": {
+          "batch": 1,
+          "claim_key": "6b5b9b4f1f0651b9c294ef6d",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Balaenoptera_musculus_(blue_whale)_1_(31068434305).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1152,
+          "published_at": "2026-11-26T10:12:57.889286+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S06": {
+          "batch": 1,
+          "claim_key": "7eec52dd0693864c3653a6f6",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1153,
+          "published_at": "2026-11-26T10:13:02.027755+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S07": {
+          "batch": 1,
+          "claim_key": "e1791eaa3c7173147c81c8b4",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1154,
+          "published_at": "2026-11-26T10:13:06.859541+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S08": {
+          "batch": 1,
+          "claim_key": "69d2776b444bd91cd0b22e54",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1155,
+          "published_at": "2026-11-26T10:13:10.927212+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S09": {
+          "batch": 1,
+          "claim_key": "c59167514e23ef254347b8cd",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Defects_in_timber_caused_by_insects_(1490)_(20658326730).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1156,
+          "published_at": "2026-11-26T10:13:15.697876+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S10": {
+          "batch": 1,
+          "claim_key": "0268609fd5a39582b8ce20e9",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1157,
+          "published_at": "2026-11-26T10:13:17.646783+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -18574,6 +18709,33 @@
       "score": 23,
       "source_page": "https://commons.wikimedia.org/wiki/File:Moche_-_Portrait_Vessel_-_Walters_482827.jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Moche_-_Portrait_Vessel_-_Walters_482827.jpg/1280px-Moche_-_Portrait_Vessel_-_Walters_482827.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-18-S02": {
+      "cached_at": "2026-11-26T10:11:46.034922+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-18-S02.jpg",
+      "query": "Kuiper Belt icy bodies beyond Neptune's orbit",
+      "score": 27,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hubble_Spots_an_Icy_World_Far_Beyond_Pluto_(artist%27s_impression).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Hubble_Spots_an_Icy_World_Far_Beyond_Pluto_%28artist%27s_impression%29.jpg/1280px-Hubble_Spots_an_Icy_World_Far_Beyond_Pluto_%28artist%27s_impression%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-18-S05": {
+      "cached_at": "2026-11-26T10:12:56.583069+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-18-S05.jpg",
+      "query": "blue whale swimming in the ocean",
+      "score": 27,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Balaenoptera_musculus_(blue_whale)_1_(31068434305).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Balaenoptera_musculus_%28blue_whale%29_1_%2831068434305%29.jpg/1280px-Balaenoptera_musculus_%28blue_whale%29_1_%2831068434305%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-18-S09": {
+      "cached_at": "2026-11-26T10:13:13.680358+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-18-S09.jpg",
+      "query": "illustration of a black hole",
+      "score": 33,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Defects_in_timber_caused_by_insects_(1490)_(20658326730).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Defects_in_timber_caused_by_insects_%281490%29_%2820658326730%29.jpg/1280px-Defects_in_timber_caused_by_insects_%281490%29_%2820658326730%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -18609,6 +18771,10 @@
       "date": "2026-11-15",
       "fact_id": "FACT-2026-11-15-S08"
     },
+    "0268609fd5a39582b8ce20e9": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S10"
+    },
     "027ebc34021c265c457c6206": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S17"
@@ -18628,6 +18794,10 @@
     "03ef63e3fb2052ae06626139": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S16"
+    },
+    "049a783d15ac5f2af2d5d903": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S02"
     },
     "04d377b8935fac4fd05da53d": {
       "date": "2026-10-20",
@@ -18660,6 +18830,10 @@
     "0864066b3bb93a6da0e9c28a": {
       "date": "2026-10-29",
       "fact_id": "FACT-2026-10-29-S07"
+    },
+    "089a96fafa66b95c5cb5b1ab": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S04"
     },
     "08fd9ded508888f6c509fa37": {
       "date": "2026-11-10",
@@ -19192,6 +19366,10 @@
     "2bb89f777e25e2ea76e4e23b": {
       "date": "2026-11-16",
       "fact_id": "FACT-2026-11-16-S10"
+    },
+    "2be13b3f09419eba877dbda9": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S03"
     },
     "2be8d54d2f5491725304713a": {
       "date": "2026-11-13",
@@ -20229,6 +20407,10 @@
       "date": "2026-09-30",
       "fact_id": "FACT-2026-09-30-S06"
     },
+    "69d2776b444bd91cd0b22e54": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S08"
+    },
     "6a211b4567b9957793cf9c73": {
       "date": "2026-10-22",
       "fact_id": "FACT-2026-10-22-S05"
@@ -20264,6 +20446,10 @@
     "6b489d5c7359f5e6a7428863": {
       "date": "2026-11-10",
       "fact_id": "FACT-2026-11-10-S08"
+    },
+    "6b5b9b4f1f0651b9c294ef6d": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S05"
     },
     "6b6ccf3567dc140bade8e4985d5b3211a96e1ad0": {
       "date": "2026-09-24",
@@ -20608,6 +20794,10 @@
     "7e48400111f58fa6929f939f": {
       "date": "2026-11-06",
       "fact_id": "FACT-2026-11-06-S20"
+    },
+    "7eec52dd0693864c3653a6f6": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S06"
     },
     "8031501e26a99ef49154a49c": {
       "date": "2026-10-26",
@@ -21697,6 +21887,10 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S13"
     },
+    "c3ac196a28e9d48d7fe79826": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S01"
+    },
     "c3b7476a38730e231714cd20ca8b09957ef631ad": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S05"
@@ -21728,6 +21922,10 @@
     "c580e1cdfd48f3e0b9fa5623": {
       "date": "2026-11-13",
       "fact_id": "FACT-2026-11-13-S12"
+    },
+    "c59167514e23ef254347b8cd": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S09"
     },
     "c5f4a7946939a079171ceb83": {
       "date": "2026-10-03",
@@ -22152,6 +22350,10 @@
     "e177ccfacf5eb3d048bf390f": {
       "date": "2026-11-01",
       "fact_id": "FACT-2026-11-01-S08"
+    },
+    "e1791eaa3c7173147c81c8b4": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S07"
     },
     "e17b3289d654fb4198e23436": {
       "date": "2026-10-06",
@@ -24542,6 +24744,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-18",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-26T10:13:17.668464+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
