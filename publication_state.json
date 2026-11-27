@@ -13718,6 +13718,130 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-19": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-19-S01",
+            "FACT-2026-11-19-S02",
+            "FACT-2026-11-19-S03",
+            "FACT-2026-11-19-S04",
+            "FACT-2026-11-19-S05",
+            "FACT-2026-11-19-S06",
+            "FACT-2026-11-19-S07",
+            "FACT-2026-11-19-S08",
+            "FACT-2026-11-19-S09",
+            "FACT-2026-11-19-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-27T10:19:20.838377+00:00",
+          "published_count": 9,
+          "started_at": "2026-11-27T10:16:24.895496+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-19-S01": {
+          "batch": 1,
+          "claim_key": "1151b43f4f6988bb9eed9b7a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1168,
+          "published_at": "2026-11-27T10:16:58.230587+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-19-S02": {
+          "batch": 1,
+          "claim_key": "772ef1f7d91ae0df926c05d3",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Kuiper_belt_plot_objects_of_outer_solar_system.png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1169,
+          "published_at": "2026-11-27T10:17:03.801762+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-19-S03": {
+          "batch": 1,
+          "claim_key": "217711bf52faa4a3e4a8627a",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Dissociative_identity_disorder_neuroscience_brain_imaging_(no_description).png",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1170,
+          "published_at": "2026-11-27T10:17:50.027809+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-19-S04": {
+          "batch": 1,
+          "claim_key": "7e4540080da9d7d9e1066537",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1171,
+          "published_at": "2026-11-27T10:17:58.122343+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-19-S05": {
+          "batch": 1,
+          "claim_key": "bdb73258cf89768c6a337fa2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1172,
+          "published_at": "2026-11-27T10:18:01.286856+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-19-S06": {
+          "batch": 1,
+          "claim_key": "ceda0180135c039b696e06a2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1173,
+          "published_at": "2026-11-27T10:19:07.494955+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-19-S07": {
+          "batch": 1,
+          "claim_key": "e2ad52f6fbbef647ee38880a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1174,
+          "published_at": "2026-11-27T10:19:13.424978+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-19-S09": {
+          "batch": 1,
+          "claim_key": "0f68a7a1d53789641c47a930",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Black_hole_(artist%27s_impression)_(heic0211h).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1175,
+          "published_at": "2026-11-27T10:19:18.092303+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-19-S10": {
+          "batch": 1,
+          "claim_key": "1c9468dca706d3281907c664",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1176,
+          "published_at": "2026-11-27T10:19:20.816498+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -18883,6 +19007,33 @@
       "score": 33,
       "source_page": "https://commons.wikimedia.org/wiki/File:Defects_in_timber_caused_by_insects_(1490)_(20658326730).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Defects_in_timber_caused_by_insects_%281490%29_%2820658326730%29.jpg/1280px-Defects_in_timber_caused_by_insects_%281490%29_%2820658326730%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-19-S02": {
+      "cached_at": "2026-11-27T10:17:02.133145+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-19-S02.jpg",
+      "query": "Kuiper Belt objects orbiting the Sun, with Pluto highlighted",
+      "score": 32,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kuiper_belt_plot_objects_of_outer_solar_system.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Kuiper_belt_plot_objects_of_outer_solar_system.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "FACT-2026-11-19-S03": {
+      "cached_at": "2026-11-27T10:17:48.557441+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-19-S03.jpg",
+      "query": "illustration of the motor cortex in the human brain",
+      "score": 17,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dissociative_identity_disorder_neuroscience_brain_imaging_(no_description).png",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Dissociative_identity_disorder_neuroscience_brain_imaging_%28no_description%29.png/1280px-Dissociative_identity_disorder_neuroscience_brain_imaging_%28no_description%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-19-S09": {
+      "cached_at": "2026-11-27T10:19:16.268987+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-19-S09.jpg",
+      "query": "artist's impression of a black hole",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Black_hole_(artist%27s_impression)_(heic0211h).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Black_hole_%28artist%27s_impression%29_%28heic0211h%29.jpg/1280px-Black_hole_%28artist%27s_impression%29_%28heic0211h%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -19102,6 +19253,10 @@
       "date": "2026-11-04",
       "fact_id": "FACT-2026-11-04-S02"
     },
+    "0f68a7a1d53789641c47a930": {
+      "date": "2026-11-19",
+      "fact_id": "FACT-2026-11-19-S09"
+    },
     "0f9a07815d2f5f527261981f": {
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S18"
@@ -19137,6 +19292,10 @@
     "114643e083b0c0d07e233143": {
       "date": "2026-11-12",
       "fact_id": "FACT-2026-11-12-S04"
+    },
+    "1151b43f4f6988bb9eed9b7a": {
+      "date": "2026-11-19",
+      "fact_id": "FACT-2026-11-19-S01"
     },
     "116399879916fe7b4533434e": {
       "date": "2026-10-30",
@@ -19322,6 +19481,10 @@
       "date": "2026-11-03",
       "fact_id": "FACT-2026-11-03-S07"
     },
+    "1c9468dca706d3281907c664": {
+      "date": "2026-11-19",
+      "fact_id": "FACT-2026-11-19-S10"
+    },
     "1db78455e3cd9d419709866541a1a1a284909a8e": {
       "date": "2026-09-27",
       "fact_id": "FACT-2026-09-27-S03"
@@ -19373,6 +19536,10 @@
     "215dd2adaa465c125fdfe308": {
       "date": "2026-10-02",
       "fact_id": "FACT-2026-10-02-S17"
+    },
+    "217711bf52faa4a3e4a8627a": {
+      "date": "2026-11-19",
+      "fact_id": "FACT-2026-11-19-S03"
     },
     "21ddf2aad53317a531d4c7a1": {
       "date": "2026-10-30",
@@ -20850,6 +21017,10 @@
       "date": "2026-10-03",
       "fact_id": "FACT-2026-10-03-S10"
     },
+    "772ef1f7d91ae0df926c05d3": {
+      "date": "2026-11-19",
+      "fact_id": "FACT-2026-11-19-S02"
+    },
     "7757707bd1af410f80b1b1e1": {
       "date": "2026-11-13",
       "fact_id": "FACT-2026-11-13-S17"
@@ -20953,6 +21124,10 @@
     "7e43f4ffb6720aec5d21f177": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S17"
+    },
+    "7e4540080da9d7d9e1066537": {
+      "date": "2026-11-19",
+      "fact_id": "FACT-2026-11-19-S04"
     },
     "7e48400111f58fa6929f939f": {
       "date": "2026-11-06",
@@ -21978,6 +22153,10 @@
       "date": "2026-10-16",
       "fact_id": "FACT-2026-10-16-S07"
     },
+    "bdb73258cf89768c6a337fa2": {
+      "date": "2026-11-19",
+      "fact_id": "FACT-2026-11-19-S05"
+    },
     "bdcaf383bf2eccc7952adcab": {
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S03"
@@ -22233,6 +22412,10 @@
     "cead473f5282d455da3b80d0": {
       "date": "2026-11-15",
       "fact_id": "FACT-2026-11-15-S15"
+    },
+    "ceda0180135c039b696e06a2": {
+      "date": "2026-11-19",
+      "fact_id": "FACT-2026-11-19-S06"
     },
     "cedffb1e8e1ee9f93574101f": {
       "date": "2026-11-13",
@@ -22569,6 +22752,10 @@
     "e2644f6ed382dab37d5612e7": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S08"
+    },
+    "e2ad52f6fbbef647ee38880a": {
+      "date": "2026-11-19",
+      "fact_id": "FACT-2026-11-19-S07"
     },
     "e32370c886cad6d8faae0abf": {
       "date": "2026-10-21",
@@ -24963,6 +25150,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-19",
+      "dry_run": false,
+      "processed": 9,
+      "published_now": 9,
+      "recorded_at": "2026-11-27T10:19:20.838440+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
