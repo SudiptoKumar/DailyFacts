@@ -13604,6 +13604,25 @@
           "published_count": 10,
           "started_at": "2026-11-26T10:10:33.327639+00:00",
           "status": "completed"
+        },
+        "batch_2": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-18-S11",
+            "FACT-2026-11-18-S12",
+            "FACT-2026-11-18-S13",
+            "FACT-2026-11-18-S14",
+            "FACT-2026-11-18-S15",
+            "FACT-2026-11-18-S16",
+            "FACT-2026-11-18-S17",
+            "FACT-2026-11-18-S18",
+            "FACT-2026-11-18-S19",
+            "FACT-2026-11-18-S20"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-27T19:52:44.534256+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-27T19:50:59.162784+00:00",
+          "status": "completed"
         }
       },
       "facts": {
@@ -13714,6 +13733,116 @@
           "image_source": "Generated card",
           "message_id": 1157,
           "published_at": "2026-11-26T10:13:17.646783+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S11": {
+          "batch": 2,
+          "claim_key": "9577963ae70b47df8e3df70a",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Great_Wall_of_China,_Mutianyu_Section.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1177,
+          "published_at": "2026-11-27T19:51:05.458984+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S12": {
+          "batch": 2,
+          "claim_key": "d310addaa065fc32404b9776",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1178,
+          "published_at": "2026-11-27T19:51:09.295193+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S13": {
+          "batch": 2,
+          "claim_key": "d71b65e84ed63ba03b6ccd9e",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1179,
+          "published_at": "2026-11-27T19:51:13.209968+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S14": {
+          "batch": 2,
+          "claim_key": "597a7bdba0e891e726c4cb42",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1180,
+          "published_at": "2026-11-27T19:51:15.318545+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S15": {
+          "batch": 2,
+          "claim_key": "8e3abe9098da7c426068e70a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1181,
+          "published_at": "2026-11-27T19:51:20.574891+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S16": {
+          "batch": 2,
+          "claim_key": "cac928af3cb5f892e00f5f7e",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1182,
+          "published_at": "2026-11-27T19:51:43.107422+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S17": {
+          "batch": 2,
+          "claim_key": "ec2e6881db11e08323f70faa",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1183,
+          "published_at": "2026-11-27T19:51:45.448507+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S18": {
+          "batch": 2,
+          "claim_key": "278621c11dfc79eea0702839",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1184,
+          "published_at": "2026-11-27T19:52:29.502542+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S19": {
+          "batch": 2,
+          "claim_key": "749ff3f0331263b1bcc5856a",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:White_Investment_Company_Building,_San_Francisco._Louis_P._Hobart,_Architect_(Architect_and_engineer,_1909).jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1185,
+          "published_at": "2026-11-27T19:52:37.697741+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-18-S20": {
+          "batch": 2,
+          "claim_key": "868974a3c6f51faf1c812b85",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1186,
+          "published_at": "2026-11-27T19:52:44.521649+00:00",
           "send_mode": "card_rich",
           "status": "published"
         }
@@ -19008,6 +19137,24 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Defects_in_timber_caused_by_insects_(1490)_(20658326730).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Defects_in_timber_caused_by_insects_%281490%29_%2820658326730%29.jpg/1280px-Defects_in_timber_caused_by_insects_%281490%29_%2820658326730%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
+    "FACT-2026-11-18-S11": {
+      "cached_at": "2026-11-27T19:51:03.706795+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-18-S11.jpg",
+      "query": "Great Wall of China showing its branches and spurs",
+      "score": 20,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Great_Wall_of_China,_Mutianyu_Section.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Great_Wall_of_China%2C_Mutianyu_Section.jpg/1280px-Great_Wall_of_China%2C_Mutianyu_Section.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-18-S19": {
+      "cached_at": "2026-11-27T19:52:35.762720+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-18-S19.jpg",
+      "query": "illustration of a group of investors contributing money to a fund that invests in securities",
+      "score": 16,
+      "source_page": "https://commons.wikimedia.org/wiki/File:White_Investment_Company_Building,_San_Francisco._Louis_P._Hobart,_Architect_(Architect_and_engineer,_1909).jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/White_Investment_Company_Building%2C_San_Francisco._Louis_P._Hobart%2C_Architect_%28Architect_and_engineer%2C_1909%29.jpg/1280px-White_Investment_Company_Building%2C_San_Francisco._Louis_P._Hobart%2C_Architect_%28Architect_and_engineer%2C_1909%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
     "FACT-2026-11-19-S02": {
       "cached_at": "2026-11-27T10:17:02.133145+00:00",
       "credit": "Wikimedia Commons",
@@ -19620,6 +19767,10 @@
     "277ec91e6b5f0306a1f968c7": {
       "date": "2026-11-11",
       "fact_id": "FACT-2026-11-11-S11"
+    },
+    "278621c11dfc79eea0702839": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S18"
     },
     "27d5908525d5431bc0e1e337": {
       "date": "2026-11-12",
@@ -20417,6 +20568,10 @@
       "date": "2026-10-07",
       "fact_id": "FACT-2026-10-07-S12"
     },
+    "597a7bdba0e891e726c4cb42": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S14"
+    },
     "59f01444a88d81b5403fe64c": {
       "date": "2026-10-30",
       "fact_id": "FACT-2026-10-30-S08"
@@ -20973,6 +21128,10 @@
       "date": "2026-11-01",
       "fact_id": "FACT-2026-11-01-S02"
     },
+    "749ff3f0331263b1bcc5856a": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S19"
+    },
     "74a1ad13015f561ec47ab7c0": {
       "date": "2026-11-05",
       "fact_id": "FACT-2026-11-05-S03"
@@ -21233,6 +21392,10 @@
       "date": "2026-11-17",
       "fact_id": "FACT-2026-11-17-S06"
     },
+    "868974a3c6f51faf1c812b85": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S20"
+    },
     "870d694f86fc1bfe2c61c20b": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S15"
@@ -21365,6 +21528,10 @@
       "date": "2026-10-15",
       "fact_id": "FACT-2026-10-15-S05"
     },
+    "8e3abe9098da7c426068e70a": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S15"
+    },
     "8eff37c4e0a28a88756f5430": {
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S17"
@@ -21472,6 +21639,10 @@
     "9512fc2cc8b42de4862e6e2a": {
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S09"
+    },
+    "9577963ae70b47df8e3df70a": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S11"
     },
     "95ed3077aed432917f0ac709": {
       "date": "2026-10-21",
@@ -22369,6 +22540,10 @@
       "date": "2026-10-23",
       "fact_id": "FACT-2026-10-23-S02"
     },
+    "cac928af3cb5f892e00f5f7e": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S16"
+    },
     "cb2c2344bb3452aa292fa6814a9b980b4d7a073c": {
       "date": "2026-09-25",
       "fact_id": "FACT-2026-09-25-S02"
@@ -22485,6 +22660,10 @@
       "date": "2026-11-10",
       "fact_id": "FACT-2026-11-10-S13"
     },
+    "d310addaa065fc32404b9776": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S12"
+    },
     "d33997e1296ee510d4572550": {
       "date": "2026-11-03",
       "fact_id": "FACT-2026-11-03-S01"
@@ -22540,6 +22719,10 @@
     "d64e7ac383606b2ee5aedbd9": {
       "date": "2026-10-04",
       "fact_id": "FACT-2026-10-04-S06"
+    },
+    "d71b65e84ed63ba03b6ccd9e": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S13"
     },
     "d7681975d53356c3764e0b02": {
       "date": "2026-10-21",
@@ -22900,6 +23083,10 @@
     "ebd937c0ea470daa3119bee6": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S14"
+    },
+    "ec2e6881db11e08323f70faa": {
+      "date": "2026-11-18",
+      "fact_id": "FACT-2026-11-18-S17"
     },
     "ec4b56edbf5511684de1c1b8": {
       "date": "2026-10-22",
@@ -25166,6 +25353,22 @@
       "slots": [
         1,
         10
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 2,
+      "date": "2026-11-18",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-27T19:52:44.534276+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 11 * * *",
+      "slots": [
+        11,
+        20
       ],
       "status": "completed"
     }
