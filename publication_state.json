@@ -13971,6 +13971,141 @@
           "status": "published"
         }
       }
+    },
+    "2026-11-20": {
+      "batches": {
+        "batch_1": {
+          "allocated_fact_ids": [
+            "FACT-2026-11-20-S01",
+            "FACT-2026-11-20-S02",
+            "FACT-2026-11-20-S03",
+            "FACT-2026-11-20-S04",
+            "FACT-2026-11-20-S05",
+            "FACT-2026-11-20-S06",
+            "FACT-2026-11-20-S07",
+            "FACT-2026-11-20-S08",
+            "FACT-2026-11-20-S09",
+            "FACT-2026-11-20-S10"
+          ],
+          "failed_count": 0,
+          "finished_at": "2026-11-28T09:38:11.688365+00:00",
+          "published_count": 10,
+          "started_at": "2026-11-28T09:35:21.792393+00:00",
+          "status": "completed"
+        }
+      },
+      "facts": {
+        "FACT-2026-11-20-S01": {
+          "batch": 1,
+          "claim_key": "6f497c2fea0f21963a7285a8",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:PIA22232insightlandingonmars.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1187,
+          "published_at": "2026-11-28T09:35:53.609934+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-20-S02": {
+          "batch": 1,
+          "claim_key": "042c0a8c018c72c17570c569",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Oort_cloud_Sedna_orbit-de.svg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1188,
+          "published_at": "2026-11-28T09:35:58.076422+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-20-S03": {
+          "batch": 1,
+          "claim_key": "0e0777642c4d609cfba7b4fa",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1189,
+          "published_at": "2026-11-28T09:36:02.686296+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-20-S04": {
+          "batch": 1,
+          "claim_key": "36894ca5f4b71267c9e4ee81",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1190,
+          "published_at": "2026-11-28T09:36:47.020249+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-20-S05": {
+          "batch": 1,
+          "claim_key": "ac19b2e23b3d29e55b5f6f0a",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1191,
+          "published_at": "2026-11-28T09:37:51.791488+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-20-S06": {
+          "batch": 1,
+          "claim_key": "ba279271dc244817c80f17fc",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1192,
+          "published_at": "2026-11-28T09:37:57.055707+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-20-S07": {
+          "batch": 1,
+          "claim_key": "ef4b25e3cc58192fc41de01f",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Wandmosaik_Grundschule_an_der_Wuhle_Berlin_1v2.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1193,
+          "published_at": "2026-11-28T09:38:00.593784+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-20-S08": {
+          "batch": 1,
+          "claim_key": "3d8bd0fee26b6e45f64d8b4e",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1194,
+          "published_at": "2026-11-28T09:38:04.699324+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        },
+        "FACT-2026-11-20-S09": {
+          "batch": 1,
+          "claim_key": "eb393bc03c9366b64db727bf",
+          "image_credit": "Wikimedia Commons",
+          "image_page": "https://commons.wikimedia.org/wiki/File:Illustration_of_a_black_hole_and_its_surrounding_disk.jpg",
+          "image_source": "Wikimedia Commons",
+          "message_id": 1195,
+          "published_at": "2026-11-28T09:38:09.066543+00:00",
+          "send_mode": "rich_photo",
+          "status": "published"
+        },
+        "FACT-2026-11-20-S10": {
+          "batch": 1,
+          "claim_key": "5d1b257c714ff151f26ab5a2",
+          "image_credit": "",
+          "image_page": "",
+          "image_source": "Generated card",
+          "message_id": 1196,
+          "published_at": "2026-11-28T09:38:11.670649+00:00",
+          "send_mode": "card_rich",
+          "status": "published"
+        }
+      }
     }
   },
   "image_cache": {
@@ -19181,6 +19316,42 @@
       "score": 23,
       "source_page": "https://commons.wikimedia.org/wiki/File:Black_hole_(artist%27s_impression)_(heic0211h).jpg",
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Black_hole_%28artist%27s_impression%29_%28heic0211h%29.jpg/1280px-Black_hole_%28artist%27s_impression%29_%28heic0211h%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-20-S01": {
+      "cached_at": "2026-11-28T09:35:52.311714+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-20-S01.jpg",
+      "query": "seismic monitoring equipment comparing artificial and natural earthquake waveforms",
+      "score": 19,
+      "source_page": "https://commons.wikimedia.org/wiki/File:PIA22232insightlandingonmars.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/PIA22232insightlandingonmars.jpg/1280px-PIA22232insightlandingonmars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-20-S02": {
+      "cached_at": "2026-11-28T09:35:56.665779+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-20-S02.jpg",
+      "query": "illustration of the Oort Cloud surrounding the solar system",
+      "score": 22,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Oort_cloud_Sedna_orbit-de.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Oort_cloud_Sedna_orbit-de.svg/1280px-Oort_cloud_Sedna_orbit-de.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-20-S07": {
+      "cached_at": "2026-11-28T09:37:59.007078+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-20-S07.jpg",
+      "query": "President Reagan speaking at the Berlin Wall June 12 1987 photograph",
+      "score": 18,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wandmosaik_Grundschule_an_der_Wuhle_Berlin_1v2.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Wandmosaik_Grundschule_an_der_Wuhle_Berlin_1v2.jpg/1280px-Wandmosaik_Grundschule_an_der_Wuhle_Berlin_1v2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "FACT-2026-11-20-S09": {
+      "cached_at": "2026-11-28T09:38:07.738111+00:00",
+      "credit": "Wikimedia Commons",
+      "path": "/home/runner/work/DailyFacts/DailyFacts/generated/FACT-2026-11-20-S09.jpg",
+      "query": "illustration of a black hole with surrounding space",
+      "score": 23,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Illustration_of_a_black_hole_and_its_surrounding_disk.jpg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Illustration_of_a_black_hole_and_its_surrounding_disk.jpg/1280px-Illustration_of_a_black_hole_and_its_surrounding_disk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   "published_claims": {
@@ -19239,6 +19410,10 @@
     "03ef63e3fb2052ae06626139": {
       "date": "2026-10-05",
       "fact_id": "FACT-2026-10-05-S16"
+    },
+    "042c0a8c018c72c17570c569": {
+      "date": "2026-11-20",
+      "fact_id": "FACT-2026-11-20-S02"
     },
     "049a783d15ac5f2af2d5d903": {
       "date": "2026-11-18",
@@ -19375,6 +19550,10 @@
     "0ded6c1a8c9d74dd018ed1da": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S14"
+    },
+    "0e0777642c4d609cfba7b4fa": {
+      "date": "2026-11-20",
+      "fact_id": "FACT-2026-11-20-S03"
     },
     "0e3af8db3dd2b3eb95f5906b": {
       "date": "2026-11-06",
@@ -19992,6 +20171,10 @@
       "date": "2026-10-11",
       "fact_id": "FACT-2026-10-11-S09"
     },
+    "36894ca5f4b71267c9e4ee81": {
+      "date": "2026-11-20",
+      "fact_id": "FACT-2026-11-20-S04"
+    },
     "370c5f2e97f20d93124484a0": {
       "date": "2026-10-14",
       "fact_id": "FACT-2026-10-14-S04"
@@ -20123,6 +20306,10 @@
     "3d7204cfac9ef639aa8fd26f": {
       "date": "2026-10-28",
       "fact_id": "FACT-2026-10-28-S01"
+    },
+    "3d8bd0fee26b6e45f64d8b4e": {
+      "date": "2026-11-20",
+      "fact_id": "FACT-2026-11-20-S08"
     },
     "3da44dae324b1a44423b2c4e": {
       "date": "2026-10-09",
@@ -20656,6 +20843,10 @@
       "date": "2026-11-14",
       "fact_id": "FACT-2026-11-14-S01"
     },
+    "5d1b257c714ff151f26ab5a2": {
+      "date": "2026-11-20",
+      "fact_id": "FACT-2026-11-20-S10"
+    },
     "5d5239a26bd2b0481f43724d": {
       "date": "2026-11-01",
       "fact_id": "FACT-2026-11-01-S16"
@@ -21011,6 +21202,10 @@
     "6f48b72962b84fb2514f796a": {
       "date": "2026-11-08",
       "fact_id": "FACT-2026-11-08-S05"
+    },
+    "6f497c2fea0f21963a7285a8": {
+      "date": "2026-11-20",
+      "fact_id": "FACT-2026-11-20-S01"
     },
     "7013e4af3dd1368dc08700f8": {
       "date": "2026-11-12",
@@ -22012,6 +22207,10 @@
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S02"
     },
+    "ac19b2e23b3d29e55b5f6f0a": {
+      "date": "2026-11-20",
+      "fact_id": "FACT-2026-11-20-S05"
+    },
     "ac7c4ba41396a26414373b2d": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S09"
@@ -22279,6 +22478,10 @@
     "ba2585a146868586fc1991a8": {
       "date": "2026-10-08",
       "fact_id": "FACT-2026-10-08-S13"
+    },
+    "ba279271dc244817c80f17fc": {
+      "date": "2026-11-20",
+      "fact_id": "FACT-2026-11-20-S06"
     },
     "ba35e14a8184d11eb194a51f": {
       "date": "2026-10-10",
@@ -23080,6 +23283,10 @@
       "date": "2026-10-06",
       "fact_id": "FACT-2026-10-06-S13"
     },
+    "eb393bc03c9366b64db727bf": {
+      "date": "2026-11-20",
+      "fact_id": "FACT-2026-11-20-S09"
+    },
     "ebd937c0ea470daa3119bee6": {
       "date": "2026-10-17",
       "fact_id": "FACT-2026-10-17-S14"
@@ -23127,6 +23334,10 @@
     "ef44ac243cab1fbd6a4dc3ff": {
       "date": "2026-10-31",
       "fact_id": "FACT-2026-10-31-S16"
+    },
+    "ef4b25e3cc58192fc41de01f": {
+      "date": "2026-11-20",
+      "fact_id": "FACT-2026-11-20-S07"
     },
     "ef70a144190d3ec1c0ecb1f7": {
       "date": "2026-10-07",
@@ -25369,6 +25580,22 @@
       "slots": [
         11,
         20
+      ],
+      "status": "completed"
+    },
+    {
+      "allocated": 10,
+      "batch": 1,
+      "date": "2026-11-20",
+      "dry_run": false,
+      "processed": 10,
+      "published_now": 10,
+      "recorded_at": "2026-11-28T09:38:11.688379+00:00",
+      "requested": 10,
+      "scheduled_cron": "0 2 * * *",
+      "slots": [
+        1,
+        10
       ],
       "status": "completed"
     }
